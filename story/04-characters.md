@@ -6,20 +6,20 @@ Combat kits use the classes, minors and weapons from `stewards_combat_system.md`
 
 A hamlet-born guild Apprentice with no name worth mentioning. The player chooses gender, hamlet of birth (which sets their home hold) and starting combat major (Martial, Marksmanship or Magic). Their level cap is 100 because heroes are the exception.
 
-* **Arc:** a nobody, then a pawn, then a player in the game of holds, then a guardian (or a king).
-* **Signature item:** **Rook's Blade**, an Arming Sword (`SWORD`) that grows with the player from tier 1 to Steward-grade (tier 5). Players who don't use a sword carry it as a sigil, and it can be reforged into their main weapon at a Stonepass smithy in Act III.
+* **Arc:** none written. The player makes their own story through life paths, standing and attitude (see [07-life-paths.md](07-life-paths.md)).
+* **Optional item:** **Rook's Blade** (only for players who meet Ser Aldwin Rook on the road), an Arming Sword (`SWORD`) that grows with the player from tier 1 to Steward-grade (tier 5). Players who don't use a sword carry it as a sigil, and it can be reforged into their main weapon at a Stonepass smithy.
 
 ## Companions
 
 | Companion | Hold | Build | Talent | Personal arc |
 |---|---|---|---|---|
-| **Odo Pell** | First Hearth | Martial: *Guardsman* (Sword + Shield) | Iron back | A former Steward who broke his oath to keep his family alive during the Breaking. Mentor and father figure. *Can die holding the Rim Fires in Act IV.* |
+| **Odo Pell** | First Hearth | Martial: *Guardsman* (Sword + Shield) | Iron back | A former Steward who broke his oath to keep his family alive during the Breaking. Mentor and father figure. *Can die holding the Rim Fires.* |
 | **Wenna of Reedwatch** | Reedwatch | Marksmanship: *Ranger* (Bow) | Eagle eye | Heir to a murdered lord and a fallen hold. She wants Harlan Grey's head. *Can retake Reedwatch, or choose revenge over her people.* |
 | **Aelis of Canopy Rest** | Canopy Rest | Magic (Arcane): *Scholar* (Staff) | Arcane spark | A sheltered noble mage, bride at the Grey Wedding. Her firebolts are the first real magic the player sees. *Survives or dies at Ashcut Gorge; if she lives, she must choose between her mother and the truth about Tamsin.* |
 | **Thomas Fox** | First Hearth | Martial: *Duellist* (Sword) | Gifted | An antagonist turned companion. One of Sir Robert's three heroes, the sword who does his killing. *Recruitable only if spared at the Grey Wedding.* |
 | **Old Torbin** | Stonepass | Martial: *Guardsman* (Spear + Shield) | Born survivor | The last keeper of the Oath at Cairn Gate, gruff and funny. *Swears the player in as a Steward.* |
 | **Sister Hesk** | Canopy Rest | Faith: *Healer* (Staff) | Blight-hardened | A field nun who left Tamsin's chapel when she noticed the missing salt. The party's moral compass. |
-| **Rafe Thornback** | First Hearth (Thornback Brothers) | Martial: *Brigand* (Sword) | Born survivor | A poacher folk hero. *Only recruitable if the player spared the Brothers in Act I.* |
+| **Rafe Thornback** | First Hearth (Thornback Brothers) | Martial: *Brigand* (Sword) | Born survivor | A poacher folk hero. *Only recruitable if the player spared the Brothers.* |
 | **Nadra of the Dust** | Sunward (Dust Riders) | Marksmanship: *Scout* (Bow) | Eagle eye | A desert rider who knows the safe paths around the Blighted. A mercenary with a buried past in a fallen fort. |
 
 ## Antagonists

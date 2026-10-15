@@ -51,7 +51,7 @@ The lords know this. Each believes the Blight will hit *someone else's* hold fir
 
 | Place | Kind | Story use |
 |---|---|---|
-| The Stonepass Wall (72 m) | Escarpment with 4 road passes | Stonepass's natural fortress; the setting for the siege in Act IV |
+| The Stonepass Wall (72 m) | Escarpment with 4 road passes | Stonepass's natural fortress; the setting for the Siege of the Stonepass Wall |
 | The March Wall (58 m) | Escarpment with no road, only switchbacks | The old Steward border; lookouts above the Broken March |
 | The Blight Rim (66 m) | Escarpment | Where the Stewards stood watch; its three lookouts are the "Rim Fires" |
 | Ashcut Gorge | Gorge with a 90 m floor | A herb-gatherers' ravine and an ambush ground; the setting for the "Gorge Wedding" |

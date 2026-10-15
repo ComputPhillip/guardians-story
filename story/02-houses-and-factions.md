@@ -8,7 +8,7 @@ Three lords are named John, so the story tells them apart with epithets: **the C
 
 * **The lord and lady** (*The keep*, level cap 60) hunt, hear petitioners and hire sellswords. The map runs a lord's hunt on most days, and those hunts are where the politics happen.
 * **The steward** runs the household, the granary and the books. This office is all that's left of the old Stewards order (see [01-world.md](01-world.md)). In **Canopy Rest** and **Reedwatch** the lord still sits in a **Stewards Hall** instead of a keep. These are old order buildings, and petitioners still come to them for judgement.
-* **The lord's three heroes** (*Heroes*, level cap 100) are the hold's champions. They lodge at the **hero lodge**. When an outlaw camp near the town grows past 30 men, the lord sends a hero to break it. The player becomes one of these heroes in Act II.
+* **The lord's three heroes** (*Heroes*, level cap 100) are the hold's champions. They lodge at the **hero lodge**. When an outlaw camp near the town grows past 30 men, the lord sends a hero to break it. A player can become one of these heroes (the Hero path).
 * **The garrison** (25 men at arms with two sergeants) escorts the weekly grain carts from the hamlets and patrols as far as the town's food allows. A Thriving town patrols far; a Starving one only mans its gate.
 
 ## The five lords
@@ -34,7 +34,7 @@ Three lords are named John, so the story tells them apart with epithets: **the C
 | Steward | Stephen Young | A keeper of old records who knows what the Stewards Hall was built for. |
 | Heroes | Thomas Wilson, **Beatrice atte Wood**, Agnes Johnson | Beatrice is a Ranger and Westwatch's best tracker. |
 | Family *(story)* | **Aelis** | Their daughter, aged 17, with an *Arcane spark*. Margaret the Sage has her eye on her. |
-| Confessor *(story)* | **Brother Tamsin** | A Faith healer and secret Blight-cultist (see Act III). |
+| Confessor *(story)* | **Brother Tamsin** | A Faith healer and secret Blight-cultist (see the Salt Road thread). |
 
 ### Reedwatch: Sir Thomas of Reedwatch
 *Wetland frontier. Stewards Hall. Outlaws raid its farmsteads every week.*

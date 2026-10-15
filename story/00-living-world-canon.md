@@ -14,16 +14,16 @@ This file collects what `Stewards_Living_World_Map.html` already simulates and s
 
 ## Named incidents already in the plan
 
-These happen whether or not the player is there. The story uses them as the "cold open" events of Acts I and II.
+These happen whether or not the player is there. They are the opening beats of the world threads in [03-world-threads.md](03-world-threads.md).
 
 | Day | Incident | Story use |
 |---|---|---|
 | 1 | **Juliana the Warlock** takes a toll on every load of water drawn at **the last spring**. | Side story: [The Last Spring](06-side-stories.md#the-last-spring) |
-| 1–4 | **The Low-Water band** takes pennies from travellers at **the ford**. | The player's first outlaw fight (Act I) |
+| 1–4 | **The Low-Water band** takes pennies from travellers at **the ford**. | Often a new player's first outlaw fight |
 | 1 | **Brother Roger of the Ford** pleads with the lord at the Stewards Hall in Canopy Rest. | The quest-giver for the ford |
-| 1–2 | **Robert atte Lane** offers his sellswords, **the Red Lances**, at the keeps of First Hearth and Sunward. | Act II: a hireable company that turns outlaw if refused |
+| 1–2 | **Robert atte Lane** offers his sellswords, **the Red Lances**, at the keeps of First Hearth and Sunward. | A hireable company that turns outlaw if refused |
 | 2 | The **Hunters' Lodge**, **Arcane Academy** and **Temple** each send five adventurers out. | Alternative patrons to the guilds |
-| 2 | The lord of Canopy Rest hires **the Grey Company**. | Act II politics |
+| 2 | The lord of Canopy Rest hires **the Grey Company**. | Canopy Rest's politics |
 | 2, 4, 6 | **Margaret the Sage** holds audience with the lords of Canopy Rest, First Hearth and Stonepass. | She is touring the realm and searching for something |
 | 4 | **Margaret the Sage awakens Robert Cordwainer** in the market of First Hearth. | Proof that magic can be *woken* in common folk |
 | 3–4 | Outlaws ambush carters on the road and raid farmsteads in Reedwatch and Stonepass. | Pressure on Reedwatch |
@@ -37,7 +37,7 @@ These happen whether or not the player is there. The story uses them as the "col
 | Place | From the map | Story role |
 |---|---|---|
 | Stewards Hall (Canopy Rest, Reedwatch) | Where the lord sits instead of a keep | The surviving halls of the old order. The Oath is kept in Canopy Rest's hall. |
-| Hero lodge (every town) | Lodging for the lord's three heroes | The player's home once they become a lord's hero (Act II) |
+| Hero lodge (every town) | Lodging for the lord's three heroes | The player's home if they take the Hero path |
 | Temple and library (every town) | | Faith healers; the Academy's scholars and librarians |
 | **Watchtowers and beacons** (6) | Watchmen light them at dusk | A chain of fires the old Stewards built to warn the realm when the Rim fell. "Light the fires" refers to them. |
 | **Stone circles** (5, one per hold) | Sorcerers meet in conclave | Old leyline sites where Arcane magic is strongest |
