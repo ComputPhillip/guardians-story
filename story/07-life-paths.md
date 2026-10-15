@@ -1,6 +1,6 @@
 # 7. Life Paths: Who the Player Becomes
 
-The player starts as **nobody**, like a Kenshi drifter. They choose a hamlet of birth (which sets their home hold), a combat major, and a birth-gift (talent). There is no chosen-one prophecy; Rook's Blade is just an encounter some players will have.
+The player starts as **nobody**, like a Kenshi drifter. They choose a hamlet of birth (which sets their home hold), a combat major, and a birth-gift (talent). There is no chosen-one prophecy; the Warden's Blade is just an encounter some players will have.
 
 The player's story is made up of **what they do, who they are known as, and how they behave**.
 
@@ -15,8 +15,8 @@ The player's story is made up of **what they do, who they are known as, and how 
 | **Merciful** | Sparing the beaten, paying ransoms, healing | Outlaws surrender more often, and peasants trust you |
 | **Ruthless** | Executions, burning, extortion | Lords hire you for dirty work, and hamlets bar their doors |
 | **Greedy** | Price-gouging, selling out allies | Merchants and Sir John the Coin court you, and companions drift away |
-| **Honourable** | Keeping contracts and oaths | Unlocks the Steward path, and Sir Thomas and Old Torbin respect you |
-| **Pious** | Temple service, cleansing barrows | Faith companions join, and Brother Tamsin tries to recruit you |
+| **Honourable** | Keeping contracts and oaths | Unlocks the Steward path, and Sir Thomas and Isabella Robson respect you |
+| **Pious** | Temple service, cleansing barrows | Faith companions join, and Brother William tries to recruit you |
 | **Curious** | Ruins, libraries, stone circles | Margaret the Sage notices you, and the hidden library opens up |
 
 ## The paths
@@ -50,7 +50,7 @@ The paths are not classes; a player can walk several at once or switch between t
 ### The Outlaw
 *Take what the roads carry.*
 * Join a band, or found one. Feuds absorb rivals; camps move after defeats.
-* **Threads:** Harlan's bid for Reedwatch, the Salt Jackals' caches, Hollow Knives contracts (including the murder at the Moot).
+* **Threads:** John Blackbeard's bid for Reedwatch, the Salt Jackals' caches, Hollow Knives contracts (including the murder at the Moot).
 * **Peak:** hold a hamlet, then a town, and become **an outlaw lord** that the other lords must recognise or crush.
 
 ### The Mage
@@ -62,7 +62,7 @@ The paths are not classes; a player can walk several at once or switch between t
 ### The Healer or Pilgrim
 *Serve the Temple: mend the wounded and cleanse the dead.*
 * Wounded fighters rest rather than die, and healers decide how fast they recover.
-* **Threads:** Sister Hesk and the missing salt (exposing Tamsin), the Heart-Born child, cleansing barrows.
+* **Threads:** Sister Margaret and the missing salt (exposing Brother William), the Heart-Born child, cleansing barrows.
 
 ### The Steward
 *Refound the old order.*
@@ -87,4 +87,4 @@ Running the life paths on the map ([08-simulation-tests.md](08-simulation-tests.
 
 ## Companions are people, not plot devices
 
-Every companion in [04-characters.md](04-characters.md) is a roster person with a home, a routine and their own goals. They can be recruited, can leave if the player's attitude disgusts them, and **die permanently**. Their personal arcs advance only if they are alive and travelling with the player. Otherwise the world thread carries on without them. For example, if Wenna was never recruited, she still tries to avenge her grandfather on her own, and may die trying.
+Every companion in [04-characters.md](04-characters.md) is a roster person with a home, a routine and their own goals. They can be recruited, can leave if the player's attitude disgusts them, and **die permanently**. Their personal arcs advance only if they are alive and travelling with the player. Otherwise the world thread carries on without them. For example, if Agnes atte Green was never recruited, she still tries to avenge her grandfather on her own, and may die trying.

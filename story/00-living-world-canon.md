@@ -50,4 +50,4 @@ These happen whether or not the player is there. They are the opening beats of t
 
 ## The Book of Hours names
 
-Map people carry period English names (John, Agnes, Alice, Thomas, with surnames like atte Well and Swift). Characters the story invents (Odo Pell, Wenna, Aelis, Brother Tamsin, Harlan Grey) should be added to the rosters so they live on the map too. Alternatively, rename them to roster people.
+Map people carry period English names (John, Agnes, Alice, Thomas, with surnames like atte Well and Swift). **Every character in the story is a roster person.** Use [04-characters.md](04-characters.md) to see who plays which part, and when a new part is needed, cast it from the rosters rather than inventing a name. The only exception is **Juliana the Warlock**, who is already on the map.

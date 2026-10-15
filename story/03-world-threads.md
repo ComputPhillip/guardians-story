@@ -50,7 +50,7 @@ The Waking meter is the closest thing the game has to a "main quest". It is neve
 | **The Hearth-Moot** | Day ~40 | All five lords meet in First Hearth | Attend as a guard, a hero, a servant or an assassin |
 | **Murder at the Moot** | At the Moot, if the Hollow Knives' contract stands | **Sir Thomas of Reedwatch** is killed. Each house blames another. | Prevent it, fake it or carry it out |
 | The holds arm | After the murder | Garrisons stop escorting carts, prices rise and hamlets go hungry | Sellswords (Grey Company, Red Lances) are in demand |
-| **The Grey Wedding** | Day ~60, if Canopy Rest and Stonepass both still stand | Aelis of Canopy Rest weds Gerrit Ironhand in **Ashcut Gorge**. Brother Tamsin breaks Blight-salt at the feast, Horrors come out of the walls and the Reavers strike. Gerrit dies; Aelis may live. | Be a guest, a guard or a Reaver. Expose Tamsin first, and the wedding is just a wedding. |
+| **The Grey Wedding** | Day ~60, if Canopy Rest and Stonepass both still stand | Joan Thomson weds John atte Brook in **Ashcut Gorge**. Brother William breaks Blight-salt at the feast, Horrors come out of the walls and the Reavers strike. John atte Brook dies; Joan Thomson may live. | Be a guest, a guard or a Reaver. Expose Brother William first, and the wedding is just a wedding. |
 | **Siege of the Stonepass Wall** | After the Grey Wedding, if Sir Robert lives | First Hearth marches on Stonepass | Fight for either side, or hold the passes for neither |
 | The crown | Any lord holds 3 holds' support | A king is crowned, and **Leadership** exists again | The player can be that king (see the *Lord* path) |
 
@@ -62,18 +62,18 @@ If no one takes the throne, the throne stays empty, and that is also a valid wor
 | Beat | Condition | Default outcome |
 |---|---|---|
 | Blight-salt appears | Day ~15 | Sunward alchemists start buying grey "salt" reagents. Prices for elixirs fall. |
-| The trail | Ongoing | Salt moves from Salt Jackals caches on **Saltcrown Mesa** through **Dame Matilda**'s buyers to **Brother Tamsin** in Canopy Rest |
-| Tamsin's rite | At the Grey Wedding, or day ~75 if there is no wedding | Tamsin opens a jar at a crowd, and a Blight bloom follows |
-| Tamsin flees | After the rite | He goes into the Heart and speeds up the Waking meter |
+| The trail | Ongoing | Salt moves from Salt Jackals caches on **Saltcrown Mesa** through **Dame Matilda**'s buyers to **Brother William** in Canopy Rest |
+| Brother William's rite | At the Grey Wedding, or day ~75 if there is no wedding | Brother William opens a jar at a crowd, and a Blight bloom follows |
+| Brother William flees | After the rite | He goes into the Heart and speeds up the Waking meter |
 
-Anyone who follows the salt can stop this thread: a trader who notices odd prices, an outlaw who robs a Jackal cache, or a healer working with Sister Hesk.
+Anyone who follows the salt can stop this thread: a trader who notices odd prices, an outlaw who robs a Jackal cache, or a healer working with Sister Margaret.
 
 ## Thread 4: The Stewards' Oath
 *A thread that only starts if someone goes looking. It never starts on its own.*
 
 | Beat | Trigger | Outcome |
 |---|---|---|
-| Rook's last words | The player finds **Ser Aldwin Rook** dying on the Riftgate road. This is an encounter that can happen on any early road trip, not a required opening. | The player gets Rook's Blade and the words "Light the fires." |
+| The warden's last words | The player finds **Walter Underhill** dying on the Riftgate road. This is an encounter that can happen on any early road trip, not a required opening. | The player gets the Warden's Blade and the words "Light the fires." |
 | The incomplete Oath | Gain standing with Canopy Rest, or break into its Stewards Hall | It points to **the hidden library** |
 | The hidden library | Find it | The truth: the Rim Fires plus the beacon line keep the Demon King asleep |
 | Sworn Stewards | Swear in three people (companions, NPCs or the player) | A new order is founded, and lords react to it (see the *Steward* path) |
@@ -87,7 +87,7 @@ Anyone who follows the salt can stop this thread: a trader who notices odd price
 | The ford | Days 1–5 | The **Low-Water band** tolls the ford, Brother Roger pleads for help, and the **Grey Company** storms it on day 5 |
 | The Red Lances | Days 1–2, unhired | Robert atte Lane's men go unpaid and start squeezing Sunward farmsteads, turning outlaw |
 | The outlaw cycle | Any band nears 30 men | **A lord's hero breaks it** (44 times a year in the test), and broken camps **drift back to 25 men each season**. Bands never win on their own. | Kill a lord's heroes, keep them busy elsewhere, or become a hero yourself |
-| **Harlan takes Reedwatch** | Reedwatch is **Starving**, and its heroes are dead or away | **Harlan Grey** holds Reedwatch and calls himself its lord. Reedwatch is Thriving most of the year (tested), so Harlan needs an arsonist: **one granary fire leaves it Lean or Starving for months**. |
+| **John Blackbeard takes Reedwatch** | Reedwatch is **Starving**, and its heroes are dead or away | **John Blackbeard** holds Reedwatch and calls himself its lord. Reedwatch is Thriving most of the year (tested), so John Blackbeard needs an arsonist: **one granary fire leaves it Lean or Starving for months**. |
 | The slavers | Ongoing, near Stonepass | **The slavers' holds of the north** raid hamlets and sell the taken back for ransom. Stonepass pays. | Free the captives, pay the ransom, or trade with the slavers (the town shuns you if you do) |
 | Bands feud | Overlapping reaches | The winner absorbs the loser's men |
 

@@ -1,6 +1,6 @@
 # 2. Houses and Factions
 
-Names in this file follow the **Living World Map** rosters. The map already gives every keep a lord, a lady, a steward, two priests, three heroes, a squire and two sergeants. The story adds personalities, goals and family members, which are marked *(story)*.
+Every person in this file is a real person from the **Living World Map** rosters. The map gives every keep a lord, a lady, a steward, two priests, three heroes, a squire and two sergeants, and the towns have their own mages, monks, guild veterans and wanderers. The story adds only personalities and goals; the lords' households have no children, so no one in the story is an heir.
 
 Three lords are named John, so the story tells them apart with epithets: **the Coin** (Sunward), **Greybeard** (Canopy Rest) and **Ironhand** (Stonepass).
 
@@ -33,8 +33,8 @@ Three lords are named John, so the story tells them apart with epithets: **the C
 | Lady | **Dame Agnes** | The power behind the hall. Her chapel holds the last intact copy of the Stewards' Oath. |
 | Steward | Stephen Young | A keeper of old records who knows what the Stewards Hall was built for. |
 | Heroes | Thomas Wilson, **Beatrice atte Wood**, Agnes Johnson | Beatrice is a Ranger and Westwatch's best tracker. |
-| Family *(story)* | **Aelis** | Their daughter, aged 17, with an *Arcane spark*. Margaret the Sage has her eye on her. |
-| Confessor *(story)* | **Brother Tamsin** | A Faith healer and secret Blight-cultist (see the Salt Road thread). |
+| Mages | **Joan Thomson**, Walter Thomson | The hold's mages. Joan has an *Arcane spark*, and Margaret the Sage has her eye on her. |
+| Monk and confessor | **Brother William** | A Faith healer and secret Blight-cultist (see the Salt Road thread). |
 
 ### Reedwatch: Sir Thomas of Reedwatch
 *Wetland frontier. Stewards Hall. Outlaws raid its farmsteads every week.*
@@ -45,7 +45,7 @@ Three lords are named John, so the story tells them apart with epithets: **the C
 | Lady | **Dame Alice** | His wife, who runs Reedwatch after his death. |
 | Steward | Alice Wilson | Counts the farmsteads lost to raids. |
 | Heroes | **John Little**, Agnes atte Green, Agnes atte Well | John Little is a giant of a spearman who holds the fords. |
-| Family *(story)* | **Wenna** | Sir Thomas's granddaughter and heir, a fen-raised Ranger and a companion. |
+| Sworn hero | **Agnes atte Green** | Sir Thomas's most loyal hero, a fen-raised Ranger and a companion. |
 
 ### Sunward Exchange: Sir John the Coin
 *Desert exchange. Keep, temple and caravanserai. The **last spring** lies in its land.*
@@ -66,19 +66,19 @@ Three lords are named John, so the story tells them apart with epithets: **the C
 | Lady | **Dame Agnes** | Keeps the clans' peace while her husband keeps their wars. |
 | Steward | Agnes atte Well | Runs the ore trade. |
 | Heroes | **Nicholas Swift**, Alice atte Well, John atte Brook | Nicholas Swift is also one of the hold's cunning folk, a hero who knows a little hedge-magic. |
-| Family *(story)* | **Gerrit** | Their son, a Spear Guardsman, betrothed to Aelis of Canopy Rest. |
+| Betrothed hero | **John atte Brook** | A Spear Guardsman among the lord's heroes, betrothed to Joan Thomson to bind the two holds. |
 
 ## The adventurers' guilds
 
 Each hold has a guild that sends parties of five from its tavern. Guild members are the **Adventurers** group (level cap 80). A guild has about 30 members in quiet times and up to 90 when hamlets are being raided. Recruits arrive at one a day to replace the dead.
 
-| Guild tavern | Hold | Faces | Guildmaster *(story)* |
+| Guild tavern | Hold | Faces | Guild leader (the highest-level member on the map) |
 |---|---|---|---|
-| Riftgate | First Hearth | The Broken March | **Odo Pell**, a former Steward and the player's first mentor |
-| Westwatch | Canopy Rest | Frontier | **Sela Thorn**, a Hunter |
-| Oxdon | Reedwatch | Frontier | **"Mother" Agna**, who sells contracts to anyone |
-| Blightwatch | Sunward Exchange | Blighted | **Vashti Kell**, Dame Matilda's agent |
-| Cairn Gate | Stonepass Refuge | The Broken March | **Old Torbin**, who still keeps the Steward oath |
+| Riftgate | First Hearth | The Broken March | **John Thomson**, a former Steward and the player's first mentor |
+| Westwatch | Canopy Rest | Frontier | **Richard Thomson**, a Hunter |
+| Oxdon | Reedwatch | Frontier | **Juliana Carter**, who sells contracts to anyone |
+| Blightwatch | Sunward Exchange | Blighted | **Beatrice Black**, Dame Matilda's agent |
+| Cairn Gate | Stonepass Refuge | The Broken March | **Isabella Robson**, who still keeps the Steward oath |
 
 Other institutions also send out expeditions of five: **the Hunters' Lodge** (beast dens), **the Arcane Academy** (relics from ruins) and **the Temple** (cleansing barrows of the restless dead).
 
@@ -105,8 +105,8 @@ These come from the workbook's Factions sheet. Bands **feud** when their reaches
 
 | Band | Men | Camp | Story hook |
 |---|---|---|---|
-| **Grey Crows** | 38 | Three camps east of Reedwatch | Past 30 men, so a lord's hero is due to break them. Their chief, **Harlan Grey** *(story)*, wants to become a lord by seizing Reedwatch. |
-| **Red Crows** | 13 | North-east of Reedwatch | A splinter of the Grey Crows that hates Harlan. They can be turned into allies. |
+| **Grey Crows** | 38 | Three camps east of Reedwatch | Past 30 men, so a lord's hero is due to break them. Their captain, **John Blackbeard, "king of the Marches"** (an outlaw captain on the map), wants to become a lord by seizing Reedwatch. |
+| **Red Crows** | 13 | North-east of Reedwatch | A splinter of the Grey Crows that hates John Blackbeard. They can be turned into allies. |
 | **Iron Reavers** | 29 | West of Stonepass | Stonepass deserters, secretly paid by First Hearth to raid the ore wagons. |
 | **Salt Jackals** | 12 | North-east of Sunward | Sir John the Coin's hired raiders. They hide their loot on **Saltcrown Mesa**. |
 | **Thornback Brothers** | 11 | South-east of First Hearth | Poachers in the old royal deer park and folk heroes to the peasants. |

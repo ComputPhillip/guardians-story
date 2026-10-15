@@ -11,7 +11,7 @@
 | **Arcane** (Magic) | Scholars, Wanderers, Hermits, Court Mages | Learned, rare and slightly feared. Drawn from **leylines**, faint currents in the ground. This is why a mage's power peaks in the *Leyline Band* (6–9.5 m) and is strongest inside ground sigils. |
 | **Faith** (Magic) | Clerics, Healers, Pilgrims, Anchorites | Prayer made real. All healing is Faith. Faith is weaker in raw damage (0.6x AP) but protects the whole party. |
 | **Alchemy** | Arcana brewers | Draughts and elixirs (`POT-HEAL`, `POT-ELIX`, `POT-WARD`, `POT-STAM`). |
-| **The Blight** | Horrors, calamities, Tamsin | Stolen power. It feeds on the leylines; that is why Arcane and Blight are drawn to the same places. |
+| **The Blight** | Horrors, calamities, Brother William | Stolen power. It feeds on the leylines; that is why Arcane and Blight are drawn to the same places. |
 
 ### The mages of the realm (from the map)
 
@@ -24,7 +24,7 @@ The map's rosters hold about **90 sorcerers**, **10 mages**, cunning folk in eve
 * **Warlocks** are mages who sell their power or take what they want. **Juliana the Warlock** holds the last spring in the Sunward desert and tolls its water. When she is beaten she is **exiled** to the warlock's refuge outside First Hearth.
 * **The Company of the Lantern** are free mages who answer to no lord.
 
-**Why magic is rare:** an Arcane aptitude good enough for Journeyman is held by about 35% of those trained, and only the top 3% reach Master. Most mages are scholars who can throw one good firebolt. A true Arcane Master is a political asset that houses fight over, which is part of why Aelis of Canopy Rest matters.
+**Why magic is rare:** an Arcane aptitude good enough for Journeyman is held by about 35% of those trained, and only the top 3% reach Master. Most mages are scholars who can throw one good firebolt. A true Arcane Master is a political asset that houses fight over, which is part of why Joan Thomson matters.
 
 ## The simple spell list (story names to system abilities)
 
@@ -80,12 +80,12 @@ These are the names players hear in dialogue and see in the UI. Each maps to an 
 
 ## How the systems become story
 
-* **No dodge roll.** Stewards' training says *"A Steward does not leap. A Steward steps."* Footwork, flanking and spacing are taught as the old Steward discipline, and Odo Pell teaches them as tutorials in Act I.
+* **No dodge roll.** Stewards' training says *"A Steward does not leap. A Steward steps."* Footwork, flanking and spacing are taught as the old Steward discipline, and John Thomson teaches them as tutorials in Act I.
 * **Auto-triggered abilities.** In-world, these are *drilled forms*: trained fighters act on instinct. The player commands where to stand; the body knows what to do.
 * **Sweet-spot rings.** Every weapon school teaches its "measure", the distance at which the weapon sings.
 * **Flank arcs.** The duellist's proverb: *"A shield only guards one way."*
 * **Wall-pins.** These are Stonepass hammer-lore, "Give them to the stone."
-* **Permadeath and wounds.** Death is permanent, but a beaten survivor is wounded and must rest. The healers' trade (and Sister Hesk's arc) revolve around this.
+* **Permadeath and wounds.** Death is permanent, but a beaten survivor is wounded and must rest. The healers' trade (and Sister Margaret's arc) revolve around this.
 * **Master true damage (15%).** Folk say that a master's blade "cuts what armour can't keep out". In the story, this is the visible proof of mastery.
 * **Talents.** The realm's word for them is "birth-gifts". *Arcane spark* children are sought by houses, *Blight-hardened* people are rumoured to have Blight in their blood, and *Born survivors* are said to be "refused by the grave".
 
