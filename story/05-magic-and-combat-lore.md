@@ -94,3 +94,85 @@ These are the names players hear in dialogue and see in the UI. Each maps to an 
 * Horrors and calamities telegraph their attacks with **red ground shapes** that warn where they'll hit. In the fiction, the Blight is *visible*: grey-red cracks spread across the ground before it erupts.
 * *Blight-hardened* fighters and Faith wards resist it.
 * The Hermit's **Blight-Eater Rune** is "old Steward craft". It works because it starves the Blight of leyline power.
+
+## Every technique, by who teaches it
+
+Every auto-triggered ability in `stewards_combat_system.md` has a teacher and a reputation in the world. The **story name** is what people call it in the taverns.
+
+### Steel
+
+| Ability | Story name | Who teaches it, and its reputation |
+|---|---|---|
+| Heavy Hack | **Woodsman's Cut** | Every axe-fighter's first lesson. Canopy Rest fellers swear it's how they learned. |
+| Sundering Chop | **Mail-Breaker** | Stonepass axemen. It splits mail rings, and smiths hate it. |
+| Bearded Hook | **The Hook** | A Reaver trick: drag a fleeing man back by the shoulder. John Brokenose is the master of it. |
+| Long Thrust | **The Long Reach** | Reedwatch spearmen, who learned it holding the fords. John Little is said to reach "a man and a half". |
+| Brace for Charge | **Set the Spear** | Garrison drill against boar and horse alike. |
+| Shaft Sweep | **Clear the Shaft** | The spearman's answer to a man who gets too close. |
+| Heart-Skewer | **The Heart-Thrust** | Master spear-work. Folk say only three living people can do it cleanly. |
+| Crushing Swing | **The Maul** | Stonepass hammer drill. Sir John Ironhand earned his name with it. |
+| Bell-Ringer | **Ring the Bell** | "Give them to the stone": the hammer blow that slams a man into a wall. |
+| Plate-Cracker | **Cracking the Shell** | What a hammer does to a knight. Lords dislike how cheap it makes their armour. |
+| Cataclysmic Anvil | **The Anvil** | Named for the butte. The finishing blow of a hammer master. |
+| Passive Guard | **The Guard** | The first thing a shield-bearer learns: face the danger. |
+| Deflect Barrage | **Catch the Arrows** | Escort guards on the caravan roads, who stand between archers and the carts. |
+| Pommel Strike | **The Pommel** | A duellist's insult: stopping a mage's spell with the hilt. Thomas Fox's favourite. |
+
+### Bow
+
+| Ability | Story name | Who teaches it |
+|---|---|---|
+| Deadeye Double-Tap | **Two from the Ridge** | Tower wardens, who shoot from the beacon platforms |
+| Momentum Shot | **Running Shot** | Dust Riders and scouts who shoot from the move |
+| Jaw Snare | **The Jaw Trap** | Poachers like John Shortknife and the hunting lodges. Lords' hunts outlaw it. |
+| Trophy Popper | **Taking the Trophy** | Hunters' Lodge custom: the killing shot on a snared beast |
+| Heartseeker Snipe | **The Heartseeker** | Legendary long shot. Agnes atte Green claims it; nobody has seen it. |
+| Bramble Shot | **Bramble Arrows** | Canopy Rest rangers, who shoot thorn-coated shafts into the road |
+| Houndmaster's Whistle | **The Whistle** | Westwatch's hound-masters, whose dogs come running out of nowhere |
+| Watchman's Flare | **Beacon Arrow** | Tower wardens: a burning arrow that lights the field. It's what Walter Underhill fired the night he died. |
+| Point-Blank Repel | **Push-Off** | Wardens' close-quarters shot |
+| Iron Rain Barrage | **Iron Rain** | Garrison volleys from the walls during a siege |
+| Evasive Sidestep | **The Scout's Step** | Desert scouts, who step aside rather than leap |
+| Windrunner's Rhythm | **The Wind's Rhythm** | A scout's trance, whispered about around Dust Rider fires |
+
+### Arcane
+
+| Ability | Story name | Who teaches it |
+|---|---|---|
+| Mind-Snap Counter | **Snapping the Thread** | The tower school's first defensive lesson: break another mage's spell |
+| Cataclysmic Collapse | **The Gathering Dark** | A forbidden pull-and-burst. The tower school bans it, and Juliana the Warlock teaches it. |
+| Tempest Conduit | **The Storm Ring** | Wanderers of the fens, where the leylines run through water |
+| Petrifying Gaze | **Stone-Eye** | Hermit lore. Old women in the hills say a hermit's look can stop your heart. |
+| Imperial Decree | **The Court Voice** | Court mages: Dame Matilda's command spell that sharpens a lord's men |
+| Soul Tether | **The Tether** | Court mages' cruellest spell: link two enemies, and what hurts one hurts the other |
+| Harmonic Overcharge | **The Leyline Beam** | Master Arcane. Only possible inside a stone circle's reach, folk say. |
+
+### Faith
+
+| Ability | Story name | Who teaches it |
+|---|---|---|
+| Sacred Blessing | **The Blessing of the Blade** | Temple priests who bless weapons before a fight |
+| Triage Surge | **The Quick Mercy** | Infirmarians like Sister Agnes of Reedwatch, who heal in the time it takes to kneel |
+| Sanctuary of Renewal | **Sanctuary** | The hospitallers of the wayside hospices |
+| Wayfarer's Second Wind | **Second Wind** | Pilgrims' prayer for the road |
+| Warding Vigil | **The Vigil** | Anchorites. Mother Alice has kept one vigil for twenty years. |
+| Chains of Penance | **Penance Chains** | Flagellant-trained anchorites, who bind a charging enemy |
+| Keep's Unbroken Dome | **The Keep's Dome** | The old Steward ward that held the Rim. Now known only to the shrine. |
+
+### Class and minor techniques
+
+| Ability | Story name | Who uses it |
+|---|---|---|
+| Taunting Shout | **The Challenge** | Guardsmen and lords' heroes: "Face *me*!" |
+| Brace the Line | **Hold the Line** | Garrison sergeants' shield-drill |
+| Bastion Standard | **Raise the Standard** | A lord's banner planted in battle. Each hold's standard is a sacred object. |
+| Riposte Stance | **The Duellist's Stance** | Duellists; Margaret Young taught Thomas Fox |
+| Disarming Slash | **The Disarm** | Duellists' humiliation of a lesser blade |
+| Grand Duel | **The Ring** | A formal duel circle: lords' heroes settle disputes this way |
+| Mercenary War Cry | **The Company Cry** | Each free company has its own (the Grey Company's is silence) |
+| Blood Money Cleave | **Blood Money** | Sellswords who fight harder when hurt, for the bonus pay |
+| Unstoppable Rampage | **Red Rage** | Iron Reaver berserkers |
+| Hamstring Ambush | **The Hamstring** | Highwaymen's trick, the Halfpenny family's speciality |
+| Dirty Sand / Caltrops | **Sand and Spikes** | Highwaymen and toll bandits at the ford |
+| Cutthroat Execute | **The Cutthroat** | Hollow Knives, the assassins |
+| Fen-Strider's Grace | **The Fen-Walk** | Fen Walkers of Reedwatch |

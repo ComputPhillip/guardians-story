@@ -19,8 +19,8 @@ A hamlet-born guild Apprentice with no name worth mentioning. The player chooses
 | **Thomas Fox** | First Hearth | Martial: *Duellist* (Sword) | Gifted | An antagonist turned companion. One of Sir Robert's three heroes, the sword who does his killing. *Recruitable only if spared at the Grey Wedding.* |
 | **Isabella Robson** | Stonepass | Martial: *Guardsman* (Spear + Shield) | Born survivor | The last keeper of the Oath at Cairn Gate, gruff and funny. *Swears the player in as a Steward.* |
 | **Sister Margaret** | Canopy Rest | Faith: *Healer* (Staff) | Blight-hardened | A field nun who left Brother William's chapel when she noticed the missing salt. The party's moral compass. |
-| **Robert Thornback** | First Hearth (Thornback Brothers) | Martial: *Brigand* (Sword) | Born survivor | A poacher folk hero. *Only recruitable if the player spared the Brothers.* |
-| **Beatrice Nettle** | Sunward (Dust Riders) | Marksmanship: *Scout* (Bow) | Eagle eye | A desert rider who knows the safe paths around the Blighted. A mercenary with a buried past in a fallen fort. |
+| **Robert Thornback** | Grey Crows (John Blackbeard's camp) | Martial: *Brigand* (Sword) | Born survivor | A highwayman and folk hero who only robs carts with a lord's seal. *Recruitable if the player saves him from a hero's raid.* |
+| **Beatrice Nettle** | Iron Reavers (rover) | Marksmanship: *Scout* (Bow) | Eagle eye | A former desert guide who rides with the Reavers and knows the dry roads around the Blighted. She leaves them for a player who spares the rovers. |
 
 ## Antagonists
 
@@ -60,8 +60,8 @@ Every part in the story is played by a person who already lives on the Living Wo
 | The Blight-feeding monk | **Brother William** | Monk of Canopy Rest |
 | The healer who notices the missing salt | **Sister Margaret** | Infirmarian of Canopy Rest |
 | The usurper from below | **John Blackbeard, "king of the Marches"** | Outlaw captain |
-| The poacher folk hero | **Robert Thornback** | Highwayman |
-| The desert rider | **Beatrice Nettle** | Scout |
+| The highwayman folk hero | **Robert Thornback** | Highwayman, Grey Crows |
+| The desert guide | **Beatrice Nettle** | Rover, Iron Reavers |
 | The sage who awakens | **Margaret the Sage** | Sage |
 | The warlock of the spring | **Juliana the Warlock** | Warlock |
 | The ford's hermit | **Brother Roger of the Ford** | Hermit |
