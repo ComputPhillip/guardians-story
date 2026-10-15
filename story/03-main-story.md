@@ -90,6 +90,6 @@ The ending depends on what the player does with the crown after the Heart:
 |---|---|---|
 | **The Steward's Watch** | Refuse the throne and re-found the Stewards | The holds stay divided but bound by the Oath. The Rim is manned forever, the player becomes the first Lord-Steward, and the throne stays empty. *(The bittersweet "true" ending.)* |
 | **The Hearth King** | Take the throne with at least 3 houses' support | The realm is united under the player. Leadership, the skill of kings alone, unlocks. Drakrevor is sealed, but the defeated houses plot. *(A sequel hook.)* |
-| **The Puppet Crown** | Put a lord on the throne (Sir Robert, Sunward or Durn) | Peace that lasts as long as the puppet does. The epilogue varies by lord. |
+| **The Puppet Crown** | Put a lord on the throne (Sir Robert, Sir John the Coin or Sir John Ironhand) | Peace that lasts as long as the puppet does. The epilogue varies by lord. |
 | **The Grey Peace** | Make a pact with a free calamity | The war is won quickly. Years later, the calamity "is named" and rises against the realm. *(The dark ending.)* |
 | **The Fall of the Hearth** | Fail at the Heart, or lose more than 3 holds | Drakrevor wakes, and the epilogue shows the Blight reaching First Hearth. |
