@@ -32,7 +32,9 @@ The day numbers below are suggested defaults on the map's 91-day run, and later 
 | Blight leaks | Any Blighted lair left alone for 3 weeks | A pack overruns the nearest hamlet | Guild parties and players who clear lairs hold it back |
 | Magic wakes | Rolling | Common folk are **awakened** (Margaret the Sage, Robert Cordwainer) | Learn why: the leylines are stirring |
 | Rifts surge | Day 30+, more as leaks pile up | Dormant rifts turn **surging** | Seal or clear them |
-| **A calamity rises** | Day 60+, or sooner if the Blight is ignored | The calamity 9 km from the Heart rises and **is named**. Rumours of its name spread. | Kill it, and it never returns |
+| **Calamities rise** | First around **day 87** (tested), then one every 2–3 weeks, mostly in the Broken March forts | A new calamity rises and **is named**, for example *Zorulesh, Who Drinks the Wells*. Rumours of its name spread. | Kill it, and that one never returns. Another will rise somewhere else. |
+| The lords' expedition | Day ~182 (tested) | The lords pool their heroes and march on the Heart, thinning it by half; on day ~273 they march on a calamity lair | Join it, fund it (as a Councillor) or sabotage it |
+| A lesser cataclysm falls | Day ~290 (tested) | The cataclysm of a Blighted rift is slain, and nothing of its tier rises there again | Be the one who kills it |
 | The beacons go dark | After a calamity rises | The Blight snuffs out watchtower beacons near the March | Relight them (see *Beacon Night*) |
 | **Drakrevor wakes** | When the **Waking** meter fills (it fills with leaks, surging rifts and unlit Rim Fires, and drains when lairs are cleared) | The horde marches. Hamlets near the March fall first, then a town. | The Rim Fires (Thread 4) slow it; reaching the Heart (L90) ends it |
 
@@ -44,7 +46,7 @@ The Waking meter is the closest thing the game has to a "main quest". It is neve
 | Beat | Condition | Default outcome | Player hooks |
 |---|---|---|---|
 | Sir Robert's claim | Day ~10 | Sir Robert of First Hearth sends sealed letters to the other lords announcing his claim at the Hearth-Moot | Carry, read, lose or sell the letters |
-| The Reaver deal | Ongoing | First Hearth secretly pays the **Iron Reavers** to raid Stonepass ore | Expose it to Sir John Ironhand (war) or blackmail Sir Robert |
+| The Reaver deal | Ongoing | First Hearth secretly pays the **Iron Reavers** to bleed Stonepass. The Reavers occupy Stonepass hamlets (tested: days 24 and 66), and whenever they near 30 men, **Sir Robert's own hero breaks them** (7 times a year), so he stays their master. | Expose it to Sir John Ironhand (war) or blackmail Sir Robert |
 | **The Hearth-Moot** | Day ~40 | All five lords meet in First Hearth | Attend as a guard, a hero, a servant or an assassin |
 | **Murder at the Moot** | At the Moot, if the Hollow Knives' contract stands | **Sir Thomas of Reedwatch** is killed. Each house blames another. | Prevent it, fake it or carry it out |
 | The holds arm | After the murder | Garrisons stop escorting carts, prices rise and hamlets go hungry | Sellswords (Grey Company, Red Lances) are in demand |
@@ -84,8 +86,9 @@ Anyone who follows the salt can stop this thread: a trader who notices odd price
 |---|---|---|
 | The ford | Days 1–5 | The **Low-Water band** tolls the ford, Brother Roger pleads for help, and the **Grey Company** storms it on day 5 |
 | The Red Lances | Days 1–2, unhired | Robert atte Lane's men go unpaid and start squeezing Sunward farmsteads, turning outlaw |
-| The Crows grow | The Grey Crows pass 30 men | A lord's hero is sent to break them; if the hero fails, they keep growing |
-| **Harlan takes Reedwatch** | The Grey Crows are 2.5 times stronger than Reedwatch, which is Starving | **Harlan Grey** holds Reedwatch and calls himself its lord |
+| The outlaw cycle | Any band nears 30 men | **A lord's hero breaks it** (44 times a year in the test), and broken camps **drift back to 25 men each season**. Bands never win on their own. | Kill a lord's heroes, keep them busy elsewhere, or become a hero yourself |
+| **Harlan takes Reedwatch** | Reedwatch is **Starving**, and its heroes are dead or away | **Harlan Grey** holds Reedwatch and calls himself its lord. Reedwatch is Thriving most of the year (tested), so Harlan needs an arsonist: **one granary fire leaves it Lean or Starving for months**. |
+| The slavers | Ongoing, near Stonepass | **The slavers' holds of the north** raid hamlets and sell the taken back for ransom. Stonepass pays. | Free the captives, pay the ransom, or trade with the slavers (the town shuns you if you do) |
 | Bands feud | Overlapping reaches | The winner absorbs the loser's men |
 
 ## Thread 6: The Last Spring and the Mages
@@ -98,6 +101,22 @@ Anyone who follows the salt can stop this thread: a trader who notices odd price
 | A council of mages | Day ~50, if Margaret lives | The mages declare themselves a power. Lords demand their mages swear to them or leave. |
 
 ---
+
+## Named calamities (from the map's generator)
+
+The map gives each calamity a generated name and epithet. These are the ones that rose in the year-long test, and the story treats them as **legends that grow with every telling**:
+
+| Epithet | Example names | Lore |
+|---|---|---|
+| *Who Drinks the Wells* | Zorulesh, Vhaeshnyr, Raxeshsha, Vhavhaul | Sours wells for miles, the classic Blight sign |
+| *the Ember Crown* | Vhathemor, Vorvhavha, Ithdraith | Burns in ash-light; the closest thing to a fire-demon |
+| *the Glass Serpent* | Golmordra, Golthemor | Leaves the ground glassy behind it |
+| *the Hollow* | Ulkalvor, Ulraxul, Kalkalzor | A husk that wears the dead |
+| *the Ashen Tide* | Eshkreith, Krevhamor | Moves with a fog of grey ash |
+| *the Thirsting* | Kremorith, Ululthe | Drains the living |
+| *the Salt Wyrm* | Thezorvor | Comes out of the Blight-salt flats, linked to the Salt Road |
+| *of the Red Sand* | Nyrthemor, Nyreshul | Rises near the desert edge of Sunward |
+| *the Unburied* | Vhavormor, Vorgolmor | Barrow-dead raised by the Blight |
 
 ## World endings (states, not cutscenes)
 

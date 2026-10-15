@@ -17,6 +17,7 @@ The story is built on the world defined in `tradable_economy_v69.xlsx`, `steward
 | [story/04-characters.md](story/04-characters.md) | The main cast, companions and antagonists |
 | [story/05-magic-and-combat-lore.md](story/05-magic-and-combat-lore.md) | How the grounded abilities (fireball, sword arts and so on) fit the world, mapped to the combat system |
 | [story/06-side-stories.md](story/06-side-stories.md) | Side quests, faction arcs and recurring events |
+| [story/08-simulation-tests.md](story/08-simulation-tests.md) | Tests of the story against the Living World Map's 364-day run, with the findings |
 | [story/07-life-paths.md](story/07-life-paths.md) | Who the player becomes: standing, reputation, attitude and life paths (trader, outlaw, hero, mage, lord and more) |
 
 ## Canon rules

@@ -76,6 +76,15 @@ The paths are not classes; a player can walk several at once or switch between t
 * Rulers set taxes and station tiers, hire sellswords and order heroes out, just as the map's lords do.
 * **Threads:** every Empty Throne beat now involves the player, and the other lords plot against them.
 
+### The Slaver (the dark path)
+*Sell people to the holds of the north.*
+* The map supports it with slaver trade and selling captives. Towns **shun** a slaver: caravans keep away for weeks.
+* **Peak:** rich, feared and alone. Every Steward and hero is a threat.
+
+## Tested balance notes
+
+Running the life paths on the map ([08-simulation-tests.md](08-simulation-tests.md)) showed that a dedicated guardian is **titled in all five towns in about six weeks**, and an outlaw can starve a town for months with one fire. Until the map is retuned, the story treats titles as an early-middle milestone, not an endgame.
+
 ## Companions are people, not plot devices
 
 Every companion in [04-characters.md](04-characters.md) is a roster person with a home, a routine and their own goals. They can be recruited, can leave if the player's attitude disgusts them, and **die permanently**. Their personal arcs advance only if they are alive and travelling with the player. Otherwise the world thread carries on without them. For example, if Wenna was never recruited, she still tries to avenge her grandfather on her own, and may die trying.

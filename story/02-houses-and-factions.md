@@ -91,6 +91,14 @@ Other institutions also send out expeditions of five: **the Hunters' Lodge** (be
 | **The Company of the Lantern** | Wanders | Free mages who duel the warlock at the last spring and win. | Unsworn mages who answer to no lord. The core of a mage faction. |
 | **The Low-Water band** | The ford by the Chapel at the Ford | Bandits who hold the ford and take tolls in pennies. | The first outlaws a new player meets. Brother Roger of the Ford pleads with the lord to drive them off. |
 
+## Other powers the map simulates
+
+| Power | Where | What it does | Story hooks |
+|---|---|---|---|
+| **The slavers' holds of the north** | Near Stonepass, with a camp 8 km west of it | About 36 men who raid hamlets at night, carry people off and sell them back for ransom (13 taken in the test year) | Free them, ransom them, or trade with them. Trading gets the player shunned. |
+| **The tower school by Mereworth** | A tower school | The realm's school of magic. It trains battle mages, healers, alchemists and gifted children, about 116 graduates a year, who come home and can be recruited. | This is the **Arcane Academy** in the story. Margaret the Sage sends the awakened there. |
+| **The hunting lodges** | One per town | Hunters who cull the wilds and sell what they take. Some don't come back from the week's hunting. | A Hunter's life path, and the Westwatch arc |
+
 ## The outlaw bands
 
 These come from the workbook's Factions sheet. Bands **feud** when their reaches overlap, and the winner absorbs the loser's men. All of them are at **war** with the horde. A camp beaten twice in three weeks moves away. A band 1.5 times stronger than a hamlet's defence raids it; a band 2.5 times stronger holds it.
