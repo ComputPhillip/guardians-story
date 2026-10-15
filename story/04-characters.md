@@ -14,9 +14,9 @@ A hamlet-born guild Apprentice with no name worth mentioning. The player chooses
 | Companion | Hold | Build | Talent | Personal arc |
 |---|---|---|---|---|
 | **Odo Pell** | First Hearth | Martial: *Guardsman* (Sword + Shield) | Iron back | A former Steward who broke his oath to keep his family alive during the Breaking. Mentor and father figure. *Can die holding the Rim Fires in Act IV.* |
-| **Wenna Corran** | Reedwatch | Marksmanship: *Ranger* (Bow) | Eagle eye | Heir to a murdered lord and a fallen hold. She wants Harlan Grey's head. *Can retake Reedwatch, or choose revenge over her people.* |
-| **Aelis Varrow** | Canopy Rest | Magic (Arcane): *Scholar* (Staff) | Arcane spark | A sheltered noble mage, bride at the Grey Wedding. Her firebolts are the first real magic the player sees. *Survives or dies at Ashcut Gorge; if she lives, she must choose between her mother and the truth about Tamsin.* |
-| **Ser Corwin Hale** | First Hearth | Martial: *Duellist* (Sword) | Gifted | An antagonist turned companion. The bastard who did the killing for his brother. *Recruitable only if spared at the Grey Wedding.* |
+| **Wenna of Reedwatch** | Reedwatch | Marksmanship: *Ranger* (Bow) | Eagle eye | Heir to a murdered lord and a fallen hold. She wants Harlan Grey's head. *Can retake Reedwatch, or choose revenge over her people.* |
+| **Aelis of Canopy Rest** | Canopy Rest | Magic (Arcane): *Scholar* (Staff) | Arcane spark | A sheltered noble mage, bride at the Grey Wedding. Her firebolts are the first real magic the player sees. *Survives or dies at Ashcut Gorge; if she lives, she must choose between her mother and the truth about Tamsin.* |
+| **Thomas Fox** | First Hearth | Martial: *Duellist* (Sword) | Gifted | An antagonist turned companion. One of Sir Robert's three heroes, the sword who does his killing. *Recruitable only if spared at the Grey Wedding.* |
 | **Old Torbin** | Stonepass | Martial: *Guardsman* (Spear + Shield) | Born survivor | The last keeper of the Oath at Cairn Gate, gruff and funny. *Swears the player in as a Steward.* |
 | **Sister Hesk** | Canopy Rest | Faith: *Healer* (Staff) | Blight-hardened | A field nun who left Tamsin's chapel when she noticed the missing salt. The party's moral compass. |
 | **Rafe Thornback** | First Hearth (Thornback Brothers) | Martial: *Brigand* (Sword) | Born survivor | A poacher folk hero. *Only recruitable if the player spared the Brothers in Act I.* |
@@ -27,16 +27,16 @@ A hamlet-born guild Apprentice with no name worth mentioning. The player chooses
 | Character | Role | Want | Fear |
 |---|---|---|---|
 | **Brother Tamsin** | The hidden villain: a Faith healer and Blight cultist | To wake Drakrevor and "cleanse" a corrupt realm | That he is wrong, and the Blight is only hunger |
-| **Lord Edric Hale** | The political rival | The crown | Being remembered as a usurper |
-| **Casimir Sorel** | The schemer | To own every road, whoever sits the throne | Poverty: he was born in Sunward's oasis hamlets |
+| **Sir Robert of First Hearth** | The political rival | The crown | Being remembered as a usurper |
+| **Sir John the Coin** | The schemer | To own every road, whoever sits the throne | Poverty: he was born in Sunward's oasis hamlets |
 | **Harlan Grey** | The usurper from below | To be a lord, so his men are never hunted again | Dying a nobody |
-| **Hrothild Durn** | Ally or enemy depending on choices | Revenge for Gerrit, and Stonepass free of any crown | Her clans breaking without a war to unite them |
+| **Sir John Ironhand** | Ally or enemy depending on choices | Revenge for Gerrit, and Stonepass free of any crown | His clans breaking without a war to unite them |
 | **Drakrevor** | The Cataclysm of the Heart | To feed | Nothing |
 
 ## Minor characters
 
-* **Lady Maren Hale:** spymaster, and a possible secret ally if the player exposes Edric's Reaver deal privately.
-* **Idris Sorel:** a Court Mage who could be won over. She wants the Blight studied, not worshipped.
+* **Dame Alice of First Hearth:** spymaster, and a possible secret ally if the player exposes Sir Robert's Reaver deal privately.
+* **Dame Matilda:** a Court Mage who could be won over. She wants the Blight studied, not worshipped.
 * **"Mother" Agna:** the Oxdon guildmaster who sells contracts to everyone. A source of rumours.
-* **Vashti Kell:** the Blightwatch guildmaster and Sorel's eyes on the Blighted.
+* **Vashti Kell:** the Blightwatch guildmaster and Sunward's eyes on the Blighted.
 * **Sela Thorn:** the Westwatch guildmaster, who gives the player beast-hunting contracts.

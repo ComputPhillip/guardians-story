@@ -6,11 +6,15 @@ The realm is a single valley country. Sea cliffs close it to the north and west,
 
 For three hundred years the five holds answered to one crown and one order: **the Stewards**. Each Steward was a sworn knight-warden who guarded the roads, judged disputes between holds and, most of all, *kept the Rim*. The Stewards watched the cliff line over the old **Riftlands**, where the ground split and things crawled out.
 
+They built the **watchtower beacons** that run across the realm, so that one fire on the Rim could warn every hold by nightfall. They built the **Stewards Halls** where they judged disputes; two still stand, in Canopy Rest and Reedwatch.
+
 Their sigil was a shield before a hearth. People still call the finest gear "Steward-grade", and the old sword-forms still carry their names (*Steward's Riposte*, *Wall of the Steward*), even though few people remember why.
 
 ## The Breaking (backstory, 22 years before the game)
 
 The last king, **Aldric the Unbent**, died without an heir he had named. Within a season the lords of the five holds had pulled the Stewards apart: each hold kept "its" Stewards as house guards, and the order's shared purse, halls and oaths dissolved. Nobody manned the Rim.
+
+Today "steward" means a lord's household officer who keeps the granary and the books. Every keep has one. Most people have forgotten that the word once meant a sworn knight-warden. The lord's champions are now called **heroes**, three to a hold, and they serve their lord, not the realm. The beacons are still lit at dusk out of habit, but nobody remembers what they were for.
 
 The Blight did not come at once. It came the way rot comes into grain. First the old Riftlands went quiet. Then the hamlets nearest the Rim stopped sending their tithes. Then the seven rifts of the Riftlands spread into what maps now call **the Blighted**, and seven walled forts along the March fell one by one. Folk now call that land **the Broken March**.
 
@@ -39,7 +43,7 @@ Because the economy ties the holds together, they cannot fight an open war. Ston
 
 The Blight is not a plague; it is a *hunger*. Land it touches goes grey and salt-crusted, wells sour, and beasts born there come out wrong: **Horrors**. Where the Blight runs deepest it gathers itself into **Calamities**, beings of terrible power that each hold their own territory. Folk say a calamity "is named when it rises", because no one knows what one is until it comes.
 
-At the centre is **the Heart**, and in the Heart sleeps a **Cataclysm**: **Drakrevor**. The Stewards' oldest oath was written to keep Drakrevor asleep. With the Rim unwatched for twenty-two years, Drakrevor is waking. Its horde already holds every rift, every blight nest and every broken fort.
+At the centre is **the Heart**, and in the Heart sleeps a **Cataclysm**: **Drakrevor**, whom the common folk call **the Demon King**. It keeps a day of its own: it slumbers, broods and gathers power, and the Heart surges at night. The Stewards' oldest oath was written to keep Drakrevor asleep. With the Rim unwatched for twenty-two years, Drakrevor is waking. Its horde already holds every rift, every blight nest and every broken fort.
 
 The lords know this. Each believes the Blight will hit *someone else's* hold first.
 

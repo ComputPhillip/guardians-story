@@ -13,7 +13,18 @@
 | **Alchemy** | Arcana brewers | Draughts and elixirs (`POT-HEAL`, `POT-ELIX`, `POT-WARD`, `POT-STAM`). |
 | **The Blight** | Horrors, calamities, Tamsin | Stolen power. It feeds on the leylines; that is why Arcane and Blight are drawn to the same places. |
 
-**Why magic is rare:** an Arcane aptitude good enough for Journeyman is held by about 35% of those trained, and only the top 3% reach Master. Most mages are scholars who can throw one good firebolt. A true Arcane Master is a political asset that houses fight over, which is part of why Aelis Varrow matters.
+### The mages of the realm (from the map)
+
+The map's rosters hold about **90 sorcerers**, **10 mages**, cunning folk in every hold, and an alchemist family in Stonepass. Magic is rare among the people the player meets, but not unknown:
+
+* **Sorcerers** are commoners with a gift who keep it quiet. They gather nine at a time in **conclave at the five stone circles**, which sit on leylines.
+* **Mages** are trained, mostly at **the Arcane Academy** and the town libraries. Court mages (Dame Matilda of Sunward, the steward John Dickson) serve lords.
+* **Cunning folk** know hedge-magic: charms, herb-lore and the odd ward. Some are heroes, like Nicholas Swift of Stonepass.
+* **Margaret the Sage** wanders the realm holding audiences with lords. She can **awaken** a sleeping gift, as she does for Robert Cordwainer in First Hearth's market. In game terms, awakening is how an NPC gains a Magic major, and the player can ask her to do it for a companion.
+* **Warlocks** are mages who sell their power or take what they want. **Juliana the Warlock** holds the last spring in the Sunward desert and tolls its water. When she is beaten she is **exiled** to the warlock's refuge outside First Hearth.
+* **The Company of the Lantern** are free mages who answer to no lord.
+
+**Why magic is rare:** an Arcane aptitude good enough for Journeyman is held by about 35% of those trained, and only the top 3% reach Master. Most mages are scholars who can throw one good firebolt. A true Arcane Master is a political asset that houses fight over, which is part of why Aelis of Canopy Rest matters.
 
 ## The simple spell list (story names to system abilities)
 
