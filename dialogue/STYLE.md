@@ -29,13 +29,13 @@ One JSON file per category in `dialogue/`. Each file is a list of **sets**:
 * `kind`: `activity` (from the daily plan), `event` (world news being discussed), `deed` (people reacting to something the player did), or `squad` (the player-controlled characters).
 * `who`: the pair or group who speak it, for example "two farm servants", "a priest and a monk", "a guard and the player's witness".
 * `exchanges`: **at least 3 per action**, 2–4 lines each. Use more exchanges for common actions.
-* `when`: conditions. Leave a field `null` when it doesn't matter. At least one exchange per action must have all `null` conditions, as a fallback.
+* `when`: conditions. **Every exchange has all eight fields**, `null` when it doesn't matter. `state` is a list (any of the listed states); every other field is a single value. At least one exchange per action must have all `null` conditions, as a fallback.
   * `state`: the town's state: `Starving`, `Lean`, `Fed` or `Thriving`.
   * `time`: `dawn`, `day`, `evening` or `night`.
   * `place`: `home`, `inn`, `market`, `temple`, `keep`, `field`, `wild`, `road`, `camp` or `workshop`.
   * `news`: an event kind from `actions.json` that the speakers have **heard**.
   * `standing`: the speakers' view of the player: `Hunted`, `Shunned`, `Distrusted`, `Neutral`, `Friend`, `Champion`, `Titled` or `Councillor`. Use this for deed reactions.
-  * `hold`: one of the five holds, for local colour.
+  * `hold`: one of the five holds, by full name: `First Hearth`, `Canopy Rest`, `Reedwatch`, `Sunward Exchange` or `Stonepass Refuge`.
   * `mood` (squad only): the speaker's loyalty, from the map's pay and warnings: `loyal`, `content`, `grumbling` or `leaving`.
   * `attitude` (squad only): the player's tracked attitude (see `story/07-life-paths.md`): `merciful`, `ruthless`, `greedy`, `honourable`, `pious` or `curious`.
 * `speaker`: `A`, `B` or `C`. For creature activities, the speakers are people who **see** the creatures.
@@ -67,9 +67,17 @@ Only these. The game fills them from the simulation.
 | `{guild}` | The town's guild tavern, for example "Riftgate" |
 | `{good}` | A trade good |
 | `{player}` | What the speakers call the player: a name if they know it, otherwise "that stranger" |
-| `{dead}` | The name of someone who died (from the event) |
+| `{dead}` | The name of someone who died (from the event, or the victim of a deed) |
 | `{hall}` | The player's hall, for example "the hall near Reedwatch" (squad only) |
 | `{site}` | A lair or mission site (squad only) |
+
+## Ids
+
+Exchange ids are unique across all files. Activity ids use the action in snake_case (`gate_watch_01`). World-event ids start with `event_`, deed ids with `deed_`, and squad ids with `sqlife_` or `sqcombat_`.
+
+## Deeds and event placeholders
+
+A deed supplies the placeholders that make sense for it: `camp` supplies `{band}`; `retake` supplies `{hamlet}`; `kill_guild` and `kill_maker` supply `{dead}`; `clear` and `free_leak` supply `{site}` and, at a calamity lair, `{calamity}`. An exchange whose placeholder can't be filled is skipped.
 
 ## Voice
 

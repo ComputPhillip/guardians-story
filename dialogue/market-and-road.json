@@ -14,7 +14,9 @@
      "place": "market",
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -45,7 +47,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -68,7 +72,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -91,7 +97,9 @@
      "place": "market",
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -116,7 +124,9 @@
      "place": null,
      "news": "shortage",
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -137,7 +147,9 @@
      "place": null,
      "news": "ambush",
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -158,7 +170,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Sunward Exchange"
+     "hold": "Sunward Exchange",
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -179,7 +193,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Stonepass Refuge"
+     "hold": "Stonepass Refuge",
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -200,7 +216,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -229,7 +247,9 @@
      "place": "market",
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -257,7 +277,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -280,7 +302,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -303,7 +327,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -332,7 +358,9 @@
      "place": null,
      "news": "raid",
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -353,7 +381,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Reedwatch"
+     "hold": "Reedwatch",
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -374,7 +404,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -399,7 +431,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -427,7 +461,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -455,7 +491,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -476,7 +514,9 @@
      "place": null,
      "news": "ambush",
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -497,7 +537,9 @@
      "place": "road",
      "news": null,
      "standing": null,
-     "hold": "Sunward Exchange"
+     "hold": "Sunward Exchange",
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -525,7 +567,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -548,7 +592,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -571,7 +617,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -594,7 +642,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -615,7 +665,9 @@
      "place": null,
      "news": "shortage",
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -636,7 +688,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -668,7 +722,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -695,7 +751,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -718,7 +776,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -741,7 +801,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -762,7 +824,9 @@
      "place": null,
      "news": "order",
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -783,7 +847,9 @@
      "place": null,
      "news": "ambush",
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -804,7 +870,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Sunward Exchange"
+     "hold": "Sunward Exchange",
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -825,7 +893,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Stonepass Refuge"
+     "hold": "Stonepass Refuge",
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -850,7 +920,9 @@
      "place": null,
      "news": "filled",
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -880,7 +952,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -903,7 +977,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -924,7 +1000,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -949,7 +1027,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -977,7 +1057,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -1004,7 +1086,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -1025,7 +1109,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Canopy Rest"
+     "hold": "Canopy Rest",
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -1048,7 +1134,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -1076,7 +1164,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -1103,7 +1193,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -1124,7 +1216,9 @@
      "place": null,
      "news": "fold",
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -1147,7 +1241,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -1175,7 +1271,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -1202,7 +1300,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -1227,7 +1327,9 @@
      "place": "inn",
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -1250,7 +1352,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -1278,7 +1382,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -1305,7 +1411,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -1332,7 +1440,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -1353,7 +1463,9 @@
      "place": null,
      "news": "shortage",
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -1385,7 +1497,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -1416,7 +1530,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -1443,7 +1559,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -1470,7 +1588,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -1491,7 +1611,9 @@
      "place": null,
      "news": null,
      "standing": "Friend",
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -1512,7 +1634,9 @@
      "place": null,
      "news": null,
      "standing": "Shunned",
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -1537,7 +1661,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "First Hearth"
+     "hold": "First Hearth",
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -1569,7 +1695,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -1592,7 +1720,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -1615,7 +1745,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -1636,7 +1768,9 @@
      "place": null,
      "news": "raid",
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -1664,7 +1798,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -1687,7 +1823,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -1708,7 +1846,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Sunward Exchange"
+     "hold": "Sunward Exchange",
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -1729,7 +1869,9 @@
      "place": null,
      "news": "ambush",
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -1757,7 +1899,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -1784,7 +1928,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -1805,7 +1951,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Canopy Rest"
+     "hold": "Canopy Rest",
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -1832,7 +1980,9 @@
      "place": "market",
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -1864,7 +2014,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -1889,7 +2041,9 @@
      "place": null,
      "news": "ambush",
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -1910,7 +2064,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Reedwatch"
+     "hold": "Reedwatch",
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -1931,7 +2087,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Stonepass Refuge"
+     "hold": "Stonepass Refuge",
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -1958,7 +2116,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -1986,7 +2146,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -2011,7 +2173,9 @@
      "place": "road",
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -2038,7 +2202,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -2059,7 +2225,9 @@
      "place": null,
      "news": "raid",
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -2084,7 +2252,9 @@
      "place": null,
      "news": "slavers",
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -2109,7 +2279,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Reedwatch"
+     "hold": "Reedwatch",
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -2141,7 +2313,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -2166,7 +2340,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -2189,7 +2365,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -2216,7 +2394,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -2237,7 +2417,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Reedwatch"
+     "hold": "Reedwatch",
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -2265,7 +2447,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -2290,7 +2474,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Canopy Rest"
+     "hold": "Canopy Rest",
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -2313,7 +2499,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -2336,7 +2524,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -2364,7 +2554,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -2389,7 +2581,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Reedwatch"
+     "hold": "Reedwatch",
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -2412,7 +2606,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -2433,7 +2629,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -2461,7 +2659,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -2488,7 +2688,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -2509,7 +2711,9 @@
      "place": null,
      "news": "fold",
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -2541,7 +2745,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -2562,7 +2768,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Reedwatch"
+     "hold": "Reedwatch",
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -2583,7 +2791,9 @@
      "place": null,
      "news": "deaths",
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -2615,7 +2825,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -2644,7 +2856,9 @@
      "place": null,
      "news": "party lost",
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -2665,7 +2879,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Reedwatch"
+     "hold": "Reedwatch",
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -2686,7 +2902,9 @@
      "place": "camp",
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -2714,7 +2932,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -2739,7 +2959,9 @@
      "place": "road",
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -2764,7 +2986,9 @@
      "place": null,
      "news": "hero",
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -2787,7 +3011,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -2815,7 +3041,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -2842,7 +3070,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -2865,7 +3095,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -2886,7 +3118,9 @@
      "place": null,
      "news": "ambush",
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -2911,7 +3145,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Sunward Exchange"
+     "hold": "Sunward Exchange",
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -2939,7 +3175,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -2964,7 +3202,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Canopy Rest"
+     "hold": "Canopy Rest",
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -2985,7 +3225,9 @@
      "place": null,
      "news": "hired",
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -3012,7 +3254,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -3040,7 +3284,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -3067,7 +3313,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -3094,7 +3342,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -3115,7 +3365,9 @@
      "place": "inn",
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -3143,7 +3395,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -3168,7 +3422,9 @@
      "place": "road",
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -3193,7 +3449,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Sunward Exchange"
+     "hold": "Sunward Exchange",
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -3214,7 +3472,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Stonepass Refuge"
+     "hold": "Stonepass Refuge",
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -3242,7 +3502,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -3267,7 +3529,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Sunward Exchange"
+     "hold": "Sunward Exchange",
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -3288,7 +3552,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -3320,7 +3586,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -3341,7 +3609,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Sunward Exchange"
+     "hold": "Sunward Exchange",
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -3364,7 +3634,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -3385,7 +3657,9 @@
      "place": "road",
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -3417,7 +3691,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -3442,7 +3718,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Sunward Exchange"
+     "hold": "Sunward Exchange",
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -3465,7 +3743,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -3490,7 +3770,9 @@
      "place": null,
      "news": "apex",
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -3518,7 +3800,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -3539,7 +3823,9 @@
      "place": "keep",
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -3566,7 +3852,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -3587,7 +3875,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "First Hearth"
+     "hold": "First Hearth",
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -3608,7 +3898,9 @@
      "place": null,
      "news": "camp forms",
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -3629,7 +3921,9 @@
      "place": "inn",
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -3661,7 +3955,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -3686,7 +3982,9 @@
      "place": "road",
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -3711,7 +4009,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Sunward Exchange"
+     "hold": "Sunward Exchange",
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -3734,7 +4034,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -3755,7 +4057,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Stonepass Refuge"
+     "hold": "Stonepass Refuge",
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -3776,7 +4080,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Canopy Rest"
+     "hold": "Canopy Rest",
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -3804,7 +4110,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -3829,7 +4137,9 @@
      "place": null,
      "news": "slavers",
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -3850,7 +4160,9 @@
      "place": "keep",
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -3875,7 +4187,9 @@
      "place": "road",
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -3907,7 +4221,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -3936,7 +4252,9 @@
      "place": "market",
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -3957,7 +4275,9 @@
      "place": null,
      "news": null,
      "standing": "Hunted",
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -3980,7 +4300,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -4001,7 +4323,9 @@
      "place": "road",
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -4033,7 +4357,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -4060,7 +4386,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -4085,7 +4413,9 @@
      "place": null,
      "news": "refugees",
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -4106,7 +4436,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Reedwatch"
+     "hold": "Reedwatch",
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -4129,7 +4461,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -4157,7 +4491,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -4182,7 +4518,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "First Hearth"
+     "hold": "First Hearth",
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -4203,7 +4541,9 @@
      "place": "temple",
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -4224,7 +4564,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -4252,7 +4594,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -4277,7 +4621,9 @@
      "place": "market",
      "news": null,
      "standing": null,
-     "hold": "First Hearth"
+     "hold": "First Hearth",
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -4298,7 +4644,9 @@
      "place": null,
      "news": "graduate",
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -4321,7 +4669,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -4349,7 +4699,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -4380,7 +4732,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -4401,7 +4755,9 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Reedwatch"
+     "hold": "Reedwatch",
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {
@@ -4422,7 +4778,9 @@
      "place": "camp",
      "news": null,
      "standing": null,
-     "hold": null
+     "hold": null,
+     "mood": null,
+     "attitude": null
     },
     "lines": [
      {

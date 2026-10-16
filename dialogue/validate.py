@@ -7,6 +7,15 @@ import sys
 HERE = pathlib.Path(__file__).parent
 ALLOWED = {"A", "B", "town", "lord", "lady", "steward", "hamlet", "band", "calamity", "guild", "good", "player", "dead", "hall", "site"}
 CONDS = {"state", "time", "place", "news", "standing", "hold", "mood", "attitude"}
+VALUES = {
+    "time": {"dawn", "day", "evening", "night"},
+    "place": {"home", "inn", "market", "temple", "keep", "field", "wild", "road", "camp", "workshop"},
+    "standing": {"Hunted", "Shunned", "Distrusted", "Neutral", "Friend", "Champion", "Titled", "Councillor"},
+    "hold": {"First Hearth", "Canopy Rest", "Reedwatch", "Sunward Exchange", "Stonepass Refuge"},
+    "mood": {"loyal", "content", "grumbling", "leaving"},
+    "attitude": {"merciful", "ruthless", "greedy", "honourable", "pious", "curious"},
+}
+STATES = {"Starving", "Lean", "Fed", "Thriving"}
 MIN = {"activity": 3, "event": 5, "deed": 6, "squad": 5}
 
 actions = json.loads((HERE / "src" / "actions.json").read_text())
@@ -37,12 +46,26 @@ for f in sorted(HERE.glob("*.json")):
                 problems.append(f"{f.name}: duplicate id {e['id']}")
             ids.add(e["id"])
             when = e.get("when") or {}
-            extra = set(when) - CONDS
-            if extra:
-                problems.append(f"{f.name}: {e['id']}: unknown conditions {extra}")
+            if set(when) != CONDS:
+                problems.append(f"{f.name}: {e['id']}: conditions must be exactly {sorted(CONDS)}")
+            st = when.get("state")
+            if st is not None and (not isinstance(st, list) or not set(st) <= STATES):
+                problems.append(f"{f.name}: {e['id']}: state must be a list of {sorted(STATES)}")
+            nw = when.get("news")
+            if nw is not None and nw not in need["event"]:
+                problems.append(f"{f.name}: {e['id']}: unknown news {nw!r}")
+            for k, ok in VALUES.items():
+                if when.get(k) is not None and when[k] not in ok:
+                    problems.append(f"{f.name}: {e['id']}: bad {k} {when[k]!r}")
+            if kind == "event" and nw != action:
+                problems.append(f"{f.name}: {e['id']}: event exchange must have news {action!r}")
             if all(v is None for k, v in when.items() if not (kind == "event" and k == "news")):
                 fallback = True
+            if not 1 <= len(e["lines"]) <= 4:
+                problems.append(f"{f.name}: {e['id']}: {len(e['lines'])} lines")
             for ln in e["lines"]:
+                if len(ln["text"].split()) >= 20:
+                    problems.append(f"{f.name}: {e['id']}: line over 20 words")
                 lines += 1
                 for ph in re.findall(r"\{(\w+)\}", ln["text"]):
                     if ph not in ALLOWED:

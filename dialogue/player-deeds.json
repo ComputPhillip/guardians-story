@@ -1,0 +1,7818 @@
+[
+ {
+  "action": "give",
+  "kind": "deed",
+  "who": "townsfolk, stallholders and the steward's people, about goods the player brought to the town",
+  "exchanges": [
+   {
+    "id": "deed_give_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} came in with carts of {good} and asked nothing for it."
+     },
+     {
+      "speaker": "B",
+      "text": "Nothing yet. Folk who give freely send the bill later."
+     }
+    ]
+   },
+   {
+    "id": "deed_give_02",
+    "when": {
+     "state": [
+      "Starving",
+      "Lean"
+     ],
+     "time": null,
+     "place": "market",
+     "news": null,
+     "standing": "Friend",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "My children ate tonight because of {player}'s {good}."
+     },
+     {
+      "speaker": "B",
+      "text": "Then say so in the temple. Loudly. Let the keep hear it."
+     }
+    ]
+   },
+   {
+    "id": "deed_give_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "inn",
+     "news": null,
+     "standing": "Distrusted",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Gifts of {good} from {player}. What's the price, I wonder?"
+     },
+     {
+      "speaker": "B",
+      "text": "A vote at the Moot. A blind eye at the gate. Something."
+     },
+     {
+      "speaker": "C",
+      "text": "Or some folk just give. Drink your ale."
+     }
+    ]
+   },
+   {
+    "id": "deed_give_04",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "keep",
+     "news": null,
+     "standing": "Neutral",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{steward} has written {player}'s {good} into the granary book twice."
+     },
+     {
+      "speaker": "B",
+      "text": "Twice?"
+     },
+     {
+      "speaker": "A",
+      "text": "Once for the town. Once for {lord}'s pride. He hates owing strangers."
+     }
+    ]
+   },
+   {
+    "id": "deed_give_05",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": "Champion",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} unloading {good} with their own hands. A champion, hauling crates."
+     },
+     {
+      "speaker": "B",
+      "text": "Lords don't lift crates. That's why we cheer champions and not lords."
+     }
+    ]
+   },
+   {
+    "id": "deed_give_06",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "inn",
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Heard {player} brought forty wagons of {good}. Enough to feed the hold a year."
+     },
+     {
+      "speaker": "B",
+      "text": "I unloaded it. Six carts, and one with a cracked axle."
+     },
+     {
+      "speaker": "A",
+      "text": "Six is still six more than {lord} sent."
+     }
+    ]
+   },
+   {
+    "id": "deed_give_07",
+    "when": {
+     "state": [
+      "Fed",
+      "Thriving"
+     ],
+     "time": null,
+     "place": "market",
+     "news": null,
+     "standing": "Distrusted",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Free {good} in a Fed town. My stall's price just halved."
+     },
+     {
+      "speaker": "B",
+      "text": "Charity for them, ruin for us. Put that in your prayers."
+     }
+    ]
+   },
+   {
+    "id": "deed_give_08",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": "Shunned",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player}'s {good}? I'd not feed it to the pigs."
+     },
+     {
+      "speaker": "B",
+      "text": "Pigs aren't proud, {A}. Neither am I, this winter."
+     }
+    ]
+   },
+   {
+    "id": "deed_give_09",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "road",
+     "news": null,
+     "standing": "Hunted",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} left {good} at the gate with their bounty still unpaid."
+     },
+     {
+      "speaker": "B",
+      "text": "Guards took the carts and let the driver run. Fair trade, they said."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "coin",
+  "kind": "deed",
+  "who": "townsfolk, the steward's clerks, outlaws and clergy, about coin the player gave to the town or stole from it",
+  "exchanges": [
+   {
+    "id": "deed_coin_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Coin from {player} in the town chest. Or out of it. Depends who's telling."
+     },
+     {
+      "speaker": "B",
+      "text": "Either way it's the town's coin, and somebody's grinning."
+     }
+    ]
+   },
+   {
+    "id": "deed_coin_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "keep",
+     "news": null,
+     "standing": "Friend",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} gave the town purse three hundred in silver."
+     },
+     {
+      "speaker": "B",
+      "text": "{steward} wept. First time the books have balanced since the Breaking."
+     }
+    ]
+   },
+   {
+    "id": "deed_coin_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "market",
+     "news": null,
+     "standing": "Neutral",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Why would a drifter pour coin into {town}?"
+     },
+     {
+      "speaker": "B",
+      "text": "Friends are cheaper bought than lords. They know that."
+     }
+    ]
+   },
+   {
+    "id": "deed_coin_04",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "keep",
+     "news": null,
+     "standing": "Councillor",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "The councillor put their own silver in the chest before the vote."
+     },
+     {
+      "speaker": "B",
+      "text": "Clever. Hard to argue with someone spending their own coin first."
+     }
+    ]
+   },
+   {
+    "id": "deed_coin_05",
+    "when": {
+     "state": null,
+     "time": "night",
+     "place": "keep",
+     "news": null,
+     "standing": "Hunted",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Counting-room strongbox. Empty. Lock picked clean as a bone."
+     },
+     {
+      "speaker": "B",
+      "text": "{player} again. {lord} wants a rope this time, not a fine."
+     }
+    ]
+   },
+   {
+    "id": "deed_coin_06",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "market",
+     "news": null,
+     "standing": "Distrusted",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Town purse is light again. Work on the gate has stopped."
+     },
+     {
+      "speaker": "B",
+      "text": "Stolen, they say. By {player}, they say. Watch your own belt."
+     }
+    ]
+   },
+   {
+    "id": "deed_coin_07",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "camp",
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} lifted the town's coin right under the steward's nose."
+     },
+     {
+      "speaker": "B",
+      "text": "Pour them a cup when they come. {band} never forgets a good thief."
+     }
+    ]
+   },
+   {
+    "id": "deed_coin_08",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "temple",
+     "news": null,
+     "standing": "Shunned",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "The alms went with the town coin. {player} took the lot."
+     },
+     {
+      "speaker": "B",
+      "text": "Then we pray for their soul. And nail the poor box to the floor."
+     }
+    ]
+   },
+   {
+    "id": "deed_coin_09",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "inn",
+     "news": null,
+     "standing": "Hunted",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Heard {player} took a thousand from the keep and killed two guards."
+     },
+     {
+      "speaker": "B",
+      "text": "Heard it from the guards, did you? Both of them drinking yonder."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "go",
+  "kind": "deed",
+  "who": "townsfolk, guards and the keep's household, about the player arriving in town",
+  "exchanges": [
+   {
+    "id": "deed_go_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player}'s in {town}. Came in by the east road."
+     },
+     {
+      "speaker": "B",
+      "text": "Then lock up, or lay a place. I can't tell which yet."
+     }
+    ]
+   },
+   {
+    "id": "deed_go_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "road",
+     "news": null,
+     "standing": "Hunted",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} walked straight through our gate. With a price on their head."
+     },
+     {
+      "speaker": "B",
+      "text": "Ring the bell. Or wait till they've drunk enough to be slow."
+     }
+    ]
+   },
+   {
+    "id": "deed_go_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "market",
+     "news": null,
+     "standing": "Shunned",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Look who's at the well. {player}."
+     },
+     {
+      "speaker": "B",
+      "text": "Don't sell them so much as a turnip. Let them move on."
+     }
+    ]
+   },
+   {
+    "id": "deed_go_04",
+    "when": {
+     "state": null,
+     "time": "night",
+     "place": "inn",
+     "news": null,
+     "standing": "Distrusted",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player}'s taken the room over the stables."
+     },
+     {
+      "speaker": "B",
+      "text": "I'll sleep with my knife, then. Pass the bread."
+     }
+    ]
+   },
+   {
+    "id": "deed_go_05",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "market",
+     "news": null,
+     "standing": "Neutral",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "New face. {player}, they call themselves."
+     },
+     {
+      "speaker": "B",
+      "text": "Guild sort, by the boots. Sell them something overpriced."
+     }
+    ]
+   },
+   {
+    "id": "deed_go_06",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "inn",
+     "news": null,
+     "standing": "Friend",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player}'s back in {town}! Warm the good cider."
+     },
+     {
+      "speaker": "B",
+      "text": "And tell your sister to stop fussing with her hair."
+     }
+    ]
+   },
+   {
+    "id": "deed_go_07",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "keep",
+     "news": null,
+     "standing": "Champion",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} rides in and the guards stand straighter than for {lord}."
+     },
+     {
+      "speaker": "B",
+      "text": "Then don't let {lord} see it. He counts these things."
+     }
+    ]
+   },
+   {
+    "id": "deed_go_08",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "road",
+     "news": null,
+     "standing": "Titled",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player}'s banner on the road. Lord of a hall now."
+     },
+     {
+      "speaker": "B",
+      "text": "Bow or not? I never know with new-made lords."
+     },
+     {
+      "speaker": "C",
+      "text": "Bow. It costs nothing, and their memories are long."
+     }
+    ]
+   },
+   {
+    "id": "deed_go_09",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "keep",
+     "news": null,
+     "standing": "Councillor",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Councillor {player} is in town. The council sits tonight, then."
+     },
+     {
+      "speaker": "B",
+      "text": "{steward} will be hiding the ledgers already."
+     }
+    ]
+   },
+   {
+    "id": "deed_go_10",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "inn",
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player}'s here with an army, they say. Two hundred spears."
+     },
+     {
+      "speaker": "B",
+      "text": "Two companions and a lame mule. I saw them come in."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "retake",
+  "kind": "deed",
+  "who": "hamlet folk, the keep's household, outlaws and priests, about the player retaking a lost hamlet",
+  "exchanges": [
+   {
+    "id": "deed_retake_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{hamlet} is ours again. {player} drove them out."
+     },
+     {
+      "speaker": "B",
+      "text": "Then someone had better sow it before winter."
+     }
+    ]
+   },
+   {
+    "id": "deed_retake_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "field",
+     "news": "retaken",
+     "standing": "Friend",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "My cousin sleeps in her own bed in {hamlet} tonight."
+     },
+     {
+      "speaker": "B",
+      "text": "Because {player} did what {lord}'s heroes wouldn't. Remember that at the Moot."
+     }
+    ]
+   },
+   {
+    "id": "deed_retake_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "keep",
+     "news": null,
+     "standing": "Neutral",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{lord} is pleased about {hamlet}. Publicly."
+     },
+     {
+      "speaker": "B",
+      "text": "And privately?"
+     },
+     {
+      "speaker": "A",
+      "text": "Privately he asks why a drifter is doing a hero's work."
+     }
+    ]
+   },
+   {
+    "id": "deed_retake_04",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "inn",
+     "news": null,
+     "standing": "Champion",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} retook {hamlet} with a handful. The songs are already starting."
+     },
+     {
+      "speaker": "B",
+      "text": "Songs won't rebuild a burned barn. Still, I'll sing."
+     }
+    ]
+   },
+   {
+    "id": "deed_retake_05",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "camp",
+     "news": null,
+     "standing": "Hunted",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "We held {hamlet} two weeks. Then {player} came."
+     },
+     {
+      "speaker": "B",
+      "text": "Lost good men there. Next time we see that face, no talking."
+     }
+    ]
+   },
+   {
+    "id": "deed_retake_06",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "market",
+     "news": null,
+     "standing": "Distrusted",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} took {hamlet} back. Who's going to hold it?"
+     },
+     {
+      "speaker": "B",
+      "text": "Nobody. Three raids and it's empty again. Watch."
+     }
+    ]
+   },
+   {
+    "id": "deed_retake_07",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "inn",
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "They say {player} cut down every outlaw in {hamlet} with one blade."
+     },
+     {
+      "speaker": "B",
+      "text": "Outlaws walked off when they saw the torches. My brother watched from the ditch."
+     }
+    ]
+   },
+   {
+    "id": "deed_retake_08",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "temple",
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "We'll need to bless the wells at {hamlet} before anyone drinks."
+     },
+     {
+      "speaker": "B",
+      "text": "Thank {player} after. The saints first, then the sword."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "clear",
+  "kind": "deed",
+  "who": "guild members, townsfolk and priests, about the player clearing a monster lair",
+  "exchanges": [
+   {
+    "id": "deed_clear_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} cleared the lair past the ridge. Nothing's come out since."
+     },
+     {
+      "speaker": "B",
+      "text": "Nothing yet. Those holes always fill again."
+     }
+    ]
+   },
+   {
+    "id": "deed_clear_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "inn",
+     "news": "cleared",
+     "standing": "Friend",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "One less nest feeding the Blight. {player} went in with three and came out with three."
+     },
+     {
+      "speaker": "B",
+      "text": "Better than {guild}. {guild} comes out with two."
+     }
+    ]
+   },
+   {
+    "id": "deed_clear_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "inn",
+     "news": null,
+     "standing": "Neutral",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} took a lair off our board. Our contract, our coin."
+     },
+     {
+      "speaker": "B",
+      "text": "Should've gone yourself. {guild} sat on it a month."
+     }
+    ]
+   },
+   {
+    "id": "deed_clear_04",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": "Champion",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "That's the fourth lair {player}'s burned out this season."
+     },
+     {
+      "speaker": "B",
+      "text": "And no leak near {town} since spring. That's no accident."
+     }
+    ]
+   },
+   {
+    "id": "deed_clear_05",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "temple",
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} cleared the den. Did anyone bless the place after?"
+     },
+     {
+      "speaker": "B",
+      "text": "No priest goes out there, {A}. Not even you."
+     }
+    ]
+   },
+   {
+    "id": "deed_clear_06",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "inn",
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} killed {calamity}, they're saying. With their own hands."
+     },
+     {
+      "speaker": "B",
+      "text": "It was a nest of rats with Blight in their fur. Big rats, mind."
+     }
+    ]
+   },
+   {
+    "id": "deed_clear_07",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "market",
+     "news": null,
+     "standing": "Distrusted",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Clearing lairs now. Building a name before they ask for something."
+     },
+     {
+      "speaker": "B",
+      "text": "Let them ask. The lair's still empty."
+     }
+    ]
+   },
+   {
+    "id": "deed_clear_08",
+    "when": {
+     "state": [
+      "Starving",
+      "Lean"
+     ],
+     "time": null,
+     "place": "road",
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Lair's cleared. The grain carts can use the north track again."
+     },
+     {
+      "speaker": "B",
+      "text": "If there's any grain left to cart."
+     }
+    ]
+   },
+   {
+    "id": "deed_clear_09",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "keep",
+     "news": null,
+     "standing": "Hunted",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Bounty on their head, and {player} still clears our lairs."
+     },
+     {
+      "speaker": "B",
+      "text": "Clever. A bounty's harder to collect off a hero."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "recruit",
+  "kind": "deed",
+  "who": "families, the keep's household and outlaws, about the player signing someone into their company",
+  "exchanges": [
+   {
+    "id": "deed_recruit_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} signed on another one for their company."
+     },
+     {
+      "speaker": "B",
+      "text": "Growing, that company. Somebody ought to count them."
+     }
+    ]
+   },
+   {
+    "id": "deed_recruit_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "home",
+     "news": null,
+     "standing": "Friend",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Our boy's gone with {player}. Made his mark this morning."
+     },
+     {
+      "speaker": "B",
+      "text": "Better a sword under a decent captain than a sickle under a bad lord."
+     }
+    ]
+   },
+   {
+    "id": "deed_recruit_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "home",
+     "news": null,
+     "standing": "Distrusted",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Our daughter signed with {player}. Not a word to me first."
+     },
+     {
+      "speaker": "B",
+      "text": "She'll come back with coin or not at all. That's the road."
+     }
+    ]
+   },
+   {
+    "id": "deed_recruit_04",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "keep",
+     "news": null,
+     "standing": "Neutral",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} is taking our best young men. {lord} has noticed."
+     },
+     {
+      "speaker": "B",
+      "text": "Fewer mouths for the granary."
+     },
+     {
+      "speaker": "A",
+      "text": "Fewer spears for the levy, too."
+     }
+    ]
+   },
+   {
+    "id": "deed_recruit_05",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "camp",
+     "news": null,
+     "standing": "Hunted",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} signed a lad we'd been courting for weeks."
+     },
+     {
+      "speaker": "B",
+      "text": "Better pay than ours, I suppose. And no rope at the end."
+     }
+    ]
+   },
+   {
+    "id": "deed_recruit_06",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "inn",
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player}'s raising an army to take the empty throne."
+     },
+     {
+      "speaker": "B",
+      "text": "Five people and a cook isn't an army, {A}."
+     }
+    ]
+   },
+   {
+    "id": "deed_recruit_07",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "market",
+     "news": null,
+     "standing": "Champion",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Every lad in {town} wants a place with {player}."
+     },
+     {
+      "speaker": "B",
+      "text": "And every mother wants them home. Mothers lose."
+     }
+    ]
+   },
+   {
+    "id": "deed_recruit_08",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "inn",
+     "news": null,
+     "standing": "Shunned",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Who'd join {player}? Only those with nothing left."
+     },
+     {
+      "speaker": "B",
+      "text": "Then they'll find plenty of company in that company."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "hire",
+  "kind": "deed",
+  "who": "guild members, sellswords and the keep's household, about the player hiring a sellsword or guildsman",
+  "exchanges": [
+   {
+    "id": "deed_hire_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} hired a blade out of {guild}."
+     },
+     {
+      "speaker": "B",
+      "text": "Coin buys a blade. It doesn't buy the back behind it."
+     }
+    ]
+   },
+   {
+    "id": "deed_hire_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "inn",
+     "news": null,
+     "standing": "Neutral",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} paid {guild}'s best for a month. Good wage."
+     },
+     {
+      "speaker": "B",
+      "text": "Good wage, but they'll lead from the front. Our veteran won't like that."
+     }
+    ]
+   },
+   {
+    "id": "deed_hire_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "inn",
+     "news": null,
+     "standing": "Friend",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Hiring swords. {player} means to go somewhere bad."
+     },
+     {
+      "speaker": "B",
+      "text": "The Broken March, I'd wager. Pray they come back."
+     }
+    ]
+   },
+   {
+    "id": "deed_hire_04",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "keep",
+     "news": null,
+     "standing": "Distrusted",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "A drifter hiring swords inside {lord}'s walls."
+     },
+     {
+      "speaker": "B",
+      "text": "{lord} hires the Grey Company and calls it policy. When {player} does it, it's a threat."
+     }
+    ]
+   },
+   {
+    "id": "deed_hire_05",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "camp",
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} hired one of the Red Lances. Paid in advance."
+     },
+     {
+      "speaker": "B",
+      "text": "In advance? Then they're mad or honest. Rare, either way."
+     }
+    ]
+   },
+   {
+    "id": "deed_hire_06",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "inn",
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "They say {player} bought the whole Grey Company."
+     },
+     {
+      "speaker": "B",
+      "text": "One Grey Company man. And he's half deaf."
+     }
+    ]
+   },
+   {
+    "id": "deed_hire_07",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "market",
+     "news": null,
+     "standing": "Shunned",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Sellswords still take {player}'s coin. Even now."
+     },
+     {
+      "speaker": "B",
+      "text": "Sellswords would serve the Demon King if he paid in silver."
+     }
+    ]
+   },
+   {
+    "id": "deed_hire_08",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "keep",
+     "news": null,
+     "standing": "Titled",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} hires sellswords for their hall. Like any lord."
+     },
+     {
+      "speaker": "B",
+      "text": "Like any lord. That's what worries the other lords."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "send",
+  "kind": "deed",
+  "who": "townsfolk, families and guild members, about the player sending recruits out on a task",
+  "exchanges": [
+   {
+    "id": "deed_send_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player}'s people rode out at dawn on some errand."
+     },
+     {
+      "speaker": "B",
+      "text": "Errands with spears. I'd like to know where."
+     }
+    ]
+   },
+   {
+    "id": "deed_send_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "road",
+     "news": null,
+     "standing": "Friend",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Saw {player}'s lot on the road, marching tidy as a lord's guard."
+     },
+     {
+      "speaker": "B",
+      "text": "Without {player}? They trust their people, then."
+     }
+    ]
+   },
+   {
+    "id": "deed_send_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "inn",
+     "news": null,
+     "standing": "Neutral",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} sends the recruits out and stays by the fire."
+     },
+     {
+      "speaker": "B",
+      "text": "That's what captains do. Lords do the same from a keep."
+     }
+    ]
+   },
+   {
+    "id": "deed_send_04",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "home",
+     "news": null,
+     "standing": "Distrusted",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} sent my son to the Broken March. Didn't go themselves."
+     },
+     {
+      "speaker": "B",
+      "text": "Pray, then. And send him a letter, if someone there can read it."
+     }
+    ]
+   },
+   {
+    "id": "deed_send_05",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "inn",
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player}'s recruits took the lair job before {guild} could post it."
+     },
+     {
+      "speaker": "B",
+      "text": "Cheap swords beating the guild. That's how guilds end."
+     }
+    ]
+   },
+   {
+    "id": "deed_send_06",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "camp",
+     "news": null,
+     "standing": "Hunted",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Recruits of {player}'s on the east track. Green as grass."
+     },
+     {
+      "speaker": "B",
+      "text": "Leave them. They're bait. Their master's behind them somewhere."
+     }
+    ]
+   },
+   {
+    "id": "deed_send_07",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "market",
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Heard {player}'s recruits all drowned in the fens."
+     },
+     {
+      "speaker": "B",
+      "text": "Two blisters and a lost boot. They're at the inn now."
+     }
+    ]
+   },
+   {
+    "id": "deed_send_08",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "keep",
+     "news": null,
+     "standing": "Champion",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player}'s people went to {hamlet} before {lord}'s garrison had its boots on."
+     },
+     {
+      "speaker": "B",
+      "text": "Don't say it so loud. The sergeants are sore enough."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "order",
+  "kind": "deed",
+  "who": "townsfolk, the garrison and outlaws, about the player giving their recruits standing orders",
+  "exchanges": [
+   {
+    "id": "deed_order_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player}'s given their people standing orders. Patrol, guard, haul."
+     },
+     {
+      "speaker": "B",
+      "text": "Orders that hold while the captain's away. That's a proper company."
+     }
+    ]
+   },
+   {
+    "id": "deed_order_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "road",
+     "news": null,
+     "standing": "Friend",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player}'s recruits walk the road to {hamlet} twice a day now."
+     },
+     {
+      "speaker": "B",
+      "text": "Raiders keep off. I'll take it, whoever's orders they are."
+     }
+    ]
+   },
+   {
+    "id": "deed_order_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "keep",
+     "news": null,
+     "standing": "Distrusted",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player}'s people patrol our roads under their own orders."
+     },
+     {
+      "speaker": "B",
+      "text": "That's the garrison's duty. And the garrison's pride."
+     },
+     {
+      "speaker": "A",
+      "text": "{lord} will say something. Or the sergeants will, with fists."
+     }
+    ]
+   },
+   {
+    "id": "deed_order_04",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "field",
+     "news": null,
+     "standing": "Neutral",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "One of {player}'s told me to shift my cart off the track."
+     },
+     {
+      "speaker": "B",
+      "text": "Did he now? Who made him warden of the road?"
+     }
+    ]
+   },
+   {
+    "id": "deed_order_05",
+    "when": {
+     "state": null,
+     "time": "night",
+     "place": "camp",
+     "news": null,
+     "standing": "Hunted",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player}'s lot guard the carts now. Same hours every day."
+     },
+     {
+      "speaker": "B",
+      "text": "Same hours means we know when they're not there."
+     }
+    ]
+   },
+   {
+    "id": "deed_order_06",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "inn",
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "They say {player} ordered their men to tax the hamlets."
+     },
+     {
+      "speaker": "B",
+      "text": "Ordered them to dig a latrine. I heard the groaning myself."
+     }
+    ]
+   },
+   {
+    "id": "deed_order_07",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "market",
+     "news": null,
+     "standing": "Champion",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player}'s recruits keep the market watch. Not a purse cut all week."
+     },
+     {
+      "speaker": "B",
+      "text": "My cousin the cutpurse has taken up honest work out of boredom."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "hall",
+  "kind": "deed",
+  "who": "masons, townsfolk and the keep's household, about the player building part of their hall",
+  "exchanges": [
+   {
+    "id": "deed_hall_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player}'s building again. Another wing on that hall."
+     },
+     {
+      "speaker": "B",
+      "text": "Stone costs. Somebody in {town} is getting rich off it."
+     }
+    ]
+   },
+   {
+    "id": "deed_hall_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "workshop",
+     "news": null,
+     "standing": "Neutral",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} pays the masons weekly, in silver. I've had worse masters."
+     },
+     {
+      "speaker": "B",
+      "text": "Haven't had better. Cut it square and keep your mouth shut."
+     }
+    ]
+   },
+   {
+    "id": "deed_hall_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "keep",
+     "news": null,
+     "standing": "Titled",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "A storehouse at {player}'s hall now. Full, they say."
+     },
+     {
+      "speaker": "B",
+      "text": "Full storehouses draw raiders like honey draws wasps."
+     }
+    ]
+   },
+   {
+    "id": "deed_hall_04",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "inn",
+     "news": null,
+     "standing": "Friend",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} has raised a barracks. Walls, towers, cots for thirty."
+     },
+     {
+      "speaker": "B",
+      "text": "Thirty spears outside town. Comfort or worry, I can't decide."
+     }
+    ]
+   },
+   {
+    "id": "deed_hall_05",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "keep",
+     "news": null,
+     "standing": "Distrusted",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{lord} watched the hall go up from the tower this morning."
+     },
+     {
+      "speaker": "B",
+      "text": "With what face?"
+     },
+     {
+      "speaker": "A",
+      "text": "The face he keeps for rival claimants."
+     }
+    ]
+   },
+   {
+    "id": "deed_hall_06",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "market",
+     "news": null,
+     "standing": null,
+     "hold": "Stonepass Refuge",
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player}'s putting an alchemy lab in that hall."
+     },
+     {
+      "speaker": "B",
+      "text": "The Littles will be livid. Forty years they've sold every draught in Stonepass."
+     }
+    ]
+   },
+   {
+    "id": "deed_hall_07",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "inn",
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "They say {player}'s hall has a gilded roof."
+     },
+     {
+      "speaker": "B",
+      "text": "Slate. Leaks in the east corner, too. I laid it."
+     }
+    ]
+   },
+   {
+    "id": "deed_hall_08",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "market",
+     "news": null,
+     "standing": "Councillor",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "A council seat and a hall. {player} has more rooms than {lord}."
+     },
+     {
+      "speaker": "B",
+      "text": "Don't say that near the keep, or you'll have none."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "council",
+  "kind": "deed",
+  "who": "townsfolk, guild members, masons and the keep's household, about the player as councillor spending the town's surplus",
+  "exchanges": [
+   {
+    "id": "deed_council_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "The council spent the surplus. {player}'s motion."
+     },
+     {
+      "speaker": "B",
+      "text": "On what?"
+     },
+     {
+      "speaker": "A",
+      "text": "Walls, mostly. And an expedition east."
+     }
+    ]
+   },
+   {
+    "id": "deed_council_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "keep",
+     "news": null,
+     "standing": "Councillor",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} carried the vote. Walls before winter."
+     },
+     {
+      "speaker": "B",
+      "text": "{steward} wanted a feast for the Moot. Walls are cheaper than funerals."
+     }
+    ]
+   },
+   {
+    "id": "deed_council_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "market",
+     "news": null,
+     "standing": "Distrusted",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "The town's surplus gone on walls, and grain's still dear."
+     },
+     {
+      "speaker": "B",
+      "text": "Walls don't eat. People do. Tell your councillor that."
+     }
+    ]
+   },
+   {
+    "id": "deed_council_04",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "inn",
+     "news": null,
+     "standing": "Friend",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} paid for an expedition to the March out of the town chest."
+     },
+     {
+      "speaker": "B",
+      "text": "Good. {guild} bleeds and the town pays. That's how it ought to be."
+     }
+    ]
+   },
+   {
+    "id": "deed_council_05",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "keep",
+     "news": null,
+     "standing": "Neutral",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "A councillor spending {lord}'s surplus without asking him."
+     },
+     {
+      "speaker": "B",
+      "text": "The town's surplus, {lady} says. Not his."
+     },
+     {
+      "speaker": "A",
+      "text": "Don't let him hear you agree with her."
+     }
+    ]
+   },
+   {
+    "id": "deed_council_06",
+    "when": {
+     "state": [
+      "Starving"
+     ],
+     "time": null,
+     "place": "market",
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Walls! While we eat bark. {player} spends like we're Thriving."
+     },
+     {
+      "speaker": "B",
+      "text": "The walls kept raiders off the granary. That's why we still have bark."
+     }
+    ]
+   },
+   {
+    "id": "deed_council_07",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "inn",
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "They say {player} took half the surplus for their own hall."
+     },
+     {
+      "speaker": "B",
+      "text": "The steward's book says every penny went into the stones."
+     },
+     {
+      "speaker": "A",
+      "text": "Books lie. Stones don't."
+     }
+    ]
+   },
+   {
+    "id": "deed_council_08",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "workshop",
+     "news": null,
+     "standing": "Champion",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Council's ordered towers. {player} wants them up before harvest."
+     },
+     {
+      "speaker": "B",
+      "text": "Then I'll need every mason in {town}, and their apprentices besides."
+     }
+    ]
+   },
+   {
+    "id": "deed_council_09",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "home",
+     "news": null,
+     "standing": "Shunned",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "That one sits on our council and spends our coin. How?"
+     },
+     {
+      "speaker": "B",
+      "text": "Bought the seat, or earned it before the trouble. Either way, we're stuck."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "pay_bounty",
+  "kind": "deed",
+  "who": "guards, victims, outlaws and clergy, about the player paying off their bounty",
+  "exchanges": [
+   {
+    "id": "deed_pay_bounty_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} paid off their bounty. Clean slate."
+     },
+     {
+      "speaker": "B",
+      "text": "A slate wiped clean still remembers the chalk."
+     }
+    ]
+   },
+   {
+    "id": "deed_pay_bounty_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "keep",
+     "news": null,
+     "standing": "Distrusted",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Paid in full at the keep. Coin on the table, no haggling."
+     },
+     {
+      "speaker": "B",
+      "text": "Stolen coin paying for stolen coin. The steward didn't ask."
+     }
+    ]
+   },
+   {
+    "id": "deed_pay_bounty_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "keep",
+     "news": null,
+     "standing": "Neutral",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Take down {player}'s notice. They've paid."
+     },
+     {
+      "speaker": "B",
+      "text": "Pity. I'd a good likeness of their face on it."
+     }
+    ]
+   },
+   {
+    "id": "deed_pay_bounty_04",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "home",
+     "news": null,
+     "standing": "Shunned",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} paid {lord}. Not me. Not for my burnt barn."
+     },
+     {
+      "speaker": "B",
+      "text": "The law minds the lord's purse, {A}. Not your barn."
+     }
+    ]
+   },
+   {
+    "id": "deed_pay_bounty_05",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "camp",
+     "news": null,
+     "standing": "Hunted",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} bought their way back into the towns."
+     },
+     {
+      "speaker": "B",
+      "text": "Gone soft. Or gone clever. Watch which."
+     }
+    ]
+   },
+   {
+    "id": "deed_pay_bounty_06",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "market",
+     "news": null,
+     "standing": "Friend",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Bounty's paid. {player}'s welcome at my stall again."
+     },
+     {
+      "speaker": "B",
+      "text": "Count your coins after they leave, all the same."
+     }
+    ]
+   },
+   {
+    "id": "deed_pay_bounty_07",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "inn",
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "They say {player} paid the bounty with a lord's signet ring."
+     },
+     {
+      "speaker": "B",
+      "text": "Plain silver. The clerk bit every coin, and nearly a tooth."
+     }
+    ]
+   },
+   {
+    "id": "deed_pay_bounty_08",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "temple",
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Paying a bounty mends the law. Not the soul."
+     },
+     {
+      "speaker": "B",
+      "text": "Let the law have its coin. We'll have the rest."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "serve",
+  "kind": "deed",
+  "who": "townsfolk, sergeants, victims and outlaws, about the player working off a bounty in a labour gang",
+  "exchanges": [
+   {
+    "id": "deed_serve_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player}'s in the labour gang. Breaking stone for the town."
+     },
+     {
+      "speaker": "B",
+      "text": "Good. Let them sweat for what they owe."
+     }
+    ]
+   },
+   {
+    "id": "deed_serve_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "field",
+     "news": null,
+     "standing": "Hunted",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Watched {player} haul stone all day under the sergeant's eye."
+     },
+     {
+      "speaker": "B",
+      "text": "Didn't run? I'd have run."
+     },
+     {
+      "speaker": "A",
+      "text": "Nowhere to run with that much bounty."
+     }
+    ]
+   },
+   {
+    "id": "deed_serve_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "workshop",
+     "news": null,
+     "standing": "Neutral",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "That one in the gang works harder than the paid men."
+     },
+     {
+      "speaker": "B",
+      "text": "That's {player}. Owes {lord} a small fortune."
+     }
+    ]
+   },
+   {
+    "id": "deed_serve_04",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "road",
+     "news": null,
+     "standing": "Distrusted",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Bounty gang's ahead of the steward's schedule. {player} drives them."
+     },
+     {
+      "speaker": "B",
+      "text": "A felon leading the gang. Don't tell {steward}."
+     }
+    ]
+   },
+   {
+    "id": "deed_serve_05",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "field",
+     "news": null,
+     "standing": "Shunned",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} digs our ditch now. Won't give back my brother's cart."
+     },
+     {
+      "speaker": "B",
+      "text": "No. But the ditch keeps the flood off your barley."
+     }
+    ]
+   },
+   {
+    "id": "deed_serve_06",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "camp",
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Our old friend {player}, digging ditches for {lord}."
+     },
+     {
+      "speaker": "B",
+      "text": "Shackled and smiling. Broke, more like."
+     }
+    ]
+   },
+   {
+    "id": "deed_serve_07",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "inn",
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player}'s chained in the keep's dungeon, they say."
+     },
+     {
+      "speaker": "B",
+      "text": "They're on the road gang. Waved at me this morning."
+     }
+    ]
+   },
+   {
+    "id": "deed_serve_08",
+    "when": {
+     "state": null,
+     "time": "day",
+     "place": "road",
+     "news": null,
+     "standing": "Friend",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Bring {player} bread when the gang breaks at noon."
+     },
+     {
+      "speaker": "B",
+      "text": "The sergeant won't like it."
+     },
+     {
+      "speaker": "A",
+      "text": "The sergeant ate my bread last week."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "atone",
+  "kind": "deed",
+  "who": "priests, monks and townsfolk, about the player undertaking a priest's atonement task",
+  "exchanges": [
+   {
+    "id": "deed_atone_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} went to the priests for atonement."
+     },
+     {
+      "speaker": "B",
+      "text": "And what did the priests ask?"
+     },
+     {
+      "speaker": "A",
+      "text": "Something hard. They always do."
+     }
+    ]
+   },
+   {
+    "id": "deed_atone_02",
+    "when": {
+     "state": null,
+     "time": "dawn",
+     "place": "temple",
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} knelt at the altar all night. Never slept."
+     },
+     {
+      "speaker": "B",
+      "text": "Kneeling's easy. The task we set them is not."
+     }
+    ]
+   },
+   {
+    "id": "deed_atone_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "temple",
+     "news": null,
+     "standing": "Distrusted",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} begged atonement with a bounty still unpaid."
+     },
+     {
+      "speaker": "B",
+      "text": "Then let them pay the lord first. The saints don't take stolen silver."
+     }
+    ]
+   },
+   {
+    "id": "deed_atone_04",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "market",
+     "news": null,
+     "standing": "Shunned",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Atonement! After what {player} did to us?"
+     },
+     {
+      "speaker": "B",
+      "text": "The priests forgive. The market remembers."
+     }
+    ]
+   },
+   {
+    "id": "deed_atone_05",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "temple",
+     "news": null,
+     "standing": "Friend",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "A barrow cleansing for their penance. {player} came back grey to the bone."
+     },
+     {
+      "speaker": "B",
+      "text": "The dead don't like visitors. Light a candle for them."
+     }
+    ]
+   },
+   {
+    "id": "deed_atone_06",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "home",
+     "news": null,
+     "standing": "Hunted",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} wants absolution. Let them come ask us."
+     },
+     {
+      "speaker": "B",
+      "text": "We're not saints, {A}. We don't have to forgive."
+     }
+    ]
+   },
+   {
+    "id": "deed_atone_07",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "inn",
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "They say {player} whipped themselves bloody on the pilgrim road."
+     },
+     {
+      "speaker": "B",
+      "text": "Flagellants whip. {player} carried water at the hospice. Quietly."
+     }
+    ]
+   },
+   {
+    "id": "deed_atone_08",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "temple",
+     "news": null,
+     "standing": null,
+     "hold": "Canopy Rest",
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Brother William offered to hear {player}'s confession himself."
+     },
+     {
+      "speaker": "B",
+      "text": "He never offers. What does he want with them?"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "burn",
+  "kind": "deed",
+  "who": "hungry townsfolk, the keep's household, outlaws, clergy and caravaneers, about the player burning the town's granary",
+  "exchanges": [
+   {
+    "id": "deed_burn_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "The granary's burned. They say it was {player}."
+     },
+     {
+      "speaker": "B",
+      "text": "Then we'll eat their name this winter. There's nothing else."
+     }
+    ]
+   },
+   {
+    "id": "deed_burn_02",
+    "when": {
+     "state": [
+      "Starving",
+      "Lean"
+     ],
+     "time": null,
+     "place": "market",
+     "news": null,
+     "standing": "Hunted",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "No caravans for weeks. Nobody trades with a town that burns."
+     },
+     {
+      "speaker": "B",
+      "text": "{player} did this. If I see them, I'll do worse."
+     }
+    ]
+   },
+   {
+    "id": "deed_burn_03",
+    "when": {
+     "state": null,
+     "time": "evening",
+     "place": "home",
+     "news": null,
+     "standing": "Hunted",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "The children asked what's for supper. I said ash."
+     },
+     {
+      "speaker": "B",
+      "text": "Pray {lord}'s men find {player} before winter does."
+     }
+    ]
+   },
+   {
+    "id": "deed_burn_04",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "keep",
+     "news": "shortage",
+     "standing": "Shunned",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{steward} says we're down to seed corn."
+     },
+     {
+      "speaker": "B",
+      "text": "Then hang the arsonist from the granary's black beams. {lord} insists."
+     }
+    ]
+   },
+   {
+    "id": "deed_burn_05",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "camp",
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} burned the granary. Starving towns are easy towns."
+     },
+     {
+      "speaker": "B",
+      "text": "Blackbeard will want that one at his fire."
+     }
+    ]
+   },
+   {
+    "id": "deed_burn_06",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "temple",
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "No penance is big enough for burning a town's bread."
+     },
+     {
+      "speaker": "B",
+      "text": "Then we pray for the hungry. Let the lord pray for vengeance."
+     }
+    ]
+   },
+   {
+    "id": "deed_burn_07",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "inn",
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "They say {player} burned half of {town} with the granary."
+     },
+     {
+      "speaker": "B",
+      "text": "Only the granary. The smoke made it look like the town."
+     },
+     {
+      "speaker": "A",
+      "text": "Only? There's no only about bread."
+     }
+    ]
+   },
+   {
+    "id": "deed_burn_08",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "road",
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Turn the carts. {town}'s granary is ash, and nobody trades into a fire."
+     },
+     {
+      "speaker": "B",
+      "text": "We'll come back when they've starved quiet."
+     }
+    ]
+   },
+   {
+    "id": "deed_burn_09",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "field",
+     "news": null,
+     "standing": "Distrusted",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Some say the fire was {player}. Some say a Crow arsonist."
+     },
+     {
+      "speaker": "B",
+      "text": "Either way, we're Lean all year."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "rob_shelves",
+  "kind": "deed",
+  "who": "craftsmen, guild members, outlaws and clergy, about the player stealing from the workshops",
+  "exchanges": [
+   {
+    "id": "deed_rob_shelves_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Somebody stripped the workshops in the night. {player}'s name came up."
+     },
+     {
+      "speaker": "B",
+      "text": "It always comes up, after the fact."
+     }
+    ]
+   },
+   {
+    "id": "deed_rob_shelves_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "workshop",
+     "news": null,
+     "standing": "Shunned",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "My best chisels, gone. A lifetime to temper them."
+     },
+     {
+      "speaker": "B",
+      "text": "{player} won't know what they're worth. That's the insult."
+     }
+    ]
+   },
+   {
+    "id": "deed_rob_shelves_03",
+    "when": {
+     "state": null,
+     "time": "evening",
+     "place": "workshop",
+     "news": null,
+     "standing": "Hunted",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Bar the shutters. {player}'s back in town."
+     },
+     {
+      "speaker": "B",
+      "text": "Bars didn't stop them last time."
+     }
+    ]
+   },
+   {
+    "id": "deed_rob_shelves_04",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "inn",
+     "news": null,
+     "standing": "Distrusted",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} robbed the smithy and sold the blades to {guild}'s green recruits."
+     },
+     {
+      "speaker": "B",
+      "text": "So I bought my own sword back off a thief. Lovely."
+     }
+    ]
+   },
+   {
+    "id": "deed_rob_shelves_05",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "camp",
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} cleaned out three workshops in one night. Proper work."
+     },
+     {
+      "speaker": "B",
+      "text": "Proper folly. Crafters talk. Every gate will have that face."
+     }
+    ]
+   },
+   {
+    "id": "deed_rob_shelves_06",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "market",
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "They say {player} carried off the master smith's anvil."
+     },
+     {
+      "speaker": "B",
+      "text": "An anvil? On their back? Through the gate?"
+     },
+     {
+      "speaker": "A",
+      "text": "Well. That's how I heard it."
+     }
+    ]
+   },
+   {
+    "id": "deed_rob_shelves_07",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "temple",
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "The weaver came begging. {player} took a season's cloth off her loom."
+     },
+     {
+      "speaker": "B",
+      "text": "Give her the alms. And her name for the prayers."
+     }
+    ]
+   },
+   {
+    "id": "deed_rob_shelves_08",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "market",
+     "news": null,
+     "standing": "Neutral",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Funny how {good} is cheap on the stalls since the robbery."
+     },
+     {
+      "speaker": "B",
+      "text": "Funny how you're buying it."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "camp",
+  "kind": "deed",
+  "who": "outlaws, travellers, the keep's household and farm folk, about the player joining or strengthening an outlaw camp, or killing outlaws",
+  "exchanges": [
+   {
+    "id": "deed_camp_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player}'s been out at the outlaw camps. Doing what, nobody agrees."
+     },
+     {
+      "speaker": "B",
+      "text": "Killing them or joining them. Out there it looks the same."
+     }
+    ]
+   },
+   {
+    "id": "deed_camp_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "road",
+     "news": null,
+     "standing": "Hunted",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} rides with {band} now. Saw them at the ford."
+     },
+     {
+      "speaker": "B",
+      "text": "Then the road to {hamlet} is closed to me."
+     }
+    ]
+   },
+   {
+    "id": "deed_camp_03",
+    "when": {
+     "state": null,
+     "time": "night",
+     "place": "camp",
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} brought us three men and a cart of arrows."
+     },
+     {
+      "speaker": "B",
+      "text": "Give them a seat by the fire. Near the king."
+     }
+    ]
+   },
+   {
+    "id": "deed_camp_04",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "keep",
+     "news": null,
+     "standing": "Distrusted",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{band} grows by the week. {player}'s doing."
+     },
+     {
+      "speaker": "B",
+      "text": "Past thirty, and {lord} sends a hero. Let it grow."
+     }
+    ]
+   },
+   {
+    "id": "deed_camp_05",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "road",
+     "news": "camp breaks",
+     "standing": "Friend",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} broke {band}'s camp. Eleven dead."
+     },
+     {
+      "speaker": "B",
+      "text": "The road's quiet. I'll take quiet."
+     }
+    ]
+   },
+   {
+    "id": "deed_camp_06",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "camp",
+     "news": null,
+     "standing": "Hunted",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} killed my brother at the camp."
+     },
+     {
+      "speaker": "B",
+      "text": "Then blood is owed. {band} doesn't forget."
+     }
+    ]
+   },
+   {
+    "id": "deed_camp_07",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "inn",
+     "news": null,
+     "standing": "Champion",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Our champion broke {band} before {lord}'s heroes had saddled up."
+     },
+     {
+      "speaker": "B",
+      "text": "The heroes will sulk for a week."
+     }
+    ]
+   },
+   {
+    "id": "deed_camp_08",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "inn",
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} killed {band}'s king and wears his crown now."
+     },
+     {
+      "speaker": "B",
+      "text": "Outlaw kings don't have crowns. They have hats. Bad ones."
+     }
+    ]
+   },
+   {
+    "id": "deed_camp_09",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "field",
+     "news": null,
+     "standing": "Neutral",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Outlaws dead at the camp. {player}, they say."
+     },
+     {
+      "speaker": "B",
+      "text": "Some were farm lads from {hamlet}. Hungry ones."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "kill_guild",
+  "kind": "deed",
+  "who": "guild members, families and the keep's household, about the player murdering guild members",
+  "exchanges": [
+   {
+    "id": "deed_kill_guild_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{guild} lost a member. Knifed. Folk whisper {player}."
+     },
+     {
+      "speaker": "B",
+      "text": "Don't whisper it in the guild tavern."
+     }
+    ]
+   },
+   {
+    "id": "deed_kill_guild_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "inn",
+     "news": null,
+     "standing": "Hunted",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} killed one of ours. Their name's on the board by noon."
+     },
+     {
+      "speaker": "B",
+      "text": "No contract fee. Every blade in {guild} will do it for free."
+     }
+    ]
+   },
+   {
+    "id": "deed_kill_guild_03",
+    "when": {
+     "state": null,
+     "time": "night",
+     "place": "inn",
+     "news": null,
+     "standing": "Distrusted",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "A guildsman dead, and {player} seen leaving the alley."
+     },
+     {
+      "speaker": "B",
+      "text": "Seen? Or said to be seen?"
+     }
+    ]
+   },
+   {
+    "id": "deed_kill_guild_04",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "keep",
+     "news": null,
+     "standing": "Neutral",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{lord} won't put a price on {player}. The guild will do it for him."
+     },
+     {
+      "speaker": "B",
+      "text": "Cheaper that way. And no blood on the keep's steps."
+     }
+    ]
+   },
+   {
+    "id": "deed_kill_guild_05",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "camp",
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} killed a guild hunter. One less on our trail."
+     },
+     {
+      "speaker": "B",
+      "text": "And a whole guild more on theirs."
+     }
+    ]
+   },
+   {
+    "id": "deed_kill_guild_06",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "home",
+     "news": null,
+     "standing": "Shunned",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{dead}'s mother keeps setting out his plate."
+     },
+     {
+      "speaker": "B",
+      "text": "{player} owes her a son. Owes all of us something."
+     }
+    ]
+   },
+   {
+    "id": "deed_kill_guild_07",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "market",
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "They say {player} killed a whole party of five."
+     },
+     {
+      "speaker": "B",
+      "text": "One. And he drew first, the barman swears."
+     }
+    ]
+   },
+   {
+    "id": "deed_kill_guild_08",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "temple",
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "We buried {dead} today. The guild paid for the stone."
+     },
+     {
+      "speaker": "B",
+      "text": "And {player} paid for the grave, in a manner of speaking."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "kill_maker",
+  "kind": "deed",
+  "who": "craftsmen, rivals, the keep's household and clergy, about the player murdering a craftsman",
+  "exchanges": [
+   {
+    "id": "deed_kill_maker_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{dead} the craftsman is dead. {player}'s name is on every tongue."
+     },
+     {
+      "speaker": "B",
+      "text": "And the title passes to some lesser hand."
+     }
+    ]
+   },
+   {
+    "id": "deed_kill_maker_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "workshop",
+     "news": null,
+     "standing": "Distrusted",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{dead} is gone, and I'm the best smith left in the hold."
+     },
+     {
+      "speaker": "B",
+      "text": "Don't smile like that. Folk will think you paid {player}."
+     }
+    ]
+   },
+   {
+    "id": "deed_kill_maker_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "workshop",
+     "news": null,
+     "standing": "Shunned",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "His tools are still warm on the bench."
+     },
+     {
+      "speaker": "B",
+      "text": "Who'll finish his orders? Who'll feed his apprentices?"
+     }
+    ]
+   },
+   {
+    "id": "deed_kill_maker_04",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "market",
+     "news": null,
+     "standing": "Hunted",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} murdered a maker. No smith will sell them a nail."
+     },
+     {
+      "speaker": "B",
+      "text": "Let them fight with their fingernails."
+     }
+    ]
+   },
+   {
+    "id": "deed_kill_maker_05",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "market",
+     "news": null,
+     "standing": "Neutral",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{good}'s gone up. {dead} made half of what was sold."
+     },
+     {
+      "speaker": "B",
+      "text": "A maker dies. Everyone pays."
+     }
+    ]
+   },
+   {
+    "id": "deed_kill_maker_06",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "keep",
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{lord} had blades ordered from {dead}. Paid half up front."
+     },
+     {
+      "speaker": "B",
+      "text": "Then {lord} is out half a purse and a weaponsmith. He won't forgive it."
+     }
+    ]
+   },
+   {
+    "id": "deed_kill_maker_07",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "inn",
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "They say a rival paid {player} to do it. Fifty coin."
+     },
+     {
+      "speaker": "B",
+      "text": "Or it was over a bent buckle. Nobody knows. That's worse."
+     }
+    ]
+   },
+   {
+    "id": "deed_kill_maker_08",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "temple",
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{dead} carved our altar rail. Now we pray at his grave."
+     },
+     {
+      "speaker": "B",
+      "text": "The Temple should ask why. Before the lord's men ask how."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "levy",
+  "kind": "deed",
+  "who": "peasants, the keep's household and outlaws, about the player levying men or coin as a titled lord",
+  "exchanges": [
+   {
+    "id": "deed_levy_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} called a levy. Men or coin, your choice."
+     },
+     {
+      "speaker": "B",
+      "text": "Same as any lord, then. Didn't take long."
+     }
+    ]
+   },
+   {
+    "id": "deed_levy_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "field",
+     "news": null,
+     "standing": "Titled",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "My two sons, or twelve coin. That's {player}'s levy."
+     },
+     {
+      "speaker": "B",
+      "text": "Pay the coin. Sons are harder to make."
+     }
+    ]
+   },
+   {
+    "id": "deed_levy_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "market",
+     "news": null,
+     "standing": "Friend",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player}'s levy is lighter than {lord}'s ever was."
+     },
+     {
+      "speaker": "B",
+      "text": "This year. Lords learn quickly."
+     }
+    ]
+   },
+   {
+    "id": "deed_levy_04",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "home",
+     "news": null,
+     "standing": "Distrusted",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Levy-men came. {player}'s seal on the paper."
+     },
+     {
+      "speaker": "B",
+      "text": "A drifter's seal. We bowed to nobody and got this."
+     }
+    ]
+   },
+   {
+    "id": "deed_levy_05",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "keep",
+     "news": null,
+     "standing": "Neutral",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} levied men from hamlets that already owe {lord}."
+     },
+     {
+      "speaker": "B",
+      "text": "Two lords, one harvest. Someone will starve, and it won't be them."
+     }
+    ]
+   },
+   {
+    "id": "deed_levy_06",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "camp",
+     "news": null,
+     "standing": "Hunted",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player}'s levy sent three farm lads straight to our fire."
+     },
+     {
+      "speaker": "B",
+      "text": "Give them bows. Thank {player} kindly when we meet."
+     }
+    ]
+   },
+   {
+    "id": "deed_levy_07",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "inn",
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player}'s taking every man under fifty, I heard."
+     },
+     {
+      "speaker": "B",
+      "text": "Five men from the whole hold. My cousin read the notice out."
+     }
+    ]
+   },
+   {
+    "id": "deed_levy_08",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "field",
+     "news": null,
+     "standing": "Champion",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "If {player} calls the levy, I'll march. They've marched for us."
+     },
+     {
+      "speaker": "B",
+      "text": "More than once. More than {lord} ever has."
+     }
+    ]
+   },
+   {
+    "id": "deed_levy_09",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "temple",
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "The levy takes the tithe-payers too. The temple will feel it."
+     },
+     {
+      "speaker": "B",
+      "text": "Then pray the lords fight less and plough more."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "buy",
+  "kind": "deed",
+  "who": "stallholders, shoppers and the steward's people, about the player buying in the market and moving prices",
+  "exchanges": [
+   {
+    "id": "deed_buy_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} bought up the {good} at market."
+     },
+     {
+      "speaker": "B",
+      "text": "All of it?"
+     },
+     {
+      "speaker": "A",
+      "text": "Near enough. Price jumped by noon."
+     }
+    ]
+   },
+   {
+    "id": "deed_buy_02",
+    "when": {
+     "state": [
+      "Starving",
+      "Lean"
+     ],
+     "time": null,
+     "place": "market",
+     "news": null,
+     "standing": "Distrusted",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} bought every sack of {good} while we go hungry."
+     },
+     {
+      "speaker": "B",
+      "text": "To sell back at double, I'd wager. I'll remember it."
+     }
+    ]
+   },
+   {
+    "id": "deed_buy_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "market",
+     "news": null,
+     "standing": "Neutral",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} pays whatever I ask. So I've started asking more."
+     },
+     {
+      "speaker": "B",
+      "text": "That's how you lose a good customer, {A}."
+     }
+    ]
+   },
+   {
+    "id": "deed_buy_04",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "market",
+     "news": null,
+     "standing": "Friend",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} bought my whole stall, then gave half to the beggars."
+     },
+     {
+      "speaker": "B",
+      "text": "Generous or showing off? Either way the beggars ate."
+     }
+    ]
+   },
+   {
+    "id": "deed_buy_05",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "market",
+     "news": null,
+     "standing": null,
+     "hold": "Sunward Exchange",
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "A stranger cornering {good} in Sunward. The Coin won't like it."
+     },
+     {
+      "speaker": "B",
+      "text": "The Coin will buy them, or bury them. He always does."
+     }
+    ]
+   },
+   {
+    "id": "deed_buy_06",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "inn",
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} bought the whole market, stalls and all."
+     },
+     {
+      "speaker": "B",
+      "text": "Three barrels. The rest is ale talking."
+     }
+    ]
+   },
+   {
+    "id": "deed_buy_07",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "keep",
+     "news": null,
+     "standing": "Councillor",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "The councillor buys {good} by the cartload. Ahead of a shortage?"
+     },
+     {
+      "speaker": "B",
+      "text": "Then {steward} should be buying too. Quietly."
+     }
+    ]
+   },
+   {
+    "id": "deed_buy_08",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "market",
+     "news": null,
+     "standing": "Shunned",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Sold {good} to {player}. My neighbours won't look at me."
+     },
+     {
+      "speaker": "B",
+      "text": "Coin's coin. But wash it before you spend it."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "sell",
+  "kind": "deed",
+  "who": "stallholders, rivals and the steward's people, about the player selling goods in the market and moving prices",
+  "exchanges": [
+   {
+    "id": "deed_sell_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} dumped a load of {good} on the market."
+     },
+     {
+      "speaker": "B",
+      "text": "Prices fell like a stone down a well."
+     }
+    ]
+   },
+   {
+    "id": "deed_sell_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "market",
+     "news": null,
+     "standing": "Distrusted",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} undercut me on {good}. My stall's dead this week."
+     },
+     {
+      "speaker": "B",
+      "text": "Undercut them back. Or join them."
+     }
+    ]
+   },
+   {
+    "id": "deed_sell_03",
+    "when": {
+     "state": [
+      "Starving",
+      "Lean"
+     ],
+     "time": null,
+     "place": "market",
+     "news": null,
+     "standing": "Friend",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Cheap {good} at last. {player} sold near cost."
+     },
+     {
+      "speaker": "B",
+      "text": "Near cost for them is a feast for us."
+     }
+    ]
+   },
+   {
+    "id": "deed_sell_04",
+    "when": {
+     "state": [
+      "Thriving"
+     ],
+     "time": null,
+     "place": "market",
+     "news": null,
+     "standing": "Neutral",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Glut of {good}. {player} sold into a full market."
+     },
+     {
+      "speaker": "B",
+      "text": "Fool's trade. Should've carted it to a lean town."
+     }
+    ]
+   },
+   {
+    "id": "deed_sell_05",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "keep",
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{steward} bought {player}'s {good} for the granary."
+     },
+     {
+      "speaker": "B",
+      "text": "At what price?"
+     },
+     {
+      "speaker": "A",
+      "text": "Fair. Which is rare, from either of them."
+     }
+    ]
+   },
+   {
+    "id": "deed_sell_06",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "inn",
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player}'s selling Blight-salt, they say. Grey stuff."
+     },
+     {
+      "speaker": "B",
+      "text": "Plain salt. I tasted it. Salt."
+     }
+    ]
+   },
+   {
+    "id": "deed_sell_07",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "market",
+     "news": null,
+     "standing": "Hunted",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Where'd {player} get that much {good}?"
+     },
+     {
+      "speaker": "B",
+      "text": "Off a cart. Off someone else's cart."
+     }
+    ]
+   },
+   {
+    "id": "deed_sell_08",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "market",
+     "news": null,
+     "standing": null,
+     "hold": "Reedwatch",
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Stranger sold {good} cheap and Reedwatch cheered."
+     },
+     {
+      "speaker": "B",
+      "text": "We cheer anything cheap. That's Reedwatch's whole charm."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "sell_item",
+  "kind": "deed",
+  "who": "stallholders, victims, scholars and the keep's household, about the player selling a single fine item",
+  "exchanges": [
+   {
+    "id": "deed_sell_item_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} sold a fine piece at market today."
+     },
+     {
+      "speaker": "B",
+      "text": "Loot, I'd wager. Fine pieces don't grow on the road."
+     }
+    ]
+   },
+   {
+    "id": "deed_sell_item_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "workshop",
+     "news": null,
+     "standing": "Neutral",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} sold me a blade with a guild mark scratched off."
+     },
+     {
+      "speaker": "B",
+      "text": "Then don't wear it near the guild tavern."
+     }
+    ]
+   },
+   {
+    "id": "deed_sell_item_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "market",
+     "news": null,
+     "standing": "Friend",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Got a good cloak off {player}. Fair price, no haggling."
+     },
+     {
+      "speaker": "B",
+      "text": "They haggle hard with merchants. Soft with us."
+     }
+    ]
+   },
+   {
+    "id": "deed_sell_item_04",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "keep",
+     "news": null,
+     "standing": "Titled",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "A ring from a March fort, sold in {town}'s own market."
+     },
+     {
+      "speaker": "B",
+      "text": "Old crown work. {lord} will want it before the Moot."
+     }
+    ]
+   },
+   {
+    "id": "deed_sell_item_05",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "market",
+     "news": null,
+     "standing": "Shunned",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "That's my husband's sword on {player}'s table."
+     },
+     {
+      "speaker": "B",
+      "text": "Off his body, or off the outlaws who killed him? Ask before you shout."
+     }
+    ]
+   },
+   {
+    "id": "deed_sell_item_06",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "inn",
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "They say {player} sold a shard of the Warden's Blade."
+     },
+     {
+      "speaker": "B",
+      "text": "A rusty dagger and a bent helm. I was there."
+     }
+    ]
+   },
+   {
+    "id": "deed_sell_item_07",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "workshop",
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} sold the library a ledger from the March forts."
+     },
+     {
+      "speaker": "B",
+      "text": "Stewards' hand. Before the Breaking. Did they know what they had?"
+     }
+    ]
+   },
+   {
+    "id": "deed_sell_item_08",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "market",
+     "news": null,
+     "standing": "Distrusted",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Lovely brooch. {player} won't say where it came from."
+     },
+     {
+      "speaker": "B",
+      "text": "Then it came from a grave or a purse. Pass."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "mount",
+  "kind": "deed",
+  "who": "horse traders, outlaws and townsfolk, about the player buying a horse or cart",
+  "exchanges": [
+   {
+    "id": "deed_mount_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} bought a horse at the market."
+     },
+     {
+      "speaker": "B",
+      "text": "Then they'll be gone by tomorrow. Riders never stay."
+     }
+    ]
+   },
+   {
+    "id": "deed_mount_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "market",
+     "news": null,
+     "standing": "Neutral",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Sold {player} the grey mare. Paid without haggling."
+     },
+     {
+      "speaker": "B",
+      "text": "The grey? She bites."
+     },
+     {
+      "speaker": "A",
+      "text": "Didn't mention it."
+     }
+    ]
+   },
+   {
+    "id": "deed_mount_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "market",
+     "news": null,
+     "standing": "Distrusted",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} bought a cart. A trader now, is it?"
+     },
+     {
+      "speaker": "B",
+      "text": "Or a thief who needed a bigger sack."
+     }
+    ]
+   },
+   {
+    "id": "deed_mount_04",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "road",
+     "news": null,
+     "standing": "Friend",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Good to see {player} on a proper horse. They walked too long."
+     },
+     {
+      "speaker": "B",
+      "text": "Long roads, bad feet. Walking does that."
+     }
+    ]
+   },
+   {
+    "id": "deed_mount_05",
+    "when": {
+     "state": null,
+     "time": "night",
+     "place": "camp",
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Fine horse on the east road. {player}'s."
+     },
+     {
+      "speaker": "B",
+      "text": "Fine horses get stolen. Ask the Dust Riders."
+     }
+    ]
+   },
+   {
+    "id": "deed_mount_06",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "inn",
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} bought a warhorse fit for a king."
+     },
+     {
+      "speaker": "B",
+      "text": "A plough horse with ambition. I sold it to them."
+     }
+    ]
+   },
+   {
+    "id": "deed_mount_07",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "home",
+     "news": null,
+     "standing": "Hunted",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Bought a horse. Means they can run faster next time."
+     },
+     {
+      "speaker": "B",
+      "text": "Or arrive faster. Bar the door."
+     }
+    ]
+   },
+   {
+    "id": "deed_mount_08",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "road",
+     "news": null,
+     "standing": "Champion",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player}'s bought a cart for the wounded. Rides with the guild parties."
+     },
+     {
+      "speaker": "B",
+      "text": "A champion with a sickcart. The old Stewards did that."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "tool",
+  "kind": "deed",
+  "who": "smiths, miners, fellers and townsfolk, about the player buying better tools",
+  "exchanges": [
+   {
+    "id": "deed_tool_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} bought new tools from the smith."
+     },
+     {
+      "speaker": "B",
+      "text": "Good tools, good work. Or good burglary."
+     }
+    ]
+   },
+   {
+    "id": "deed_tool_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "workshop",
+     "news": null,
+     "standing": "Neutral",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} paid full price for my best picks."
+     },
+     {
+      "speaker": "B",
+      "text": "Full price? You must have doubled it."
+     },
+     {
+      "speaker": "A",
+      "text": "Doubled it. They still paid."
+     }
+    ]
+   },
+   {
+    "id": "deed_tool_03",
+    "when": {
+     "state": null,
+     "time": "dawn",
+     "place": "field",
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} turned up at the mine with a shiny new pick."
+     },
+     {
+      "speaker": "B",
+      "text": "New pick, soft hands. Give it a week."
+     }
+    ]
+   },
+   {
+    "id": "deed_tool_04",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "field",
+     "news": null,
+     "standing": "Friend",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} bought axes for the whole grove crew."
+     },
+     {
+      "speaker": "B",
+      "text": "Then we'll fell more by Sunday and drink it by Monday."
+     }
+    ]
+   },
+   {
+    "id": "deed_tool_05",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "inn",
+     "news": null,
+     "standing": null,
+     "hold": "Stonepass Refuge",
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "They say {player} bought sky-iron tools from the refiners."
+     },
+     {
+      "speaker": "B",
+      "text": "Plain steel. The sky-iron secret isn't sold to strangers."
+     }
+    ]
+   },
+   {
+    "id": "deed_tool_06",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "market",
+     "news": null,
+     "standing": "Distrusted",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Pry bars and cold chisels. What's {player} building?"
+     },
+     {
+      "speaker": "B",
+      "text": "Or breaking into. Watch the counting-house."
+     }
+    ]
+   },
+   {
+    "id": "deed_tool_07",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "workshop",
+     "news": null,
+     "standing": "Titled",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} buys the tools and leaves them at the hall for the workmen."
+     },
+     {
+      "speaker": "B",
+      "text": "A lord who buys the picks. Haven't seen one of those."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "task",
+  "kind": "deed",
+  "who": "guild members, townsfolk and contract-sellers, about the player taking a contract",
+  "exchanges": [
+   {
+    "id": "deed_task_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} took a contract off the board."
+     },
+     {
+      "speaker": "B",
+      "text": "Which one?"
+     },
+     {
+      "speaker": "A",
+      "text": "The one nobody else would touch."
+     }
+    ]
+   },
+   {
+    "id": "deed_task_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "inn",
+     "news": null,
+     "standing": "Neutral",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} took the {hamlet} job before {guild} could field a party."
+     },
+     {
+      "speaker": "B",
+      "text": "Quicker than our five. And cheaper."
+     }
+    ]
+   },
+   {
+    "id": "deed_task_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "field",
+     "news": null,
+     "standing": "Friend",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player}'s taken the wolf job at {hamlet}. My sister's folds are safe."
+     },
+     {
+      "speaker": "B",
+      "text": "Wolves are the lord's beasts. Hope {player} knows the charter."
+     }
+    ]
+   },
+   {
+    "id": "deed_task_04",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "keep",
+     "news": null,
+     "standing": "Distrusted",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "A sealed contract from the keep. {player} took it unread."
+     },
+     {
+      "speaker": "B",
+      "text": "That kind ends in a ditch."
+     }
+    ]
+   },
+   {
+    "id": "deed_task_05",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "inn",
+     "news": null,
+     "standing": null,
+     "hold": "Reedwatch",
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Juliana Carter sold {player} a contract. She sells to anyone."
+     },
+     {
+      "speaker": "B",
+      "text": "Then let's hope it's an honest one, for once."
+     }
+    ]
+   },
+   {
+    "id": "deed_task_06",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "inn",
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} took a contract on a lord's life, I heard."
+     },
+     {
+      "speaker": "B",
+      "text": "A contract to guard salt carts. Dull, but it pays."
+     }
+    ]
+   },
+   {
+    "id": "deed_task_07",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "inn",
+     "news": null,
+     "standing": "Champion",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Do they finish their contracts, this {player}?"
+     },
+     {
+      "speaker": "B",
+      "text": "Every one. {guild} keeps a tally, and it's an annoying tally."
+     }
+    ]
+   },
+   {
+    "id": "deed_task_08",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "camp",
+     "news": null,
+     "standing": "Hunted",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} takes contracts against us now. Guild coin."
+     },
+     {
+      "speaker": "B",
+      "text": "Then we take one against them. Hollow Knives come cheap."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "work",
+  "kind": "deed",
+  "who": "miners, fellers and foremen, about the player labouring at a mine or grove",
+  "exchanges": [
+   {
+    "id": "deed_work_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} worked the mine with us all day."
+     },
+     {
+      "speaker": "B",
+      "text": "Didn't faint? Wonders."
+     }
+    ]
+   },
+   {
+    "id": "deed_work_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "field",
+     "news": null,
+     "standing": "Neutral",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} swung a pick beside me. Kept pace, too."
+     },
+     {
+      "speaker": "B",
+      "text": "Mind they don't keep yours. Picks walk off."
+     }
+    ]
+   },
+   {
+    "id": "deed_work_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "field",
+     "news": null,
+     "standing": "Champion",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Why's a champion breaking ore?"
+     },
+     {
+      "speaker": "B",
+      "text": "Coin's coin, {A}. Even heroes eat."
+     }
+    ]
+   },
+   {
+    "id": "deed_work_04",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "field",
+     "news": null,
+     "standing": "Friend",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} felled three oaks before noon at the grove."
+     },
+     {
+      "speaker": "B",
+      "text": "Nothing common about that axe-arm. Stand well back."
+     }
+    ]
+   },
+   {
+    "id": "deed_work_05",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "workshop",
+     "news": null,
+     "standing": "Neutral",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} works for wages and never grumbles."
+     },
+     {
+      "speaker": "B",
+      "text": "Then hire them again. Grumblers we have plenty."
+     }
+    ]
+   },
+   {
+    "id": "deed_work_06",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "inn",
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} found a seam of silver in the mine, they say."
+     },
+     {
+      "speaker": "B",
+      "text": "A seam of mud. The silver's in your head."
+     }
+    ]
+   },
+   {
+    "id": "deed_work_07",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "field",
+     "news": null,
+     "standing": "Distrusted",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player}'s at the grove, watching the paths, not the trees."
+     },
+     {
+      "speaker": "B",
+      "text": "Scouting for someone. Keep an eye out."
+     }
+    ]
+   },
+   {
+    "id": "deed_work_08",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "field",
+     "news": null,
+     "standing": "Titled",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "A titled lord in the mine. Shovelling."
+     },
+     {
+      "speaker": "B",
+      "text": "Don't laugh. Ironhand did the same, they say, in his youth."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "equip",
+  "kind": "deed",
+  "who": "smiths, families, the keep's household and outlaws, about the player arming their recruits",
+  "exchanges": [
+   {
+    "id": "deed_equip_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} armed their recruits. New spears all round."
+     },
+     {
+      "speaker": "B",
+      "text": "Somebody's getting ready for something."
+     }
+    ]
+   },
+   {
+    "id": "deed_equip_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "workshop",
+     "news": null,
+     "standing": "Neutral",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} ordered twenty spearheads. Paid half up front."
+     },
+     {
+      "speaker": "B",
+      "text": "Half's more than {lord} ever pays up front."
+     }
+    ]
+   },
+   {
+    "id": "deed_equip_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "keep",
+     "news": null,
+     "standing": "Distrusted",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player}'s company in mail now. Better kit than our garrison."
+     },
+     {
+      "speaker": "B",
+      "text": "{lord} will want to know where the coin came from."
+     }
+    ]
+   },
+   {
+    "id": "deed_equip_04",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "home",
+     "news": null,
+     "standing": "Friend",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "My lad wears a helmet now. {player} bought it."
+     },
+     {
+      "speaker": "B",
+      "text": "Better a helmet than a hood, out east."
+     }
+    ]
+   },
+   {
+    "id": "deed_equip_05",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "camp",
+     "news": null,
+     "standing": "Hunted",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player}'s recruits have new crossbows."
+     },
+     {
+      "speaker": "B",
+      "text": "Then we stop ambushing them. Ambush someone poorer."
+     }
+    ]
+   },
+   {
+    "id": "deed_equip_06",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "inn",
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "They say {player}'s men wear enchanted steel."
+     },
+     {
+      "speaker": "B",
+      "text": "Boiled leather, painted grey. Wouldn't fool a smith's boy."
+     }
+    ]
+   },
+   {
+    "id": "deed_equip_07",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "market",
+     "news": null,
+     "standing": "Champion",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} armed their people properly. No farm lads with pitchforks."
+     },
+     {
+      "speaker": "B",
+      "text": "Shame {lord} won't do the same for the levy."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "earn",
+  "kind": "deed",
+  "who": "innkeepers, drinkers and townsfolk, about the player earning wages",
+  "exchanges": [
+   {
+    "id": "deed_earn_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} drew wages today."
+     },
+     {
+      "speaker": "B",
+      "text": "Spent them by nightfall, I'd guess."
+     }
+    ]
+   },
+   {
+    "id": "deed_earn_02",
+    "when": {
+     "state": null,
+     "time": "evening",
+     "place": "inn",
+     "news": null,
+     "standing": "Neutral",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player}'s buying rounds. Wage day."
+     },
+     {
+      "speaker": "B",
+      "text": "Then sit near them. Drink while it lasts."
+     }
+    ]
+   },
+   {
+    "id": "deed_earn_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "market",
+     "news": null,
+     "standing": "Friend",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} earned good coin at the wharf. Gave half to the widow."
+     },
+     {
+      "speaker": "B",
+      "text": "Which widow?"
+     },
+     {
+      "speaker": "A",
+      "text": "The one with the leaking roof."
+     }
+    ]
+   },
+   {
+    "id": "deed_earn_04",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "field",
+     "news": null,
+     "standing": "Neutral",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Wage labour suits {player}. Didn't look like it would."
+     },
+     {
+      "speaker": "B",
+      "text": "Everybody's a labourer once."
+     }
+    ]
+   },
+   {
+    "id": "deed_earn_05",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "inn",
+     "news": null,
+     "standing": "Distrusted",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} earning honest wages? There's a trick in it."
+     },
+     {
+      "speaker": "B",
+      "text": "Maybe honesty is the trick. Rare enough to look like one."
+     }
+    ]
+   },
+   {
+    "id": "deed_earn_06",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "market",
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} earned a hundred coin in a day, they say."
+     },
+     {
+      "speaker": "B",
+      "text": "Twelve. I counted it out myself."
+     }
+    ]
+   },
+   {
+    "id": "deed_earn_07",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "home",
+     "news": null,
+     "standing": "Shunned",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Who'd pay {player} wages?"
+     },
+     {
+      "speaker": "B",
+      "text": "Someone who couldn't get anyone else."
+     }
+    ]
+   },
+   {
+    "id": "deed_earn_08",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "keep",
+     "news": null,
+     "standing": "Councillor",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "A councillor drawing labourer's wages. What's that for?"
+     },
+     {
+      "speaker": "B",
+      "text": "To show the hall they're no lord. Or to look like it."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "enrol",
+  "kind": "deed",
+  "who": "families, clergy, scholars and the keep's household, about the player sending a mage or healer to the tower school by Mereworth",
+  "exchanges": [
+   {
+    "id": "deed_enrol_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} sent someone to the tower school by Mereworth."
+     },
+     {
+      "speaker": "B",
+      "text": "A mage? From here?"
+     },
+     {
+      "speaker": "A",
+      "text": "A healer, they say."
+     }
+    ]
+   },
+   {
+    "id": "deed_enrol_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "home",
+     "news": null,
+     "standing": "Friend",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} paid for our girl to go to the tower."
+     },
+     {
+      "speaker": "B",
+      "text": "She'll come back talking like a scholar and correcting your sums."
+     }
+    ]
+   },
+   {
+    "id": "deed_enrol_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "temple",
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Another healer sent to the tower instead of the temple."
+     },
+     {
+      "speaker": "B",
+      "text": "The tower teaches herbs. The temple teaches mercy. We need both."
+     }
+    ]
+   },
+   {
+    "id": "deed_enrol_04",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "keep",
+     "news": null,
+     "standing": "Distrusted",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player}'s training mages. A court mage in waiting."
+     },
+     {
+      "speaker": "B",
+      "text": "{lord} keeps his own mages close. He won't like a rival's."
+     }
+    ]
+   },
+   {
+    "id": "deed_enrol_05",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "market",
+     "news": null,
+     "standing": "Champion",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} sent the cooper's boy to the tower. Spark in his hands."
+     },
+     {
+      "speaker": "B",
+      "text": "Margaret the Sage saw it first, they say."
+     }
+    ]
+   },
+   {
+    "id": "deed_enrol_06",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "inn",
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "They say {player} is sending warlocks to the tower."
+     },
+     {
+      "speaker": "B",
+      "text": "A healer and a herbwife. Hardly the last spring."
+     }
+    ]
+   },
+   {
+    "id": "deed_enrol_07",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "workshop",
+     "news": null,
+     "standing": "Neutral",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Why pay for a mage's schooling?"
+     },
+     {
+      "speaker": "B",
+      "text": "Mages who owe you are worth an army."
+     },
+     {
+      "speaker": "C",
+      "text": "Strictly, half an army. The tower graduates barely a hundred a year."
+     }
+    ]
+   },
+   {
+    "id": "deed_enrol_08",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "home",
+     "news": null,
+     "standing": "Shunned",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player}'s coin sent the tanner's son to Mereworth."
+     },
+     {
+      "speaker": "B",
+      "text": "Then let him learn to wash it off."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "join_lodge",
+  "kind": "deed",
+  "who": "lodge hunters, shepherds and the lord's foresters, about the player joining the hunting lodge",
+  "exchanges": [
+   {
+    "id": "deed_join_lodge_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} paid their dues and joined the lodge."
+     },
+     {
+      "speaker": "B",
+      "text": "Swore the Half Law, then. Let's see them keep it."
+     }
+    ]
+   },
+   {
+    "id": "deed_join_lodge_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "inn",
+     "news": "lodge",
+     "standing": "Friend",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Twenty-five coin and an oath. {player}'s one of us."
+     },
+     {
+      "speaker": "B",
+      "text": "One of us till the charter bites. Then we'll see."
+     }
+    ]
+   },
+   {
+    "id": "deed_join_lodge_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "keep",
+     "news": null,
+     "standing": "Distrusted",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} joined the lodge. {lord}'s foresters are watching."
+     },
+     {
+      "speaker": "B",
+      "text": "Watch the wolves, then. That's where the charter breaks."
+     }
+    ]
+   },
+   {
+    "id": "deed_join_lodge_04",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "field",
+     "news": null,
+     "standing": "Neutral",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player}'s lodge now. Maybe they'll cull the wolves off our folds."
+     },
+     {
+      "speaker": "B",
+      "text": "Charter says no. But {player} doesn't strike me as a charter sort."
+     }
+    ]
+   },
+   {
+    "id": "deed_join_lodge_05",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "wild",
+     "news": null,
+     "standing": "Champion",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Take half. Leave half. Did they say it like they meant it?"
+     },
+     {
+      "speaker": "B",
+      "text": "Said it like a farmer counting sheep. They'll do."
+     }
+    ]
+   },
+   {
+    "id": "deed_join_lodge_06",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "inn",
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "They say {player} is lodge-master already."
+     },
+     {
+      "speaker": "B",
+      "text": "Dues paid this morning. Master by nightfall? Hardly."
+     }
+    ]
+   },
+   {
+    "id": "deed_join_lodge_07",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "camp",
+     "news": null,
+     "standing": "Hunted",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} joined the lodge. They'll be in our poaching woods now."
+     },
+     {
+      "speaker": "B",
+      "text": "Then hunt the far side of the stream. Same as always."
+     }
+    ]
+   },
+   {
+    "id": "deed_join_lodge_08",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "inn",
+     "news": null,
+     "standing": null,
+     "hold": "First Hearth",
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "The King's Lodge took {player}. Isabella Fox will want their vote."
+     },
+     {
+      "speaker": "B",
+      "text": "For Sir Robert's banner? The old master would sooner burn it."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "lodge_sell",
+  "kind": "deed",
+  "who": "lodge hunters, stallholders and townsfolk, about the player selling hides and meat through the lodge",
+  "exchanges": [
+   {
+    "id": "deed_lodge_sell_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} sold hides through the lodge."
+     },
+     {
+      "speaker": "B",
+      "text": "Lodge took its cut. Fair dealing."
+     }
+    ]
+   },
+   {
+    "id": "deed_lodge_sell_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "inn",
+     "news": null,
+     "standing": "Friend",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player}'s hides put the lodge purse over four hundred."
+     },
+     {
+      "speaker": "B",
+      "text": "Then the town gets the rest. Shame, that."
+     }
+    ]
+   },
+   {
+    "id": "deed_lodge_sell_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "market",
+     "news": null,
+     "standing": "Distrusted",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} sells through the lodge, not through my stall."
+     },
+     {
+      "speaker": "B",
+      "text": "Lodge cut's lower than your markup, {A}."
+     }
+    ]
+   },
+   {
+    "id": "deed_lodge_sell_04",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "workshop",
+     "news": null,
+     "standing": "Neutral",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Good hides from {player}. Clean skinning, no holes."
+     },
+     {
+      "speaker": "B",
+      "text": "Someone taught them right. Or they ruined a lot learning."
+     }
+    ]
+   },
+   {
+    "id": "deed_lodge_sell_05",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "market",
+     "news": null,
+     "standing": null,
+     "hold": "Sunward Exchange",
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} sells meat to the lodge, not to the Coin's buyers."
+     },
+     {
+      "speaker": "B",
+      "text": "Good. The Coin buys cheap and sells it on at double."
+     }
+    ]
+   },
+   {
+    "id": "deed_lodge_sell_06",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "inn",
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} brought in a wolf pelt. Charter breaker!"
+     },
+     {
+      "speaker": "B",
+      "text": "A dog's pelt. From a dead dog. Calm yourself."
+     }
+    ]
+   },
+   {
+    "id": "deed_lodge_sell_07",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "wild",
+     "news": null,
+     "standing": "Champion",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Where did {player} hunt all that? Not our woods past half, I hope."
+     },
+     {
+      "speaker": "B",
+      "text": "Counted the herd myself. Half left standing. They keep the Law."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "hire_hunter",
+  "kind": "deed",
+  "who": "lodge hunters, families and the keep's household, about the player hiring a hunter away from the lodge",
+  "exchanges": [
+   {
+    "id": "deed_hire_hunter_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} hired a lodge hunter. Took them off our rota."
+     },
+     {
+      "speaker": "B",
+      "text": "Forty coin. The lodge will remember."
+     }
+    ]
+   },
+   {
+    "id": "deed_hire_hunter_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "inn",
+     "news": null,
+     "standing": "Distrusted",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} hired our best bow for a month. We're a crew short."
+     },
+     {
+      "speaker": "B",
+      "text": "And the far hunt's due. Who goes in her place?"
+     }
+    ]
+   },
+   {
+    "id": "deed_hire_hunter_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "home",
+     "news": null,
+     "standing": "Neutral",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Our son's off with {player}, hunting for coin."
+     },
+     {
+      "speaker": "B",
+      "text": "Better coin than lodge pay. Worse odds, maybe."
+     }
+    ]
+   },
+   {
+    "id": "deed_hire_hunter_04",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "keep",
+     "news": null,
+     "standing": "Titled",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} hires lodge huntsmen for their own hunts now."
+     },
+     {
+      "speaker": "B",
+      "text": "Hunting what? Not the lord's beasts, if they're wise."
+     }
+    ]
+   },
+   {
+    "id": "deed_hire_hunter_05",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "inn",
+     "news": null,
+     "standing": "Friend",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Half price for lodge members. {player} paid full anyway."
+     },
+     {
+      "speaker": "B",
+      "text": "Then they're a good one. Or bad at sums."
+     }
+    ]
+   },
+   {
+    "id": "deed_hire_hunter_06",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "market",
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "They say {player} hired the whole lodge to break the charter."
+     },
+     {
+      "speaker": "B",
+      "text": "One hunter. To find a lost mule."
+     }
+    ]
+   },
+   {
+    "id": "deed_hire_hunter_07",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "camp",
+     "news": null,
+     "standing": "Hunted",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player}'s got a lodge tracker now. Hunting our camp, I'd guess."
+     },
+     {
+      "speaker": "B",
+      "text": "Then we move the fire tonight. Trackers hate wet ground."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "raid_slavers",
+  "kind": "deed",
+  "who": "freed families, clergy, outlaws and the keep's household, about the player raiding the slavers' holds",
+  "exchanges": [
+   {
+    "id": "deed_raid_slavers_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} raided the slavers' holds in the north."
+     },
+     {
+      "speaker": "B",
+      "text": "Raided them? And lived?"
+     }
+    ]
+   },
+   {
+    "id": "deed_raid_slavers_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "home",
+     "news": "slavers",
+     "standing": "Friend",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "My sister came home last night. {player} broke the pen."
+     },
+     {
+      "speaker": "B",
+      "text": "Then light a candle for {player}. Two."
+     }
+    ]
+   },
+   {
+    "id": "deed_raid_slavers_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "temple",
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} freed the captives. The saints smile on that."
+     },
+     {
+      "speaker": "B",
+      "text": "And the slavers will hunt them for it."
+     }
+    ]
+   },
+   {
+    "id": "deed_raid_slavers_04",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "inn",
+     "news": null,
+     "standing": null,
+     "hold": "Stonepass Refuge",
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "The slaver camp west of Stonepass is burnt. {player}'s work."
+     },
+     {
+      "speaker": "B",
+      "text": "Ironhand never lifted a finger to them. Now a stranger has."
+     }
+    ]
+   },
+   {
+    "id": "deed_raid_slavers_05",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "keep",
+     "news": null,
+     "standing": "Neutral",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{lord} pays ransoms, and {player} burns the pens. Awkward for the keep."
+     },
+     {
+      "speaker": "B",
+      "text": "Awkward is cheaper than ransom."
+     }
+    ]
+   },
+   {
+    "id": "deed_raid_slavers_06",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "camp",
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} hit the slavers. Even we don't touch those holds."
+     },
+     {
+      "speaker": "B",
+      "text": "Even we have limits. Good on them."
+     }
+    ]
+   },
+   {
+    "id": "deed_raid_slavers_07",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "inn",
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "They say {player} killed all thirty-six slavers single-handed."
+     },
+     {
+      "speaker": "B",
+      "text": "Six, with help. The rest ran north."
+     }
+    ]
+   },
+   {
+    "id": "deed_raid_slavers_08",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "market",
+     "news": null,
+     "standing": "Champion",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Another reason they're our champion."
+     },
+     {
+      "speaker": "B",
+      "text": "Champions wait for orders. This one doesn't."
+     }
+    ]
+   },
+   {
+    "id": "deed_raid_slavers_09",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "market",
+     "news": null,
+     "standing": "Shunned",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} raiding slavers? After everything?"
+     },
+     {
+      "speaker": "B",
+      "text": "Maybe they're trying to pay something back. Let them try."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "ransom",
+  "kind": "deed",
+  "who": "families, clergy, outlaws and the keep's household, about the player ransoming captives",
+  "exchanges": [
+   {
+    "id": "deed_ransom_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} paid the ransom for the captives."
+     },
+     {
+      "speaker": "B",
+      "text": "Paid slavers. That feeds the trade."
+     }
+    ]
+   },
+   {
+    "id": "deed_ransom_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "home",
+     "news": null,
+     "standing": "Friend",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Our daughter's home. {player} paid what we couldn't."
+     },
+     {
+      "speaker": "B",
+      "text": "Then we owe them. And we pay our debts."
+     }
+    ]
+   },
+   {
+    "id": "deed_ransom_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "temple",
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Ransoming captives is mercy, even if it feeds slavers."
+     },
+     {
+      "speaker": "B",
+      "text": "Mercy now, justice later. The order matters."
+     }
+    ]
+   },
+   {
+    "id": "deed_ransom_04",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "market",
+     "news": null,
+     "standing": "Distrusted",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} paid the slavers? Must have dealings with them."
+     },
+     {
+      "speaker": "B",
+      "text": "Or a heart. Rare thing, but it happens."
+     }
+    ]
+   },
+   {
+    "id": "deed_ransom_05",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "keep",
+     "news": "home",
+     "standing": "Neutral",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} ransomed {hamlet}'s people before {lord} could."
+     },
+     {
+      "speaker": "B",
+      "text": "He'll say he meant to. Next week."
+     }
+    ]
+   },
+   {
+    "id": "deed_ransom_06",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "inn",
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} paid a thousand for the captives, they say."
+     },
+     {
+      "speaker": "B",
+      "text": "Ninety. The slavers wanted more, but the captives were thin."
+     }
+    ]
+   },
+   {
+    "id": "deed_ransom_07",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "camp",
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} pays ransoms. Means captives are worth taking."
+     },
+     {
+      "speaker": "B",
+      "text": "Don't, {A}. We're thieves. Not that."
+     }
+    ]
+   },
+   {
+    "id": "deed_ransom_08",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "road",
+     "news": null,
+     "standing": "Champion",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Saw the ransomed folk come down the road with {player} beside the cart."
+     },
+     {
+      "speaker": "B",
+      "text": "Walking, not riding. Gave their horse to an old man."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "sell_captives",
+  "kind": "deed",
+  "who": "victims' families, clergy, outlaws and the keep's household, about the player selling captives to the slavers",
+  "exchanges": [
+   {
+    "id": "deed_sell_captives_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} sold captives to the slavers."
+     },
+     {
+      "speaker": "B",
+      "text": "Then {player} is dead to {town}. Spit on the name."
+     }
+    ]
+   },
+   {
+    "id": "deed_sell_captives_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "market",
+     "news": null,
+     "standing": "Shunned",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "No caravans. No trade. Because {player} sold people."
+     },
+     {
+      "speaker": "B",
+      "text": "Every road knows it. The whole town pays for one sin."
+     }
+    ]
+   },
+   {
+    "id": "deed_sell_captives_03",
+    "when": {
+     "state": null,
+     "time": "night",
+     "place": "home",
+     "news": null,
+     "standing": "Hunted",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "My husband, sold north by {player}."
+     },
+     {
+      "speaker": "B",
+      "text": "We'll find him. Or we'll find {player}."
+     }
+    ]
+   },
+   {
+    "id": "deed_sell_captives_04",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "temple",
+     "news": null,
+     "standing": "Shunned",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "The temple doors are barred to {player}."
+     },
+     {
+      "speaker": "B",
+      "text": "And the hearth, and the inn, and the gate."
+     }
+    ]
+   },
+   {
+    "id": "deed_sell_captives_05",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "camp",
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Even {band} won't sell people. {player} did."
+     },
+     {
+      "speaker": "B",
+      "text": "Then {player}'s worse than us. Never thought I'd say that."
+     }
+    ]
+   },
+   {
+    "id": "deed_sell_captives_06",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "inn",
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "They say {player} sold a whole hamlet north."
+     },
+     {
+      "speaker": "B",
+      "text": "Three outlaws they'd caught. Still a slaver's deal. Still foul."
+     }
+    ]
+   },
+   {
+    "id": "deed_sell_captives_07",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "keep",
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{lord} will hang {player} at the gate if they show their face."
+     },
+     {
+      "speaker": "B",
+      "text": "Ironhand has sworn the same. Every lord has."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "slaver_trade",
+  "kind": "deed",
+  "who": "merchants, families and clergy, about the player trading with the slavers' holds",
+  "exchanges": [
+   {
+    "id": "deed_slaver_trade_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} trades with the slavers' holds."
+     },
+     {
+      "speaker": "B",
+      "text": "Then nothing from {player}'s carts touches my table."
+     }
+    ]
+   },
+   {
+    "id": "deed_slaver_trade_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "road",
+     "news": null,
+     "standing": "Shunned",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Caravans skip {town}. {player} traded with slavers here."
+     },
+     {
+      "speaker": "B",
+      "text": "Weeks of empty markets for one person's greed."
+     }
+    ]
+   },
+   {
+    "id": "deed_slaver_trade_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "market",
+     "news": null,
+     "standing": "Distrusted",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player}'s carts came down from the north. From the holds."
+     },
+     {
+      "speaker": "B",
+      "text": "Burn the carts. Wash your hands after."
+     }
+    ]
+   },
+   {
+    "id": "deed_slaver_trade_04",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "market",
+     "news": null,
+     "standing": null,
+     "hold": "Sunward Exchange",
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "In Sunward money's money. Even slavers' money."
+     },
+     {
+      "speaker": "B",
+      "text": "Not even the Coin trades in people. Not openly."
+     }
+    ]
+   },
+   {
+    "id": "deed_slaver_trade_05",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "home",
+     "news": null,
+     "standing": "Hunted",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Did they see our cousins up there, at the holds?"
+     },
+     {
+      "speaker": "B",
+      "text": "If they did, they didn't buy them back."
+     }
+    ]
+   },
+   {
+    "id": "deed_slaver_trade_06",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "inn",
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "They say {player} owns a slavers' hold now."
+     },
+     {
+      "speaker": "B",
+      "text": "Bought salt from one. Bad enough."
+     }
+    ]
+   },
+   {
+    "id": "deed_slaver_trade_07",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "temple",
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} came to the altar for a blessing on their trade."
+     },
+     {
+      "speaker": "B",
+      "text": "We bless nothing that comes down from the north holds."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "free_leak",
+  "kind": "deed",
+  "who": "hamlet folk, guild members, clergy and the keep's household, about the player stopping a Blight leak from a lair",
+  "exchanges": [
+   {
+    "id": "deed_free_leak_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} stopped a Blight leak at the lair."
+     },
+     {
+      "speaker": "B",
+      "text": "Before it reached {hamlet}? Thank the saints."
+     }
+    ]
+   },
+   {
+    "id": "deed_free_leak_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "field",
+     "news": "leak",
+     "standing": "Friend",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "The pack never reached {hamlet}. {player} was waiting for it."
+     },
+     {
+      "speaker": "B",
+      "text": "My cow lives another week."
+     }
+    ]
+   },
+   {
+    "id": "deed_free_leak_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "inn",
+     "news": null,
+     "standing": "Neutral",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "That leak was ours to stop. {guild} was three weeks late."
+     },
+     {
+      "speaker": "B",
+      "text": "{player} wasn't."
+     }
+    ]
+   },
+   {
+    "id": "deed_free_leak_04",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "temple",
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "The Blight turned back. {player} carried holy water, they say."
+     },
+     {
+      "speaker": "B",
+      "text": "Holy water, and a very sharp sword."
+     }
+    ]
+   },
+   {
+    "id": "deed_free_leak_05",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "market",
+     "news": null,
+     "standing": "Distrusted",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} stops one leak and wants thanking."
+     },
+     {
+      "speaker": "B",
+      "text": "Then thank them. Leaks don't stop themselves."
+     }
+    ]
+   },
+   {
+    "id": "deed_free_leak_06",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "inn",
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} sealed a rift for good, they say."
+     },
+     {
+      "speaker": "B",
+      "text": "A leak, not a rift. The rift's still there, still hungry."
+     }
+    ]
+   },
+   {
+    "id": "deed_free_leak_07",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "keep",
+     "news": null,
+     "standing": "Champion",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{lord} meant to send heroes. {player} went first."
+     },
+     {
+      "speaker": "B",
+      "text": "The heroes are at the hunt. Again."
+     }
+    ]
+   },
+   {
+    "id": "deed_free_leak_08",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "road",
+     "news": null,
+     "standing": "Hunted",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "The wanted one stopped the leak. Strange."
+     },
+     {
+      "speaker": "B",
+      "text": "The Blight doesn't care about bounties. Neither did they, it seems."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "climb",
+  "kind": "deed",
+  "who": "wildcrafters, outlaws and the tower watch, about the player climbing a cliff to a lookout or cache",
+  "exchanges": [
+   {
+    "id": "deed_climb_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} climbed the cliff to the old lookout."
+     },
+     {
+      "speaker": "B",
+      "text": "Mad or brave. Same thing, up there."
+     }
+    ]
+   },
+   {
+    "id": "deed_climb_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "wild",
+     "news": null,
+     "standing": "Friend",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} climbed the butte-top and brought down an armful of herbs."
+     },
+     {
+      "speaker": "B",
+      "text": "Wildcrafters do that. Did they fall?"
+     },
+     {
+      "speaker": "A",
+      "text": "Not once."
+     }
+    ]
+   },
+   {
+    "id": "deed_climb_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "camp",
+     "news": null,
+     "standing": "Hunted",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} found our cache on the cliff."
+     },
+     {
+      "speaker": "B",
+      "text": "Then move it. Higher."
+     }
+    ]
+   },
+   {
+    "id": "deed_climb_04",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "road",
+     "news": null,
+     "standing": "Neutral",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} climbed up to the beacon on the ridge."
+     },
+     {
+      "speaker": "B",
+      "text": "Did they light it?"
+     },
+     {
+      "speaker": "A",
+      "text": "Looked east a long while. Didn't say a word."
+     }
+    ]
+   },
+   {
+    "id": "deed_climb_05",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "inn",
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "They say {player} climbed so high they touched the clouds."
+     },
+     {
+      "speaker": "B",
+      "text": "A cliff. A tall one. With a goat path halfway."
+     }
+    ]
+   },
+   {
+    "id": "deed_climb_06",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "market",
+     "news": null,
+     "standing": "Distrusted",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Why climb to a lookout? What's up there?"
+     },
+     {
+      "speaker": "B",
+      "text": "A view of our roads. Who's on them, and who isn't."
+     }
+    ]
+   },
+   {
+    "id": "deed_climb_07",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "keep",
+     "news": null,
+     "standing": "Titled",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} climbs cliffs like a herd boy. With a hall to run."
+     },
+     {
+      "speaker": "B",
+      "text": "Old Stewards climbed to the Rim lookouts too. Maybe that's the point."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "pc_recruit",
+  "kind": "deed",
+  "who": "families, craftsmen, the garrison and townsfolk, about someone from the town joining the player's company",
+  "exchanges": [
+   {
+    "id": "deed_pc_recruit_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} has taken on another follower."
+     },
+     {
+      "speaker": "B",
+      "text": "From {town}? Who?"
+     },
+     {
+      "speaker": "A",
+      "text": "The tanner's lad. Quick hands."
+     }
+    ]
+   },
+   {
+    "id": "deed_pc_recruit_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "home",
+     "news": null,
+     "standing": "Friend",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "My brother joined {player}'s company. Proud day."
+     },
+     {
+      "speaker": "B",
+      "text": "Proud and worried. Both at once."
+     }
+    ]
+   },
+   {
+    "id": "deed_pc_recruit_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "workshop",
+     "news": null,
+     "standing": "Neutral",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "My apprentice left the bench for {player}'s company."
+     },
+     {
+      "speaker": "B",
+      "text": "Swords pay better than shoes, {A}."
+     }
+    ]
+   },
+   {
+    "id": "deed_pc_recruit_04",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "market",
+     "news": null,
+     "standing": "Distrusted",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} took on the sergeant's daughter."
+     },
+     {
+      "speaker": "B",
+      "text": "The sergeant will be furious. Or proud. Hard to tell with him."
+     }
+    ]
+   },
+   {
+    "id": "deed_pc_recruit_05",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "keep",
+     "news": null,
+     "standing": "Councillor",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} took one of {lord}'s guards into their company."
+     },
+     {
+      "speaker": "B",
+      "text": "Desertion, the sergeant calls it. Promotion, the guard calls it."
+     }
+    ]
+   },
+   {
+    "id": "deed_pc_recruit_06",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "inn",
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "They say {player} recruited one of {lord}'s heroes."
+     },
+     {
+      "speaker": "B",
+      "text": "The cook from this inn. Best stew in {town}, gone."
+     }
+    ]
+   },
+   {
+    "id": "deed_pc_recruit_07",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "market",
+     "news": null,
+     "standing": "Shunned",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Who signs with {player}? Fools and runaways."
+     },
+     {
+      "speaker": "B",
+      "text": "And folk with debts in {town}. Check the tally sticks."
+     }
+    ]
+   },
+   {
+    "id": "deed_pc_recruit_08",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "inn",
+     "news": null,
+     "standing": "Champion",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} took Agnes's boy. He's never held a spear."
+     },
+     {
+      "speaker": "B",
+      "text": "He will by the week's end. They train them hard, I hear."
+     }
+    ]
+   }
+  ]
+ }
+]

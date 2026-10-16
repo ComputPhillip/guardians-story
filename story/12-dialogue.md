@@ -51,6 +51,22 @@ On top of that, the squad has its own layer:
 
 Animals and Blight creatures don't speak. Their activity verbs (Browse, Graze, Root, Prowl, Swarm, Dominate, Ravage and so on) have dialogue spoken by the **people who see them**: shepherds, wardens, hunters, scouts and outlaws on watch. Blight lines are short and dread-filled, and can name the calamity.
 
+## Totals
+
+| File | Sets | Exchanges | Lines |
+|---|---|---|---|
+| `events.json` | 48 | 267 | 547 |
+| `home-and-rest.json` | 50 | 239 | 647 |
+| `market-and-road.json` | 38 | 179 | 435 |
+| `player-deeds.json` | 40 | 322 | 671 |
+| `squad-combat.json` | 25 | 231 | 465 |
+| `squad-life.json` | 28 | 224 | 678 |
+| `work-1.json` | 60 | 241 | 625 |
+| `work-2.json` | 61 | 255 | 765 |
+| `work-3.json` | 61 | 226 | 554 |
+| `worship-and-company.json` | 53 | 307 | 714 |
+| **Total** | **464** | **2,491** | **6,101** |
+
 ## Testing
 
 `dialogue/validate.py` checks that every action, event and deed in `dialogue/src/actions.json` has a set, that each set has enough exchanges and a fallback, that only the allowed placeholders are used, and that exchange ids are unique.

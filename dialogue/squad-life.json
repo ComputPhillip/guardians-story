@@ -365,7 +365,9 @@
    {
     "id": "sqlife_order_travel_06",
     "when": {
-     "state": "Starving",
+     "state": [
+      "Starving"
+     ],
      "time": null,
      "place": null,
      "news": null,
@@ -730,7 +732,9 @@
    {
     "id": "sqlife_order_work_05",
     "when": {
-     "state": "Thriving",
+     "state": [
+      "Thriving"
+     ],
      "time": null,
      "place": null,
      "news": null,
@@ -784,7 +788,9 @@
    {
     "id": "sqlife_order_work_07",
     "when": {
-     "state": "Lean",
+     "state": [
+      "Lean"
+     ],
      "time": null,
      "place": null,
      "news": null,
@@ -1541,7 +1547,9 @@
    {
     "id": "sqlife_mission_return_loss_06",
     "when": {
-     "state": "Starving",
+     "state": [
+      "Starving"
+     ],
      "time": null,
      "place": null,
      "news": null,
@@ -1741,7 +1749,9 @@
    {
     "id": "sqlife_wages_paid_06",
     "when": {
-     "state": "Starving",
+     "state": [
+      "Starving"
+     ],
      "time": null,
      "place": null,
      "news": null,
@@ -1910,7 +1920,9 @@
    {
     "id": "sqlife_wages_late_05",
     "when": {
-     "state": "Lean",
+     "state": [
+      "Lean"
+     ],
      "time": null,
      "place": null,
      "news": null,
@@ -2556,7 +2568,9 @@
    {
     "id": "sqlife_wounded_05",
     "when": {
-     "state": "Thriving",
+     "state": [
+      "Thriving"
+     ],
      "time": null,
      "place": null,
      "news": null,
@@ -3990,7 +4004,9 @@
    {
     "id": "sqlife_road_camp_11",
     "when": {
-     "state": "Starving",
+     "state": [
+      "Starving"
+     ],
      "time": null,
      "place": null,
      "news": null,
@@ -4278,7 +4294,9 @@
    {
     "id": "sqlife_town_arrival_02",
     "when": {
-     "state": "Starving",
+     "state": [
+      "Starving"
+     ],
      "time": null,
      "place": null,
      "news": null,
@@ -4305,7 +4323,9 @@
    {
     "id": "sqlife_town_arrival_03",
     "when": {
-     "state": "Thriving",
+     "state": [
+      "Thriving"
+     ],
      "time": null,
      "place": null,
      "news": null,
@@ -4582,7 +4602,9 @@
    {
     "id": "sqlife_meal_together_03",
     "when": {
-     "state": "Thriving",
+     "state": [
+      "Thriving"
+     ],
      "time": null,
      "place": null,
      "news": null,
@@ -4609,7 +4631,9 @@
    {
     "id": "sqlife_meal_together_04",
     "when": {
-     "state": "Starving",
+     "state": [
+      "Starving"
+     ],
      "time": null,
      "place": null,
      "news": null,
@@ -5187,7 +5211,9 @@
    {
     "id": "sqlife_idle_banter_13",
     "when": {
-     "state": "Lean",
+     "state": [
+      "Lean"
+     ],
      "time": null,
      "place": null,
      "news": null,
