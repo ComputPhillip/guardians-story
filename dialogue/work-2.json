@@ -1,0 +1,6885 @@
+[
+ {
+  "action": "WaitForDew",
+  "kind": "activity",
+  "who": "two field hands waiting for the dew to burn off",
+  "exchanges": [
+   {
+    "id": "wait_for_dew_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Grass is soaking. Cut it now and it rots in the cock."
+     },
+     {
+      "speaker": "B",
+      "text": "So we stand here like herons till the sun's up."
+     },
+     {
+      "speaker": "A",
+      "text": "Herons get paid better. They eat what they catch."
+     }
+    ]
+   },
+   {
+    "id": "wait_for_dew_02",
+    "when": {
+     "state": null,
+     "time": "dawn",
+     "place": "field",
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Mist on the low meadow again."
+     },
+     {
+      "speaker": "B",
+      "text": "My gran said mist at dawn means the Blight's breathing."
+     },
+     {
+      "speaker": "A",
+      "text": "Your gran said that about everything. Even the cat."
+     }
+    ]
+   },
+   {
+    "id": "wait_for_dew_03",
+    "when": {
+     "state": [
+      "Starving"
+     ],
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Can't we start? Dew or no dew, I'm hungry."
+     },
+     {
+      "speaker": "B",
+      "text": "Wet hay heats and burns the rick. Then we're all hungry."
+     },
+     {
+      "speaker": "A",
+      "text": "Fine. I'll chew a grass stem and pretend it's bread."
+     }
+    ]
+   },
+   {
+    "id": "wait_for_dew_04",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": "Reedwatch"
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Dew never lifts in Reedwatch. The whole fen's a dew."
+     },
+     {
+      "speaker": "B",
+      "text": "Then we'll wait till Lammas, and {steward} can mow it himself."
+     },
+     {
+      "speaker": "A",
+      "text": "He'd count the blades first, to tax them."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "FoldSheep",
+  "kind": "activity",
+  "who": "two shepherds driving the flock into the fold",
+  "exchanges": [
+   {
+    "id": "fold_sheep_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Count them through the gate. I make it forty-one."
+     },
+     {
+      "speaker": "B",
+      "text": "Forty. The lame ewe's dragging at the back."
+     },
+     {
+      "speaker": "A",
+      "text": "Get her in. The wolves can count to one."
+     }
+    ]
+   },
+   {
+    "id": "fold_sheep_02",
+    "when": {
+     "state": null,
+     "time": "evening",
+     "place": null,
+     "news": "fold",
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Heard the wolves had Dunworth's folds again last night."
+     },
+     {
+      "speaker": "B",
+      "text": "Six ewes. Forest Charter says only the lord's hunt may kill them."
+     },
+     {
+      "speaker": "A",
+      "text": "Then the lord can come and sit up with my lambs."
+     }
+    ]
+   },
+   {
+    "id": "fold_sheep_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": "Canopy Rest"
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Wynstead lost another ram. Greybeard won't break his own charter."
+     },
+     {
+      "speaker": "B",
+      "text": "Too holy to hunt wolves, too frightened to ride out."
+     },
+     {
+      "speaker": "A",
+      "text": "Pray harder, he says. Prayers don't bark."
+     }
+    ]
+   },
+   {
+    "id": "fold_sheep_04",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": "First Hearth"
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Whitden pays the Thornbacks and the Red Crows both for its sheep."
+     },
+     {
+      "speaker": "B",
+      "text": "Cheapest peace in the realm, they say."
+     },
+     {
+      "speaker": "A",
+      "text": "Cheap till both bands want the same fat wether."
+     }
+    ]
+   },
+   {
+    "id": "fold_sheep_05",
+    "when": {
+     "state": null,
+     "time": "night",
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Hurdles tied? Every one?"
+     },
+     {
+      "speaker": "B",
+      "text": "Tied twice. And the dog's on the windward side."
+     },
+     {
+      "speaker": "A",
+      "text": "Good. I'm sleeping in the fold tonight. Wake me if he growls."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "Milking",
+  "kind": "activity",
+  "who": "two dairy hands at the cows",
+  "exchanges": [
+   {
+    "id": "milking_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Hold her tail, she's flicking me in the eye."
+     },
+     {
+      "speaker": "B",
+      "text": "She knows you've cold hands. Warm them first."
+     },
+     {
+      "speaker": "A",
+      "text": "Warm them where? The only warm thing here is her."
+     }
+    ]
+   },
+   {
+    "id": "milking_02",
+    "when": {
+     "state": null,
+     "time": "dawn",
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Half a pail. She's drying off early."
+     },
+     {
+      "speaker": "B",
+      "text": "Grass is thin. Thin grass, thin milk."
+     },
+     {
+      "speaker": "A",
+      "text": "Thin cheese, then, and thin words from the mistress."
+     }
+    ]
+   },
+   {
+    "id": "milking_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": "blight",
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "They say Kirkden's goats give grey milk since the Blight came through."
+     },
+     {
+      "speaker": "B",
+      "text": "Grey milk. I'd not feed that to a pig."
+     },
+     {
+      "speaker": "A",
+      "text": "The Sunward folk would bottle it and sell it as a wonder."
+     }
+    ]
+   },
+   {
+    "id": "milking_04",
+    "when": {
+     "state": [
+      "Thriving"
+     ],
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Two full churns before the bell. Good butter week."
+     },
+     {
+      "speaker": "B",
+      "text": "Put some by. Fat weeks don't last."
+     },
+     {
+      "speaker": "A",
+      "text": "You'd find a shadow in a sunbeam, you would."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "FeedCows",
+  "kind": "activity",
+  "who": "two cowherds forking fodder",
+  "exchanges": [
+   {
+    "id": "feed_cows_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Last of the good hay. After this it's straw and hope."
+     },
+     {
+      "speaker": "B",
+      "text": "Cut the straw with a bit of pease haulm. They'll eat it."
+     },
+     {
+      "speaker": "A",
+      "text": "They'll eat it. They won't thank us."
+     }
+    ]
+   },
+   {
+    "id": "feed_cows_02",
+    "when": {
+     "state": [
+      "Lean",
+      "Starving"
+     ],
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{steward} wants two cows sold before winter."
+     },
+     {
+      "speaker": "B",
+      "text": "Fewer mouths in the byre. Fewer calves in spring, too."
+     },
+     {
+      "speaker": "A",
+      "text": "He never thinks past the next tally, that one."
+     }
+    ]
+   },
+   {
+    "id": "feed_cows_03",
+    "when": {
+     "state": null,
+     "time": "evening",
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Old Bramble's off her feed."
+     },
+     {
+      "speaker": "B",
+      "text": "Give her a warm mash with a fistful of salt."
+     },
+     {
+      "speaker": "A",
+      "text": "Salt costs. She'd better be grateful."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "Carry",
+  "kind": "activity",
+  "who": "two porters hauling loads",
+  "exchanges": [
+   {
+    "id": "carry_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Sack of what is this? It weighs like a sin."
+     },
+     {
+      "speaker": "B",
+      "text": "Salt, from Sunward. Mind it doesn't split."
+     },
+     {
+      "speaker": "A",
+      "text": "If it splits I'm licking the road clean."
+     }
+    ]
+   },
+   {
+    "id": "carry_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "market",
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Two more sacks to the chandler, then we eat."
+     },
+     {
+      "speaker": "B",
+      "text": "You said that four sacks ago."
+     },
+     {
+      "speaker": "A",
+      "text": "And I meant it every time."
+     }
+    ]
+   },
+   {
+    "id": "carry_03",
+    "when": {
+     "state": [
+      "Starving"
+     ],
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "My back's gone, and the pay's a heel of bread."
+     },
+     {
+      "speaker": "B",
+      "text": "Better than nothing. The outlaws pay in meat, I hear."
+     },
+     {
+      "speaker": "A",
+      "text": "And a rope at the end of it. I'll take the bread."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "Quarry",
+  "kind": "activity",
+  "who": "two quarrymen at the stone face",
+  "exchanges": [
+   {
+    "id": "quarry_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Drive the wedge along the bed, not across it."
+     },
+     {
+      "speaker": "B",
+      "text": "I know how stone breaks. I've broken more than you."
+     },
+     {
+      "speaker": "A",
+      "text": "You've broken more toes than stone."
+     }
+    ]
+   },
+   {
+    "id": "quarry_02",
+    "when": {
+     "state": null,
+     "time": "dawn",
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Wet the wedges overnight?"
+     },
+     {
+      "speaker": "B",
+      "text": "Swelled tight. Face should split by noon."
+     },
+     {
+      "speaker": "A",
+      "text": "Then stand clear of it. Last split took Hal's foot."
+     }
+    ]
+   },
+   {
+    "id": "quarry_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": "shortage",
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Heard a face fell at another quarry. Stone's dear now."
+     },
+     {
+      "speaker": "B",
+      "text": "Dear stone means we're worth something for once."
+     },
+     {
+      "speaker": "A",
+      "text": "Tell that to the master. He's not raised our pay."
+     }
+    ]
+   },
+   {
+    "id": "quarry_04",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": "Stonepass Refuge"
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Best stone in the realm, this. Grey as the clans."
+     },
+     {
+      "speaker": "B",
+      "text": "Grey as your beard. Lift your end."
+     },
+     {
+      "speaker": "A",
+      "text": "The Wall was cut from this face. My grandsire's mark is on it."
+     }
+    ]
+   },
+   {
+    "id": "quarry_05",
+    "when": {
+     "state": [
+      "Thriving"
+     ],
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Three new houses in {town} want ashlar. Work all summer."
+     },
+     {
+      "speaker": "B",
+      "text": "Work all summer, cough all winter."
+     },
+     {
+      "speaker": "A",
+      "text": "Bind a wet cloth round your mouth. Keeps the dust out."
+     }
+    ]
+   },
+   {
+    "id": "quarry_06",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": "raid",
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Ludham rebuilt in stone after the raid. Paid Sunward lenders for it."
+     },
+     {
+      "speaker": "B",
+      "text": "Stone won't burn. Debt won't either. Both last forever."
+     },
+     {
+      "speaker": "A",
+      "text": "Better a debt than a cinder."
+     }
+    ]
+   },
+   {
+    "id": "quarry_07",
+    "when": {
+     "state": null,
+     "time": "evening",
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Mallet's head is cracked."
+     },
+     {
+      "speaker": "B",
+      "text": "Take it to the smith tomorrow. Tonight I want ale."
+     },
+     {
+      "speaker": "A",
+      "text": "Ale and a soft seat. My arse is all grit."
+     }
+    ]
+   },
+   {
+    "id": "quarry_08",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "wild",
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Something's watching from the scree."
+     },
+     {
+      "speaker": "B",
+      "text": "Goat. Or a Reaver scout pretending to be one."
+     },
+     {
+      "speaker": "A",
+      "text": "Keep your crowbar close, either way."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "Labour",
+  "kind": "activity",
+  "who": "two day labourers",
+  "exchanges": [
+   {
+    "id": "labour_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Ditching again. Third day of mud to the knees."
+     },
+     {
+      "speaker": "B",
+      "text": "It's a penny a day. Mud's free."
+     },
+     {
+      "speaker": "A",
+      "text": "Everything's free when you've nothing."
+     }
+    ]
+   },
+   {
+    "id": "labour_02",
+    "when": {
+     "state": [
+      "Starving"
+     ],
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Robin's gone east. Says the Crows feed you and pay."
+     },
+     {
+      "speaker": "B",
+      "text": "And hang you when the hero comes."
+     },
+     {
+      "speaker": "A",
+      "text": "Starving's slower. That's all it's got going for it."
+     }
+    ]
+   },
+   {
+    "id": "labour_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "market",
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Nobody's hiring. Not even for muck-spreading."
+     },
+     {
+      "speaker": "B",
+      "text": "Stand by the cooper's. He shouts when his boy's drunk."
+     },
+     {
+      "speaker": "A",
+      "text": "His boy's always drunk. Good."
+     }
+    ]
+   },
+   {
+    "id": "labour_04",
+    "when": {
+     "state": [
+      "Thriving"
+     ],
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Two masters wanted me this morning. Two!"
+     },
+     {
+      "speaker": "B",
+      "text": "Don't get proud. Thriving towns forget fast."
+     },
+     {
+      "speaker": "A",
+      "text": "Let me be proud till Friday."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "NightProwl",
+  "kind": "activity",
+  "who": "two thieves on the night streets",
+  "exchanges": [
+   {
+    "id": "night_prowl_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Watch passes the well every quarter hour. Count it."
+     },
+     {
+      "speaker": "B",
+      "text": "I'm counting. You're breathing too loud."
+     },
+     {
+      "speaker": "A",
+      "text": "I've a cold. Thieves get colds same as honest folk."
+     }
+    ]
+   },
+   {
+    "id": "night_prowl_02",
+    "when": {
+     "state": null,
+     "time": "night",
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Dark moon. Good night for work."
+     },
+     {
+      "speaker": "B",
+      "text": "Slavers' favourite night too. Half the hamlets sleep in towers."
+     },
+     {
+      "speaker": "A",
+      "text": "Then the town's softer. Every cloud, eh?"
+     }
+    ]
+   },
+   {
+    "id": "night_prowl_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "market",
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Chandler's shutter's got a loose pin."
+     },
+     {
+      "speaker": "B",
+      "text": "Candles aren't worth the risk. Too bulky."
+     },
+     {
+      "speaker": "A",
+      "text": "It's the coin box behind them I'm after."
+     }
+    ]
+   },
+   {
+    "id": "night_prowl_04",
+    "when": {
+     "state": [
+      "Starving"
+     ],
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Nothing in any larder. Not even rats."
+     },
+     {
+      "speaker": "B",
+      "text": "Then go for the granary. That's where the food is."
+     },
+     {
+      "speaker": "A",
+      "text": "That's where the guards are. I like my neck."
+     }
+    ]
+   },
+   {
+    "id": "night_prowl_05",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": "Hunted",
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Watch is doubled. They're hunting {player}, not us."
+     },
+     {
+      "speaker": "B",
+      "text": "Doubled watch catches anyone. Lie low tonight."
+     },
+     {
+      "speaker": "A",
+      "text": "Shame. Busy guards make sloppy guards."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "CaseShops",
+  "kind": "activity",
+  "who": "two thieves eyeing the market stalls",
+  "exchanges": [
+   {
+    "id": "case_shops_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Goldsmith keeps his key on a cord round his neck."
+     },
+     {
+      "speaker": "B",
+      "text": "And his wife keeps the spare in her apron. I watched."
+     },
+     {
+      "speaker": "A",
+      "text": "You've an eye for aprons, I'll give you that."
+     }
+    ]
+   },
+   {
+    "id": "case_shops_02",
+    "when": {
+     "state": null,
+     "time": "day",
+     "place": "market",
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Who's busy, who's lazy? Tell me."
+     },
+     {
+      "speaker": "B",
+      "text": "The cloth man counts twice. The spicer naps after dinner."
+     },
+     {
+      "speaker": "A",
+      "text": "Spicer, then. Pepper's worth more than silver, weight for weight."
+     }
+    ]
+   },
+   {
+    "id": "case_shops_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": "Sunward Exchange"
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Sunward shops have locks on locks."
+     },
+     {
+      "speaker": "B",
+      "text": "And guards with crossbows. Rich town, rich gaol."
+     },
+     {
+      "speaker": "A",
+      "text": "Let's go back to Reedwatch. They don't even bolt doors."
+     }
+    ]
+   },
+   {
+    "id": "case_shops_04",
+    "when": {
+     "state": [
+      "Thriving"
+     ],
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Fat market today. Purses swinging everywhere."
+     },
+     {
+      "speaker": "B",
+      "text": "Not today. Fat markets have the steward's men walking."
+     },
+     {
+      "speaker": "A",
+      "text": "Tomorrow, then, when they've drunk their wages."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "BlowGlass",
+  "kind": "activity",
+  "who": "two glassblowers at the furnace",
+  "exchanges": [
+   {
+    "id": "blow_glass_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Turn it, turn it. You're letting it sag."
+     },
+     {
+      "speaker": "B",
+      "text": "My arms ache. Glass doesn't care about arms."
+     },
+     {
+      "speaker": "A",
+      "text": "Neither do I. Turn it."
+     }
+    ]
+   },
+   {
+    "id": "blow_glass_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": "Sunward Exchange"
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Natron's come in from the flats. Good and white."
+     },
+     {
+      "speaker": "B",
+      "text": "White natron, clear glass. Grey natron, green glass."
+     },
+     {
+      "speaker": "A",
+      "text": "Grey's what scares me. Too much grey salt in the world."
+     }
+    ]
+   },
+   {
+    "id": "blow_glass_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": "blight",
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Heard of the Glass Serpent? Leaves the ground glassy behind it."
+     },
+     {
+      "speaker": "B",
+      "text": "Then it's stealing our trade. Furnace-work for free."
+     },
+     {
+      "speaker": "A",
+      "text": "You'd joke on your own pyre."
+     }
+    ]
+   },
+   {
+    "id": "blow_glass_04",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "workshop",
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Lady wants six goblets, all matched."
+     },
+     {
+      "speaker": "B",
+      "text": "Six matched. Glass doesn't match. Glass is a mood."
+     },
+     {
+      "speaker": "A",
+      "text": "Then put it in a better mood. She pays well."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "RakeNatron",
+  "kind": "activity",
+  "who": "two salters raking the natron flats",
+  "exchanges": [
+   {
+    "id": "rake_natron_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Rake it into rows. Sun does the rest."
+     },
+     {
+      "speaker": "B",
+      "text": "Sun does my head in, too."
+     },
+     {
+      "speaker": "A",
+      "text": "Wet your hood at the pan. And stop moaning."
+     }
+    ]
+   },
+   {
+    "id": "rake_natron_02",
+    "when": {
+     "state": null,
+     "time": "day",
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": "Sunward Exchange"
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Natron's thick this year. Glassmen will pay double."
+     },
+     {
+      "speaker": "B",
+      "text": "And the fullers. And the curers. Salt of the desert."
+     },
+     {
+      "speaker": "A",
+      "text": "Salt of my blisters, more like."
+     }
+    ]
+   },
+   {
+    "id": "rake_natron_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": "blight",
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "See that patch? Grey. Not white. Grey."
+     },
+     {
+      "speaker": "B",
+      "text": "Don't touch it. That's how the grey salt started, men say."
+     },
+     {
+      "speaker": "A",
+      "text": "Salters found it first. We'll be blamed first too."
+     }
+    ]
+   },
+   {
+    "id": "rake_natron_04",
+    "when": {
+     "state": [
+      "Lean"
+     ],
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Natron price is down. Too many rakers."
+     },
+     {
+      "speaker": "B",
+      "text": "Too many hungry folk with rakes. Same thing."
+     },
+     {
+      "speaker": "A",
+      "text": "Dame Matilda's buyers pay more for the grey. Just saying."
+     }
+    ]
+   },
+   {
+    "id": "rake_natron_05",
+    "when": {
+     "state": null,
+     "time": "evening",
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Cover the rows. Dew'll melt it."
+     },
+     {
+      "speaker": "B",
+      "text": "Dew in the desert. My father never believed it."
+     },
+     {
+      "speaker": "A",
+      "text": "Your father never raked a flat. Cover them."
+     }
+    ]
+   },
+   {
+    "id": "rake_natron_06",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "wild",
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Riders on the ridge. Dust Riders?"
+     },
+     {
+      "speaker": "B",
+      "text": "They want horses, not natron. Keep raking."
+     },
+     {
+      "speaker": "A",
+      "text": "Keep raking slowly. Look poor."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "GuardCaravan",
+  "kind": "activity",
+  "who": "two caravan guards",
+  "exchanges": [
+   {
+    "id": "guard_caravan_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Keep your eyes on the ridges, not the mule's arse."
+     },
+     {
+      "speaker": "B",
+      "text": "The mule's arse doesn't shoot arrows at me."
+     },
+     {
+      "speaker": "A",
+      "text": "Give it time. It's a Sunward mule."
+     }
+    ]
+   },
+   {
+    "id": "guard_caravan_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": "ambush",
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Heard about the ambush on the grain road?"
+     },
+     {
+      "speaker": "B",
+      "text": "Escort ran, they say. I'd have run."
+     },
+     {
+      "speaker": "A",
+      "text": "You'd have run first, with my bow."
+     }
+    ]
+   },
+   {
+    "id": "guard_caravan_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": "Stonepass Refuge"
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Master paid somebody at the last ford. Saw the purse go."
+     },
+     {
+      "speaker": "B",
+      "text": "Reavers' toll. Cheaper than burying us."
+     },
+     {
+      "speaker": "A",
+      "text": "Then why are we here at all?"
+     }
+    ]
+   },
+   {
+    "id": "guard_caravan_04",
+    "when": {
+     "state": null,
+     "time": "night",
+     "place": "road",
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Fire's too big. You can see it from three hills."
+     },
+     {
+      "speaker": "B",
+      "text": "Cold's worse than outlaws."
+     },
+     {
+      "speaker": "A",
+      "text": "Not if the outlaws bring knives."
+     }
+    ]
+   },
+   {
+    "id": "guard_caravan_05",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": "Sunward Exchange"
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Robert atte Green rides with us to the mesa."
+     },
+     {
+      "speaker": "B",
+      "text": "Then we'll be fine. Outlaws know his name."
+     },
+     {
+      "speaker": "A",
+      "text": "Outlaws know his price, too. That's the worry."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "LoadCart",
+  "kind": "activity",
+  "who": "two carters loading a cart",
+  "exchanges": [
+   {
+    "id": "load_cart_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Heavy at the front, light at the back. Or she tips."
+     },
+     {
+      "speaker": "B",
+      "text": "I've loaded carts since I was knee-high."
+     },
+     {
+      "speaker": "A",
+      "text": "And tipped one every year since."
+     }
+    ]
+   },
+   {
+    "id": "load_cart_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "market",
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Rope's frayed. That'll snap on the first rut."
+     },
+     {
+      "speaker": "B",
+      "text": "Rope costs. {steward} won't pay for new."
+     },
+     {
+      "speaker": "A",
+      "text": "He'll pay for the lost load instead. Steward's sums."
+     }
+    ]
+   },
+   {
+    "id": "load_cart_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": "ambush",
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Radham lost a whole cart last week. Thornbacks took it."
+     },
+     {
+      "speaker": "B",
+      "text": "Escort sold the route, they say."
+     },
+     {
+      "speaker": "A",
+      "text": "Then we don't tell the escort our road till we're on it."
+     }
+    ]
+   },
+   {
+    "id": "load_cart_04",
+    "when": {
+     "state": [
+      "Thriving"
+     ],
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Third cart today. Grain everywhere."
+     },
+     {
+      "speaker": "B",
+      "text": "Grain everywhere and my back nowhere."
+     },
+     {
+      "speaker": "A",
+      "text": "Load it, moan later. That's the carter's oath."
+     }
+    ]
+   },
+   {
+    "id": "load_cart_05",
+    "when": {
+     "state": null,
+     "time": "dawn",
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Grain to {town} before the gates get busy."
+     },
+     {
+      "speaker": "B",
+      "text": "Oxen are stiff. Give them a minute."
+     },
+     {
+      "speaker": "A",
+      "text": "Give me a minute too. I'm stiffer than they are."
+     }
+    ]
+   },
+   {
+    "id": "load_cart_06",
+    "when": {
+     "state": [
+      "Starving"
+     ],
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Half a load. That's all the hamlet would give up."
+     },
+     {
+      "speaker": "B",
+      "text": "They're hiding the rest. Can't blame them."
+     },
+     {
+      "speaker": "A",
+      "text": "The steward will. He'll call it rebellion."
+     }
+    ]
+   },
+   {
+    "id": "load_cart_07",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": "escort",
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Garrison's sending men with us this time."
+     },
+     {
+      "speaker": "B",
+      "text": "Spears behind us. Feels like a funeral."
+     },
+     {
+      "speaker": "A",
+      "text": "Better a funeral escort than a funeral."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "Deliver",
+  "kind": "activity",
+  "who": "two carriers making a delivery",
+  "exchanges": [
+   {
+    "id": "deliver_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Sign here, or make your mark."
+     },
+     {
+      "speaker": "B",
+      "text": "My mark's a cross. Same as the last fellow's."
+     },
+     {
+      "speaker": "A",
+      "text": "Good enough. Crosses don't lie."
+     }
+    ]
+   },
+   {
+    "id": "deliver_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "keep",
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Kitchen door, not the front. They'll set the dogs on us."
+     },
+     {
+      "speaker": "B",
+      "text": "Even the dogs eat better than we do here."
+     },
+     {
+      "speaker": "A",
+      "text": "Hush. The cook can hear through stone."
+     }
+    ]
+   },
+   {
+    "id": "deliver_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "inn",
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Two barrels for the innkeeper. Where's he want them?"
+     },
+     {
+      "speaker": "B",
+      "text": "Cellar. Mind the step, it's rotten."
+     },
+     {
+      "speaker": "A",
+      "text": "Everything here is rotten. Except the ale, lucky."
+     }
+    ]
+   },
+   {
+    "id": "deliver_04",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": "ambush",
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "We made it. I didn't think we'd make it."
+     },
+     {
+      "speaker": "B",
+      "text": "Saw a man on the road watching us. Never moved."
+     },
+     {
+      "speaker": "A",
+      "text": "Scout. They'll take the next cart instead. Poor sods."
+     }
+    ]
+   },
+   {
+    "id": "deliver_05",
+    "when": {
+     "state": [
+      "Lean"
+     ],
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "He says he'll pay at month's end."
+     },
+     {
+      "speaker": "B",
+      "text": "He said that last month."
+     },
+     {
+      "speaker": "A",
+      "text": "Then we take the load back. No coin, no {good}."
+     }
+    ]
+   },
+   {
+    "id": "deliver_06",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": "Reedwatch"
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Cloth for the hall. Sir Thomas's own order."
+     },
+     {
+      "speaker": "B",
+      "text": "Honest lord, slow payer."
+     },
+     {
+      "speaker": "A",
+      "text": "Honest and slow beats quick and crooked."
+     }
+    ]
+   },
+   {
+    "id": "deliver_07",
+    "when": {
+     "state": null,
+     "time": "evening",
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Last drop of the day. Then ale."
+     },
+     {
+      "speaker": "B",
+      "text": "You've said 'then ale' at every stop."
+     },
+     {
+      "speaker": "A",
+      "text": "And every stop I've meant it more."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "HaulWood",
+  "kind": "activity",
+  "who": "two woodmen hauling logs",
+  "exchanges": [
+   {
+    "id": "haul_wood_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Chain it twice. That oak's got a mind of its own."
+     },
+     {
+      "speaker": "B",
+      "text": "Oak's got more sense than this horse."
+     },
+     {
+      "speaker": "A",
+      "text": "The horse can hear you, you know."
+     }
+    ]
+   },
+   {
+    "id": "haul_wood_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": "Canopy Rest"
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Sawmill wants six trunks by Thursday."
+     },
+     {
+      "speaker": "B",
+      "text": "Market day. They'll sell planks before the sap's dry."
+     },
+     {
+      "speaker": "A",
+      "text": "Green planks warp. Not our problem."
+     }
+    ]
+   },
+   {
+    "id": "haul_wood_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "wild",
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Wolf tracks in the ride. Fresh."
+     },
+     {
+      "speaker": "B",
+      "text": "Then we haul faster. Wolves don't like noise."
+     },
+     {
+      "speaker": "A",
+      "text": "Neither do I, but I'll shout if it helps."
+     }
+    ]
+   },
+   {
+    "id": "haul_wood_04",
+    "when": {
+     "state": [
+      "Starving"
+     ],
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Wood for the town and no bread for us."
+     },
+     {
+      "speaker": "B",
+      "text": "Burn some of it in our own hearth. Nobody counts bark."
+     },
+     {
+      "speaker": "A",
+      "text": "The steward counts bark. He counts everything."
+     }
+    ]
+   },
+   {
+    "id": "haul_wood_05",
+    "when": {
+     "state": null,
+     "time": "evening",
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Leave the last log. Sun's going."
+     },
+     {
+      "speaker": "B",
+      "text": "Charcoalers will have it by morning."
+     },
+     {
+      "speaker": "A",
+      "text": "Charcoalers see everything at night. They'll see who took it."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "FetchTimber",
+  "kind": "activity",
+  "who": "two joiners' men fetching timber from the yard",
+  "exchanges": [
+   {
+    "id": "fetch_timber_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Seasoned oak, not that green rubbish."
+     },
+     {
+      "speaker": "B",
+      "text": "The green's cheaper. Master said cheap."
+     },
+     {
+      "speaker": "A",
+      "text": "Master said cheap. He didn't say crooked."
+     }
+    ]
+   },
+   {
+    "id": "fetch_timber_02",
+    "when": {
+     "state": [
+      "Thriving"
+     ],
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Everyone's building. Yard's half empty."
+     },
+     {
+      "speaker": "B",
+      "text": "Take what's left before the masons grab it."
+     },
+     {
+      "speaker": "A",
+      "text": "Masons with timber. Next they'll want to thatch."
+     }
+    ]
+   },
+   {
+    "id": "fetch_timber_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": "raid",
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Burned hamlet wants roof beams. Lots of them."
+     },
+     {
+      "speaker": "B",
+      "text": "Burnt once, they'll want them cheap."
+     },
+     {
+      "speaker": "A",
+      "text": "Charge them fair. Could be us next."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "Build",
+  "kind": "activity",
+  "who": "two builders at work on a wall",
+  "exchanges": [
+   {
+    "id": "build_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Plumb line says it leans."
+     },
+     {
+      "speaker": "B",
+      "text": "Plumb line's drunk. The wall's fine."
+     },
+     {
+      "speaker": "A",
+      "text": "The wall will be fine on the ground, too, soon."
+     }
+    ]
+   },
+   {
+    "id": "build_02",
+    "when": {
+     "state": [
+      "Thriving"
+     ],
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "New houses all along the lane. Town's growing."
+     },
+     {
+      "speaker": "B",
+      "text": "Growing towns need walls. Walls need us."
+     },
+     {
+      "speaker": "A",
+      "text": "And walls need paying for. Don't count your coin yet."
+     }
+    ]
+   },
+   {
+    "id": "build_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": "raid",
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Palisade first, then the houses. That's the order."
+     },
+     {
+      "speaker": "B",
+      "text": "The raiders came through the gap by the well."
+     },
+     {
+      "speaker": "A",
+      "text": "Then the gap's where we start. Sharpen those stakes."
+     }
+    ]
+   },
+   {
+    "id": "build_04",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "keep",
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "The lord wants the tower two courses higher."
+     },
+     {
+      "speaker": "B",
+      "text": "Two courses of stone, ten of excuses from the quarry."
+     },
+     {
+      "speaker": "A",
+      "text": "Just stack what we have. Then shout for more."
+     }
+    ]
+   },
+   {
+    "id": "build_05",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": "blight",
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Blight-born came out of the dark at Dunworth. Walls didn't stop them."
+     },
+     {
+      "speaker": "B",
+      "text": "Walls stop men. Nothing stops those."
+     },
+     {
+      "speaker": "A",
+      "text": "Then build it anyway. Folk sleep better behind stone."
+     }
+    ]
+   },
+   {
+    "id": "build_06",
+    "when": {
+     "state": [
+      "Lean",
+      "Starving"
+     ],
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Mortar's thin. They've cut it with sand."
+     },
+     {
+      "speaker": "B",
+      "text": "They've cut our pay with sand too."
+     },
+     {
+      "speaker": "A",
+      "text": "Thin wall, thin pay, thin soup. Sounds right."
+     }
+    ]
+   },
+   {
+    "id": "build_07",
+    "when": {
+     "state": null,
+     "time": "dawn",
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Frost in the mortar. Can't lay a course till noon."
+     },
+     {
+      "speaker": "B",
+      "text": "Then we cut stone instead. No idle hands."
+     },
+     {
+      "speaker": "A",
+      "text": "My hands are idle because they're frozen."
+     }
+    ]
+   },
+   {
+    "id": "build_08",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": "Stonepass Refuge"
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Every stone here's set dry. No mortar on the old Wall."
+     },
+     {
+      "speaker": "B",
+      "text": "Stewards built it. Knew a thing or two."
+     },
+     {
+      "speaker": "A",
+      "text": "Knew to cut stone straight, which is more than you do."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "Thatch",
+  "kind": "activity",
+  "who": "two thatchers on a roof",
+  "exchanges": [
+   {
+    "id": "thatch_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Pass the spars. Twisted hazel, not straight."
+     },
+     {
+      "speaker": "B",
+      "text": "Straight's easier to split."
+     },
+     {
+      "speaker": "A",
+      "text": "And easier to pull out in a gale. Twisted."
+     }
+    ]
+   },
+   {
+    "id": "thatch_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": "Reedwatch"
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Fen reed lasts sixty years. Straw lasts twenty."
+     },
+     {
+      "speaker": "B",
+      "text": "This roof won't see sixty. Nor will we."
+     },
+     {
+      "speaker": "A",
+      "text": "Then thatch it for your grandsons."
+     }
+    ]
+   },
+   {
+    "id": "thatch_03",
+    "when": {
+     "state": null,
+     "time": "day",
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Comb it down. It's lumpy at the eave."
+     },
+     {
+      "speaker": "B",
+      "text": "It's a roof, not a lady's hair."
+     },
+     {
+      "speaker": "A",
+      "text": "Lumpy thatch holds rain. Comb it."
+     }
+    ]
+   },
+   {
+    "id": "thatch_04",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": "raid",
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "First thing the raiders do is fire the thatch."
+     },
+     {
+      "speaker": "B",
+      "text": "So lime-wash it. Slows the burn."
+     },
+     {
+      "speaker": "A",
+      "text": "Slows it enough to get the children out. That's something."
+     }
+    ]
+   },
+   {
+    "id": "thatch_05",
+    "when": {
+     "state": [
+      "Lean"
+     ],
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Patching, not new. Nobody's got coin for new."
+     },
+     {
+      "speaker": "B",
+      "text": "Patch over patch. The roof's a quilt."
+     },
+     {
+      "speaker": "A",
+      "text": "A quilt that leaks on the baby. Tell her that."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "UnloadCart",
+  "kind": "activity",
+  "who": "two porters unloading a cart",
+  "exchanges": [
+   {
+    "id": "unload_cart_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Careful, that crate clinks."
+     },
+     {
+      "speaker": "B",
+      "text": "Clinks how? Glass or coin?"
+     },
+     {
+      "speaker": "A",
+      "text": "Neither of your business. Lift."
+     }
+    ]
+   },
+   {
+    "id": "unload_cart_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "market",
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Stack the {good} by the stall. Not in the mud."
+     },
+     {
+      "speaker": "B",
+      "text": "Mud's everywhere. The stall's in the mud."
+     },
+     {
+      "speaker": "A",
+      "text": "Then on the boards. Use your eyes."
+     }
+    ]
+   },
+   {
+    "id": "unload_cart_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": "ambush",
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Cart came in with an arrow in the tailboard."
+     },
+     {
+      "speaker": "B",
+      "text": "Carter's white as milk. Won't say a word."
+     },
+     {
+      "speaker": "A",
+      "text": "Let him be. He'll talk at the inn tonight."
+     }
+    ]
+   },
+   {
+    "id": "unload_cart_04",
+    "when": {
+     "state": [
+      "Starving"
+     ],
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Is that all? Four sacks for the whole town?"
+     },
+     {
+      "speaker": "B",
+      "text": "Four sacks and a lot of pleading."
+     },
+     {
+      "speaker": "A",
+      "text": "Guard them. There'll be fists over these."
+     }
+    ]
+   },
+   {
+    "id": "unload_cart_05",
+    "when": {
+     "state": null,
+     "time": "evening",
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Last one. Then the oxen can rest."
+     },
+     {
+      "speaker": "B",
+      "text": "And the carter can drink."
+     },
+     {
+      "speaker": "A",
+      "text": "And we can sit. Sitting's my favourite trade."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "GatherHerbs",
+  "kind": "activity",
+  "who": "two herb-gatherers in the hedgerows",
+  "exchanges": [
+   {
+    "id": "gather_herbs_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Take a third of a patch and leave the rest."
+     },
+     {
+      "speaker": "B",
+      "text": "Like the lodges' Half Law, but for weeds."
+     },
+     {
+      "speaker": "A",
+      "text": "They're not weeds if they cure you."
+     }
+    ]
+   },
+   {
+    "id": "gather_herbs_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "wild",
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "The best herbs grow up on the butte-tops."
+     },
+     {
+      "speaker": "B",
+      "text": "And the best falls happen on the way up."
+     },
+     {
+      "speaker": "A",
+      "text": "Reagent seekers climb it barefoot. You've got boots."
+     }
+    ]
+   },
+   {
+    "id": "gather_herbs_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": "blight",
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Don't pick near the grey ground. Leaves come up wrong."
+     },
+     {
+      "speaker": "B",
+      "text": "Wrong how?"
+     },
+     {
+      "speaker": "A",
+      "text": "Spotted. Bitter. Even the goats won't touch them."
+     }
+    ]
+   },
+   {
+    "id": "gather_herbs_04",
+    "when": {
+     "state": [
+      "Lean",
+      "Starving"
+     ],
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Herbs sell better than bread these days."
+     },
+     {
+      "speaker": "B",
+      "text": "Sick folk pay. Hungry folk can't."
+     },
+     {
+      "speaker": "A",
+      "text": "Sick and hungry folk just die. Pick faster."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "Charms",
+  "kind": "activity",
+  "who": "two cunning folk making charms",
+  "exchanges": [
+   {
+    "id": "charms_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Rowan twig, red thread, bound in a cross. Simple."
+     },
+     {
+      "speaker": "B",
+      "text": "Simple sells. Folk don't trust a charm they understand."
+     },
+     {
+      "speaker": "A",
+      "text": "Then mutter over it. They like the muttering."
+     }
+    ]
+   },
+   {
+    "id": "charms_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": "blight",
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Everyone wants Blight charms now. Silver bells, salt bags."
+     },
+     {
+      "speaker": "B",
+      "text": "Salt. They want salt, with grey salt in the world?"
+     },
+     {
+      "speaker": "A",
+      "text": "White salt. I check it twice."
+     }
+    ]
+   },
+   {
+    "id": "charms_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "market",
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Fever charm for a penny. Love charm for two."
+     },
+     {
+      "speaker": "B",
+      "text": "Why's love dearer?"
+     },
+     {
+      "speaker": "A",
+      "text": "Fever passes on its own. Love needs help."
+     }
+    ]
+   },
+   {
+    "id": "charms_04",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "temple",
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Don't sell them here. The priest's watching."
+     },
+     {
+      "speaker": "B",
+      "text": "His own mother bought one last week."
+     },
+     {
+      "speaker": "A",
+      "text": "Then he can watch her, not us."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "TendPhysicGarden",
+  "kind": "activity",
+  "who": "two gardeners in the physic garden",
+  "exchanges": [
+   {
+    "id": "tend_physic_garden_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Sage by the wall, rue by the gate. Keep them apart."
+     },
+     {
+      "speaker": "B",
+      "text": "Why? They're not feuding."
+     },
+     {
+      "speaker": "A",
+      "text": "Rue spoils sage. Old rule. Mind it."
+     }
+    ]
+   },
+   {
+    "id": "tend_physic_garden_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "temple",
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Brother says the hyssop's for the altar, not the sick."
+     },
+     {
+      "speaker": "B",
+      "text": "Then the sick can pray for it."
+     },
+     {
+      "speaker": "A",
+      "text": "Hush. Cut a little from the back where he won't see."
+     }
+    ]
+   },
+   {
+    "id": "tend_physic_garden_03",
+    "when": {
+     "state": null,
+     "time": "dawn",
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Slugs had the lovage again."
+     },
+     {
+      "speaker": "B",
+      "text": "Ash round the stems. They hate crossing it."
+     },
+     {
+      "speaker": "A",
+      "text": "I hate crossing the yard at dawn. We all have troubles."
+     }
+    ]
+   },
+   {
+    "id": "tend_physic_garden_04",
+    "when": {
+     "state": [
+      "Thriving"
+     ],
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Apothecary wants double the feverfew this year."
+     },
+     {
+      "speaker": "B",
+      "text": "Plant a new bed by the well. It loves gravel."
+     },
+     {
+      "speaker": "A",
+      "text": "Loves gravel, hates me. Typical."
+     }
+    ]
+   },
+   {
+    "id": "tend_physic_garden_05",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": "deaths",
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Plant rosemary for {dead}. For remembrance."
+     },
+     {
+      "speaker": "B",
+      "text": "By the gate, where folk pass."
+     },
+     {
+      "speaker": "A",
+      "text": "Aye. Let it grow wild. They would've liked that."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "PrepareRemedies",
+  "kind": "activity",
+  "who": "two healers preparing remedies",
+  "exchanges": [
+   {
+    "id": "prepare_remedies_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Grind it fine. Lumps make folk gag."
+     },
+     {
+      "speaker": "B",
+      "text": "It'll make them gag anyway. It's wormwood."
+     },
+     {
+      "speaker": "A",
+      "text": "Then add honey and a lie about the taste."
+     }
+    ]
+   },
+   {
+    "id": "prepare_remedies_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "workshop",
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Little family's draughts are a penny cheaper."
+     },
+     {
+      "speaker": "B",
+      "text": "And half of theirs at market are fakes, I hear."
+     },
+     {
+      "speaker": "A",
+      "text": "Ours work. That's worth a penny."
+     }
+    ]
+   },
+   {
+    "id": "prepare_remedies_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": "ambush",
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Three men from the cart road. Arrow wounds, all."
+     },
+     {
+      "speaker": "B",
+      "text": "Honey and wine on the wound. Then pray."
+     },
+     {
+      "speaker": "A",
+      "text": "Pray first. The honey's running low."
+     }
+    ]
+   },
+   {
+    "id": "prepare_remedies_04",
+    "when": {
+     "state": [
+      "Starving"
+     ],
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Half of these sick are just hungry."
+     },
+     {
+      "speaker": "B",
+      "text": "No remedy for that but bread."
+     },
+     {
+      "speaker": "A",
+      "text": "Then mix them a thin broth and call it physic."
+     }
+    ]
+   },
+   {
+    "id": "prepare_remedies_05",
+    "when": {
+     "state": null,
+     "time": "night",
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Fever's broken on the smith's boy."
+     },
+     {
+      "speaker": "B",
+      "text": "Willow bark did that. Write it down."
+     },
+     {
+      "speaker": "A",
+      "text": "You write it. My hands are shaking."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "DryHerbs",
+  "kind": "activity",
+  "who": "two herbwives hanging herbs to dry",
+  "exchanges": [
+   {
+    "id": "dry_herbs_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Hang them heads down, in the shade. Sun bleaches the virtue out."
+     },
+     {
+      "speaker": "B",
+      "text": "Virtue. You talk like the priest."
+     },
+     {
+      "speaker": "A",
+      "text": "The priest stole the word from us."
+     }
+    ]
+   },
+   {
+    "id": "dry_herbs_02",
+    "when": {
+     "state": null,
+     "time": "evening",
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Shut the shutters. Damp air'll mould the lot."
+     },
+     {
+      "speaker": "B",
+      "text": "It's the first warm night in a week."
+     },
+     {
+      "speaker": "A",
+      "text": "Warm night, wet dawn. Shut them."
+     }
+    ]
+   },
+   {
+    "id": "dry_herbs_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "home",
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Whole house smells of mugwort and smoke."
+     },
+     {
+      "speaker": "B",
+      "text": "Keeps the moths out of your wool."
+     },
+     {
+      "speaker": "A",
+      "text": "Keeps my husband out of the house, too. Not complaining."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "GatherChervil",
+  "kind": "activity",
+  "who": "two gatherers picking chervil",
+  "exchanges": [
+   {
+    "id": "gather_chervil_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Feathery leaf, smells of aniseed. That's chervil."
+     },
+     {
+      "speaker": "B",
+      "text": "And hemlock's feathery too."
+     },
+     {
+      "speaker": "A",
+      "text": "Hemlock stinks of mouse, and has purple spots. Sniff before you pick."
+     }
+    ]
+   },
+   {
+    "id": "gather_chervil_02",
+    "when": {
+     "state": null,
+     "time": "dawn",
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "First green of spring. Chervil pottage for Lent."
+     },
+     {
+      "speaker": "B",
+      "text": "Cleans the winter out of your blood, my mother said."
+     },
+     {
+      "speaker": "A",
+      "text": "My winter's mostly in my belly. It'll take a lot of chervil."
+     }
+    ]
+   },
+   {
+    "id": "gather_chervil_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "market",
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Chervil water for sore eyes. Sells well to the weavers."
+     },
+     {
+      "speaker": "B",
+      "text": "Weavers squint all day. Good trade."
+     },
+     {
+      "speaker": "A",
+      "text": "And a sprig for hiccups. Sell them both."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "GatherLambsCress",
+  "kind": "activity",
+  "who": "two gatherers picking lamb's cress",
+  "exchanges": [
+   {
+    "id": "gather_lambs_cress_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Lamb's cress. Little white flowers, peppery bite."
+     },
+     {
+      "speaker": "B",
+      "text": "Grows in every crack of the yard wall."
+     },
+     {
+      "speaker": "A",
+      "text": "Then the yard wall's feeding us. Cheapest garden going."
+     }
+    ]
+   },
+   {
+    "id": "gather_lambs_cress_02",
+    "when": {
+     "state": [
+      "Lean",
+      "Starving"
+     ],
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Late winter, nothing green but this."
+     },
+     {
+      "speaker": "B",
+      "text": "Eat it raw. Stops the gums bleeding."
+     },
+     {
+      "speaker": "A",
+      "text": "My gums bleed from biting the steward's bread."
+     }
+    ]
+   },
+   {
+    "id": "gather_lambs_cress_03",
+    "when": {
+     "state": null,
+     "time": "dawn",
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Pick before the seed pods spit."
+     },
+     {
+      "speaker": "B",
+      "text": "They pop in your face if you're slow."
+     },
+     {
+      "speaker": "A",
+      "text": "Then you've planted next year's crop. Not all bad."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "GatherNettle",
+  "kind": "activity",
+  "who": "two gatherers cutting nettles",
+  "exchanges": [
+   {
+    "id": "gather_nettle_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Grasp it firm and it won't sting."
+     },
+     {
+      "speaker": "B",
+      "text": "That's a lie told to children."
+     },
+     {
+      "speaker": "A",
+      "text": "It's half a lie. Wear the glove anyway."
+     }
+    ]
+   },
+   {
+    "id": "gather_nettle_02",
+    "when": {
+     "state": [
+      "Lean",
+      "Starving"
+     ],
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Young tops for pottage. Better than nothing."
+     },
+     {
+      "speaker": "B",
+      "text": "Nettle soup three days running. I'm turning green."
+     },
+     {
+      "speaker": "A",
+      "text": "Green's better than grey. You'll live."
+     }
+    ]
+   },
+   {
+    "id": "gather_nettle_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "field",
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Old wives beat their stiff knees with these."
+     },
+     {
+      "speaker": "B",
+      "text": "Stings the ache away, they say."
+     },
+     {
+      "speaker": "A",
+      "text": "Swaps one ache for another. Still, it works."
+     }
+    ]
+   },
+   {
+    "id": "gather_nettle_04",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": "Reedwatch"
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Leave the tall stalks. The weavers ret them for cloth."
+     },
+     {
+      "speaker": "B",
+      "text": "Nettle cloth? Poor man's linen."
+     },
+     {
+      "speaker": "A",
+      "text": "This is Reedwatch. Everything's the poor man's something."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "GatherPlantain",
+  "kind": "activity",
+  "who": "two gatherers picking plantain",
+  "exchanges": [
+   {
+    "id": "gather_plantain_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Waybread. Grows wherever feet go."
+     },
+     {
+      "speaker": "B",
+      "text": "Then it'll be thick round the inn door."
+     },
+     {
+      "speaker": "A",
+      "text": "Chew a leaf, slap it on a cut. Draws out the dirt."
+     }
+    ]
+   },
+   {
+    "id": "gather_plantain_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "road",
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Carters keep a leaf in their boots for blisters."
+     },
+     {
+      "speaker": "B",
+      "text": "Do they? I keep a stone in mine. Not on purpose."
+     },
+     {
+      "speaker": "A",
+      "text": "Take it out and put the leaf in."
+     }
+    ]
+   },
+   {
+    "id": "gather_plantain_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": "ambush",
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Pick plenty. Hospice wants it for the cart men."
+     },
+     {
+      "speaker": "B",
+      "text": "Plantain for arrow wounds?"
+     },
+     {
+      "speaker": "A",
+      "text": "For the scrapes after. The arrows are for the surgeon."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "GatherChamomile",
+  "kind": "activity",
+  "who": "two gatherers picking chamomile",
+  "exchanges": [
+   {
+    "id": "gather_chamomile_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Smells of apples when you crush it. That's the true one."
+     },
+     {
+      "speaker": "B",
+      "text": "And the stinking one?"
+     },
+     {
+      "speaker": "A",
+      "text": "Smells of your uncle. You'll know it."
+     }
+    ]
+   },
+   {
+    "id": "gather_chamomile_02",
+    "when": {
+     "state": null,
+     "time": "evening",
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "A cup of this and the baby sleeps through."
+     },
+     {
+      "speaker": "B",
+      "text": "Does it work on husbands?"
+     },
+     {
+      "speaker": "A",
+      "text": "Put enough in and it works on oxen."
+     }
+    ]
+   },
+   {
+    "id": "gather_chamomile_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "home",
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Rinse your hair in it. Keeps it fair."
+     },
+     {
+      "speaker": "B",
+      "text": "My hair's been brown since birth."
+     },
+     {
+      "speaker": "A",
+      "text": "Then it'll be fair brown. Stop complaining."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "GatherYarrow",
+  "kind": "activity",
+  "who": "two gatherers picking yarrow",
+  "exchanges": [
+   {
+    "id": "gather_yarrow_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Soldier's woundwort. Stops a bleeding cut quick."
+     },
+     {
+      "speaker": "B",
+      "text": "Strange, then. My sister puts it up her nose to make it bleed."
+     },
+     {
+      "speaker": "A",
+      "text": "She's checking if a lad loves her. Different use."
+     }
+    ]
+   },
+   {
+    "id": "gather_yarrow_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": "raid",
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Pick all you can carry. Garrison's short of wound-herbs."
+     },
+     {
+      "speaker": "B",
+      "text": "Every guard should carry a pouch of this."
+     },
+     {
+      "speaker": "A",
+      "text": "Every guard should carry a pouch of sense."
+     }
+    ]
+   },
+   {
+    "id": "gather_yarrow_03",
+    "when": {
+     "state": null,
+     "time": "evening",
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Yarrow under the pillow and you dream of your true love."
+     },
+     {
+      "speaker": "B",
+      "text": "I dreamt of the miller last time."
+     },
+     {
+      "speaker": "A",
+      "text": "Then yarrow's got a cruel sense of humour."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "GatherFennel",
+  "kind": "activity",
+  "who": "two gatherers cutting fennel",
+  "exchanges": [
+   {
+    "id": "gather_fennel_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Fennel seed for the wind. Settles any belly."
+     },
+     {
+      "speaker": "B",
+      "text": "My whole family needs a sack of it."
+     },
+     {
+      "speaker": "A",
+      "text": "I've sat behind your family at Mass. Two sacks."
+     }
+    ]
+   },
+   {
+    "id": "gather_fennel_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "temple",
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Meeting seeds. Chew them through a long sermon."
+     },
+     {
+      "speaker": "B",
+      "text": "Kills the hunger on fast days."
+     },
+     {
+      "speaker": "A",
+      "text": "Kills the boredom too, but don't tell the priest."
+     }
+    ]
+   },
+   {
+    "id": "gather_fennel_03",
+    "when": {
+     "state": null,
+     "time": "evening",
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Hang a bunch over the door on Midsummer Eve."
+     },
+     {
+      "speaker": "B",
+      "text": "Against what?"
+     },
+     {
+      "speaker": "A",
+      "text": "Whatever walks at night. Can't hurt, can it?"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "GatherMugwort",
+  "kind": "activity",
+  "who": "two gatherers cutting mugwort",
+  "exchanges": [
+   {
+    "id": "gather_mugwort_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "A leaf in your shoe and you'll walk all day unwearied."
+     },
+     {
+      "speaker": "B",
+      "text": "Pilgrims swear by it."
+     },
+     {
+      "speaker": "A",
+      "text": "Pilgrims swear by everything. Still, my feet agree."
+     }
+    ]
+   },
+   {
+    "id": "gather_mugwort_02",
+    "when": {
+     "state": null,
+     "time": "evening",
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Too much and you dream strange."
+     },
+     {
+      "speaker": "B",
+      "text": "Strange how?"
+     },
+     {
+      "speaker": "A",
+      "text": "Last time I dreamt the beacons went out. All of them."
+     }
+    ]
+   },
+   {
+    "id": "gather_mugwort_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "inn",
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Brewers bitter their ale with it, before hops came."
+     },
+     {
+      "speaker": "B",
+      "text": "That's why old ale tastes like a hedge."
+     },
+     {
+      "speaker": "A",
+      "text": "Old ale tastes like a hedge because it's old."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "FullCloth",
+  "kind": "activity",
+  "who": "two fullers treading cloth in the trough",
+  "exchanges": [
+   {
+    "id": "full_cloth_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Tread it, don't dance on it."
+     },
+     {
+      "speaker": "B",
+      "text": "My legs have been in this piss-water since dawn."
+     },
+     {
+      "speaker": "A",
+      "text": "Stale piss and fuller's earth. That's how cloth gets thick."
+     }
+    ]
+   },
+   {
+    "id": "full_cloth_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": "Reedwatch"
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Reedwatch cloth goes out with the caravan Tuesday."
+     },
+     {
+      "speaker": "B",
+      "text": "Agnes atte Brook loses money every load, I hear."
+     },
+     {
+      "speaker": "A",
+      "text": "Then she'd better not lose ours."
+     }
+    ]
+   },
+   {
+    "id": "full_cloth_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "workshop",
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Stretch it on the tenters. Mind the hooks."
+     },
+     {
+      "speaker": "B",
+      "text": "Stretch it too far and the buyer complains it shrinks."
+     },
+     {
+      "speaker": "A",
+      "text": "Buyers always complain. Stretch it fair."
+     }
+    ]
+   },
+   {
+    "id": "full_cloth_04",
+    "when": {
+     "state": [
+      "Lean"
+     ],
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Piss-pots down the lane are half empty."
+     },
+     {
+      "speaker": "B",
+      "text": "Folk drinking less. Less ale, less piss."
+     },
+     {
+      "speaker": "A",
+      "text": "Even our trade's starving."
+     }
+    ]
+   },
+   {
+    "id": "full_cloth_05",
+    "when": {
+     "state": null,
+     "time": "evening",
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Feet like boiled hams."
+     },
+     {
+      "speaker": "B",
+      "text": "Smell like them too. Wash before supper."
+     },
+     {
+      "speaker": "A",
+      "text": "Wash in what? There's only piss and ale in this town."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "DyeCloth",
+  "kind": "activity",
+  "who": "two dyers at the vats",
+  "exchanges": [
+   {
+    "id": "dye_cloth_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Madder for red, weld for yellow, woad for blue."
+     },
+     {
+      "speaker": "B",
+      "text": "And all three for my hands. Look at them."
+     },
+     {
+      "speaker": "A",
+      "text": "Nobody marries a dyer for her hands."
+     }
+    ]
+   },
+   {
+    "id": "dye_cloth_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "workshop",
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Woad vat's gone off. Stinks worse than the tannery."
+     },
+     {
+      "speaker": "B",
+      "text": "That's how you know it's working."
+     },
+     {
+      "speaker": "A",
+      "text": "Then it's working hard. My eyes are watering."
+     }
+    ]
+   },
+   {
+    "id": "dye_cloth_03",
+    "when": {
+     "state": [
+      "Thriving"
+     ],
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Lady wants scarlet. Real scarlet, kermes, from Sunward."
+     },
+     {
+      "speaker": "B",
+      "text": "That costs more than the cloth."
+     },
+     {
+      "speaker": "A",
+      "text": "Costs more than the dyer, too. Don't spill it."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "Fish",
+  "kind": "activity",
+  "who": "two fishers at the water",
+  "exchanges": [
+   {
+    "id": "fish_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Nothing biting. Not a nibble."
+     },
+     {
+      "speaker": "B",
+      "text": "You're talking. Fish can hear you."
+     },
+     {
+      "speaker": "A",
+      "text": "Fish can't hear. They can see your ugly face, though."
+     }
+    ]
+   },
+   {
+    "id": "fish_02",
+    "when": {
+     "state": null,
+     "time": "dawn",
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Mist on the water. Pike lie in the shallows."
+     },
+     {
+      "speaker": "B",
+      "text": "Pike's a lord's fish. Throw it back if the bailiff's near."
+     },
+     {
+      "speaker": "A",
+      "text": "The bailiff's never near at dawn. He's abed."
+     }
+    ]
+   },
+   {
+    "id": "fish_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": "Reedwatch"
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Blackwater boatmen were out past the cove last night."
+     },
+     {
+      "speaker": "B",
+      "text": "Smuggling. Don't look, don't tell."
+     },
+     {
+      "speaker": "A",
+      "text": "I never look. Saves my eyes and my throat."
+     }
+    ]
+   },
+   {
+    "id": "fish_04",
+    "when": {
+     "state": [
+      "Starving"
+     ],
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Even the river's empty. Everybody's fishing it."
+     },
+     {
+      "speaker": "B",
+      "text": "Try the dyke by the old mill."
+     },
+     {
+      "speaker": "A",
+      "text": "Old mill dyke's got eels and drowned rats. Eels it is."
+     }
+    ]
+   },
+   {
+    "id": "fish_05",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "market",
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Fish on Friday, fish on fast days. We're kings of Lent."
+     },
+     {
+      "speaker": "B",
+      "text": "Kings of stink, more like."
+     },
+     {
+      "speaker": "A",
+      "text": "Kings are allowed to stink. Look at {lord}."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "MendNets",
+  "kind": "activity",
+  "who": "two netters mending nets",
+  "exchanges": [
+   {
+    "id": "mend_nets_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Hole here big enough for a pike to swim through."
+     },
+     {
+      "speaker": "B",
+      "text": "A pike did swim through it. That's how it got there."
+     },
+     {
+      "speaker": "A",
+      "text": "Then knot it tight and teach him a lesson."
+     }
+    ]
+   },
+   {
+    "id": "mend_nets_02",
+    "when": {
+     "state": null,
+     "time": "evening",
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Twine's rotten. Needs tarring."
+     },
+     {
+      "speaker": "B",
+      "text": "Tar's dear. Use pitch from the charcoal men."
+     },
+     {
+      "speaker": "A",
+      "text": "Their pitch is half soot. Still, beggars."
+     }
+    ]
+   },
+   {
+    "id": "mend_nets_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": "Reedwatch"
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Otter got in the eel net. Tore it to rags."
+     },
+     {
+      "speaker": "B",
+      "text": "The Fen Lodge would pay for that pelt."
+     },
+     {
+      "speaker": "A",
+      "text": "Catch it first. Then we'll talk prices."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "Gather",
+  "kind": "activity",
+  "who": "two gatherers working the hedges and woods",
+  "exchanges": [
+   {
+    "id": "gather_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Blackberries are going over. Too many worms."
+     },
+     {
+      "speaker": "B",
+      "text": "Worms are meat. Eat them both."
+     },
+     {
+      "speaker": "A",
+      "text": "You first."
+     }
+    ]
+   },
+   {
+    "id": "gather_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "wild",
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Don't go past the stream. That's the Crows' side."
+     },
+     {
+      "speaker": "B",
+      "text": "They only hunt that side."
+     },
+     {
+      "speaker": "A",
+      "text": "They hunt whatever's on that side. Including you."
+     }
+    ]
+   },
+   {
+    "id": "gather_03",
+    "when": {
+     "state": [
+      "Starving"
+     ],
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Acorns. We're down to acorns."
+     },
+     {
+      "speaker": "B",
+      "text": "Leach them in the stream two days. They're edible."
+     },
+     {
+      "speaker": "A",
+      "text": "So's leather, if you're hungry enough."
+     }
+    ]
+   },
+   {
+    "id": "gather_04",
+    "when": {
+     "state": null,
+     "time": "dawn",
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Mushrooms after the rain. Basketful."
+     },
+     {
+      "speaker": "B",
+      "text": "Show me before you eat any. I'm not burying you."
+     },
+     {
+      "speaker": "A",
+      "text": "Kind of you. I'll show the dog first."
+     }
+    ]
+   },
+   {
+    "id": "gather_05",
+    "when": {
+     "state": [
+      "Thriving"
+     ],
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Hazelnuts everywhere. Squirrels are fat as monks."
+     },
+     {
+      "speaker": "B",
+      "text": "Leave some for them. Hard winters need squirrels."
+     },
+     {
+      "speaker": "A",
+      "text": "Hard winters need squirrel stew."
+     }
+    ]
+   },
+   {
+    "id": "gather_06",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": "pack",
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Heard a pack came out of the March. Don't go far."
+     },
+     {
+      "speaker": "B",
+      "text": "Far enough for firewood. That's all."
+     },
+     {
+      "speaker": "A",
+      "text": "Firewood near the walls. I'm not tempting a Horror."
+     }
+    ]
+   },
+   {
+    "id": "gather_07",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": "Canopy Rest"
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Forest Charter says no lopping in the lord's woods."
+     },
+     {
+      "speaker": "B",
+      "text": "Fallen wood's ours. Always has been."
+     },
+     {
+      "speaker": "A",
+      "text": "Then let's find something that fell. With help."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "Mine",
+  "kind": "activity",
+  "who": "two miners in the shaft",
+  "exchanges": [
+   {
+    "id": "mine_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Candle's guttering. Air's bad down here."
+     },
+     {
+      "speaker": "B",
+      "text": "Back up the gallery. Now."
+     },
+     {
+      "speaker": "A",
+      "text": "Slowly. Running uses the air faster."
+     }
+    ]
+   },
+   {
+    "id": "mine_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": "Stonepass Refuge"
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Still water in the old drift. Same as before the flood."
+     },
+     {
+      "speaker": "B",
+      "text": "Don't. I lost my cousin to that flood."
+     },
+     {
+      "speaker": "A",
+      "text": "That's why I'm saying it. Tell the overman."
+     }
+    ]
+   },
+   {
+    "id": "mine_03",
+    "when": {
+     "state": null,
+     "time": "night",
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Hear that knocking?"
+     },
+     {
+      "speaker": "B",
+      "text": "Timber settling. Or the old miners, asking to come up."
+     },
+     {
+      "speaker": "A",
+      "text": "Agnes Thomson buried them proper. They'll rest."
+     }
+    ]
+   },
+   {
+    "id": "mine_04",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": "blight",
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Blight-born came out of the dark at Dunworth. Out of a mine."
+     },
+     {
+      "speaker": "B",
+      "text": "Out of the hill, folk say. Not the mine."
+     },
+     {
+      "speaker": "A",
+      "text": "Same hill we're under. Shut up and dig."
+     }
+    ]
+   },
+   {
+    "id": "mine_05",
+    "when": {
+     "state": [
+      "Thriving"
+     ],
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Black ore's running thick. Smelters will be pleased."
+     },
+     {
+      "speaker": "B",
+      "text": "Smelters are never pleased. That's their trade."
+     },
+     {
+      "speaker": "A",
+      "text": "Then we'll be pleased. Load the basket."
+     }
+    ]
+   },
+   {
+    "id": "mine_06",
+    "when": {
+     "state": [
+      "Lean",
+      "Starving"
+     ],
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Stonepass has the steel and no grain to eat."
+     },
+     {
+      "speaker": "B",
+      "text": "Then dig it out and swap it for bread."
+     },
+     {
+      "speaker": "A",
+      "text": "First Hearth swaps slow when its lord wants the crown."
+     }
+    ]
+   },
+   {
+    "id": "mine_07",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "wild",
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Reavers took the ore wagons again."
+     },
+     {
+      "speaker": "B",
+      "text": "Deserters. They dug this hill once, some of them."
+     },
+     {
+      "speaker": "A",
+      "text": "Then they know which wagons carry the sky iron."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "Smelt",
+  "kind": "activity",
+  "who": "two furnace keepers at the bloomery",
+  "exchanges": [
+   {
+    "id": "smelt_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Pump the bellows. She's going cold."
+     },
+     {
+      "speaker": "B",
+      "text": "My arms are going cold. And dead."
+     },
+     {
+      "speaker": "A",
+      "text": "Furnace first, arms later. Pump."
+     }
+    ]
+   },
+   {
+    "id": "smelt_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": "Stonepass Refuge"
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Sky iron runs bluer in the fire."
+     },
+     {
+      "speaker": "B",
+      "text": "Hush. Not here. The refiners don't like it spoken."
+     },
+     {
+      "speaker": "A",
+      "text": "Everyone knows there's a secret. Nobody knows the secret."
+     }
+    ]
+   },
+   {
+    "id": "smelt_03",
+    "when": {
+     "state": null,
+     "time": "night",
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Bloom's ready. Get the tongs."
+     },
+     {
+      "speaker": "B",
+      "text": "Careful. Last one spat slag on my boots."
+     },
+     {
+      "speaker": "A",
+      "text": "Then step back. Or buy iron-shod boots."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "ForgeArmour",
+  "kind": "activity",
+  "who": "two armourers at the forge",
+  "exchanges": [
+   {
+    "id": "forge_armour_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Rivet's loose on this hauberk. Whose work?"
+     },
+     {
+      "speaker": "B",
+      "text": "The apprentice's. He's learning."
+     },
+     {
+      "speaker": "A",
+      "text": "Learn on pots. Not on what stops a spear."
+     }
+    ]
+   },
+   {
+    "id": "forge_armour_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": "Reedwatch"
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Reedwatch armour's as good as Stonepass. Better rivets."
+     },
+     {
+      "speaker": "B",
+      "text": "Say that in Cairn Gate and lose your teeth."
+     },
+     {
+      "speaker": "A",
+      "text": "I'll say it from here. Safer."
+     }
+    ]
+   },
+   {
+    "id": "forge_armour_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": "raid",
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Garrison wants twenty brigandines. By the new moon."
+     },
+     {
+      "speaker": "B",
+      "text": "Twenty? We'll sleep at the anvil."
+     },
+     {
+      "speaker": "A",
+      "text": "Better that than sleep under a raider's axe."
+     }
+    ]
+   },
+   {
+    "id": "forge_armour_04",
+    "when": {
+     "state": [
+      "Thriving"
+     ],
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Knight's order. Full harness, fitted."
+     },
+     {
+      "speaker": "B",
+      "text": "Fitted to a knight who eats like two."
+     },
+     {
+      "speaker": "A",
+      "text": "Then leave room at the belly. Diplomacy."
+     }
+    ]
+   },
+   {
+    "id": "forge_armour_05",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "workshop",
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Margaret Smith went to Reedwatch for a hundred and fifty coin."
+     },
+     {
+      "speaker": "B",
+      "text": "I'd go for fifty."
+     },
+     {
+      "speaker": "A",
+      "text": "Nobody's asked you for five."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "Distil",
+  "kind": "activity",
+  "who": "two distillers at the still",
+  "exchanges": [
+   {
+    "id": "distil_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Watch the drip. When it clouds, stop."
+     },
+     {
+      "speaker": "B",
+      "text": "First run's poison. I know."
+     },
+     {
+      "speaker": "A",
+      "text": "First run's for cleaning wounds. Not your mouth."
+     }
+    ]
+   },
+   {
+    "id": "distil_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": "Stonepass Refuge"
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "The Little family won't like us selling aqua vitae."
+     },
+     {
+      "speaker": "B",
+      "text": "The Littles don't own fire and water."
+     },
+     {
+      "speaker": "A",
+      "text": "They own half the market. Close enough."
+     }
+    ]
+   },
+   {
+    "id": "distil_03",
+    "when": {
+     "state": null,
+     "time": "night",
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Keep the fire low. Spirits catch."
+     },
+     {
+      "speaker": "B",
+      "text": "So do eyebrows. I lost mine last spring."
+     },
+     {
+      "speaker": "A",
+      "text": "And they grew back thinner. Wiser eyebrows."
+     }
+    ]
+   },
+   {
+    "id": "distil_04",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "workshop",
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Juniper spirit for the physicians. Rosemary for the ladies."
+     },
+     {
+      "speaker": "B",
+      "text": "And plain for the guards."
+     },
+     {
+      "speaker": "A",
+      "text": "The guards don't care what's in it. Just how much."
+     }
+    ]
+   },
+   {
+    "id": "distil_05",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": "blight",
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "An alchemist wanted me to steep grey salt in a run."
+     },
+     {
+      "speaker": "B",
+      "text": "You said no?"
+     },
+     {
+      "speaker": "A",
+      "text": "I said no twice. Then I washed my still."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "GatherJuniperBerries",
+  "kind": "activity",
+  "who": "two gatherers picking juniper",
+  "exchanges": [
+   {
+    "id": "gather_juniper_berries_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Only the blue ones. Green ones take another year."
+     },
+     {
+      "speaker": "B",
+      "text": "Two years on the bush. Slow as a lord's justice."
+     },
+     {
+      "speaker": "A",
+      "text": "Slower. Justice does ripen eventually."
+     }
+    ]
+   },
+   {
+    "id": "gather_juniper_berries_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "temple",
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Burn the twigs in a sick room. Clears bad air."
+     },
+     {
+      "speaker": "B",
+      "text": "And a sprig over the cradle against fevers."
+     },
+     {
+      "speaker": "A",
+      "text": "Folk believe it. Who am I to argue?"
+     }
+    ]
+   },
+   {
+    "id": "gather_juniper_berries_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "wild",
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Prickly beast. My fingers are all holes."
+     },
+     {
+      "speaker": "B",
+      "text": "Beat the bush over a cloth. Berries drop."
+     },
+     {
+      "speaker": "A",
+      "text": "Now you tell me."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "TendEelTraps",
+  "kind": "activity",
+  "who": "two eelers at the traps",
+  "exchanges": [
+   {
+    "id": "tend_eel_traps_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Wicker's full. Three good eels and a pike."
+     },
+     {
+      "speaker": "B",
+      "text": "Pike's the lord's. Eels are ours."
+     },
+     {
+      "speaker": "A",
+      "text": "Then the pike swam into the wrong trap."
+     }
+    ]
+   },
+   {
+    "id": "tend_eel_traps_02",
+    "when": {
+     "state": null,
+     "time": "night",
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Eels run on dark nights after rain."
+     },
+     {
+      "speaker": "B",
+      "text": "So do smugglers. Keep your lantern hooded."
+     },
+     {
+      "speaker": "A",
+      "text": "I'll keep my mouth hooded too."
+     }
+    ]
+   },
+   {
+    "id": "tend_eel_traps_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": "Reedwatch"
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Steward takes rent in eels. Hundreds a year."
+     },
+     {
+      "speaker": "B",
+      "text": "A stick of eels for every hut. Old custom."
+     },
+     {
+      "speaker": "A",
+      "text": "Old custom, new hunger. Count them twice."
+     }
+    ]
+   },
+   {
+    "id": "tend_eel_traps_04",
+    "when": {
+     "state": [
+      "Starving"
+     ],
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Eels in everything this month. Pie, stew, smoked."
+     },
+     {
+      "speaker": "B",
+      "text": "I dreamt of eels last night."
+     },
+     {
+      "speaker": "A",
+      "text": "Did they taste better in the dream?"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "Fowling",
+  "kind": "activity",
+  "who": "two fowlers on the marsh",
+  "exchanges": [
+   {
+    "id": "fowling_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Lime the twigs and keep still."
+     },
+     {
+      "speaker": "B",
+      "text": "My legs are going numb."
+     },
+     {
+      "speaker": "A",
+      "text": "Numb legs keep still. Good."
+     }
+    ]
+   },
+   {
+    "id": "fowling_02",
+    "when": {
+     "state": null,
+     "time": "dawn",
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Geese coming in low. Hear them?"
+     },
+     {
+      "speaker": "B",
+      "text": "Net's set. Pull on my word."
+     },
+     {
+      "speaker": "A",
+      "text": "Pull on your word. Not your sneeze, like last time."
+     }
+    ]
+   },
+   {
+    "id": "fowling_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": "Reedwatch"
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Fen Lodge buys duck at half what the inn pays."
+     },
+     {
+      "speaker": "B",
+      "text": "Fen Lodge keeps the peace with the Crows' poachers."
+     },
+     {
+      "speaker": "A",
+      "text": "Then they can keep it with half the duck."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "GatherLeeches",
+  "kind": "activity",
+  "who": "two leech-gatherers wading in the pond",
+  "exchanges": [
+   {
+    "id": "gather_leeches_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Stand still. Let them find your legs."
+     },
+     {
+      "speaker": "B",
+      "text": "Three on me already. Ugh."
+     },
+     {
+      "speaker": "A",
+      "text": "Three's a penny. Stand there all day."
+     }
+    ]
+   },
+   {
+    "id": "gather_leeches_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "temple",
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Physician wants fifty for the brothers' bleeding day."
+     },
+     {
+      "speaker": "B",
+      "text": "Fifty! My legs aren't a pasture."
+     },
+     {
+      "speaker": "A",
+      "text": "They are today."
+     }
+    ]
+   },
+   {
+    "id": "gather_leeches_03",
+    "when": {
+     "state": null,
+     "time": "evening",
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Thunder coming. Leeches die in thunder."
+     },
+     {
+      "speaker": "B",
+      "text": "Says who?"
+     },
+     {
+      "speaker": "A",
+      "text": "Says every leech-wife that ever lost a jar. Cover them."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "CutReeds",
+  "kind": "activity",
+  "who": "two reed-cutters in the fen",
+  "exchanges": [
+   {
+    "id": "cut_reeds_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Cut low, close to the water."
+     },
+     {
+      "speaker": "B",
+      "text": "Easy for you. You've got boots."
+     },
+     {
+      "speaker": "A",
+      "text": "Your feet are tougher than my boots."
+     }
+    ]
+   },
+   {
+    "id": "cut_reeds_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": "Reedwatch"
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Reed's what gives this town its name. And its roofs."
+     },
+     {
+      "speaker": "B",
+      "text": "And its damp. And its midges."
+     },
+     {
+      "speaker": "A",
+      "text": "Everything here's got a price."
+     }
+    ]
+   },
+   {
+    "id": "cut_reeds_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "wild",
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Saw a boat hidden in the reeds back there."
+     },
+     {
+      "speaker": "B",
+      "text": "Blackwater Men. Leave it be."
+     },
+     {
+      "speaker": "A",
+      "text": "I saw nothing. Nothing at all."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "BundleReeds",
+  "kind": "activity",
+  "who": "two reed-cutters tying bundles",
+  "exchanges": [
+   {
+    "id": "bundle_reeds_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Bundle's a hand round at the band. No fatter."
+     },
+     {
+      "speaker": "B",
+      "text": "The thatcher wants them fatter."
+     },
+     {
+      "speaker": "A",
+      "text": "The thatcher wants everything. Tie it."
+     }
+    ]
+   },
+   {
+    "id": "bundle_reeds_02",
+    "when": {
+     "state": null,
+     "time": "evening",
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Stack them butt-down to drain."
+     },
+     {
+      "speaker": "B",
+      "text": "They'll still be wet in the morning."
+     },
+     {
+      "speaker": "A",
+      "text": "Everything's wet in the morning here."
+     }
+    ]
+   },
+   {
+    "id": "bundle_reeds_03",
+    "when": {
+     "state": [
+      "Thriving"
+     ],
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Two hundred bundles. Good week."
+     },
+     {
+      "speaker": "B",
+      "text": "Stack them by the causeway for the cart."
+     },
+     {
+      "speaker": "A",
+      "text": "And guard them. Folk steal reed when they're rich."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "GatherBogMyrtle",
+  "kind": "activity",
+  "who": "two gatherers picking bog myrtle",
+  "exchanges": [
+   {
+    "id": "gather_bog_myrtle_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Rub it on your neck. Keeps the midges off."
+     },
+     {
+      "speaker": "B",
+      "text": "Does it? They're eating me alive."
+     },
+     {
+      "speaker": "A",
+      "text": "You've got to rub it on, not just hold it."
+     }
+    ]
+   },
+   {
+    "id": "gather_bog_myrtle_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "inn",
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Gale ale. Bog myrtle instead of hops."
+     },
+     {
+      "speaker": "B",
+      "text": "Makes you drunk faster, the brewer says."
+     },
+     {
+      "speaker": "A",
+      "text": "Makes your head ache faster too."
+     }
+    ]
+   },
+   {
+    "id": "gather_bog_myrtle_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "home",
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Put a sprig in the mattress straw against fleas."
+     },
+     {
+      "speaker": "B",
+      "text": "And in the chest against moths."
+     },
+     {
+      "speaker": "A",
+      "text": "Then the whole house smells of fen. Good."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "GatherComfrey",
+  "kind": "activity",
+  "who": "two gatherers digging comfrey",
+  "exchanges": [
+   {
+    "id": "gather_comfrey_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Knitbone. Mash the root and it sets like plaster."
+     },
+     {
+      "speaker": "B",
+      "text": "Bound my brother's arm with it. Healed straight."
+     },
+     {
+      "speaker": "A",
+      "text": "Straighter than him, anyway."
+     }
+    ]
+   },
+   {
+    "id": "gather_comfrey_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": "raid",
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Pick all you can. Guards with broken bones after that raid."
+     },
+     {
+      "speaker": "B",
+      "text": "Broken skulls too."
+     },
+     {
+      "speaker": "A",
+      "text": "Comfrey won't mend skulls. Nor will praying."
+     }
+    ]
+   },
+   {
+    "id": "gather_comfrey_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "field",
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Leaves for poultice, root for bones."
+     },
+     {
+      "speaker": "B",
+      "text": "My gran drank it for her chest."
+     },
+     {
+      "speaker": "A",
+      "text": "Don't drink it much. It's for outside, not in."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "GatherMeadowsweet",
+  "kind": "activity",
+  "who": "two gatherers cutting meadowsweet",
+  "exchanges": [
+   {
+    "id": "gather_meadowsweet_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Strewing herb. The lady wants her floors smelling sweet."
+     },
+     {
+      "speaker": "B",
+      "text": "Smells sickly to me. Like a funeral."
+     },
+     {
+      "speaker": "A",
+      "text": "Like a lady's chamber. Same thing, some days."
+     }
+    ]
+   },
+   {
+    "id": "gather_meadowsweet_02",
+    "when": {
+     "state": null,
+     "time": "day",
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Meadowsweet tea for a headache."
+     },
+     {
+      "speaker": "B",
+      "text": "And for a sour belly after too much ale."
+     },
+     {
+      "speaker": "A",
+      "text": "Then cut double. It's market week."
+     }
+    ]
+   },
+   {
+    "id": "gather_meadowsweet_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "inn",
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Brewers put it in mead. Meadwort, they call it."
+     },
+     {
+      "speaker": "B",
+      "text": "Meadwort and mugwort and gale. Ale's a hedge in a cup."
+     },
+     {
+      "speaker": "A",
+      "text": "And a good hedge, if it's strong."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "GatherValerian",
+  "kind": "activity",
+  "who": "two gatherers digging valerian",
+  "exchanges": [
+   {
+    "id": "gather_valerian_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Smells like old feet. That's the root."
+     },
+     {
+      "speaker": "B",
+      "text": "Smells like your feet."
+     },
+     {
+      "speaker": "A",
+      "text": "Then you'll sleep soundly near them. It works."
+     }
+    ]
+   },
+   {
+    "id": "gather_valerian_02",
+    "when": {
+     "state": null,
+     "time": "night",
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Valerian for the widow. She can't sleep since the raid."
+     },
+     {
+      "speaker": "B",
+      "text": "Root steeped in wine. Just a little."
+     },
+     {
+      "speaker": "A",
+      "text": "A little, aye. Too much and she won't wake."
+     }
+    ]
+   },
+   {
+    "id": "gather_valerian_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "home",
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Cats roll in it like it's catnip."
+     },
+     {
+      "speaker": "B",
+      "text": "Rats come to it too, they say."
+     },
+     {
+      "speaker": "A",
+      "text": "Then hang it high, or the house will be a fair."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "MakeBows",
+  "kind": "activity",
+  "who": "two bowyers at the bench",
+  "exchanges": [
+   {
+    "id": "make_bows_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Yew stave, heart on the inside, sap on the back."
+     },
+     {
+      "speaker": "B",
+      "text": "I know where the sap goes."
+     },
+     {
+      "speaker": "A",
+      "text": "Then why's it on the wrong side?"
+     }
+    ]
+   },
+   {
+    "id": "make_bows_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "workshop",
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Tiller it slow. Too fast and she'll crack."
+     },
+     {
+      "speaker": "B",
+      "text": "Like a mule. Or a wife."
+     },
+     {
+      "speaker": "A",
+      "text": "Or a bowyer's patience. Slow."
+     }
+    ]
+   },
+   {
+    "id": "make_bows_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": "raid",
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Lord wants fifty bows for the levy."
+     },
+     {
+      "speaker": "B",
+      "text": "Fifty! Yew doesn't grow that fast."
+     },
+     {
+      "speaker": "A",
+      "text": "Elm then. Better than sticks."
+     }
+    ]
+   },
+   {
+    "id": "make_bows_04",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": "Canopy Rest"
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Best yew grows in the churchyard."
+     },
+     {
+      "speaker": "B",
+      "text": "And the priest guards it like gold."
+     },
+     {
+      "speaker": "A",
+      "text": "Bring him a bow for his nephew. He'll soften."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "FletchArrows",
+  "kind": "activity",
+  "who": "two fletchers at the bench",
+  "exchanges": [
+   {
+    "id": "fletch_arrows_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Grey goose for the fletching. Left wing feathers only."
+     },
+     {
+      "speaker": "B",
+      "text": "What's wrong with right wing?"
+     },
+     {
+      "speaker": "A",
+      "text": "Spins the wrong way. Ask any archer."
+     }
+    ]
+   },
+   {
+    "id": "fletch_arrows_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": "ambush",
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Guards bought three sheaves. Cart road's got bad again."
+     },
+     {
+      "speaker": "B",
+      "text": "Bodkins or broadheads?"
+     },
+     {
+      "speaker": "A",
+      "text": "Bodkins. Outlaws wear mail now, some of them."
+     }
+    ]
+   },
+   {
+    "id": "fletch_arrows_03",
+    "when": {
+     "state": null,
+     "time": "evening",
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Glue's not set. Leave them overnight."
+     },
+     {
+      "speaker": "B",
+      "text": "Hide glue stinks like the tannery."
+     },
+     {
+      "speaker": "A",
+      "text": "Everything that works stinks. Ask the fullers."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "DressHides",
+  "kind": "activity",
+  "who": "two curriers dressing hides",
+  "exchanges": [
+   {
+    "id": "dress_hides_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Scrape with the grain, not against."
+     },
+     {
+      "speaker": "B",
+      "text": "My arms are dead from scraping."
+     },
+     {
+      "speaker": "A",
+      "text": "Dead arms, live hide. Keep at it."
+     }
+    ]
+   },
+   {
+    "id": "dress_hides_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": "Reedwatch"
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Blackwater Men buy our leather by the cartload."
+     },
+     {
+      "speaker": "B",
+      "text": "To smuggle what?"
+     },
+     {
+      "speaker": "A",
+      "text": "Don't ask what. Ask how much."
+     }
+    ]
+   },
+   {
+    "id": "dress_hides_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "workshop",
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Tallow and fish oil, rubbed in hot."
+     },
+     {
+      "speaker": "B",
+      "text": "I'll smell of fish for a week."
+     },
+     {
+      "speaker": "A",
+      "text": "You smelled of fish before this."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "TendCharcoalClamp",
+  "kind": "activity",
+  "who": "two charcoal burners at the clamp",
+  "exchanges": [
+   {
+    "id": "tend_charcoal_clamp_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Smoke's gone blue. Close the vents."
+     },
+     {
+      "speaker": "B",
+      "text": "Blue means she's nearly done?"
+     },
+     {
+      "speaker": "A",
+      "text": "Blue means she's burning the charcoal. Close them."
+     }
+    ]
+   },
+   {
+    "id": "tend_charcoal_clamp_02",
+    "when": {
+     "state": null,
+     "time": "night",
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Torches on the far ridge. Moving fast."
+     },
+     {
+      "speaker": "B",
+      "text": "Outlaws or the lord's men?"
+     },
+     {
+      "speaker": "A",
+      "text": "Either way, we saw nothing. Charcoalers never see anything."
+     }
+    ]
+   },
+   {
+    "id": "tend_charcoal_clamp_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": "Canopy Rest"
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Smelters in Stonepass want ten loads."
+     },
+     {
+      "speaker": "B",
+      "text": "Then we'll need ten clamps. Three nights each."
+     },
+     {
+      "speaker": "A",
+      "text": "And no sleep for a month. Charcoal's life."
+     }
+    ]
+   },
+   {
+    "id": "tend_charcoal_clamp_04",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "wild",
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Turf's split on the windward side. Patch it."
+     },
+     {
+      "speaker": "B",
+      "text": "If she flares, we lose a week's work."
+     },
+     {
+      "speaker": "A",
+      "text": "Patch it, then. Stop talking."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "GatherCrabApple",
+  "kind": "activity",
+  "who": "two gatherers shaking crab apples",
+  "exchanges": [
+   {
+    "id": "gather_crab_apple_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Sour as a steward's smile."
+     },
+     {
+      "speaker": "B",
+      "text": "Press them for verjuice. Cooks pay for it."
+     },
+     {
+      "speaker": "A",
+      "text": "And a bit for sprains. Rub it in cold."
+     }
+    ]
+   },
+   {
+    "id": "gather_crab_apple_02",
+    "when": {
+     "state": null,
+     "time": "evening",
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Throw the peel over your shoulder. It spells your lover's letter."
+     },
+     {
+      "speaker": "B",
+      "text": "Mine spelled a squiggle."
+     },
+     {
+      "speaker": "A",
+      "text": "Then you'll marry a squiggle."
+     }
+    ]
+   },
+   {
+    "id": "gather_crab_apple_03",
+    "when": {
+     "state": [
+      "Lean",
+      "Starving"
+     ],
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Crab apples and honey. Almost a meal."
+     },
+     {
+      "speaker": "B",
+      "text": "No honey left."
+     },
+     {
+      "speaker": "A",
+      "text": "Then crab apples and a long face. Still something."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "GatherJellyEar",
+  "kind": "activity",
+  "who": "two gatherers picking jelly ear off the elder",
+  "exchanges": [
+   {
+    "id": "gather_jelly_ear_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Jelly ear. Grows on elder, feels like a cold ear."
+     },
+     {
+      "speaker": "B",
+      "text": "Ugh. It wobbles."
+     },
+     {
+      "speaker": "A",
+      "text": "Boiled in milk, it soothes a sore throat. Wobble and all."
+     }
+    ]
+   },
+   {
+    "id": "gather_jelly_ear_02",
+    "when": {
+     "state": null,
+     "time": "day",
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Judas ear, the priest calls it. Says Judas hanged himself on an elder."
+     },
+     {
+      "speaker": "B",
+      "text": "That's why they grow there?"
+     },
+     {
+      "speaker": "A",
+      "text": "That and the damp. I trust the damp more."
+     }
+    ]
+   },
+   {
+    "id": "gather_jelly_ear_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "market",
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Dried, they keep all winter. Swell up again in soup."
+     },
+     {
+      "speaker": "B",
+      "text": "Who buys these?"
+     },
+     {
+      "speaker": "A",
+      "text": "Sunward cooks. They'll buy anything strange."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "GatherBetony",
+  "kind": "activity",
+  "who": "two gatherers picking betony",
+  "exchanges": [
+   {
+    "id": "gather_betony_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Sell your coat and buy betony, my gran said."
+     },
+     {
+      "speaker": "B",
+      "text": "For what?"
+     },
+     {
+      "speaker": "A",
+      "text": "For headaches, wounds, bad dreams. For everything."
+     }
+    ]
+   },
+   {
+    "id": "gather_betony_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "temple",
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Grows thick round the churchyard."
+     },
+     {
+      "speaker": "B",
+      "text": "Folk plant it there to keep the dead resting."
+     },
+     {
+      "speaker": "A",
+      "text": "Then pick it gently. Don't wake anyone."
+     }
+    ]
+   },
+   {
+    "id": "gather_betony_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": "blight",
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Wear a sprig round your neck against evil spirits."
+     },
+     {
+      "speaker": "B",
+      "text": "Will it keep off a Horror?"
+     },
+     {
+      "speaker": "A",
+      "text": "No. It'll keep off your worry, maybe."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "InspectLookouts",
+  "kind": "activity",
+  "who": "two tower wardens inspecting the lookouts",
+  "exchanges": [
+   {
+    "id": "inspect_lookouts_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Beacon wood's damp at the base. Restack it."
+     },
+     {
+      "speaker": "B",
+      "text": "Nobody's lit a beacon in anger for years."
+     },
+     {
+      "speaker": "A",
+      "text": "Then they'll light this one wet. Restack it."
+     }
+    ]
+   },
+   {
+    "id": "inspect_lookouts_02",
+    "when": {
+     "state": null,
+     "time": "evening",
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "John Hobson logs every lighting. Every night."
+     },
+     {
+      "speaker": "B",
+      "text": "Nobody reads his logbook."
+     },
+     {
+      "speaker": "A",
+      "text": "Someone will, one day. Light it."
+     }
+    ]
+   },
+   {
+    "id": "inspect_lookouts_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": "blight",
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Henry Black says he saw ash-light from tower four."
+     },
+     {
+      "speaker": "B",
+      "text": "Henry drinks."
+     },
+     {
+      "speaker": "A",
+      "text": "Henry drinks because he saw it."
+     }
+    ]
+   },
+   {
+    "id": "inspect_lookouts_04",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "wild",
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Stair's rotten on the third flight."
+     },
+     {
+      "speaker": "B",
+      "text": "Write it for {steward}. He'll ignore it."
+     },
+     {
+      "speaker": "A",
+      "text": "Write it twice, then. He'll ignore it twice."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "Raid",
+  "kind": "activity",
+  "who": "two outlaws of a band on a raid",
+  "exchanges": [
+   {
+    "id": "raid_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Grain and goats, nothing else. Don't burn the place."
+     },
+     {
+      "speaker": "B",
+      "text": "King said burn the barn."
+     },
+     {
+      "speaker": "A",
+      "text": "King's not here. My cousin's wife lives down there."
+     }
+    ]
+   },
+   {
+    "id": "raid_02",
+    "when": {
+     "state": null,
+     "time": "night",
+     "place": "camp",
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Blades blackened? Faces too?"
+     },
+     {
+      "speaker": "B",
+      "text": "Soot from the cook's fire. I smell like a hearth."
+     },
+     {
+      "speaker": "A",
+      "text": "Good. You'll pass for a Coldhearth."
+     }
+    ]
+   },
+   {
+    "id": "raid_03",
+    "when": {
+     "state": [
+      "Starving"
+     ],
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Camp's hungry. Take the sacks, leave the people."
+     },
+     {
+      "speaker": "B",
+      "text": "And if they fight?"
+     },
+     {
+      "speaker": "A",
+      "text": "They won't. They're hungry too. Just quicker about it."
+     }
+    ]
+   },
+   {
+    "id": "raid_04",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": "cleared",
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Hero broke our other camp. Uncle's limping back."
+     },
+     {
+      "speaker": "B",
+      "text": "Then we take double tonight. For him."
+     },
+     {
+      "speaker": "A",
+      "text": "For the Leans. For all of us."
+     }
+    ]
+   },
+   {
+    "id": "raid_05",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": "Reedwatch"
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Thomas the Lean says leave the lord's carts alone."
+     },
+     {
+      "speaker": "B",
+      "text": "Walter Crowfoot didn't. Look at him now. Rich."
+     },
+     {
+      "speaker": "A",
+      "text": "Look at him now. Hunted. Pick your king careful."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "LieInWait",
+  "kind": "activity",
+  "who": "two outlaws lying in wait by the road",
+  "exchanges": [
+   {
+    "id": "lie_in_wait_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Keep down. Your hood sticks up like a hare's ear."
+     },
+     {
+      "speaker": "B",
+      "text": "It's cold, and my knees are wet."
+     },
+     {
+      "speaker": "A",
+      "text": "Wet knees beat a rope. Down."
+     }
+    ]
+   },
+   {
+    "id": "lie_in_wait_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "road",
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Cart's coming. Two oxen, one guard."
+     },
+     {
+      "speaker": "B",
+      "text": "One guard? That's either luck or a trap."
+     },
+     {
+      "speaker": "A",
+      "text": "Halfpennies don't believe in luck. Watch the treeline."
+     }
+    ]
+   },
+   {
+    "id": "lie_in_wait_03",
+    "when": {
+     "state": null,
+     "time": "night",
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Can't see past the next bend."
+     },
+     {
+      "speaker": "B",
+      "text": "Neither can they. That's the point."
+     },
+     {
+      "speaker": "A",
+      "text": "Clever. Your mam always said you were the clever Shortknife."
+     }
+    ]
+   },
+   {
+    "id": "lie_in_wait_04",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": "escort",
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Garrison spears riding with the grain now."
+     },
+     {
+      "speaker": "B",
+      "text": "Then let it pass. We take the one after."
+     },
+     {
+      "speaker": "A",
+      "text": "The one after's ours. Pass the word down the line."
+     }
+    ]
+   },
+   {
+    "id": "lie_in_wait_05",
+    "when": {
+     "state": [
+      "Starving"
+     ],
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Two days on this bank and nothing but pedlars."
+     },
+     {
+      "speaker": "B",
+      "text": "Rob a pedlar, then."
+     },
+     {
+      "speaker": "A",
+      "text": "Pedlars carry news and needles. Can't eat either."
+     }
+    ]
+   },
+   {
+    "id": "lie_in_wait_06",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "camp",
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Go-between says a sealed cart comes Friday."
+     },
+     {
+      "speaker": "B",
+      "text": "Lord's seal? Thornback'd want it."
+     },
+     {
+      "speaker": "A",
+      "text": "Then we take the seal and leave the grain for the hamlet."
+     }
+    ]
+   },
+   {
+    "id": "lie_in_wait_07",
+    "when": {
+     "state": null,
+     "time": "dawn",
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "There. Lone rider, good horse."
+     },
+     {
+      "speaker": "B",
+      "text": "Herald's colours. Leave him."
+     },
+     {
+      "speaker": "A",
+      "text": "Aye. Kill a herald and every lord comes hunting."
+     }
+    ]
+   },
+   {
+    "id": "lie_in_wait_08",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": "hunted",
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Word is a hero's out after camps like ours."
+     },
+     {
+      "speaker": "B",
+      "text": "Then we're three roads away by noon."
+     },
+     {
+      "speaker": "A",
+      "text": "My brother's in the next camp. I'll send him word."
+     }
+    ]
+   }
+  ]
+ }
+]
