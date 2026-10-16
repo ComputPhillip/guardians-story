@@ -1,0 +1,6049 @@
+[
+  {
+    "action": "shortage",
+    "kind": "event",
+    "who": "two townsfolk at market or in the inn, sometimes a merchant",
+    "exchanges": [
+      {
+        "id": "shortage_01",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": null,
+          "news": "shortage",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Heard {good}'s run short. Prices are climbing already."
+          },
+          {
+            "speaker": "B",
+            "text": "They always climb faster than they ever fall."
+          }
+        ]
+      },
+      {
+        "id": "shortage_02",
+        "when": {
+          "state": [
+            "Starving",
+            "Lean"
+          ],
+          "time": null,
+          "place": null,
+          "news": "shortage",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "{good}'s short now too. What's next, the air?"
+          },
+          {
+            "speaker": "B",
+            "text": "Don't give {steward} ideas. He'd tithe breathing."
+          }
+        ]
+      },
+      {
+        "id": "shortage_03",
+        "when": {
+          "state": [
+            "Thriving"
+          ],
+          "time": null,
+          "place": "market",
+          "news": "shortage",
+          "standing": null,
+          "hold": "Sunward Exchange"
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "{good}'s short up the road. We should buy it all and sell it back."
+          },
+          {
+            "speaker": "B",
+            "text": "Spoken like a true son of Sunward."
+          },
+          {
+            "speaker": "C",
+            "text": "Spoken like a man who's never been robbed on that road."
+          }
+        ]
+      },
+      {
+        "id": "shortage_04",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "workshop",
+          "news": "shortage",
+          "standing": null,
+          "hold": "Stonepass Refuge"
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Quarry face came down, they say. Stone's short for weeks."
+          },
+          {
+            "speaker": "B",
+            "text": "Anyone under it?"
+          },
+          {
+            "speaker": "A",
+            "text": "Nobody's said. Which means somebody was."
+          }
+        ]
+      },
+      {
+        "id": "shortage_05",
+        "when": {
+          "state": null,
+          "time": "evening",
+          "place": "inn",
+          "news": "shortage",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "My cousin swears {good}'s gone entirely. Not a scrap from here to the cliffs."
+          },
+          {
+            "speaker": "B",
+            "text": "Your cousin said the same of salt last spring."
+          },
+          {
+            "speaker": "A",
+            "text": "And salt went grey, didn't it?"
+          }
+        ]
+      },
+      {
+        "id": "shortage_06",
+        "when": {
+          "state": null,
+          "time": "dawn",
+          "place": null,
+          "news": "shortage",
+          "standing": null,
+          "hold": "Reedwatch"
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "{good}'s short, they're saying. We'll go without, same as ever."
+          },
+          {
+            "speaker": "B",
+            "text": "Reedwatch could go without for a living. We've the practice."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "action": "trade change",
+    "kind": "event",
+    "who": "two townsfolk, often lodge hunters or their neighbours",
+    "exchanges": [
+      {
+        "id": "trade_change_01",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": null,
+          "news": "trade change",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "A whole crew of huntsmen put down their bows. Herb-picking pays better now."
+          },
+          {
+            "speaker": "B",
+            "text": "Can't blame them. Meat's cheap and roots don't bite back."
+          }
+        ]
+      },
+      {
+        "id": "trade_change_02",
+        "when": {
+          "state": null,
+          "time": "evening",
+          "place": "inn",
+          "news": "trade change",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Lodge-master calls it desertion."
+          },
+          {
+            "speaker": "B",
+            "text": "The crew calls it eating. They're both right, which is the trouble."
+          }
+        ]
+      },
+      {
+        "id": "trade_change_03",
+        "when": {
+          "state": [
+            "Starving"
+          ],
+          "time": null,
+          "place": null,
+          "news": "trade change",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Huntsmen gone to the mines while we're starving? Who brings the meat?"
+          },
+          {
+            "speaker": "B",
+            "text": "Nobody. Then meat gets dear, and the bows come back down off the wall."
+          }
+        ]
+      },
+      {
+        "id": "trade_change_04",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": null,
+          "news": "trade change",
+          "standing": null,
+          "hold": "First Hearth"
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "The King's Lodge loses another crew. Green banner over empty benches."
+          },
+          {
+            "speaker": "B",
+            "text": "Sir Robert won't weep. Fewer bows to tell him no."
+          }
+        ]
+      },
+      {
+        "id": "trade_change_05",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "market",
+          "news": "trade change",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "I heard the whole lodge went quarrying. Thirty bows, gone to stone."
+          },
+          {
+            "speaker": "B",
+            "text": "It was one crew of four."
+          },
+          {
+            "speaker": "A",
+            "text": "Four's how it starts."
+          }
+        ]
+      },
+      {
+        "id": "trade_change_06",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "temple",
+          "news": "trade change",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "The huntsmen are herb-gatherers now. Do we pray for them or the deer?"
+          },
+          {
+            "speaker": "B",
+            "text": "Pray for the herb-women. They've got rivals."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "action": "retires",
+    "kind": "event",
+    "who": "two craftsfolk or neighbours",
+    "exchanges": [
+      {
+        "id": "retires_01",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": null,
+          "news": "retires",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "The old master's hung up his tools. Says his hands shake now."
+          },
+          {
+            "speaker": "B",
+            "text": "And the apprentice takes the bench? Gods help his customers."
+          }
+        ]
+      },
+      {
+        "id": "retires_02",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "workshop",
+          "news": "retires",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Retired, and stays on in town. Must be nice."
+          },
+          {
+            "speaker": "B",
+            "text": "Must be thirty years of saving. You've saved three days."
+          }
+        ]
+      },
+      {
+        "id": "retires_03",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "inn",
+          "news": "retires",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "One of their masters retired, over in the other hold."
+          },
+          {
+            "speaker": "B",
+            "text": "Then their prices go up, and ours look honest for once."
+          }
+        ]
+      },
+      {
+        "id": "retires_04",
+        "when": {
+          "state": [
+            "Lean",
+            "Starving"
+          ],
+          "time": null,
+          "place": null,
+          "news": "retires",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Retiring in a lean year. Bold."
+          },
+          {
+            "speaker": "B",
+            "text": "Or tired. You can't feed a craft with hands that won't close."
+          }
+        ]
+      },
+      {
+        "id": "retires_05",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "keep",
+          "news": "retires",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "He taught half the garrison to hold a sword. Now he feeds pigeons."
+          },
+          {
+            "speaker": "B",
+            "text": "Better pigeons than the Blight."
+          },
+          {
+            "speaker": "C",
+            "text": "The pigeons might disagree."
+          }
+        ]
+      },
+      {
+        "id": "retires_06",
+        "when": {
+          "state": null,
+          "time": "evening",
+          "place": null,
+          "news": "retires",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "They say the old master retired rich, on a chest of Sunward gold."
+          },
+          {
+            "speaker": "B",
+            "text": "He retired with a bad back and a lame cat."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "action": "promoted",
+    "kind": "event",
+    "who": "two craftsfolk or family",
+    "exchanges": [
+      {
+        "id": "promoted_01",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": null,
+          "news": "promoted",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Journeyman now, that lad. Took him long enough."
+          },
+          {
+            "speaker": "B",
+            "text": "Took you longer, and you're still not."
+          }
+        ]
+      },
+      {
+        "id": "promoted_02",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "workshop",
+          "news": "promoted",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Made journeyman. He'll want a raise."
+          },
+          {
+            "speaker": "B",
+            "text": "He'll want a wife. Then he'll need the raise."
+          }
+        ]
+      },
+      {
+        "id": "promoted_03",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "temple",
+          "news": "promoted",
+          "standing": null,
+          "hold": "Canopy Rest"
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "The weaver's girl made journeyman. I'll light a candle for her."
+          },
+          {
+            "speaker": "B",
+            "text": "Light one for her master. He's paying her more now."
+          }
+        ]
+      },
+      {
+        "id": "promoted_04",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "market",
+          "news": "promoted",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Some weaver in another hold made journeyman. Why do I care?"
+          },
+          {
+            "speaker": "B",
+            "text": "Because the pedlar told you, and you paid for the news."
+          }
+        ]
+      },
+      {
+        "id": "promoted_05",
+        "when": {
+          "state": null,
+          "time": "evening",
+          "place": "inn",
+          "news": "promoted",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "I heard she's a master now. Best in the hold."
+          },
+          {
+            "speaker": "B",
+            "text": "Journeyman. You've added a rank and a hold in the telling."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "action": "hunt",
+    "kind": "event",
+    "who": "townsfolk, lodge hunters or outlaws talking about an outlaw camp's hunting",
+    "exchanges": [
+      {
+        "id": "hunt_01",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": null,
+          "news": "hunt",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "{band}'s hunters took three beasts from the den, I hear."
+          },
+          {
+            "speaker": "B",
+            "text": "Then they'll eat well and raid less. For a week."
+          }
+        ]
+      },
+      {
+        "id": "hunt_02",
+        "when": {
+          "state": null,
+          "time": "evening",
+          "place": "inn",
+          "news": "hunt",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Outlaws culling the den, and the lodge forbidden to lift a bow."
+          },
+          {
+            "speaker": "B",
+            "text": "The Charter binds the lodge, not them. Never has."
+          }
+        ]
+      },
+      {
+        "id": "hunt_03",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "camp",
+          "news": "hunt",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "The lads brought three back from the den. Real meat tonight."
+          },
+          {
+            "speaker": "B",
+            "text": "Don't tell the lodge. They'll call it the king's deer."
+          },
+          {
+            "speaker": "C",
+            "text": "There's no king. So it's our deer."
+          }
+        ]
+      },
+      {
+        "id": "hunt_04",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "field",
+          "news": "hunt",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "If {band} is thinning the den, maybe the wolves leave our folds."
+          },
+          {
+            "speaker": "B",
+            "text": "And then {band} comes to the folds instead. Pick your wolf."
+          }
+        ]
+      },
+      {
+        "id": "hunt_05",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "market",
+          "news": "hunt",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Heard {band} killed a bear with their bare hands."
+          },
+          {
+            "speaker": "B",
+            "text": "Heard they shot three hares and one got up and walked off."
+          }
+        ]
+      },
+      {
+        "id": "hunt_06",
+        "when": {
+          "state": null,
+          "time": "night",
+          "place": "keep",
+          "news": "hunt",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "{band} hunting this near town. They're getting comfortable."
+          },
+          {
+            "speaker": "B",
+            "text": "Let them. Fat outlaws run slower."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "action": "feud",
+    "kind": "event",
+    "who": "two townsfolk, guards or outlaws hearing of a clash between bands",
+    "exchanges": [
+      {
+        "id": "feud_01",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": null,
+          "news": "feud",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "{band} clashed with another camp. Two dead a side, no winner."
+          },
+          {
+            "speaker": "B",
+            "text": "Good. Every outlaw in the ground is one less on the road."
+          }
+        ]
+      },
+      {
+        "id": "feud_02",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "camp",
+          "news": "feud",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "{band} lost men in the feud. My cousin rides with them."
+          },
+          {
+            "speaker": "B",
+            "text": "Mine rides for the other lot. Let's not talk about it."
+          }
+        ]
+      },
+      {
+        "id": "feud_03",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "inn",
+          "news": "feud",
+          "standing": null,
+          "hold": "Reedwatch"
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Crows fighting Crows again. Sir Thomas should send them a cask to keep it going."
+          },
+          {
+            "speaker": "B",
+            "text": "Sir Thomas can't afford a cask."
+          }
+        ]
+      },
+      {
+        "id": "feud_04",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "keep",
+          "news": "feud",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Bands feud, the winner swallows the loser. Then we've one big band."
+          },
+          {
+            "speaker": "B",
+            "text": "Then a hero breaks it, and round it goes."
+          }
+        ]
+      },
+      {
+        "id": "feud_05",
+        "when": {
+          "state": null,
+          "time": "evening",
+          "place": null,
+          "news": "feud",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Heard {band} lost forty men in a battle by the stream."
+          },
+          {
+            "speaker": "B",
+            "text": "{band} never had forty men."
+          },
+          {
+            "speaker": "A",
+            "text": "Well, they certainly don't now."
+          }
+        ]
+      },
+      {
+        "id": "feud_06",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "temple",
+          "news": "feud",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Outlaws killing outlaws. Do we bury them?"
+          },
+          {
+            "speaker": "B",
+            "text": "We bury everyone. The gods do the sorting."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "action": "adventurers",
+    "kind": "event",
+    "who": "townsfolk, innkeepers and guild members watching the guild swell",
+    "exchanges": [
+      {
+        "id": "adventurers_01",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": null,
+          "news": "adventurers",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "{guild}'s full to the rafters. Swords sleeping in the yard."
+          },
+          {
+            "speaker": "B",
+            "text": "Word of danger brings them like flies to a carcass."
+          }
+        ]
+      },
+      {
+        "id": "adventurers_02",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "inn",
+          "news": "adventurers",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "The guild spills over to us now. They drink like dying men."
+          },
+          {
+            "speaker": "B",
+            "text": "Most of them are. Charge them double."
+          }
+        ]
+      },
+      {
+        "id": "adventurers_03",
+        "when": {
+          "state": [
+            "Lean",
+            "Starving"
+          ],
+          "time": null,
+          "place": null,
+          "news": "adventurers",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Fifty adventurers to feed, and the granary's lean."
+          },
+          {
+            "speaker": "B",
+            "text": "They eat what the town pays them, which is to say, ours."
+          }
+        ]
+      },
+      {
+        "id": "adventurers_04",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "workshop",
+          "news": "adventurers",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "New faces every morning at {guild}. Half won't see a second rift."
+          },
+          {
+            "speaker": "B",
+            "text": "Don't learn their names, then."
+          }
+        ]
+      },
+      {
+        "id": "adventurers_05",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "road",
+          "news": "adventurers",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "They say a hundred swords camp round {guild}. An army."
+          },
+          {
+            "speaker": "B",
+            "text": "An army of debtors and runaway farm boys."
+          }
+        ]
+      },
+      {
+        "id": "adventurers_06",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "keep",
+          "news": "adventurers",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "So many blades in one place. {lord} should count them."
+          },
+          {
+            "speaker": "B",
+            "text": "{lord} should pay them. Then they'd be his."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "action": "deaths",
+    "kind": "event",
+    "who": "townsfolk, clergy and guild members mourning a guild death",
+    "exchanges": [
+      {
+        "id": "deaths_01",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": null,
+          "news": "deaths",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "{dead} died at the rift. The rest made it back to {guild}."
+          },
+          {
+            "speaker": "B",
+            "text": "Gods rest them. Who's next, I wonder."
+          }
+        ]
+      },
+      {
+        "id": "deaths_02",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "temple",
+          "news": "deaths",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "We'll say the words for {dead} tonight. No body to bury."
+          },
+          {
+            "speaker": "B",
+            "text": "There never is, from the rift."
+          }
+        ]
+      },
+      {
+        "id": "deaths_03",
+        "when": {
+          "state": null,
+          "time": "evening",
+          "place": "inn",
+          "news": "deaths",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "{dead} owed me two coin."
+          },
+          {
+            "speaker": "B",
+            "text": "Then the rift owes you. Drink to them."
+          },
+          {
+            "speaker": "C",
+            "text": "To {dead}. And to the two coin."
+          }
+        ]
+      },
+      {
+        "id": "deaths_04",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "market",
+          "news": "deaths",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Heard the whole party died, {dead} with them."
+          },
+          {
+            "speaker": "B",
+            "text": "Four came back. I watched them limp through the gate."
+          }
+        ]
+      },
+      {
+        "id": "deaths_05",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "home",
+          "news": "deaths",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "{dead}'s mother hasn't spoken since."
+          },
+          {
+            "speaker": "B",
+            "text": "The guild sent coin. That's all the guild ever sends."
+          }
+        ]
+      },
+      {
+        "id": "deaths_06",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": null,
+          "news": "deaths",
+          "standing": null,
+          "hold": "Stonepass Refuge"
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "{dead} went east for glory."
+          },
+          {
+            "speaker": "B",
+            "text": "Glory's a hole in the ground with your name scratched over it."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "action": "level",
+    "kind": "event",
+    "who": "guild members and townsfolk",
+    "exchanges": [
+      {
+        "id": "level_01",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": null,
+          "news": "level",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Came back from the rift harder than they went in."
+          },
+          {
+            "speaker": "B",
+            "text": "The rift does that. Or it keeps you."
+          }
+        ]
+      },
+      {
+        "id": "level_02",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "inn",
+          "news": "level",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Back from the rift and stronger for it. Buying rounds, too."
+          },
+          {
+            "speaker": "B",
+            "text": "Drink fast, before the luck runs dry."
+          }
+        ]
+      },
+      {
+        "id": "level_03",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "market",
+          "news": "level",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "They say she killed a demon alone and came back glowing."
+          },
+          {
+            "speaker": "B",
+            "text": "She came back with a limp and a better sword."
+          }
+        ]
+      },
+      {
+        "id": "level_04",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "keep",
+          "news": "level",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "The guild's growing teeth. {lord} should hire the best before another lord does."
+          },
+          {
+            "speaker": "B",
+            "text": "Or before they decide they need no lord at all."
+          }
+        ]
+      },
+      {
+        "id": "level_05",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "field",
+          "news": "level",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Grand for {guild}. Does it fill our barns?"
+          },
+          {
+            "speaker": "B",
+            "text": "It keeps the Blight off the barns. That's something."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "action": "fold",
+    "kind": "event",
+    "who": "shepherds, townsfolk or outlaws hearing of stolen livestock",
+    "exchanges": [
+      {
+        "id": "fold_01",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": null,
+          "news": "fold",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "{band} took three head from a fold at {hamlet} last night."
+          },
+          {
+            "speaker": "B",
+            "text": "Only three? The watch must've been awake for once."
+          }
+        ]
+      },
+      {
+        "id": "fold_02",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "field",
+          "news": "fold",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Wolves by night, {band} by night. Whose sheep are these anyway?"
+          },
+          {
+            "speaker": "B",
+            "text": "Whoever's hungriest, seems like."
+          }
+        ]
+      },
+      {
+        "id": "fold_03",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": null,
+          "news": "fold",
+          "standing": null,
+          "hold": "First Hearth"
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "{hamlet} pays two bands not to steal. And they steal anyway."
+          },
+          {
+            "speaker": "B",
+            "text": "Then it's paying for the courtesy of only three."
+          }
+        ]
+      },
+      {
+        "id": "fold_04",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "camp",
+          "news": "fold",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Mutton tonight. {hamlet} sends its regards."
+          },
+          {
+            "speaker": "B",
+            "text": "{hamlet} sends its spears next time. Mind your head."
+          }
+        ]
+      },
+      {
+        "id": "fold_05",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "inn",
+          "news": "fold",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "They say {band} emptied every fold in {hamlet}."
+          },
+          {
+            "speaker": "B",
+            "text": "Three sheep. I asked the shepherd myself."
+          }
+        ]
+      },
+      {
+        "id": "fold_06",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "keep",
+          "news": "fold",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Three head from {hamlet}. Tithe we'll never see."
+          },
+          {
+            "speaker": "B",
+            "text": "{steward} will find it elsewhere. He always does."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "action": "escort",
+    "kind": "event",
+    "who": "guards, carters and townsfolk",
+    "exchanges": [
+      {
+        "id": "escort_01",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": null,
+          "news": "escort",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "{band} shadowed the carts from {hamlet}, but the escort was too many."
+          },
+          {
+            "speaker": "B",
+            "text": "Six guards. That's what it takes now to move grain."
+          }
+        ]
+      },
+      {
+        "id": "escort_02",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "road",
+          "news": "escort",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "They followed us half the day. Never closed."
+          },
+          {
+            "speaker": "B",
+            "text": "They were counting us. Next time they'll bring enough."
+          }
+        ]
+      },
+      {
+        "id": "escort_03",
+        "when": {
+          "state": [
+            "Starving",
+            "Lean"
+          ],
+          "time": null,
+          "place": null,
+          "news": "escort",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "At least the {hamlet} grain got through."
+          },
+          {
+            "speaker": "B",
+            "text": "First good news in a week. Don't spoil it."
+          }
+        ]
+      },
+      {
+        "id": "escort_04",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "inn",
+          "news": "escort",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Heard the escort fought off fifty outlaws."
+          },
+          {
+            "speaker": "B",
+            "text": "Nobody fought. They stared at each other and went home."
+          }
+        ]
+      },
+      {
+        "id": "escort_05",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "camp",
+          "news": "escort",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Six guards on the {hamlet} carts. Not worth the blood."
+          },
+          {
+            "speaker": "B",
+            "text": "Wait till they send four."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "action": "rotate",
+    "kind": "event",
+    "who": "lodge hunters, farmers and townsfolk",
+    "exchanges": [
+      {
+        "id": "rotate_01",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": null,
+          "news": "rotate",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "The deer ground north is hunted out. Crews are moving on."
+          },
+          {
+            "speaker": "B",
+            "text": "The Half Law should've stopped that."
+          }
+        ]
+      },
+      {
+        "id": "rotate_02",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "inn",
+          "news": "rotate",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Half Law kept, and still the ground's bare."
+          },
+          {
+            "speaker": "B",
+            "text": "Half of not much is less every year."
+          }
+        ]
+      },
+      {
+        "id": "rotate_03",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "field",
+          "news": "rotate",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Huntsmen moving to the new ground. Straight through our barley, no doubt."
+          },
+          {
+            "speaker": "B",
+            "text": "Trampling it like the lord's hunt does."
+          }
+        ]
+      },
+      {
+        "id": "rotate_04",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "market",
+          "news": "rotate",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "The deer are all dead, they say. No venison till winter."
+          },
+          {
+            "speaker": "B",
+            "text": "They moved the crews, fool. The deer just live elsewhere now."
+          }
+        ]
+      },
+      {
+        "id": "rotate_05",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "temple",
+          "news": "rotate",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "The ground rests, the herd breeds, the crews return. It's in the verderers' rolls."
+          },
+          {
+            "speaker": "B",
+            "text": "You read too much. Everyone else just sees empty woods."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "action": "order",
+    "kind": "event",
+    "who": "craftsfolk, carriers and townsfolk",
+    "exchanges": [
+      {
+        "id": "order_01",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": null,
+          "news": "order",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "The smiths want ore. Paying over the odds for it."
+          },
+          {
+            "speaker": "B",
+            "text": "Then somebody's making blades. Who for, I'd ask."
+          }
+        ]
+      },
+      {
+        "id": "order_02",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": null,
+          "news": "order",
+          "standing": null,
+          "hold": "Stonepass Refuge"
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "The fen smiths want our ore at a premium."
+          },
+          {
+            "speaker": "B",
+            "text": "Good. Let Reedwatch pay highland prices for once."
+          }
+        ]
+      },
+      {
+        "id": "order_03",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "market",
+          "news": "order",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Buy order at the trading post. Carrying work for anyone with a back."
+          },
+          {
+            "speaker": "B",
+            "text": "And a cart. And a sword for the road."
+          }
+        ]
+      },
+      {
+        "id": "order_04",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "inn",
+          "news": "order",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "They say {town} is arming for war. Smiths buying every scrap of ore."
+          },
+          {
+            "speaker": "B",
+            "text": "Smiths buy ore for nails and hinges, mostly."
+          }
+        ]
+      },
+      {
+        "id": "order_05",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "keep",
+          "news": "order",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Ore above the base price. {steward} won't like the books."
+          },
+          {
+            "speaker": "B",
+            "text": "{steward} likes nothing but a full granary."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "action": "raid",
+    "kind": "event",
+    "who": "townsfolk, refugees, clergy and the lord's household",
+    "exchanges": [
+      {
+        "id": "raid_01",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": null,
+          "news": "raid",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "{band} raided {hamlet}. Burned the fields, killed or scattered a dozen."
+          },
+          {
+            "speaker": "B",
+            "text": "Gods. And the grain?"
+          },
+          {
+            "speaker": "A",
+            "text": "Carried off. Every sack."
+          }
+        ]
+      },
+      {
+        "id": "raid_02",
+        "when": {
+          "state": [
+            "Starving",
+            "Lean"
+          ],
+          "time": null,
+          "place": null,
+          "news": "raid",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "{hamlet} was half our bread. Now it's ash."
+          },
+          {
+            "speaker": "B",
+            "text": "Then we eat ash and wait for a hero."
+          }
+        ]
+      },
+      {
+        "id": "raid_03",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "temple",
+          "news": "raid",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "A dozen souls from {hamlet}. We haven't the candles."
+          },
+          {
+            "speaker": "B",
+            "text": "Use the old ones twice. The dead won't mind."
+          }
+        ]
+      },
+      {
+        "id": "raid_04",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "road",
+          "news": "raid",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "They say {band} burned a whole town to the ground."
+          },
+          {
+            "speaker": "B",
+            "text": "A hamlet. Though to them it was the whole world."
+          }
+        ]
+      },
+      {
+        "id": "raid_05",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "keep",
+          "news": "raid",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "{lord} will send a hero, surely."
+          },
+          {
+            "speaker": "B",
+            "text": "When {band} reaches thirty men. Not a day before."
+          }
+        ]
+      },
+      {
+        "id": "raid_06",
+        "when": {
+          "state": null,
+          "time": "night",
+          "place": "inn",
+          "news": "raid",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "My sister's from {hamlet}. Nobody's seen her."
+          },
+          {
+            "speaker": "B",
+            "text": "Ask at the gate. The ones who fled come in by night."
+          }
+        ]
+      },
+      {
+        "id": "raid_07",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": null,
+          "news": "raid",
+          "standing": null,
+          "hold": "Stonepass Refuge"
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "{band} again. Somebody's paying them to bleed us."
+          },
+          {
+            "speaker": "B",
+            "text": "Say First Hearth out loud and see who's listening."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "action": "missed",
+    "kind": "event",
+    "who": "guards, hamlet folk and townsfolk",
+    "exchanges": [
+      {
+        "id": "missed_01",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": null,
+          "news": "missed",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "No guards for the cart round. {hamlet}'s grain sits in the barn."
+          },
+          {
+            "speaker": "B",
+            "text": "Where outlaws can find it easier than we can."
+          }
+        ]
+      },
+      {
+        "id": "missed_02",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "keep",
+          "news": "missed",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Walls or carts. We can't man both."
+          },
+          {
+            "speaker": "B",
+            "text": "Then the walls. Carts don't scream when they burn."
+          }
+        ]
+      },
+      {
+        "id": "missed_03",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "field",
+          "news": "missed",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Town forgot us again. The grain's going musty by the door."
+          },
+          {
+            "speaker": "B",
+            "text": "Not forgot. Ignored. There's a difference."
+          }
+        ]
+      },
+      {
+        "id": "missed_04",
+        "when": {
+          "state": [
+            "Starving",
+            "Lean"
+          ],
+          "time": null,
+          "place": "market",
+          "news": "missed",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Missed round, empty stalls. Lovely."
+          },
+          {
+            "speaker": "B",
+            "text": "{steward} says next week. Next week we're thinner."
+          }
+        ]
+      },
+      {
+        "id": "missed_05",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "inn",
+          "news": "missed",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "They say {lord} gave the escort leave to go drinking."
+          },
+          {
+            "speaker": "B",
+            "text": "The escort's on the walls. I took them their soup."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "action": "filled",
+    "kind": "event",
+    "who": "craftsfolk, carriers and townsfolk",
+    "exchanges": [
+      {
+        "id": "filled_01",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": null,
+          "news": "filled",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "That ore order's filled. Last carts rolled in this morning."
+          },
+          {
+            "speaker": "B",
+            "text": "Then the smiths will sing tonight. Badly."
+          }
+        ]
+      },
+      {
+        "id": "filled_02",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "workshop",
+          "news": "filled",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Ore's in. We work till our arms drop off."
+          },
+          {
+            "speaker": "B",
+            "text": "Better than sitting by a cold forge."
+          }
+        ]
+      },
+      {
+        "id": "filled_03",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": null,
+          "news": "filled",
+          "standing": null,
+          "hold": "Stonepass Refuge"
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Our carriers filled the fen order. Good coin, that."
+          },
+          {
+            "speaker": "B",
+            "text": "And the roads were kind, for once."
+          }
+        ]
+      },
+      {
+        "id": "filled_04",
+        "when": {
+          "state": null,
+          "time": "evening",
+          "place": "inn",
+          "news": "filled",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "The carriers are drinking the whole order away."
+          },
+          {
+            "speaker": "B",
+            "text": "Let them. They walked past three bands to earn it."
+          }
+        ]
+      },
+      {
+        "id": "filled_05",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "market",
+          "news": "filled",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Heard they brought so much ore the bridge cracked."
+          },
+          {
+            "speaker": "B",
+            "text": "The bridge cracked last spring. Nobody mended it."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "action": "lodge",
+    "kind": "event",
+    "who": "lodge hunters, townsfolk and clergy",
+    "exchanges": [
+      {
+        "id": "lodge_01",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": null,
+          "news": "lodge",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "{dead} didn't come back from the week's hunting."
+          },
+          {
+            "speaker": "B",
+            "text": "The far hunt again?"
+          },
+          {
+            "speaker": "A",
+            "text": "Nobody's saying."
+          }
+        ]
+      },
+      {
+        "id": "lodge_02",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "inn",
+          "news": "lodge",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "The lodge says beasts took {dead}."
+          },
+          {
+            "speaker": "B",
+            "text": "The lodge always says beasts. Beasts don't take boots."
+          }
+        ]
+      },
+      {
+        "id": "lodge_03",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": null,
+          "news": "lodge",
+          "standing": null,
+          "hold": "Sunward Exchange"
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Another of the Desert Lodge gone. The Coin's meat costs blood."
+          },
+          {
+            "speaker": "B",
+            "text": "And he sells it on at double. Remember that."
+          }
+        ]
+      },
+      {
+        "id": "lodge_04",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "temple",
+          "news": "lodge",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "{dead} kept the Half Law all their life. The wood didn't remember."
+          },
+          {
+            "speaker": "B",
+            "text": "The wood never promised it would."
+          }
+        ]
+      },
+      {
+        "id": "lodge_05",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": null,
+          "news": "lodge",
+          "standing": null,
+          "hold": "Stonepass Refuge"
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "{dead} died in our own woods. Safe woods."
+          },
+          {
+            "speaker": "B",
+            "text": "Safe from beasts. Not from Reaver poachers."
+          }
+        ]
+      },
+      {
+        "id": "lodge_06",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "market",
+          "news": "lodge",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "I heard {dead} ran off with a Crow."
+          },
+          {
+            "speaker": "B",
+            "text": "Without their bow? It's still on the lodge wall."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "action": "slavers",
+    "kind": "event",
+    "who": "highlanders, townsfolk and clergy",
+    "exchanges": [
+      {
+        "id": "slavers_01",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": null,
+          "news": "slavers",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Slavers from the north tried {hamlet}. The guards drove them off."
+          },
+          {
+            "speaker": "B",
+            "text": "This time."
+          }
+        ]
+      },
+      {
+        "id": "slavers_02",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": null,
+          "news": "slavers",
+          "standing": null,
+          "hold": "Stonepass Refuge"
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "We drove them off {hamlet}. Watch and farmers together."
+          },
+          {
+            "speaker": "B",
+            "text": "Good. Every hamlet should learn the spear."
+          }
+        ]
+      },
+      {
+        "id": "slavers_03",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": null,
+          "news": "slavers",
+          "standing": null,
+          "hold": "Sunward Exchange"
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Slavers in the highlands again. Glad we're far from it."
+          },
+          {
+            "speaker": "B",
+            "text": "Nobody's far enough from the north."
+          }
+        ]
+      },
+      {
+        "id": "slavers_04",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "temple",
+          "news": "slavers",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Pray for the ones they do take."
+          },
+          {
+            "speaker": "B",
+            "text": "Pray, and save. Ransom's dearer than prayer."
+          }
+        ]
+      },
+      {
+        "id": "slavers_05",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "inn",
+          "news": "slavers",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "They say the slavers carried off a hundred from {hamlet}."
+          },
+          {
+            "speaker": "B",
+            "text": "They carried off nobody. Goatherds chased them up the pass."
+          }
+        ]
+      },
+      {
+        "id": "slavers_06",
+        "when": {
+          "state": null,
+          "time": "night",
+          "place": "field",
+          "news": "slavers",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "{hamlet} beat them, and the slavers remember a beating."
+          },
+          {
+            "speaker": "B",
+            "text": "So does {hamlet}. Let them come back and learn twice."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "action": "signed",
+    "kind": "event",
+    "who": "guild members, parents and townsfolk",
+    "exchanges": [
+      {
+        "id": "signed_01",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": null,
+          "news": "signed",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "{guild} signed a new bow. Forty-odd coin and eight a week."
+          },
+          {
+            "speaker": "B",
+            "text": "Eight a week to die. I'd want ten."
+          }
+        ]
+      },
+      {
+        "id": "signed_02",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "inn",
+          "news": "signed",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "The new recruit's got aptitude, they say."
+          },
+          {
+            "speaker": "B",
+            "text": "Aptitude's what they call it before the rift."
+          }
+        ]
+      },
+      {
+        "id": "signed_03",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "home",
+          "news": "signed",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "My boy wants to sign with {guild}."
+          },
+          {
+            "speaker": "B",
+            "text": "Tell him the coin goes to his widow, mostly."
+          }
+        ]
+      },
+      {
+        "id": "signed_04",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "market",
+          "news": "signed",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "{guild} paid a hundred coin for some archer."
+          },
+          {
+            "speaker": "B",
+            "text": "Forty-six. I saw the ledger."
+          }
+        ]
+      },
+      {
+        "id": "signed_05",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "keep",
+          "news": "signed",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "The guild buys up the best hands before our garrison can."
+          },
+          {
+            "speaker": "B",
+            "text": "Then pay the garrison what the guild pays."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "action": "blight",
+    "kind": "event",
+    "who": "townsfolk, outlaws, guards and clergy",
+    "exchanges": [
+      {
+        "id": "blight_01",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": null,
+          "news": "blight",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Horrors came out of the broken fort. Fell on {band}'s camp in the night."
+          },
+          {
+            "speaker": "B",
+            "text": "Four dead, they say. Couldn't happen to nicer people."
+          }
+        ]
+      },
+      {
+        "id": "blight_02",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "temple",
+          "news": "blight",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Even outlaws don't deserve the Horrors."
+          },
+          {
+            "speaker": "B",
+            "text": "No one does. That's what makes them Horrors."
+          }
+        ]
+      },
+      {
+        "id": "blight_03",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "camp",
+          "news": "blight",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "{band} lost four to the horde. Could be us next."
+          },
+          {
+            "speaker": "B",
+            "text": "Then we move camp. Before the fort stirs again."
+          }
+        ]
+      },
+      {
+        "id": "blight_04",
+        "when": {
+          "state": null,
+          "time": "night",
+          "place": "inn",
+          "news": "blight",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "The Demon King himself walked into {band}'s camp, they say."
+          },
+          {
+            "speaker": "B",
+            "text": "Something did. Nobody living will say what."
+          }
+        ]
+      },
+      {
+        "id": "blight_05",
+        "when": {
+          "state": null,
+          "time": "evening",
+          "place": "keep",
+          "news": "blight",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "If the horde's taking camps, the hamlets are next."
+          },
+          {
+            "speaker": "B",
+            "text": "Light the beacons early tonight."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "action": "return",
+    "kind": "event",
+    "who": "lodge hunters, townsfolk and poachers",
+    "exchanges": [
+      {
+        "id": "return_01",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": null,
+          "news": "return",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "The south-east ground's grown back. The crews are going home to it."
+          },
+          {
+            "speaker": "B",
+            "text": "Half Law works, then. Slowly."
+          }
+        ]
+      },
+      {
+        "id": "return_02",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "inn",
+          "news": "return",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Leave half, and the wood remembers."
+          },
+          {
+            "speaker": "B",
+            "text": "Took its time remembering."
+          }
+        ]
+      },
+      {
+        "id": "return_03",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "market",
+          "news": "return",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Venison by next market, maybe."
+          },
+          {
+            "speaker": "B",
+            "text": "Maybe cheaper too. Don't hold your breath."
+          }
+        ]
+      },
+      {
+        "id": "return_04",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "road",
+          "news": "return",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Herds back thicker than in years, I heard."
+          },
+          {
+            "speaker": "B",
+            "text": "A dozen does. Thick enough for a lord."
+          }
+        ]
+      },
+      {
+        "id": "return_05",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "camp",
+          "news": "return",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Lodge crews are back in the south-east wood."
+          },
+          {
+            "speaker": "B",
+            "text": "Then we poach the north side till they leave."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "action": "hero",
+    "kind": "event",
+    "who": "townsfolk, outlaws and the lord's household",
+    "exchanges": [
+      {
+        "id": "hero_01",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": null,
+          "news": "hero",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "{lord}'s hero broke {band}'s camp. Scattered them like rooks."
+          },
+          {
+            "speaker": "B",
+            "text": "Good riddance. Till they drift back next season."
+          }
+        ]
+      },
+      {
+        "id": "hero_02",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "camp",
+          "news": "hero",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "{band} broken. One hero did it, they say."
+          },
+          {
+            "speaker": "B",
+            "text": "Heroes never come alone. They bring luck and a lord's purse."
+          }
+        ]
+      },
+      {
+        "id": "hero_03",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "inn",
+          "news": "hero",
+          "standing": null,
+          "hold": "First Hearth"
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Odd. Sir Robert's hero always breaks the Reavers just as they grow strong."
+          },
+          {
+            "speaker": "B",
+            "text": "Odd's a dangerous word. Keep it in your cup."
+          }
+        ]
+      },
+      {
+        "id": "hero_04",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "market",
+          "news": "hero",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "The hero killed fifty men before breakfast."
+          },
+          {
+            "speaker": "B",
+            "text": "Scattered twenty-odd. Still a long morning."
+          }
+        ]
+      },
+      {
+        "id": "hero_05",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "field",
+          "news": "hero",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Hero broke {band}. Roads are safe."
+          },
+          {
+            "speaker": "B",
+            "text": "For a season. Weeds come back."
+          }
+        ]
+      },
+      {
+        "id": "hero_06",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "keep",
+          "news": "hero",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Twenty-nine men. The hero went at the right moment."
+          },
+          {
+            "speaker": "B",
+            "text": "{lord} knows exactly when a dog needs whipping."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "action": "state",
+    "kind": "event",
+    "who": "townsfolk of all sorts",
+    "exchanges": [
+      {
+        "id": "state_01",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": null,
+          "news": "state",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "{town}'s fortunes have turned, they say."
+          },
+          {
+            "speaker": "B",
+            "text": "Feels the same from the bottom of the heap."
+          }
+        ]
+      },
+      {
+        "id": "state_02",
+        "when": {
+          "state": [
+            "Thriving"
+          ],
+          "time": null,
+          "place": null,
+          "news": "state",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Granary's full and the inn's busy. Enjoy it."
+          },
+          {
+            "speaker": "B",
+            "text": "I will. It never lasts."
+          }
+        ]
+      },
+      {
+        "id": "state_03",
+        "when": {
+          "state": [
+            "Starving"
+          ],
+          "time": null,
+          "place": null,
+          "news": "state",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "They're calling it starving now. Official."
+          },
+          {
+            "speaker": "B",
+            "text": "My belly made it official a week ago."
+          }
+        ]
+      },
+      {
+        "id": "state_04",
+        "when": {
+          "state": [
+            "Lean"
+          ],
+          "time": null,
+          "place": null,
+          "news": "state",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Lean again. Patrols only walk the near road."
+          },
+          {
+            "speaker": "B",
+            "text": "So the far roads belong to the bands."
+          }
+        ]
+      },
+      {
+        "id": "state_05",
+        "when": {
+          "state": [
+            "Lean",
+            "Starving"
+          ],
+          "time": null,
+          "place": "inn",
+          "news": "state",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Heard they've so much grain over in the other hold they feed it to pigs."
+          },
+          {
+            "speaker": "B",
+            "text": "And here we'd eat the pigs if we had any."
+          }
+        ]
+      },
+      {
+        "id": "state_06",
+        "when": {
+          "state": [
+            "Thriving"
+          ],
+          "time": null,
+          "place": null,
+          "news": "state",
+          "standing": null,
+          "hold": "Reedwatch"
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Reedwatch thriving. Never thought I'd live to say it."
+          },
+          {
+            "speaker": "B",
+            "text": "Don't say it near a torch. One granary fire and we're done."
+          }
+        ]
+      },
+      {
+        "id": "state_07",
+        "when": {
+          "state": [
+            "Fed"
+          ],
+          "time": null,
+          "place": null,
+          "news": "state",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Back to Fed. Not rich, not hungry."
+          },
+          {
+            "speaker": "B",
+            "text": "The best a body can hope for in these times."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "action": "pack",
+    "kind": "event",
+    "who": "townsfolk, outlaws and lodge hunters",
+    "exchanges": [
+      {
+        "id": "pack_01",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": null,
+          "news": "pack",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "A hungry pack got into {band}'s stores last night."
+          },
+          {
+            "speaker": "B",
+            "text": "Wolves robbing robbers. There's justice somewhere."
+          }
+        ]
+      },
+      {
+        "id": "pack_02",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "camp",
+          "news": "pack",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "The hounds ate our winter. Every scrap."
+          },
+          {
+            "speaker": "B",
+            "text": "Then we take it back from someone's barn."
+          }
+        ]
+      },
+      {
+        "id": "pack_03",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "field",
+          "news": "pack",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Wolves at {band}'s stores means {band} at our barns next."
+          },
+          {
+            "speaker": "B",
+            "text": "A hungry outlaw is worse than a hungry wolf."
+          }
+        ]
+      },
+      {
+        "id": "pack_04",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "inn",
+          "news": "pack",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "A pack that bold, and we're forbidden to cull it."
+          },
+          {
+            "speaker": "B",
+            "text": "The Charter says lord's beasts. So, lord's problem."
+          }
+        ]
+      },
+      {
+        "id": "pack_05",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "market",
+          "news": "pack",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Heard the wolves ate the outlaws too."
+          },
+          {
+            "speaker": "B",
+            "text": "Ate their bacon. The outlaws ran up trees."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "action": "moves",
+    "kind": "event",
+    "who": "shepherds, lodge hunters, clergy and the lord's household",
+    "exchanges": [
+      {
+        "id": "moves_01",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": null,
+          "news": "moves",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "The den's gone hungry. Wolves at {hamlet}'s folds every night now."
+          },
+          {
+            "speaker": "B",
+            "text": "And the lord's hunt busy elsewhere, of course."
+          }
+        ]
+      },
+      {
+        "id": "moves_02",
+        "when": {
+          "state": null,
+          "time": "night",
+          "place": "field",
+          "news": "moves",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "I sit up all night with a torch and a stick."
+          },
+          {
+            "speaker": "B",
+            "text": "And the wolves sit up with you, waiting for you to blink."
+          }
+        ]
+      },
+      {
+        "id": "moves_03",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "inn",
+          "news": "moves",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Thirty bows in the lodge, and {hamlet} loses a lamb a night."
+          },
+          {
+            "speaker": "B",
+            "text": "The wolf's the lord's. Let the lord sit with the lambs."
+          }
+        ]
+      },
+      {
+        "id": "moves_04",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "keep",
+          "news": "moves",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "{hamlet} begs for the hunt again."
+          },
+          {
+            "speaker": "B",
+            "text": "{lord} will ride when it suits. A hamlet that needs him obeys him."
+          }
+        ]
+      },
+      {
+        "id": "moves_05",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "market",
+          "news": "moves",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "They say a wolf the size of a horse comes to {hamlet}."
+          },
+          {
+            "speaker": "B",
+            "text": "Every wolf's the size of a horse at midnight."
+          }
+        ]
+      },
+      {
+        "id": "moves_06",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "temple",
+          "news": "moves",
+          "standing": null,
+          "hold": "Canopy Rest"
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Shepherds are leaving lambs at the stone circle for the wolves."
+          },
+          {
+            "speaker": "B",
+            "text": "That isn't an offering. That's supper."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "action": "leak",
+    "kind": "event",
+    "who": "townsfolk, guild members, outlaws and clergy",
+    "exchanges": [
+      {
+        "id": "leak_01",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": null,
+          "news": "leak",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "No party's been to the lair in three weeks. Now it's spilling."
+          },
+          {
+            "speaker": "B",
+            "text": "Where's the guild when you need them?"
+          }
+        ]
+      },
+      {
+        "id": "leak_02",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "inn",
+          "news": "leak",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "{guild} let the lair fill. Now the Blight walks."
+          },
+          {
+            "speaker": "B",
+            "text": "We're stretched thin. We can't be in five places."
+          }
+        ]
+      },
+      {
+        "id": "leak_03",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "camp",
+          "news": "leak",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Blight-born heading this way from the lair."
+          },
+          {
+            "speaker": "B",
+            "text": "Pack it up. I'm not dying for this patch of mud."
+          }
+        ]
+      },
+      {
+        "id": "leak_04",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "temple",
+          "news": "leak",
+          "standing": null,
+          "hold": "Canopy Rest"
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Brother William calls it the gods' judgement."
+          },
+          {
+            "speaker": "B",
+            "text": "Brother William says a great deal lately. None of it kind."
+          }
+        ]
+      },
+      {
+        "id": "leak_05",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "market",
+          "news": "leak",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "They say the lair burst and a thousand Horrors walked out."
+          },
+          {
+            "speaker": "B",
+            "text": "Five. Five is plenty."
+          }
+        ]
+      },
+      {
+        "id": "leak_06",
+        "when": {
+          "state": null,
+          "time": "evening",
+          "place": "road",
+          "news": "leak",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Every leak feeds the waking. My grandfather swore it."
+          },
+          {
+            "speaker": "B",
+            "text": "Your grandfather swore the beacons kept the rain off."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "action": "overrun",
+    "kind": "event",
+    "who": "townsfolk, refugees, guards and guild members",
+    "exchanges": [
+      {
+        "id": "overrun_01",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": null,
+          "news": "overrun",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Blight-born overran {hamlet}. Its people fled here."
+          },
+          {
+            "speaker": "B",
+            "text": "Then that's a hamlet's food gone till the guild clears it."
+          }
+        ]
+      },
+      {
+        "id": "overrun_02",
+        "when": {
+          "state": null,
+          "time": "night",
+          "place": "keep",
+          "news": "overrun",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Eight came through the gate from {hamlet}. Grey as ash."
+          },
+          {
+            "speaker": "B",
+            "text": "Give them bread. Don't ask what they saw."
+          }
+        ]
+      },
+      {
+        "id": "overrun_03",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "inn",
+          "news": "overrun",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "{town} wants {hamlet} cleared, and fast."
+          },
+          {
+            "speaker": "B",
+            "text": "Fast costs. Ask about the coin first."
+          }
+        ]
+      },
+      {
+        "id": "overrun_04",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "market",
+          "news": "overrun",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "They say the dead of {hamlet} walk the fields now."
+          },
+          {
+            "speaker": "B",
+            "text": "Nobody died. They ran, which was sensible."
+          }
+        ]
+      },
+      {
+        "id": "overrun_05",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": null,
+          "news": "overrun",
+          "standing": null,
+          "hold": "Stonepass Refuge"
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Another desert hamlet lost to the Blight."
+          },
+          {
+            "speaker": "B",
+            "text": "The Coin has hamlets to spare. We don't."
+          }
+        ]
+      },
+      {
+        "id": "overrun_06",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "field",
+          "news": "overrun",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "{hamlet}'s goats will give grey milk now, you watch."
+          },
+          {
+            "speaker": "B",
+            "text": "If anyone's left to milk them."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "action": "camp breaks",
+    "kind": "event",
+    "who": "townsfolk, guards and outlaws",
+    "exchanges": [
+      {
+        "id": "camp_breaks_01",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": null,
+          "news": "camp breaks",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "{band}'s camp has broken up. The last of them scattered."
+          },
+          {
+            "speaker": "B",
+            "text": "Scattered where? Into our woods?"
+          }
+        ]
+      },
+      {
+        "id": "camp_breaks_02",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "camp",
+          "news": "camp breaks",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "{band}'s finished. Some will come to us."
+          },
+          {
+            "speaker": "B",
+            "text": "Feed them if they bring a blade. Turn them off if they don't."
+          }
+        ]
+      },
+      {
+        "id": "camp_breaks_03",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "keep",
+          "news": "camp breaks",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "One less camp on the road."
+          },
+          {
+            "speaker": "B",
+            "text": "One less camp. Same number of men."
+          }
+        ]
+      },
+      {
+        "id": "camp_breaks_04",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "inn",
+          "news": "camp breaks",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Heard {band} turned on each other and hanged their captain."
+          },
+          {
+            "speaker": "B",
+            "text": "Heard they ran out of bread. Makes a worse song."
+          }
+        ]
+      },
+      {
+        "id": "camp_breaks_05",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "field",
+          "news": "camp breaks",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "With {band} gone, we might sleep."
+          },
+          {
+            "speaker": "B",
+            "text": "Till summer. They always come back by summer."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "action": "hunted",
+    "kind": "event",
+    "who": "townsfolk, farmers and guild members",
+    "exchanges": [
+      {
+        "id": "hunted_01",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": null,
+          "news": "hunted",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "{guild} rode out and killed a Blight pack before it reached the hamlets."
+          },
+          {
+            "speaker": "B",
+            "text": "Good work. Well paid, too."
+          }
+        ]
+      },
+      {
+        "id": "hunted_02",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "field",
+          "news": "hunted",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "The town paid two hundred and forty coin for that."
+          },
+          {
+            "speaker": "B",
+            "text": "Cheaper than losing a hamlet."
+          }
+        ]
+      },
+      {
+        "id": "hunted_03",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "inn",
+          "news": "hunted",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Four Blight-born, six of us. Clean."
+          },
+          {
+            "speaker": "B",
+            "text": "Clean until the next four."
+          }
+        ]
+      },
+      {
+        "id": "hunted_04",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "market",
+          "news": "hunted",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "They say {guild} killed forty Blight-born in a night."
+          },
+          {
+            "speaker": "B",
+            "text": "Four. Ask them yourself. They'll tell you forty."
+          }
+        ]
+      },
+      {
+        "id": "hunted_05",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "keep",
+          "news": "hunted",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "The guild earns its coin this week."
+          },
+          {
+            "speaker": "B",
+            "text": "See {steward} notes it. And notes the price."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "action": "occupied",
+    "kind": "event",
+    "who": "townsfolk, refugees, guild members and outlaws",
+    "exchanges": [
+      {
+        "id": "occupied_01",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": null,
+          "news": "occupied",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "{band} took {hamlet} and stayed. Its people are in our streets."
+          },
+          {
+            "speaker": "B",
+            "text": "And its fields feed outlaws now."
+          }
+        ]
+      },
+      {
+        "id": "occupied_02",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "home",
+          "news": "occupied",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "A hundred and more from {hamlet}, sleeping on our doorsteps."
+          },
+          {
+            "speaker": "B",
+            "text": "And eating from our granary, while {band} eats theirs."
+          }
+        ]
+      },
+      {
+        "id": "occupied_03",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "inn",
+          "news": "occupied",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Contract's up to retake {hamlet}."
+          },
+          {
+            "speaker": "B",
+            "text": "Twenty-odd outlaws dug in behind farm walls. Not cheap, not easy."
+          }
+        ]
+      },
+      {
+        "id": "occupied_04",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": null,
+          "news": "occupied",
+          "standing": null,
+          "hold": "Stonepass Refuge"
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Deserters holding our land. Sir John should hang every one."
+          },
+          {
+            "speaker": "B",
+            "text": "First he has to catch them."
+          }
+        ]
+      },
+      {
+        "id": "occupied_05",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "market",
+          "news": "occupied",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Heard the outlaws crowned a king at {hamlet}."
+          },
+          {
+            "speaker": "B",
+            "text": "They crown a new king every week out there."
+          }
+        ]
+      },
+      {
+        "id": "occupied_06",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "camp",
+          "news": "occupied",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "{band} holds {hamlet}. Fields, roofs, a well."
+          },
+          {
+            "speaker": "B",
+            "text": "Feels like being a lord. Till the guild comes."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "action": "refugees",
+    "kind": "event",
+    "who": "townsfolk, guards and clergy",
+    "exchanges": [
+      {
+        "id": "refugees_01",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": null,
+          "news": "refugees",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Beds are full. Refugees are camped by the walls."
+          },
+          {
+            "speaker": "B",
+            "text": "And eating from the granary. Ours."
+          }
+        ]
+      },
+      {
+        "id": "refugees_02",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "temple",
+          "news": "refugees",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "We should open the temple to them."
+          },
+          {
+            "speaker": "B",
+            "text": "We have. They're sleeping on the altar steps."
+          }
+        ]
+      },
+      {
+        "id": "refugees_03",
+        "when": {
+          "state": [
+            "Starving"
+          ],
+          "time": null,
+          "place": null,
+          "news": "refugees",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "We can't feed ourselves, never mind a camp of strangers."
+          },
+          {
+            "speaker": "B",
+            "text": "Say it louder. Let them hear what we've become."
+          }
+        ]
+      },
+      {
+        "id": "refugees_04",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "inn",
+          "news": "refugees",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Thousands by the walls, I heard. A city of tents."
+          },
+          {
+            "speaker": "B",
+            "text": "A hundred and sixty. Enough to make a hamlet."
+          }
+        ]
+      },
+      {
+        "id": "refugees_05",
+        "when": {
+          "state": null,
+          "time": "night",
+          "place": "keep",
+          "news": "refugees",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "The camp by the walls is restless tonight."
+          },
+          {
+            "speaker": "B",
+            "text": "Hungry folk are restless. Keep your torch lit."
+          }
+        ]
+      },
+      {
+        "id": "refugees_06",
+        "when": {
+          "state": [
+            "Thriving"
+          ],
+          "time": null,
+          "place": null,
+          "news": "refugees",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Refugees by the walls, and the granary's full."
+          },
+          {
+            "speaker": "B",
+            "text": "Then let them eat. Kindness is cheap this season."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "action": "camp moves",
+    "kind": "event",
+    "who": "townsfolk, guards and outlaws",
+    "exchanges": [
+      {
+        "id": "camp_moves_01",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": null,
+          "news": "camp moves",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Beaten twice by the Blight, {band} has moved camp."
+          },
+          {
+            "speaker": "B",
+            "text": "Closer to us, or further?"
+          }
+        ]
+      },
+      {
+        "id": "camp_moves_02",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "camp",
+          "news": "camp moves",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Packed up and walked two hours. Lost a cart."
+          },
+          {
+            "speaker": "B",
+            "text": "Lost less than staying would've cost."
+          }
+        ]
+      },
+      {
+        "id": "camp_moves_03",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "keep",
+          "news": "camp moves",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "{band} moved. We'll need new patrol routes."
+          },
+          {
+            "speaker": "B",
+            "text": "{steward} will say there's no oil for new routes."
+          }
+        ]
+      },
+      {
+        "id": "camp_moves_04",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "inn",
+          "news": "camp moves",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "{band} ran clean out of the hold, they say."
+          },
+          {
+            "speaker": "B",
+            "text": "Three miles. They ran three miles."
+          }
+        ]
+      },
+      {
+        "id": "camp_moves_05",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "road",
+          "news": "camp moves",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "{band}'s new fire is nearer the road now."
+          },
+          {
+            "speaker": "B",
+            "text": "Then we take the long way to market."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "action": "cleared",
+    "kind": "event",
+    "who": "townsfolk, refugees, guild members and clergy",
+    "exchanges": [
+      {
+        "id": "cleared_01",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": null,
+          "news": "cleared",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "{guild} cleared {hamlet} of Blight-born. Settlers are going back."
+          },
+          {
+            "speaker": "B",
+            "text": "Good. Somebody has to plant."
+          }
+        ]
+      },
+      {
+        "id": "cleared_02",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "home",
+          "news": "cleared",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "We're going home to {hamlet}."
+          },
+          {
+            "speaker": "B",
+            "text": "Check the well before you drink from it."
+          }
+        ]
+      },
+      {
+        "id": "cleared_03",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "inn",
+          "news": "cleared",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Three hundred and sixty coin for clearing {hamlet}."
+          },
+          {
+            "speaker": "B",
+            "text": "Split nine ways. Less the healer's bill."
+          }
+        ]
+      },
+      {
+        "id": "cleared_04",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "market",
+          "news": "cleared",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "They say {guild} burned {hamlet} to clear it."
+          },
+          {
+            "speaker": "B",
+            "text": "They cleared the Blight-born. The burning was the Blight's."
+          }
+        ]
+      },
+      {
+        "id": "cleared_05",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "temple",
+          "news": "cleared",
+          "standing": null,
+          "hold": "Canopy Rest"
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Someone should bless {hamlet} before they settle."
+          },
+          {
+            "speaker": "B",
+            "text": "Brother William offered."
+          },
+          {
+            "speaker": "C",
+            "text": "Then perhaps someone else."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "action": "retaken",
+    "kind": "event",
+    "who": "townsfolk, returning hamlet folk and outlaws",
+    "exchanges": [
+      {
+        "id": "retaken_01",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": null,
+          "news": "retaken",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "{hamlet}'s retaken. {band} driven out."
+          },
+          {
+            "speaker": "B",
+            "text": "Its people can go home, then."
+          }
+        ]
+      },
+      {
+        "id": "retaken_02",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "home",
+          "news": "retaken",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Back in {hamlet}. The outlaws mended my roof."
+          },
+          {
+            "speaker": "B",
+            "text": "Don't say that too loud round here."
+          }
+        ]
+      },
+      {
+        "id": "retaken_03",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "field",
+          "news": "retaken",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "One family in {hamlet} fed {band} the whole time."
+          },
+          {
+            "speaker": "B",
+            "text": "Then they'll need friends now. They won't find any."
+          }
+        ]
+      },
+      {
+        "id": "retaken_04",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "camp",
+          "news": "retaken",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "{band} lost {hamlet}. Eight guild swords did it."
+          },
+          {
+            "speaker": "B",
+            "text": "Eight good ones. We'd have needed thirty to hold."
+          }
+        ]
+      },
+      {
+        "id": "retaken_05",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "inn",
+          "news": "retaken",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "They say the guild hanged every outlaw at {hamlet}."
+          },
+          {
+            "speaker": "B",
+            "text": "Most ran. Outlaws are good at running."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "action": "notice",
+    "kind": "event",
+    "who": "craftsfolk, townsfolk and the lord's household",
+    "exchanges": [
+      {
+        "id": "notice_01",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": null,
+          "news": "notice",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Notice on the gate. {town} wants a journeyman smith."
+          },
+          {
+            "speaker": "B",
+            "text": "Lost ours, then. To what?"
+          }
+        ]
+      },
+      {
+        "id": "notice_02",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "workshop",
+          "news": "notice",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "No weaponsmith in {town}. Who mends the guards' blades?"
+          },
+          {
+            "speaker": "B",
+            "text": "Nobody. They'll be swinging sticks by spring."
+          }
+        ]
+      },
+      {
+        "id": "notice_03",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "inn",
+          "news": "notice",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "They're begging for a smith over there. Good coin offered."
+          },
+          {
+            "speaker": "B",
+            "text": "Tempting. Their ale's dreadful, though."
+          }
+        ]
+      },
+      {
+        "id": "notice_04",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "market",
+          "news": "notice",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "They say the last smith was murdered over a debt."
+          },
+          {
+            "speaker": "B",
+            "text": "He went where the wages are better."
+          }
+        ]
+      },
+      {
+        "id": "notice_05",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "keep",
+          "news": "notice",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "A town without a weaponsmith is a town without a garrison."
+          },
+          {
+            "speaker": "B",
+            "text": "{steward} knows. He wrote the notice himself."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "action": "hired",
+    "kind": "event",
+    "who": "craftsfolk, townsfolk and the lord's household",
+    "exchanges": [
+      {
+        "id": "hired_01",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": null,
+          "news": "hired",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "{town} hired a journeyman away from another hold. A hundred and fifty coin."
+          },
+          {
+            "speaker": "B",
+            "text": "That's poaching, that is."
+          }
+        ]
+      },
+      {
+        "id": "hired_02",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "market",
+          "news": "hired",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "They lured our best smith off with coin."
+          },
+          {
+            "speaker": "B",
+            "text": "Then pay better and keep the next one."
+          }
+        ]
+      },
+      {
+        "id": "hired_03",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "workshop",
+          "news": "hired",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "New smith starts tomorrow. Mind your manners."
+          },
+          {
+            "speaker": "B",
+            "text": "I'll mind my tools. New smiths borrow."
+          }
+        ]
+      },
+      {
+        "id": "hired_04",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "inn",
+          "news": "hired",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Heard the new smith cost a thousand coin and a house."
+          },
+          {
+            "speaker": "B",
+            "text": "Hundred and fifty. The house is a loft over the tannery."
+          }
+        ]
+      },
+      {
+        "id": "hired_05",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "keep",
+          "news": "hired",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Buying craftsmen from rival holds. {lord} plays a long game."
+          },
+          {
+            "speaker": "B",
+            "text": "Every game's long when nobody's king."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "action": "home",
+    "kind": "event",
+    "who": "hamlet folk, townsfolk and clergy",
+    "exchanges": [
+      {
+        "id": "home_01",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": null,
+          "news": "home",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Seven from {hamlet} came home from the slavers' holds."
+          },
+          {
+            "speaker": "B",
+            "text": "Ransomed. Who paid?"
+          }
+        ]
+      },
+      {
+        "id": "home_02",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "temple",
+          "news": "home",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Ring the bell for {hamlet}'s folk."
+          },
+          {
+            "speaker": "B",
+            "text": "Count them first. Make sure it's all of them."
+          }
+        ]
+      },
+      {
+        "id": "home_03",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "home",
+          "news": "home",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Seven taken from {hamlet}. Six came back, I heard."
+          },
+          {
+            "speaker": "B",
+            "text": "Hush. The mother's in the next room."
+          }
+        ]
+      },
+      {
+        "id": "home_04",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": null,
+          "news": "home",
+          "standing": null,
+          "hold": "Stonepass Refuge"
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Stonepass paid the ransom again."
+          },
+          {
+            "speaker": "B",
+            "text": "Paying slavers teaches slavers the way back."
+          }
+        ]
+      },
+      {
+        "id": "home_05",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "inn",
+          "news": "home",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "One of the {hamlet} girls speaks their tongue now."
+          },
+          {
+            "speaker": "B",
+            "text": "Then she knows what they said about us."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "action": "ambush",
+    "kind": "event",
+    "who": "guards, townsfolk and hamlet folk",
+    "exchanges": [
+      {
+        "id": "ambush_01",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": null,
+          "news": "ambush",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "{band} hit the carts from {hamlet}. The grain's gone."
+          },
+          {
+            "speaker": "B",
+            "text": "Escort couldn't hold?"
+          },
+          {
+            "speaker": "A",
+            "text": "Six against fourteen."
+          }
+        ]
+      },
+      {
+        "id": "ambush_02",
+        "when": {
+          "state": null,
+          "time": "night",
+          "place": "inn",
+          "news": "ambush",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "We lost the carts. Two of ours dead on the road."
+          },
+          {
+            "speaker": "B",
+            "text": "Don't tell their wives here. Wait till morning."
+          }
+        ]
+      },
+      {
+        "id": "ambush_03",
+        "when": {
+          "state": [
+            "Starving",
+            "Lean"
+          ],
+          "time": null,
+          "place": null,
+          "news": "ambush",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "That grain was our bread. Now {band} eats it."
+          },
+          {
+            "speaker": "B",
+            "text": "Then go and ask {band} for supper."
+          }
+        ]
+      },
+      {
+        "id": "ambush_04",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "keep",
+          "news": "ambush",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "The escort sold the route, they're saying in {hamlet}."
+          },
+          {
+            "speaker": "B",
+            "text": "Escorts die on that route. Mostly they don't sell it."
+          }
+        ]
+      },
+      {
+        "id": "ambush_05",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "market",
+          "news": "ambush",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "They say {band} took a hundred carts."
+          },
+          {
+            "speaker": "B",
+            "text": "{hamlet} doesn't own a hundred carts."
+          }
+        ]
+      },
+      {
+        "id": "ambush_06",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": null,
+          "news": "ambush",
+          "standing": null,
+          "hold": "First Hearth"
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Somebody pays {band} to choose which carts."
+          },
+          {
+            "speaker": "B",
+            "text": "Somebody with Sunward silver, I'd wager."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "action": "graduate",
+    "kind": "event",
+    "who": "townsfolk, guild members, clergy and the lord's household",
+    "exchanges": [
+      {
+        "id": "graduate_01",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": null,
+          "news": "graduate",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "One of ours came home from the tower school. A trained mage."
+          },
+          {
+            "speaker": "B",
+            "text": "And went back to the old trade, they say. Strange choice."
+          }
+        ]
+      },
+      {
+        "id": "graduate_02",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "inn",
+          "news": "graduate",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "A trained mage, and nobody's signed them yet?"
+          },
+          {
+            "speaker": "B",
+            "text": "Get to them before {guild} does."
+          }
+        ]
+      },
+      {
+        "id": "graduate_03",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "temple",
+          "news": "graduate",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Magic in a cobbler's shop. What next?"
+          },
+          {
+            "speaker": "B",
+            "text": "Next it's in your shop. The leylines don't ask permission."
+          }
+        ]
+      },
+      {
+        "id": "graduate_04",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "market",
+          "news": "graduate",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Heard they came back able to call fire from the sky."
+          },
+          {
+            "speaker": "B",
+            "text": "They came back able to light a hearth without flint."
+          }
+        ]
+      },
+      {
+        "id": "graduate_05",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "keep",
+          "news": "graduate",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "A mage in town owes nothing to {lord}."
+          },
+          {
+            "speaker": "B",
+            "text": "Then {lord} will make them owe him. One way or another."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "action": "abandoned",
+    "kind": "event",
+    "who": "townsfolk and refugees",
+    "exchanges": [
+      {
+        "id": "abandoned_01",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": null,
+          "news": "abandoned",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "{hamlet}'s abandoned. Struck three times in three weeks."
+          },
+          {
+            "speaker": "B",
+            "text": "Nobody stays for a fourth."
+          }
+        ]
+      },
+      {
+        "id": "abandoned_02",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "keep",
+          "news": "abandoned",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Seven walked in from {hamlet} today."
+          },
+          {
+            "speaker": "B",
+            "text": "Walked. With nothing but what was on their backs."
+          }
+        ]
+      },
+      {
+        "id": "abandoned_03",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "inn",
+          "news": "abandoned",
+          "standing": null,
+          "hold": "Sunward Exchange"
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Every time {hamlet} empties, someone buys it cheap."
+          },
+          {
+            "speaker": "B",
+            "text": "Who?"
+          },
+          {
+            "speaker": "A",
+            "text": "Someone who can afford to wait."
+          }
+        ]
+      },
+      {
+        "id": "abandoned_04",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": null,
+          "news": "abandoned",
+          "standing": null,
+          "hold": "First Hearth"
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Another desert hamlet left to the sand."
+          },
+          {
+            "speaker": "B",
+            "text": "The Coin will just buy new farmers."
+          }
+        ]
+      },
+      {
+        "id": "abandoned_05",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "market",
+          "news": "abandoned",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "They say {hamlet}'s cursed. Food left on the tables."
+          },
+          {
+            "speaker": "B",
+            "text": "Food left because they ran. That's no curse."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "action": "resettled",
+    "kind": "event",
+    "who": "settlers and townsfolk",
+    "exchanges": [
+      {
+        "id": "resettled_01",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": null,
+          "news": "resettled",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Folk going out to resettle {hamlet}. Safe a fortnight, they say."
+          },
+          {
+            "speaker": "B",
+            "text": "A fortnight isn't safe. It's quiet."
+          }
+        ]
+      },
+      {
+        "id": "resettled_02",
+        "when": {
+          "state": null,
+          "time": "dawn",
+          "place": "road",
+          "news": "resettled",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "We'll have {hamlet}'s fields sown by autumn."
+          },
+          {
+            "speaker": "B",
+            "text": "If nothing comes through first."
+          }
+        ]
+      },
+      {
+        "id": "resettled_03",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": null,
+          "news": "resettled",
+          "standing": null,
+          "hold": "Sunward Exchange"
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "The settlers found the old larders still full at {hamlet}."
+          },
+          {
+            "speaker": "B",
+            "text": "Then nobody ate there. Ask yourself why."
+          }
+        ]
+      },
+      {
+        "id": "resettled_04",
+        "when": {
+          "state": [
+            "Lean",
+            "Fed"
+          ],
+          "time": null,
+          "place": null,
+          "news": "resettled",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "A season before {hamlet} feeds us again."
+          },
+          {
+            "speaker": "B",
+            "text": "Then a lean season. Tighten your belt."
+          }
+        ]
+      },
+      {
+        "id": "resettled_05",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "inn",
+          "news": "resettled",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "They say {lord}'s giving land at {hamlet} to anyone who'll take it."
+          },
+          {
+            "speaker": "B",
+            "text": "Giving it to six fools with spades."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "action": "apex",
+    "kind": "event",
+    "who": "everyone: townsfolk, clergy, guild members, wardens and the lord's household",
+    "exchanges": [
+      {
+        "id": "apex_01",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": null,
+          "news": "apex",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "A calamity's risen in the March. They're calling it {calamity}."
+          },
+          {
+            "speaker": "B",
+            "text": "They name them now? Like lords?"
+          }
+        ]
+      },
+      {
+        "id": "apex_02",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "temple",
+          "news": "apex",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "{calamity}. Say the name and the wells sour, they say."
+          },
+          {
+            "speaker": "B",
+            "text": "Superstition. But don't say it in here."
+          }
+        ]
+      },
+      {
+        "id": "apex_03",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "inn",
+          "news": "apex",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "{calamity} ate a whole fort, garrison and all."
+          },
+          {
+            "speaker": "B",
+            "text": "It rose in a broken fort. Nobody's garrisoned those in twenty years."
+          }
+        ]
+      },
+      {
+        "id": "apex_04",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "market",
+          "news": "apex",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "{guild} will want a party for {calamity}."
+          },
+          {
+            "speaker": "B",
+            "text": "{guild} will want ten parties. And a priest for each."
+          }
+        ]
+      },
+      {
+        "id": "apex_05",
+        "when": {
+          "state": null,
+          "time": "night",
+          "place": "wild",
+          "news": "apex",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Ash-light over the March last night. Now we know its name."
+          },
+          {
+            "speaker": "B",
+            "text": "{calamity}. Light the beacon early."
+          }
+        ]
+      },
+      {
+        "id": "apex_06",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "keep",
+          "news": "apex",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "A named calamity. {lord} will want its head for his crown."
+          },
+          {
+            "speaker": "B",
+            "text": "Kill a monster, claim a throne. Oldest story there is."
+          }
+        ]
+      },
+      {
+        "id": "apex_07",
+        "when": {
+          "state": [
+            "Lean",
+            "Starving"
+          ],
+          "time": null,
+          "place": "field",
+          "news": "apex",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Will {calamity} come here?"
+          },
+          {
+            "speaker": "B",
+            "text": "Everything comes here in the end. Plant anyway."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "action": "season",
+    "kind": "event",
+    "who": "anyone",
+    "exchanges": [
+      {
+        "id": "season_01",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": null,
+          "news": "season",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Season's turning."
+          },
+          {
+            "speaker": "B",
+            "text": "Wind's different. Smells of change."
+          }
+        ]
+      },
+      {
+        "id": "season_02",
+        "when": {
+          "state": [
+            "Starving"
+          ],
+          "time": null,
+          "place": null,
+          "news": "season",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "New season. Maybe a kinder one."
+          },
+          {
+            "speaker": "B",
+            "text": "Seasons don't care whether we eat."
+          }
+        ]
+      },
+      {
+        "id": "season_03",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "camp",
+          "news": "season",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "New season. The camps fill back up."
+          },
+          {
+            "speaker": "B",
+            "text": "Twenty-five men by the turn. Same as every year."
+          }
+        ]
+      },
+      {
+        "id": "season_04",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "temple",
+          "news": "season",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "The rites change with the season. Fetch the right cloths."
+          },
+          {
+            "speaker": "B",
+            "text": "Which ones? I've lost track of the calendar."
+          }
+        ]
+      },
+      {
+        "id": "season_05",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "keep",
+          "news": "season",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "New season, new tithe."
+          },
+          {
+            "speaker": "B",
+            "text": "{steward} has the rolls ready already."
+          }
+        ]
+      },
+      {
+        "id": "season_06",
+        "when": {
+          "state": [
+            "Thriving"
+          ],
+          "time": null,
+          "place": "field",
+          "news": "season",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "New season and the granary's full. Remember this one."
+          },
+          {
+            "speaker": "B",
+            "text": "I'll carve it on a post."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "action": "camp forms",
+    "kind": "event",
+    "who": "townsfolk, guards, outlaws and the lord's household",
+    "exchanges": [
+      {
+        "id": "camp_forms_01",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": null,
+          "news": "camp forms",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "{band}'s back at the old camp. Twenty-five men already."
+          },
+          {
+            "speaker": "B",
+            "text": "Broken in spring, whole by summer. Like weeds."
+          }
+        ]
+      },
+      {
+        "id": "camp_forms_02",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "camp",
+          "news": "camp forms",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Back at the old fire. Same stones, new faces."
+          },
+          {
+            "speaker": "B",
+            "text": "Some old faces too. The ones who ran fastest."
+          }
+        ]
+      },
+      {
+        "id": "camp_forms_03",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "road",
+          "news": "camp forms",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "{band} again. How many times must a hero break them?"
+          },
+          {
+            "speaker": "B",
+            "text": "Every season. That's the trade."
+          }
+        ]
+      },
+      {
+        "id": "camp_forms_04",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "inn",
+          "news": "camp forms",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "They say {band} has a hundred men now."
+          },
+          {
+            "speaker": "B",
+            "text": "Twenty-five. But they boast like a hundred."
+          }
+        ]
+      },
+      {
+        "id": "camp_forms_05",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "keep",
+          "news": "camp forms",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "{band} has re-formed. Shall I send for the hero?"
+          },
+          {
+            "speaker": "B",
+            "text": "Not yet. Let them grow. They're useful a while."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "action": "nest",
+    "kind": "event",
+    "who": "townsfolk, wardens, farmers and clergy",
+    "exchanges": [
+      {
+        "id": "nest_01",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": null,
+          "news": "nest",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "The Blight's spreading. The dens grow every season."
+          },
+          {
+            "speaker": "B",
+            "text": "Like rot in a beam. Slow, then sudden."
+          }
+        ]
+      },
+      {
+        "id": "nest_02",
+        "when": {
+          "state": null,
+          "time": "night",
+          "place": "wild",
+          "news": "nest",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "The nest is bigger. I counted the glow."
+          },
+          {
+            "speaker": "B",
+            "text": "Count less. Sleep more. Counting won't stop it."
+          }
+        ]
+      },
+      {
+        "id": "nest_03",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "field",
+          "news": "nest",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "The grey's reaching the near pastures."
+          },
+          {
+            "speaker": "B",
+            "text": "Then move the goats. Again."
+          }
+        ]
+      },
+      {
+        "id": "nest_04",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "temple",
+          "news": "nest",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "The Blight grows and the faithful shrink."
+          },
+          {
+            "speaker": "B",
+            "text": "The faithful were never many."
+          }
+        ]
+      },
+      {
+        "id": "nest_05",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "inn",
+          "news": "nest",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "They say the Blight will reach {town} by winter."
+          },
+          {
+            "speaker": "B",
+            "text": "They said that last winter."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "action": "party lost",
+    "kind": "event",
+    "who": "guild members, clergy, townsfolk and outlaws",
+    "exchanges": [
+      {
+        "id": "party_lost_01",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": null,
+          "news": "party lost",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "A {guild} party went into the rift. None came back."
+          },
+          {
+            "speaker": "B",
+            "text": "Five. All five."
+          }
+        ]
+      },
+      {
+        "id": "party_lost_02",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "inn",
+          "news": "party lost",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "{dead} was in that party."
+          },
+          {
+            "speaker": "B",
+            "text": "{dead} always came back. That was the whole point of {dead}."
+          }
+        ]
+      },
+      {
+        "id": "party_lost_03",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "temple",
+          "news": "party lost",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Five names to read tonight. {dead} among them."
+          },
+          {
+            "speaker": "B",
+            "text": "Read them slowly. Nobody else will."
+          }
+        ]
+      },
+      {
+        "id": "party_lost_04",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "market",
+          "news": "party lost",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "A whole guild went into the rift, I heard."
+          },
+          {
+            "speaker": "B",
+            "text": "A party. Five. A whole guild would be news."
+          }
+        ]
+      },
+      {
+        "id": "party_lost_05",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "camp",
+          "news": "party lost",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "{guild} lost a party in the rift. Their gear's still down there."
+          },
+          {
+            "speaker": "B",
+            "text": "Then the queen's people will be first to it."
+          }
+        ]
+      },
+      {
+        "id": "party_lost_06",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "road",
+          "news": "party lost",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "{guild} will be recruiting by morning."
+          },
+          {
+            "speaker": "B",
+            "text": "Five empty benches. They fill quicker than graves."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "action": "expedition",
+    "kind": "event",
+    "who": "townsfolk, guild members, clergy, outlaws and the lord's household",
+    "exchanges": [
+      {
+        "id": "expedition_01",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": null,
+          "news": "expedition",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "The lords marched on the Heart of the Blight. Thinned it by half."
+          },
+          {
+            "speaker": "B",
+            "text": "Half. That's still half a Demon King."
+          }
+        ]
+      },
+      {
+        "id": "expedition_02",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "keep",
+          "news": "expedition",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "{lord} sent heroes with the expedition."
+          },
+          {
+            "speaker": "B",
+            "text": "And will want the credit for all of it."
+          }
+        ]
+      },
+      {
+        "id": "expedition_03",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "inn",
+          "news": "expedition",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "The lords get the glory. {guild} gets the leftovers."
+          },
+          {
+            "speaker": "B",
+            "text": "Leftovers pay. Glory gets you buried."
+          }
+        ]
+      },
+      {
+        "id": "expedition_04",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "temple",
+          "news": "expedition",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Half the Heart broken. The gods be thanked."
+          },
+          {
+            "speaker": "B",
+            "text": "Thank the soldiers first. Then the gods."
+          }
+        ]
+      },
+      {
+        "id": "expedition_05",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "market",
+          "news": "expedition",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "They say the lords killed the Demon King himself."
+          },
+          {
+            "speaker": "B",
+            "text": "If they had, you'd hear bells, not gossip."
+          }
+        ]
+      },
+      {
+        "id": "expedition_06",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "camp",
+          "news": "expedition",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "With the heroes off at the Heart, the roads are ours."
+          },
+          {
+            "speaker": "B",
+            "text": "For a week. Make it count."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "action": "slain",
+    "kind": "event",
+    "who": "everyone: townsfolk, clergy, guild members and the lord's household",
+    "exchanges": [
+      {
+        "id": "slain_01",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": null,
+          "news": "slain",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "The cataclysm of the rift is slain. Dead for good."
+          },
+          {
+            "speaker": "B",
+            "text": "Nothing like it rises there again, they say."
+          }
+        ]
+      },
+      {
+        "id": "slain_02",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "temple",
+          "news": "slain",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "A cataclysm slain. I never thought I'd ring bells for that."
+          },
+          {
+            "speaker": "B",
+            "text": "Ring them twice. Once for the dead who did it."
+          }
+        ]
+      },
+      {
+        "id": "slain_03",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "inn",
+          "news": "slain",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Whose blade was it?"
+          },
+          {
+            "speaker": "B",
+            "text": "Everyone claims it. Nobody shows the wound."
+          }
+        ]
+      },
+      {
+        "id": "slain_04",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "market",
+          "news": "slain",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "They say the Blight's ending now."
+          },
+          {
+            "speaker": "B",
+            "text": "One rift's gone quiet. The Heart still beats."
+          }
+        ]
+      },
+      {
+        "id": "slain_05",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "keep",
+          "news": "slain",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "A cataclysm down. The holds will fight over the credit."
+          },
+          {
+            "speaker": "B",
+            "text": "And the throne goes to whoever tells it best."
+          }
+        ]
+      },
+      {
+        "id": "slain_06",
+        "when": {
+          "state": null,
+          "time": null,
+          "place": "field",
+          "news": "slain",
+          "standing": null,
+          "hold": null
+        },
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "Does a dead cataclysm mean cheaper bread?"
+          },
+          {
+            "speaker": "B",
+            "text": "It means one less thing to blame for dear bread."
+          }
+        ]
+      }
+    ]
+  }
+]
