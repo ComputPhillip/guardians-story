@@ -1,0 +1,1855 @@
+{
+ "activities": [
+  {
+   "activity": "Sleep",
+   "category": "Asleep",
+   "uses_in_week": 27428
+  },
+  {
+   "activity": "Mass",
+   "category": "Worship",
+   "uses_in_week": 1979
+  },
+  {
+   "activity": "Breakfast",
+   "category": "At table",
+   "uses_in_week": 13559
+  },
+  {
+   "activity": "FamilyTime",
+   "category": "Home and chores",
+   "uses_in_week": 12441
+  },
+  {
+   "activity": "Dinner",
+   "category": "At table",
+   "uses_in_week": 12825
+  },
+  {
+   "activity": "FreeTime",
+   "category": "Company and leisure",
+   "uses_in_week": 2500
+  },
+  {
+   "activity": "Supper",
+   "category": "At table",
+   "uses_in_week": 13117
+  },
+  {
+   "activity": "CourtAudience",
+   "category": "Company and leisure",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "DinnerInHall",
+   "category": "At table",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "Council",
+   "category": "Company and leisure",
+   "uses_in_week": 32
+  },
+  {
+   "activity": "SupperInHall",
+   "category": "At table",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "Household",
+   "category": "Home and chores",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "Accounts",
+   "category": "Work and watch",
+   "uses_in_week": 156
+  },
+  {
+   "activity": "Almsgiving",
+   "category": "Worship",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "Drink",
+   "category": "Company and leisure",
+   "uses_in_week": 84
+  },
+  {
+   "activity": "Purchase",
+   "category": "Market and trade",
+   "uses_in_week": 987
+  },
+  {
+   "activity": "MarketStall",
+   "category": "Market and trade",
+   "uses_in_week": 72
+  },
+  {
+   "activity": "InspectDemesne",
+   "category": "Work and watch",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "FetchWater",
+   "category": "Home and chores",
+   "uses_in_week": 1834
+  },
+  {
+   "activity": "Serve",
+   "category": "Work and watch",
+   "uses_in_week": 306
+  },
+  {
+   "activity": "Evensong",
+   "category": "Worship",
+   "uses_in_week": 1
+  },
+  {
+   "activity": "ServeSupper",
+   "category": "Work and watch",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "PrepareMass",
+   "category": "Worship",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "MorrowMass",
+   "category": "Worship",
+   "uses_in_week": 24
+  },
+  {
+   "activity": "Procession",
+   "category": "Worship",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "HearConfessions",
+   "category": "Worship",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "HighMass",
+   "category": "Worship",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "VisitSick",
+   "category": "Work and watch",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "TempleService",
+   "category": "Worship",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "AttendInfirmary",
+   "category": "Work and watch",
+   "uses_in_week": 134
+  },
+  {
+   "activity": "Vespers",
+   "category": "Worship",
+   "uses_in_week": 247
+  },
+  {
+   "activity": "RingBells",
+   "category": "Worship",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "Assist",
+   "category": "Work and watch",
+   "uses_in_week": 60
+  },
+  {
+   "activity": "Copy",
+   "category": "Work and watch",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "RingCurfew",
+   "category": "Work and watch",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "NightOffice",
+   "category": "Worship",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "MorningOffice",
+   "category": "Worship",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "Work",
+   "category": "Work and watch",
+   "uses_in_week": 3479
+  },
+  {
+   "activity": "Reading",
+   "category": "Work and watch",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "Rest",
+   "category": "Home and chores",
+   "uses_in_week": 1235
+  },
+  {
+   "activity": "Compline",
+   "category": "Worship",
+   "uses_in_week": 247
+  },
+  {
+   "activity": "NurseSick",
+   "category": "Work and watch",
+   "uses_in_week": 204
+  },
+  {
+   "activity": "NightWatch",
+   "category": "Work and watch",
+   "uses_in_week": 168
+  },
+  {
+   "activity": "KeepBooks",
+   "category": "Work and watch",
+   "uses_in_week": 144
+  },
+  {
+   "activity": "ReceiveScholars",
+   "category": "Work and watch",
+   "uses_in_week": 36
+  },
+  {
+   "activity": "Gossip",
+   "category": "Company and leisure",
+   "uses_in_week": 3819
+  },
+  {
+   "activity": "Study",
+   "category": "Work and watch",
+   "uses_in_week": 170
+  },
+  {
+   "activity": "Teach",
+   "category": "Work and watch",
+   "uses_in_week": 190
+  },
+  {
+   "activity": "Debate",
+   "category": "Company and leisure",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "Training",
+   "category": "Work and watch",
+   "uses_in_week": 90
+  },
+  {
+   "activity": "Patrol",
+   "category": "Work and watch",
+   "uses_in_week": 90
+  },
+  {
+   "activity": "Carouse",
+   "category": "Company and leisure",
+   "uses_in_week": 90
+  },
+  {
+   "activity": "Help",
+   "category": "Work and watch",
+   "uses_in_week": 1035
+  },
+  {
+   "activity": "GateWatch",
+   "category": "Work and watch",
+   "uses_in_week": 646
+  },
+  {
+   "activity": "Drill",
+   "category": "Work and watch",
+   "uses_in_week": 798
+  },
+  {
+   "activity": "Archery",
+   "category": "Company and leisure",
+   "uses_in_week": 7
+  },
+  {
+   "activity": "Scout",
+   "category": "Work and watch",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "Track",
+   "category": "Work and watch",
+   "uses_in_week": 276
+  },
+  {
+   "activity": "EveningService",
+   "category": "Worship",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "BuyProvisions",
+   "category": "Market and trade",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "GuestService",
+   "category": "Work and watch",
+   "uses_in_week": 168
+  },
+  {
+   "activity": "Housework",
+   "category": "Home and chores",
+   "uses_in_week": 2805
+  },
+  {
+   "activity": "Marketing",
+   "category": "Market and trade",
+   "uses_in_week": 106
+  },
+  {
+   "activity": "Spinning",
+   "category": "Work and watch",
+   "uses_in_week": 1750
+  },
+  {
+   "activity": "Errands",
+   "category": "Home and chores",
+   "uses_in_week": 6024
+  },
+  {
+   "activity": "Cooking",
+   "category": "Home and chores",
+   "uses_in_week": 3534
+  },
+  {
+   "activity": "Clean",
+   "category": "Home and chores",
+   "uses_in_week": 3411
+  },
+  {
+   "activity": "FeedHorses",
+   "category": "Work and watch",
+   "uses_in_week": 140
+  },
+  {
+   "activity": "Stable",
+   "category": "Work and watch",
+   "uses_in_week": 126
+  },
+  {
+   "activity": "Wander",
+   "category": "Company and leisure",
+   "uses_in_week": 70
+  },
+  {
+   "activity": "Trade",
+   "category": "Market and trade",
+   "uses_in_week": 776
+  },
+  {
+   "activity": "Pilgrimage",
+   "category": "Worship",
+   "uses_in_week": 420
+  },
+  {
+   "activity": "Bake",
+   "category": "Work and watch",
+   "uses_in_week": 275
+  },
+  {
+   "activity": "SellBread",
+   "category": "Market and trade",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "Brew",
+   "category": "Work and watch",
+   "uses_in_week": 234
+  },
+  {
+   "activity": "SellAle",
+   "category": "Market and trade",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "Scrying",
+   "category": "Work and watch",
+   "uses_in_week": 875
+  },
+  {
+   "activity": "GatherReagents",
+   "category": "Work and watch",
+   "uses_in_week": 182
+  },
+  {
+   "activity": "StudyWithMages",
+   "category": "Work and watch",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "Consultations",
+   "category": "Work and watch",
+   "uses_in_week": 82
+  },
+  {
+   "activity": "BrewPotions",
+   "category": "Work and watch",
+   "uses_in_week": 30
+  },
+  {
+   "activity": "Slaughter",
+   "category": "Work and watch",
+   "uses_in_week": 162
+  },
+  {
+   "activity": "SellMeat",
+   "category": "Market and trade",
+   "uses_in_week": 6
+  },
+  {
+   "activity": "Cook",
+   "category": "Work and watch",
+   "uses_in_week": 276
+  },
+  {
+   "activity": "SellPies",
+   "category": "Market and trade",
+   "uses_in_week": 6
+  },
+  {
+   "activity": "StockCheck",
+   "category": "Market and trade",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "ServeCustomers",
+   "category": "Market and trade",
+   "uses_in_week": 161
+  },
+  {
+   "activity": "Mending",
+   "category": "Home and chores",
+   "uses_in_week": 1770
+  },
+  {
+   "activity": "Barbering",
+   "category": "Work and watch",
+   "uses_in_week": 214
+  },
+  {
+   "activity": "Surgery",
+   "category": "Work and watch",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "Sow",
+   "category": "Work and watch",
+   "uses_in_week": 1799
+  },
+  {
+   "activity": "SellProduce",
+   "category": "Market and trade",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "InspectOutlyingFarm",
+   "category": "Work and watch",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "Hedge",
+   "category": "Work and watch",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "Thresh",
+   "category": "Work and watch",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "Weed",
+   "category": "Work and watch",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "Mow",
+   "category": "Work and watch",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "Reap",
+   "category": "Work and watch",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "CartDung",
+   "category": "Work and watch",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "SlaughterPig",
+   "category": "Work and watch",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "Chores",
+   "category": "Home and chores",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "CollectTools",
+   "category": "Work and watch",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "Harrow",
+   "category": "Work and watch",
+   "uses_in_week": 749
+  },
+  {
+   "activity": "MakeHay",
+   "category": "Work and watch",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "Bind",
+   "category": "Work and watch",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "Glean",
+   "category": "Work and watch",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "YokeOxen",
+   "category": "Work and watch",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "FeedOxen",
+   "category": "Work and watch",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "GrazeOxen",
+   "category": "Work and watch",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "SleepWithOxen",
+   "category": "Asleep",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "Plough",
+   "category": "Work and watch",
+   "uses_in_week": 254
+  },
+  {
+   "activity": "CartSheaves",
+   "category": "Work and watch",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "Pannage",
+   "category": "Work and watch",
+   "uses_in_week": 61
+  },
+  {
+   "activity": "Herd",
+   "category": "Work and watch",
+   "uses_in_week": 238
+  },
+  {
+   "activity": "WaitForDew",
+   "category": "Work and watch",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "FoldSheep",
+   "category": "Work and watch",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "SleepInFold",
+   "category": "Asleep",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "Milking",
+   "category": "Work and watch",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "SleepWithCows",
+   "category": "Asleep",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "FeedCows",
+   "category": "Work and watch",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "Carry",
+   "category": "Work and watch",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "Quarry",
+   "category": "Work and watch",
+   "uses_in_week": 432
+  },
+  {
+   "activity": "Labour",
+   "category": "Work and watch",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "NightProwl",
+   "category": "Work and watch",
+   "uses_in_week": 57
+  },
+  {
+   "activity": "HearRumours",
+   "category": "Company and leisure",
+   "uses_in_week": 31
+  },
+  {
+   "activity": "CaseShops",
+   "category": "Work and watch",
+   "uses_in_week": 30
+  },
+  {
+   "activity": "BuyGoods",
+   "category": "Market and trade",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "Hawk",
+   "category": "Market and trade",
+   "uses_in_week": 5
+  },
+  {
+   "activity": "CollectLinen",
+   "category": "Home and chores",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "Wash",
+   "category": "Home and chores",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "ReturnLinen",
+   "category": "Home and chores",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "BlowGlass",
+   "category": "Work and watch",
+   "uses_in_week": 32
+  },
+  {
+   "activity": "MeetCaravan",
+   "category": "Market and trade",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "RakeNatron",
+   "category": "Work and watch",
+   "uses_in_week": 48
+  },
+  {
+   "activity": "GuardCaravan",
+   "category": "Work and watch",
+   "uses_in_week": 26
+  },
+  {
+   "activity": "LoadCart",
+   "category": "Work and watch",
+   "uses_in_week": 115
+  },
+  {
+   "activity": "Deliver",
+   "category": "Work and watch",
+   "uses_in_week": 132
+  },
+  {
+   "activity": "HaulWood",
+   "category": "Work and watch",
+   "uses_in_week": 66
+  },
+  {
+   "activity": "FetchTimber",
+   "category": "Work and watch",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "Build",
+   "category": "Work and watch",
+   "uses_in_week": 374
+  },
+  {
+   "activity": "SetOut",
+   "category": "Home and chores",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "Thatch",
+   "category": "Work and watch",
+   "uses_in_week": 76
+  },
+  {
+   "activity": "Peddle",
+   "category": "Market and trade",
+   "uses_in_week": 80
+  },
+  {
+   "activity": "SleepAtInn",
+   "category": "Asleep",
+   "uses_in_week": 161
+  },
+  {
+   "activity": "UnloadCart",
+   "category": "Work and watch",
+   "uses_in_week": 51
+  },
+  {
+   "activity": "GatherHerbs",
+   "category": "Work and watch",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "Charms",
+   "category": "Work and watch",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "TendPhysicGarden",
+   "category": "Work and watch",
+   "uses_in_week": 50
+  },
+  {
+   "activity": "PrepareRemedies",
+   "category": "Work and watch",
+   "uses_in_week": 72
+  },
+  {
+   "activity": "DryHerbs",
+   "category": "Work and watch",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "GatherChervil",
+   "category": "Work and watch",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "GatherLambsCress",
+   "category": "Work and watch",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "GatherNettle",
+   "category": "Work and watch",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "GatherPlantain",
+   "category": "Work and watch",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "GatherChamomile",
+   "category": "Work and watch",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "GatherYarrow",
+   "category": "Work and watch",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "GatherFennel",
+   "category": "Work and watch",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "GatherMugwort",
+   "category": "Work and watch",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "FullCloth",
+   "category": "Work and watch",
+   "uses_in_week": 40
+  },
+  {
+   "activity": "DyeCloth",
+   "category": "Work and watch",
+   "uses_in_week": 12
+  },
+  {
+   "activity": "Fish",
+   "category": "Work and watch",
+   "uses_in_week": 84
+  },
+  {
+   "activity": "SellFish",
+   "category": "Market and trade",
+   "uses_in_week": 24
+  },
+  {
+   "activity": "MendNets",
+   "category": "Work and watch",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "Gather",
+   "category": "Work and watch",
+   "uses_in_week": 156
+  },
+  {
+   "activity": "SellFirewood",
+   "category": "Market and trade",
+   "uses_in_week": 6
+  },
+  {
+   "activity": "Mine",
+   "category": "Work and watch",
+   "uses_in_week": 132
+  },
+  {
+   "activity": "Smelt",
+   "category": "Work and watch",
+   "uses_in_week": 20
+  },
+  {
+   "activity": "ForgeArmour",
+   "category": "Work and watch",
+   "uses_in_week": 60
+  },
+  {
+   "activity": "Distil",
+   "category": "Work and watch",
+   "uses_in_week": 52
+  },
+  {
+   "activity": "GatherJuniperBerries",
+   "category": "Work and watch",
+   "uses_in_week": 12
+  },
+  {
+   "activity": "TendEelTraps",
+   "category": "Work and watch",
+   "uses_in_week": 24
+  },
+  {
+   "activity": "SellEels",
+   "category": "Market and trade",
+   "uses_in_week": 12
+  },
+  {
+   "activity": "Fowling",
+   "category": "Work and watch",
+   "uses_in_week": 24
+  },
+  {
+   "activity": "SellFowl",
+   "category": "Market and trade",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "GatherLeeches",
+   "category": "Work and watch",
+   "uses_in_week": 24
+  },
+  {
+   "activity": "SellLeeches",
+   "category": "Market and trade",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "CutReeds",
+   "category": "Work and watch",
+   "uses_in_week": 12
+  },
+  {
+   "activity": "BundleReeds",
+   "category": "Work and watch",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "GatherBogMyrtle",
+   "category": "Work and watch",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "GatherComfrey",
+   "category": "Work and watch",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "GatherMeadowsweet",
+   "category": "Work and watch",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "GatherValerian",
+   "category": "Work and watch",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "MakeBows",
+   "category": "Work and watch",
+   "uses_in_week": 24
+  },
+  {
+   "activity": "FletchArrows",
+   "category": "Work and watch",
+   "uses_in_week": 10
+  },
+  {
+   "activity": "DressHides",
+   "category": "Work and watch",
+   "uses_in_week": 24
+  },
+  {
+   "activity": "TendCharcoalClamp",
+   "category": "Work and watch",
+   "uses_in_week": 12
+  },
+  {
+   "activity": "GatherCrabApple",
+   "category": "Work and watch",
+   "uses_in_week": 24
+  },
+  {
+   "activity": "GatherJellyEar",
+   "category": "Work and watch",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "GatherBetony",
+   "category": "Work and watch",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "InspectLookouts",
+   "category": "Work and watch",
+   "uses_in_week": 32
+  },
+  {
+   "activity": "MendGear",
+   "category": "Home and chores",
+   "uses_in_week": 99
+  },
+  {
+   "activity": "DiceAtFire",
+   "category": "Company and leisure",
+   "uses_in_week": 290
+  },
+  {
+   "activity": "MakeCamp",
+   "category": "Home and chores",
+   "uses_in_week": 97
+  },
+  {
+   "activity": "SleepRough",
+   "category": "Asleep",
+   "uses_in_week": 502
+  },
+  {
+   "activity": "LieUp",
+   "category": "Asleep",
+   "uses_in_week": 496
+  },
+  {
+   "activity": "Raid",
+   "category": "Work and watch",
+   "uses_in_week": 38
+  },
+  {
+   "activity": "ShareLoot",
+   "category": "At table",
+   "uses_in_week": 46
+  },
+  {
+   "activity": "LieInWait",
+   "category": "Work and watch",
+   "uses_in_week": 149
+  },
+  {
+   "activity": "KeepWatch",
+   "category": "Work and watch",
+   "uses_in_week": 295
+  },
+  {
+   "activity": "CookAtFire",
+   "category": "At table",
+   "uses_in_week": 84
+  },
+  {
+   "activity": "CutFirewood",
+   "category": "Work and watch",
+   "uses_in_week": 64
+  },
+  {
+   "activity": "GatherFirewood",
+   "category": "Home and chores",
+   "uses_in_week": 29
+  },
+  {
+   "activity": "Poach",
+   "category": "Work and watch",
+   "uses_in_week": 61
+  },
+  {
+   "activity": "DressGame",
+   "category": "Work and watch",
+   "uses_in_week": 61
+  },
+  {
+   "activity": "WatchTheRoad",
+   "category": "Work and watch",
+   "uses_in_week": 46
+  },
+  {
+   "activity": "SellLoot",
+   "category": "Market and trade",
+   "uses_in_week": 1
+  },
+  {
+   "activity": "Contemplate",
+   "category": "Worship",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "Vision",
+   "category": "Worship",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "HearPetitioners",
+   "category": "Company and leisure",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "StudyInLibrary",
+   "category": "Work and watch",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "CounselTheLord",
+   "category": "Company and leisure",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "ReadTheCrowd",
+   "category": "Company and leisure",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "Prayers",
+   "category": "Worship",
+   "uses_in_week": 248
+  },
+  {
+   "activity": "WayfarersDole",
+   "category": "Worship",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "KeepHouse",
+   "category": "Home and chores",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "ServeTravellers",
+   "category": "Work and watch",
+   "uses_in_week": 35
+  },
+  {
+   "activity": "MuckOutStable",
+   "category": "Work and watch",
+   "uses_in_week": 35
+  },
+  {
+   "activity": "CutFuelForBeacon",
+   "category": "Work and watch",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "RepairTheFord",
+   "category": "Work and watch",
+   "uses_in_week": 14
+  },
+  {
+   "activity": "TakeTolls",
+   "category": "Market and trade",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "PleadWithLord",
+   "category": "Company and leisure",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "PrayForDeliverance",
+   "category": "Worship",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "TendTheWounded",
+   "category": "Work and watch",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "TendTheShrine",
+   "category": "Worship",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "ReceivePilgrims",
+   "category": "Worship",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "KeepVigil",
+   "category": "Worship",
+   "uses_in_week": 8
+  },
+  {
+   "activity": "TakeLodging",
+   "category": "Home and chores",
+   "uses_in_week": 24
+  },
+  {
+   "activity": "GuardTheGoods",
+   "category": "Work and watch",
+   "uses_in_week": 11
+  },
+  {
+   "activity": "TendMules",
+   "category": "Work and watch",
+   "uses_in_week": 19
+  },
+  {
+   "activity": "SleepAtHospice",
+   "category": "Asleep",
+   "uses_in_week": 78
+  },
+  {
+   "activity": "AudienceWithLord",
+   "category": "Company and leisure",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "Proclaim",
+   "category": "Company and leisure",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "Pray",
+   "category": "Worship",
+   "uses_in_week": 16
+  },
+  {
+   "activity": "SleepAtShrine",
+   "category": "Asleep",
+   "uses_in_week": 8
+  },
+  {
+   "activity": "TakeTheFord",
+   "category": "Work and watch",
+   "uses_in_week": 6
+  },
+  {
+   "activity": "TakeToll",
+   "category": "Market and trade",
+   "uses_in_week": 24
+  },
+  {
+   "activity": "Fight",
+   "category": "Work and watch",
+   "uses_in_week": 34
+  },
+  {
+   "activity": "Flee",
+   "category": "Home and chores",
+   "uses_in_week": 122
+  },
+  {
+   "activity": "HiredByLord",
+   "category": "On the road",
+   "uses_in_week": 1
+  },
+  {
+   "activity": "ScoutTheFord",
+   "category": "Work and watch",
+   "uses_in_week": 2
+  },
+  {
+   "activity": "MakeReady",
+   "category": "Home and chores",
+   "uses_in_week": 20
+  },
+  {
+   "activity": "Arm",
+   "category": "Work and watch",
+   "uses_in_week": 19
+  },
+  {
+   "activity": "HoldTheFord",
+   "category": "Work and watch",
+   "uses_in_week": 10
+  },
+  {
+   "activity": "ReceivePay",
+   "category": "Market and trade",
+   "uses_in_week": 1
+  },
+  {
+   "activity": "Exiled",
+   "category": "On the road",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "WardTheSpring",
+   "category": "Work and watch",
+   "uses_in_week": 12
+  },
+  {
+   "activity": "TakeWaterToll",
+   "category": "Market and trade",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "Scry",
+   "category": "Work and watch",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "Duel",
+   "category": "Company and leisure",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "FetchFuel",
+   "category": "Home and chores",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "ProbeTheWard",
+   "category": "Work and watch",
+   "uses_in_week": 54
+  },
+  {
+   "activity": "StudyTheWard",
+   "category": "Work and watch",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "BreakTheWard",
+   "category": "Work and watch",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "Celebrate",
+   "category": "Company and leisure",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "PayTheWarlock",
+   "category": "Market and trade",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "SellWater",
+   "category": "Market and trade",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "DrawWater",
+   "category": "Home and chores",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "SeekHire",
+   "category": "Market and trade",
+   "uses_in_week": 16
+  },
+  {
+   "activity": "Refused",
+   "category": "On the road",
+   "uses_in_week": 16
+  },
+  {
+   "activity": "TakeProvisions",
+   "category": "At table",
+   "uses_in_week": 16
+  },
+  {
+   "activity": "StudyWithLibrarian",
+   "category": "Work and watch",
+   "uses_in_week": 16
+  },
+  {
+   "activity": "StampWanderbook",
+   "category": "Work and watch",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "Lair",
+   "category": "Asleep",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "Hunt",
+   "category": "Work and watch",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "StalkRoad",
+   "category": "Work and watch",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "Burrow",
+   "category": "Asleep",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "Forage",
+   "category": "Work and watch",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "AttackFold",
+   "category": "Work and watch",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "GatherPower",
+   "category": "Work and watch",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "Muster",
+   "category": "Work and watch",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "Probe",
+   "category": "Work and watch",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "Brood",
+   "category": "Asleep",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "Dominate",
+   "category": "Work and watch",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "Challenge",
+   "category": "Company and leisure",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "Slumber",
+   "category": "Asleep",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "Ravage",
+   "category": "Work and watch",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "Commune",
+   "category": "Worship",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "HoldCourt",
+   "category": "Company and leisure",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "Swarm",
+   "category": "Work and watch",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "Prowl",
+   "category": "Work and watch",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "Browse",
+   "category": "Work and watch",
+   "uses_in_week": 768
+  },
+  {
+   "activity": "Graze",
+   "category": "Work and watch",
+   "uses_in_week": 698
+  },
+  {
+   "activity": "Feed",
+   "category": "Work and watch",
+   "uses_in_week": 196
+  },
+  {
+   "activity": "LieInForm",
+   "category": "Asleep",
+   "uses_in_week": 98
+  },
+  {
+   "activity": "FeedAtNight",
+   "category": "Work and watch",
+   "uses_in_week": 560
+  },
+  {
+   "activity": "RestOnWater",
+   "category": "Asleep",
+   "uses_in_week": 280
+  },
+  {
+   "activity": "Rut",
+   "category": "Work and watch",
+   "uses_in_week": 70
+  },
+  {
+   "activity": "Root",
+   "category": "Work and watch",
+   "uses_in_week": 178
+  },
+  {
+   "activity": "Wallow",
+   "category": "Asleep",
+   "uses_in_week": 60
+  },
+  {
+   "activity": "RootInCrops",
+   "category": "Work and watch",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "ScoutTheDen",
+   "category": "Work and watch",
+   "uses_in_week": 5
+  },
+  {
+   "activity": "SearchForRelic",
+   "category": "Work and watch",
+   "uses_in_week": 5
+  },
+  {
+   "activity": "CleanseBarrow",
+   "category": "Worship",
+   "uses_in_week": 15
+  },
+  {
+   "activity": "Escaped",
+   "category": "On the road",
+   "uses_in_week": 2
+  },
+  {
+   "activity": "QuestWithLymer",
+   "category": "Work and watch",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "ShowTheFewmets",
+   "category": "Company and leisure",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "HuntAssembly",
+   "category": "Company and leisure",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "MoveTheQuarry",
+   "category": "Work and watch",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "Chase",
+   "category": "Work and watch",
+   "uses_in_week": 30
+  },
+  {
+   "activity": "LoseTheScent",
+   "category": "Work and watch",
+   "uses_in_week": 6
+  },
+  {
+   "activity": "AtBay",
+   "category": "Work and watch",
+   "uses_in_week": 5
+  },
+  {
+   "activity": "Killed",
+   "category": "On the road",
+   "uses_in_week": 5
+  },
+  {
+   "activity": "Gone",
+   "category": "On the road",
+   "uses_in_week": 21
+  },
+  {
+   "activity": "Unmaking",
+   "category": "Work and watch",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "Curee",
+   "category": "Company and leisure",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "CarryVenison",
+   "category": "Work and watch",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "DeliverVenison",
+   "category": "Work and watch",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "PetitionTheSage",
+   "category": "Company and leisure",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "SummonedBySage",
+   "category": "On the road",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "Awakened",
+   "category": "On the road",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "Conclave",
+   "category": "Company and leisure",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "Wait",
+   "category": "Home and chores",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "HandOverProvisions",
+   "category": "Market and trade",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "DefendFold",
+   "category": "Work and watch",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "WardTheWalls",
+   "category": "Work and watch",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "RingAlarm",
+   "category": "Work and watch",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "BarTheDoor",
+   "category": "Home and chores",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "RaiseHueAndCry",
+   "category": "Work and watch",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "Shelter",
+   "category": "Home and chores",
+   "uses_in_week": 6
+  },
+  {
+   "activity": "Wake",
+   "category": "Work and watch",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "LightBeacon",
+   "category": "Work and watch",
+   "uses_in_week": 0
+  },
+  {
+   "activity": "ReportRobbery",
+   "category": "Work and watch",
+   "uses_in_week": 8
+  },
+  {
+   "activity": "PatrolTheRoad",
+   "category": "Work and watch",
+   "uses_in_week": 0
+  }
+ ],
+ "events": [
+  {
+   "event": "shortage",
+   "example": "A quarry face falls at Canopy Rest: its stone runs short for some weeks and prices there climb."
+  },
+  {
+   "event": "trade change",
+   "example": "A huntsmen crew of First Hearth turns to herb gatherers work: it pays better this season."
+  },
+  {
+   "event": "retires",
+   "example": "John atte Gate of Sunward Exchange, journeyman in Martial at level 40, retires from the bench and lives on in the town; John Little takes the bench as an apprentice."
+  },
+  {
+   "event": "promoted",
+   "example": "Adam Thomson of First Hearth becomes a journeyman in Weaving at level 16."
+  },
+  {
+   "event": "hunt",
+   "example": "Hunters of the Grey Crows camp take 3 beasts from the den."
+  },
+  {
+   "event": "feud",
+   "example": "The Grey Crows camp and the Hollow Knives camp clash with no winner: 2 and 2 men lost."
+  },
+  {
+   "event": "adventurers",
+   "example": "Word of the danger draws adventurers to the Sunward Exchange guild: 53 members now, 13 of them camped around Blightwatch because the guild tavern is full."
+  },
+  {
+   "event": "deaths",
+   "example": "Beatrice Thatcher (level 42) of the First Hearth guild dies at the rift in the Blighted; 4 come back to Riftgate."
+  },
+  {
+   "event": "level",
+   "example": "Matilda Swift of the First Hearth guild comes back from the rift at level 50 (from 44)."
+  },
+  {
+   "event": "fold",
+   "example": "6 men of the Red Crows camp take 3 head from a fold of Whitden in the night; the hamlet is too well watched for more."
+  },
+  {
+   "event": "escort",
+   "example": "Outlaws of the Thornback Brothers camp shadow the carts from Radham, but the escort of 6 guards is too many for them."
+  },
+  {
+   "event": "rotate",
+   "example": "Deer ground north of Sunward Exchange is hunted out; Sunward Exchange's huntsmen (3 crews) move to Deer ground north-east of Sunward Exchange."
+  },
+  {
+   "event": "order",
+   "example": "Reedwatch: the smiths post a buy order at the trading post for 246 ore at 1.12 times the base price."
+  },
+  {
+   "event": "raid",
+   "example": "18 men of the Iron Reavers camp raid Tunden, against 2 watchmen and its farmers: 3,072 grain and 198 meat carried off, 14 people killed or fled, the fields burned. Stonepass Refuge will get nothing from it this round."
+  },
+  {
+   "event": "missed",
+   "example": "Sunward Exchange has no guards to spare from the walls: the round to Elywick, Ketwick is missed and their food waits in the barns."
+  },
+  {
+   "event": "filled",
+   "example": "Carriers from Stonepass Refuge bring the last of 246 ore into Reedwatch; the order from the smiths is filled."
+  },
+  {
+   "event": "lodge",
+   "example": "Alice Good of the Sunward Exchange hunting lodge does not come back from the week's hunting."
+  },
+  {
+   "event": "slavers",
+   "example": "Slavers from the north try Cranham, but guards out of Stonepass Refuge answer the alarm and, with its watch and able folk, drive them off."
+  },
+  {
+   "event": "signed",
+   "example": "To replace its dead, the First Hearth guild signs Richard Watson (Marksmanship, aptitude 100) for 46 coin and 8 a week."
+  },
+  {
+   "event": "blight",
+   "example": "Horrors of Drakrevor's horde come out of the broken fort at night and fall on the Grey Crows camp: 4 outlaws dead, 9 left."
+  },
+  {
+   "event": "return",
+   "example": "Deer ground south-east of First Hearth has grown back; First Hearth's huntsmen (2 crews) return to it."
+  },
+  {
+   "event": "hero",
+   "example": "The lord of First Hearth sends a hero against the Iron Reavers camp, grown to 29 men: the camp is broken and its men scatter; 6 are left."
+  },
+  {
+   "event": "state",
+   "example": "Canopy Rest is Thriving again: 31 days of grain in the granary, and wood and meat to spare: the inn fills and the patrols go out to the far road watch."
+  },
+  {
+   "event": "pack",
+   "example": "A hungry pack from the hound run gets into the stores of the Red Crows camp in the night."
+  },
+  {
+   "event": "moves",
+   "example": "The wolf den in the Frontier has gone hungry ten days; its creatures now range to the folds of Holton every night."
+  },
+  {
+   "event": "leak",
+   "example": "No party has been to the calamity lair in 21 days and it is full: a pack of 5 Blight-born out of the calamity lair spills out toward Dust Riders camp."
+  },
+  {
+   "event": "overrun",
+   "example": "A pack of 7 Blight-born out of the rift overruns Kirkden: its 8 people flee to Sunward Exchange. The town has lost a hamlet's food until its guild clears it."
+  },
+  {
+   "event": "camp breaks",
+   "example": "The Dust Riders camp camp breaks up; its last men scatter."
+  },
+  {
+   "event": "hunted",
+   "example": "6 members of the Sunward Exchange guild ride out of Blightwatch and destroy a pack of 4 Blight-born out of the blight nest before it reaches the hamlets (240 coin from the town)."
+  },
+  {
+   "event": "occupied",
+   "example": "22 men of the Iron Reavers camp take Malstead and stay: its 133 people flee to Stonepass Refuge. The hamlet's fields now feed the band, and Stonepass Refuge posts a contract to retake it."
+  },
+  {
+   "event": "refugees",
+   "example": "Stonepass Refuge's beds are full: 161 refugees and newcomers sleep in a camp by the walls, and eat from the town's granary."
+  },
+  {
+   "event": "camp moves",
+   "example": "Beaten twice by the Blight, the Grey Crows camp (8 men) abandon their camp and move 2.9 km to new ground."
+  },
+  {
+   "event": "cleared",
+   "example": "9 members of the Sunward Exchange guild clear the Blight-born out of Ulfham (360 coin from the town). Settlers follow."
+  },
+  {
+   "event": "retaken",
+   "example": "8 adventurers out of Stonepass Refuge retake Malstead from 22 men of the Iron Reavers camp (320 coin from the town). Its people begin to come home."
+  },
+  {
+   "event": "notice",
+   "example": "Reedwatch has lost its weaponsmithing and posts a notice: a journeyman is wanted."
+  },
+  {
+   "event": "hired",
+   "example": "Reedwatch hires Margaret Smith, a weaponsmithing journeyman, away from First Hearth for 150 coin."
+  },
+  {
+   "event": "home",
+   "example": "7 people of Hurstead, ransomed by Stonepass Refuge, come home from the slavers' holds."
+  },
+  {
+   "event": "ambush",
+   "example": "14 men of the Thornback Brothers camp fall on the carts from Radham; the escort of 6 cannot hold them and the grain is lost."
+  },
+  {
+   "event": "graduate",
+   "example": "John Dickson comes home to First Hearth from the tower school by Mereworth, a trained hand at magic (level 43 to 61), and goes back to their trade; the guild or the player character may recruit them."
+  },
+  {
+   "event": "abandoned",
+   "example": "Struck 3 times in three weeks, Malton is abandoned: 7 people walk to Sunward Exchange."
+  },
+  {
+   "event": "resettled",
+   "example": "6 townsfolk of Sunward Exchange go out to resettle Malton, safe now for a fortnight. It will be a season before it feeds the town as it did."
+  },
+  {
+   "event": "apex",
+   "example": "A new calamity has risen in the broken fort in the The Broken March: Zorulesh, Who Drinks the Wells. The old one does not return."
+  },
+  {
+   "event": "season",
+   "example": "Summer comes to the land."
+  },
+  {
+   "event": "camp forms",
+   "example": "Outlaws drift back to the old Thornback Brothers camp camp: 25 men by the summer."
+  },
+  {
+   "event": "nest",
+   "example": "The Blight spreads: the dune jackal den grows by a 10% this summer."
+  },
+  {
+   "event": "party lost",
+   "example": "A level 34 party of the Reedwatch guild goes into the rift in the Blighted and none come back: Avice Black (level 37), Emma Webster (level 36), Walter Dickson (level 32), John Long (level 32), Hugh Black (level 32)."
+  },
+  {
+   "event": "expedition",
+   "example": "The lord's expedition marches on The Heart of the Blight and thins it by 50%."
+  },
+  {
+   "event": "slain",
+   "example": "The cataclysm of the rift in the Blighted is slain. Nothing of its tier will rise there again."
+  }
+ ],
+ "player_deeds": [
+  "give",
+  "coin",
+  "go",
+  "retake",
+  "clear",
+  "recruit",
+  "hire",
+  "send",
+  "order",
+  "hall",
+  "council",
+  "pay_bounty",
+  "serve",
+  "atone",
+  "burn",
+  "rob_shelves",
+  "camp",
+  "kill_guild",
+  "kill_maker",
+  "levy",
+  "buy",
+  "sell",
+  "sell_item",
+  "mount",
+  "tool",
+  "task",
+  "work",
+  "equip",
+  "earn",
+  "enrol",
+  "join_lodge",
+  "lodge_sell",
+  "hire_hunter",
+  "raid_slavers",
+  "ransom",
+  "sell_captives",
+  "slaver_trade",
+  "free_leak",
+  "climb",
+  "pc_recruit"
+ ]
+}
