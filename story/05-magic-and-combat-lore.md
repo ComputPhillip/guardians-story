@@ -176,3 +176,7 @@ Every auto-triggered ability in `stewards_combat_system.md` has a teacher and a 
 | Dirty Sand / Caltrops | **Sand and Spikes** | Highwaymen and toll bandits at the ford |
 | Cutthroat Execute | **The Cutthroat** | Hollow Knives, the assassins |
 | Fen-Strider's Grace | **The Fen-Walk** | Fen Walkers of Reedwatch |
+
+## Ported techniques
+
+The techniques, stances, tools and horse skills carried over from Crimson Desert, each with a grounded name, a teacher and a source, are in [13-crimson-desert-port.md](13-crimson-desert-port.md). They include the **Measure** stance, **Fists** and **Wrestling**, the **Leyline Palm**, the **Grapnel**, the **Warden's Line**, **edge-oils** and the horse skills.
