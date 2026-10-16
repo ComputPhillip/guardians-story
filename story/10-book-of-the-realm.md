@@ -507,5 +507,5 @@ The hall's parts are each a part of the player's story:
 | **Gazelle and wild goat** | Desert and hill game. Sunward's hunt loses its gazelle *(sim: day 2)*, and the court mocks the lord for a week. |
 | **Wildfowl** | Fen ducks. Reedwatch's fowlers feed the town in lean weeks. |
 
-The **hunting lodges** of each town cull these grounds and sell what they take *(sim: some hunters don't come back from the week's hunting)*.
+The **hunting lodges** of each town keep these grounds and sell what they take. Their full story, from the king's verderers to the Forest Charter, is in [11-hunting-lodges.md](11-hunting-lodges.md).
 

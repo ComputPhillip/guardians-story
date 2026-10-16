@@ -20,6 +20,7 @@ The story is built on the world defined in `tradable_economy_v69.xlsx`, `steward
 | [story/08-simulation-tests.md](story/08-simulation-tests.md) | Tests of the story against the Living World Map's 364-day run, with the findings |
 | [story/09-unused-references.md](story/09-unused-references.md) | Check that every design-file name has a place (none unused) |
 | [story/10-book-of-the-realm.md](story/10-book-of-the-realm.md) | The gazetteer: every outlaw, warden, priest, sorcerer, caravan and hamlet, with their story |
+| [story/11-hunting-lodges.md](story/11-hunting-lodges.md) | The hunting lodges: their history, the Half Law, the Forest Charter, all five lodges and their people |
 | [story/07-life-paths.md](story/07-life-paths.md) | Who the player becomes: standing, reputation, attitude and life paths (trader, outlaw, hero, mage, lord and more) |
 
 ## Canon rules
