@@ -5,9 +5,9 @@ import re
 import sys
 
 HERE = pathlib.Path(__file__).parent
-ALLOWED = {"A", "B", "town", "lord", "lady", "steward", "hamlet", "band", "calamity", "guild", "good", "player", "dead"}
-CONDS = {"state", "time", "place", "news", "standing", "hold"}
-MIN = {"activity": 3, "event": 5, "deed": 6}
+ALLOWED = {"A", "B", "town", "lord", "lady", "steward", "hamlet", "band", "calamity", "guild", "good", "player", "dead", "hall", "site"}
+CONDS = {"state", "time", "place", "news", "standing", "hold", "mood", "attitude"}
+MIN = {"activity": 3, "event": 5, "deed": 6, "squad": 5}
 
 actions = json.loads((HERE / "src" / "actions.json").read_text())
 need = {
@@ -15,6 +15,8 @@ need = {
     "event": {e["event"] for e in actions["events"]},
     "deed": set(actions["player_deeds"]),
 }
+squad = json.loads((HERE / "src" / "squad.json").read_text())
+need["squad"] = {k for part in squad.values() for k, _ in part}
 
 have = {k: set() for k in need}
 ids, problems, lines, exchanges = set(), [], 0, 0

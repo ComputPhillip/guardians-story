@@ -9,6 +9,8 @@ Every NPC can talk to every other NPC about **everything they can do, everything
 | **Activities** | Every activity verb in the Living World Map's daily plans: sleeping, meals, chores, worship, company, every trade, every guard and outlaw task, the lord's hunt, alarms, and creatures seen by people | 323 | `home-and-rest.json`, `worship-and-company.json`, `market-and-road.json`, `work-1.json`, `work-2.json`, `work-3.json` |
 | **World events** | Every kind of news the simulation writes: raids, leaks, calamities rising, deaths, promotions, shortages, hero raids, camp moves and more | 48 | `events.json` |
 | **Player deeds** | Every deed the map lets the player do, from giving grain to burning a granary or dealing with slavers | 40 | `player-deeds.json` |
+| **Squad life** | The player-controlled characters: joining, orders (guard, work, mission, travel), missions, pay and loyalty, wounds and deaths, the hall, camp and road, outsiders and kin, approval of the player's deeds | 28 | `squad-life.json` |
+| **Squad combat** | Barks for every combat situation: stances, flanks, wall-pins, telegraphs, shield walls, draughts, downed allies, spells and heals, elites and calamities, victory and retreat | 25 | `squad-combat.json` |
 
 ## When two NPCs talk
 
@@ -31,6 +33,19 @@ The map already puts people in the same place doing the same thing: a shared tab
 * **Overheard dialogue spreads news.** When the player overhears an exchange with a `news` condition, the player hears that news too, the same as being told at a table.
 * **Class voice.** A lord, a farm servant, an outlaw and a monk never sound alike. See STYLE.md.
 * **Sleep and night.** Sleepers neither tell nor hear news (as on the map), but bedfellows murmur, and campmates on watch talk low.
+
+## Player-controlled characters
+
+The player commands a squad, as in Kenshi. Squad members are ordinary people of the world, so they use **all** the activity, event and deed dialogue like anyone else: a squad member at supper chats with the innkeeper using the `Supper` set.
+
+On top of that, the squad has its own layer:
+
+* **Orders and missions.** The map's four standing orders (`guard` the hall, `work` the hall's jobs, go on `mission`s, `travel` with the player) and `send` to a lair each have their own lines, plus lines for coming back with loot or without a friend.
+* **Loyalty.** The map pays recruits weekly, warns them when wages are missed, and lets them leave. The `mood` condition (`loyal`, `content`, `grumbling` or `leaving`) follows that, so a squad that hasn't been paid sounds like it.
+* **Approval.** The player's tracked attitude (`merciful`, `ruthless`, `greedy`, `honourable`, `pious` or `curious`) drives `approve_deed`, `disapprove_deed` and `leaving`. A Healer won't stay quiet after a granary burning, and a Brigand will laugh.
+* **Combat barks.** These are short shouts tied to the combat system: stances, flanking, wall-pins, sidestepping telegraphs, locking shields, draughts and carrying downed allies. Barks interrupt any other dialogue.
+* **Outsiders.** Gate guards, merchants and outlaws speak *to* squad members (`npc_addresses_squad`). Squad members meet their own kin among the outlaw families or rival guilds (`kin_on_other_side`).
+* **Priority.** In earshot of the player, the order is: combat barks first, then squad situations (orders, pay, deaths), then the usual deed, event and activity topics.
 
 ## Creatures
 

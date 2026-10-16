@@ -1,0 +1,218 @@
+{
+ "life": [
+  [
+   "recruited",
+   "A new recruit joins the squad; existing members size them up"
+  ],
+  [
+   "order_travel",
+   "Ordered to travel with the player character"
+  ],
+  [
+   "order_guard",
+   "Ordered to guard the player's hall"
+  ],
+  [
+   "order_work",
+   "Ordered to work the hall's jobs (forge, lab, stores)"
+  ],
+  [
+   "order_mission",
+   "Ordered to go on missions"
+  ],
+  [
+   "sent_to_lair",
+   "Sent to clear a lair, with a named leader"
+  ],
+  [
+   "mission_return_win",
+   "Back from a mission with loot"
+  ],
+  [
+   "mission_return_loss",
+   "Back from a mission with someone lost"
+  ],
+  [
+   "wages_paid",
+   "Paid on time"
+  ],
+  [
+   "wages_late",
+   "Wages missed once"
+  ],
+  [
+   "warned",
+   "Warned they'll leave if not paid"
+  ],
+  [
+   "leaving",
+   "Quitting the squad over pay or the player's deeds"
+  ],
+  [
+   "wounded",
+   "A member is wounded and resting"
+  ],
+  [
+   "death_in_squad",
+   "A squad member has died (permadeath)"
+  ],
+  [
+   "level_up",
+   "A member levels up or reaches a new rank"
+  ],
+  [
+   "equipped",
+   "Given better arms or armour"
+  ],
+  [
+   "sent_to_school",
+   "A mage or healer member is enrolled at the tower school"
+  ],
+  [
+   "hall_built",
+   "A new hall part is finished"
+  ],
+  [
+   "hall_raided",
+   "Raiders break into the player's hall"
+  ],
+  [
+   "road_camp",
+   "Camping on the road at night"
+  ],
+  [
+   "road_robbed",
+   "Robbed of cargo on the road"
+  ],
+  [
+   "town_arrival",
+   "Arriving in a town together"
+  ],
+  [
+   "meal_together",
+   "Eating together in camp or hall"
+  ],
+  [
+   "idle_banter",
+   "Long march or idle hours; personal stories, homesickness, old feuds"
+  ],
+  [
+   "npc_addresses_squad",
+   "A townsperson, guard, merchant or outlaw speaks to a squad member about the player or the squad"
+  ],
+  [
+   "kin_on_other_side",
+   "A squad member meets kin among outlaws, guilds or a rival hold"
+  ],
+  [
+   "approve_deed",
+   "Squad members approve of something the player did"
+  ],
+  [
+   "disapprove_deed",
+   "Squad members disapprove of something the player did"
+  ]
+ ],
+ "combat": [
+  [
+   "battle_start",
+   "Engaging enemies"
+  ],
+  [
+   "stance_hold",
+   "Holding ground / phalanx stance"
+  ],
+  [
+   "stance_protect",
+   "Bodyguarding the backline"
+  ],
+  [
+   "stance_skirmish",
+   "Kiting with ranged attackers"
+  ],
+  [
+   "stance_passive",
+   "Disengaging / rescuing"
+  ],
+  [
+   "flanking",
+   "Circling to the enemy's flank or rear"
+  ],
+  [
+   "wall_pin",
+   "Pinning an enemy against terrain"
+  ],
+  [
+   "sweet_spot",
+   "Fighting at a weapon's best range"
+  ],
+  [
+   "telegraph_dodge",
+   "Sidestepping a heavy ground attack"
+  ],
+  [
+   "shield_wall",
+   "Locking shields"
+  ],
+  [
+   "ally_low_hp",
+   "An ally is badly hurt"
+  ],
+  [
+   "drink_draught",
+   "Drinking a healing or other draught"
+  ],
+  [
+   "downed",
+   "A member is knocked down"
+  ],
+  [
+   "carry_downed",
+   "Carrying a downed ally out"
+  ],
+  [
+   "last_stand",
+   "A Born survivor's last stand triggers"
+  ],
+  [
+   "spell_cast",
+   "A mage casts (firebolt, fireball, lightning, ward)"
+  ],
+  [
+   "heal_cast",
+   "A healer heals or wards"
+  ],
+  [
+   "elite_or_boss",
+   "Facing an elite, a calamity or Drakrevor"
+  ],
+  [
+   "blight_horror",
+   "Fighting Blight horrors"
+  ],
+  [
+   "outlaws_fight",
+   "Fighting outlaws"
+  ],
+  [
+   "beasts_fight",
+   "Fighting wolves, bears or boar"
+  ],
+  [
+   "guards_fight",
+   "Fighting town guards (the player is hunted)"
+  ],
+  [
+   "victory",
+   "The fight is won"
+  ],
+  [
+   "retreat",
+   "Running from a lost fight"
+  ],
+  [
+   "after_battle",
+   "Counting the cost after a fight"
+  ]
+ ]
+}

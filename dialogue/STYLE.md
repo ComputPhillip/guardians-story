@@ -26,7 +26,7 @@ One JSON file per category in `dialogue/`. Each file is a list of **sets**:
 }
 ```
 
-* `kind`: `activity` (from the daily plan), `event` (world news being discussed), or `deed` (people reacting to something the player did).
+* `kind`: `activity` (from the daily plan), `event` (world news being discussed), `deed` (people reacting to something the player did), or `squad` (the player-controlled characters).
 * `who`: the pair or group who speak it, for example "two farm servants", "a priest and a monk", "a guard and the player's witness".
 * `exchanges`: **at least 3 per action**, 2–4 lines each. Use more exchanges for common actions.
 * `when`: conditions. Leave a field `null` when it doesn't matter. At least one exchange per action must have all `null` conditions, as a fallback.
@@ -36,7 +36,20 @@ One JSON file per category in `dialogue/`. Each file is a list of **sets**:
   * `news`: an event kind from `actions.json` that the speakers have **heard**.
   * `standing`: the speakers' view of the player: `Hunted`, `Shunned`, `Distrusted`, `Neutral`, `Friend`, `Champion`, `Titled` or `Councillor`. Use this for deed reactions.
   * `hold`: one of the five holds, for local colour.
+  * `mood` (squad only): the speaker's loyalty, from the map's pay and warnings: `loyal`, `content`, `grumbling` or `leaving`.
+  * `attitude` (squad only): the player's tracked attitude (see `story/07-life-paths.md`): `merciful`, `ruthless`, `greedy`, `honourable`, `pious` or `curious`.
 * `speaker`: `A`, `B` or `C`. For creature activities, the speakers are people who **see** the creatures.
+
+## Player-controlled characters
+
+The player controls a squad, like Kenshi: the recruits the map lets the player hire, order (`guard`, `work`, `mission`, `travel`), send to lairs, pay, equip and lose. Squad members are people, so **every activity, event and deed set also plays for them**. A squad member eating supper uses the `Supper` set like anyone else.
+
+The `squad` kind adds what only the squad has: orders, pay and loyalty, missions, wounds and deaths in the squad, the hall, camp life, combat, and approval of the player's deeds. The list is in [`src/squad.json`](src/squad.json).
+
+* Squad lines use `{A}` and `{B}` for squad members. `{player}` is the player character, whom the squad calls by name or "the captain" (or "boss", or "my lord" once titled).
+* For `npc_addresses_squad` and `kin_on_other_side`, A is the outsider and B is the squad member.
+* Squad members have **personalities from their minor and talent**: a Duellist is proud, a Healer gentle, a Brigand cynical, a *Born survivor* fatalistic, a *Gifted* one cocky. Let that show.
+* Combat lines are **barks**: under 8 words, shouted. They must fit the combat system (stances, flanks, wall-pins, sweet-spots, telegraphs, draughts, downed allies; see `stewards_combat_system.md` and `story/05-magic-and-combat-lore.md`).
 
 ## Placeholders
 
@@ -55,6 +68,8 @@ Only these. The game fills them from the simulation.
 | `{good}` | A trade good |
 | `{player}` | What the speakers call the player: a name if they know it, otherwise "that stranger" |
 | `{dead}` | The name of someone who died (from the event) |
+| `{hall}` | The player's hall, for example "the hall near Reedwatch" (squad only) |
+| `{site}` | A lair or mission site (squad only) |
 
 ## Voice
 
