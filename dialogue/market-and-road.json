@@ -1,0 +1,4444 @@
+[
+ {
+  "action": "Purchase",
+  "kind": "activity",
+  "who": "two townsfolk at a stall, a buyer and a seller",
+  "exchanges": [
+   {
+    "id": "purchase_01",
+    "when": {
+     "state": [
+      "Starving"
+     ],
+     "time": null,
+     "place": "market",
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Two pennies for that loaf? It was a halfpenny at harvest."
+     },
+     {
+      "speaker": "B",
+      "text": "Then go back to harvest. The granary's near bare."
+     },
+     {
+      "speaker": "A",
+      "text": "{steward} sits on full sacks, I'd wager."
+     },
+     {
+      "speaker": "B",
+      "text": "Wager with what? You can't afford bread."
+     }
+    ]
+   },
+   {
+    "id": "purchase_02",
+    "when": {
+     "state": [
+      "Lean"
+     ],
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Weigh it again. Your thumb's on the scale."
+     },
+     {
+      "speaker": "B",
+      "text": "My thumb's the only fat thing in {town} this month."
+     }
+    ]
+   },
+   {
+    "id": "purchase_03",
+    "when": {
+     "state": [
+      "Fed"
+     ],
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Fair price on the {good} today."
+     },
+     {
+      "speaker": "B",
+      "text": "Fair? Remember you said that when it climbs."
+     }
+    ]
+   },
+   {
+    "id": "purchase_04",
+    "when": {
+     "state": [
+      "Thriving"
+     ],
+     "time": null,
+     "place": "market",
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Three of everything, and a ribbon for my girl."
+     },
+     {
+      "speaker": "B",
+      "text": "Look at you, spending like a lord's cousin."
+     },
+     {
+      "speaker": "A",
+      "text": "Granary's full, roads are clear. Let a woman enjoy it."
+     }
+    ]
+   },
+   {
+    "id": "purchase_05",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": "shortage",
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{good}'s up by half since the news."
+     },
+     {
+      "speaker": "B",
+      "text": "Shortage, they say. Shortage of honest sellers, more like."
+     }
+    ]
+   },
+   {
+    "id": "purchase_06",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": "ambush",
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Carts lost on the road again. Prices jump by evening."
+     },
+     {
+      "speaker": "B",
+      "text": "Then buy now, before the hoarders wake up."
+     }
+    ]
+   },
+   {
+    "id": "purchase_07",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": "Sunward Exchange"
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Sunward prices. Even the flies pay a toll here."
+     },
+     {
+      "speaker": "B",
+      "text": "And the water costs more than the wine."
+     }
+    ]
+   },
+   {
+    "id": "purchase_08",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": "Stonepass Refuge"
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Clan iron, clan bread, clan prices. Outsiders pay double."
+     },
+     {
+      "speaker": "B",
+      "text": "Then keep your mouth shut. Your accent costs a penny a word."
+     }
+    ]
+   },
+   {
+    "id": "purchase_09",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "How much?"
+     },
+     {
+      "speaker": "B",
+      "text": "Depends who's asking."
+     },
+     {
+      "speaker": "A",
+      "text": "Me. Same as every week, {B}."
+     },
+     {
+      "speaker": "B",
+      "text": "Then the same price. Don't haggle, it bores me."
+     }
+    ]
+   },
+   {
+    "id": "purchase_10",
+    "when": {
+     "state": null,
+     "time": "evening",
+     "place": "market",
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "End of the day. Give me the bruised ones cheap."
+     },
+     {
+      "speaker": "B",
+      "text": "Bruised costs the same. Rotten costs less. Come back tomorrow."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "MarketStall",
+  "kind": "activity",
+  "who": "two stallholders side by side",
+  "exchanges": [
+   {
+    "id": "market_stall_01",
+    "when": {
+     "state": null,
+     "time": "dawn",
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Help me with the awning, it's sagging."
+     },
+     {
+      "speaker": "B",
+      "text": "Everything in {town} sags. Pull the left rope."
+     }
+    ]
+   },
+   {
+    "id": "market_stall_02",
+    "when": {
+     "state": [
+      "Starving"
+     ],
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Nobody's buying. They're only looking."
+     },
+     {
+      "speaker": "B",
+      "text": "Looking's free. It's all anyone can afford."
+     }
+    ]
+   },
+   {
+    "id": "market_stall_03",
+    "when": {
+     "state": [
+      "Thriving"
+     ],
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Third day running the stall's empty by noon."
+     },
+     {
+      "speaker": "B",
+      "text": "Raise your prices. They'll still pay."
+     },
+     {
+      "speaker": "A",
+      "text": "Greedy."
+     },
+     {
+      "speaker": "B",
+      "text": "Thriving, I call it."
+     }
+    ]
+   },
+   {
+    "id": "market_stall_04",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": "raid",
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Hamlet folk aren't coming in. The raid scared them off."
+     },
+     {
+      "speaker": "B",
+      "text": "Fewer sellers, better prices for us. Grim, but true."
+     }
+    ]
+   },
+   {
+    "id": "market_stall_05",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": "Reedwatch"
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Damp's in the cloth again."
+     },
+     {
+      "speaker": "B",
+      "text": "Damp's in everything here. Even the coin feels wet."
+     }
+    ]
+   },
+   {
+    "id": "market_stall_06",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Watch the stall, I need a piss."
+     },
+     {
+      "speaker": "B",
+      "text": "If something walks off, it's your loss."
+     },
+     {
+      "speaker": "A",
+      "text": "Then keep your eyes open, {B}."
+     }
+    ]
+   },
+   {
+    "id": "market_stall_07",
+    "when": {
+     "state": null,
+     "time": "night",
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Pack it up before the cutpurses come out."
+     },
+     {
+      "speaker": "B",
+      "text": "The cutpurses are the watch. They just work days."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "BuyProvisions",
+  "kind": "activity",
+  "who": "two travellers stocking up before a journey",
+  "exchanges": [
+   {
+    "id": "buy_provisions_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Hard bread, dried meat and a skin of water."
+     },
+     {
+      "speaker": "B",
+      "text": "Going far?"
+     },
+     {
+      "speaker": "A",
+      "text": "Far enough that I won't be back for more."
+     }
+    ]
+   },
+   {
+    "id": "buy_provisions_02",
+    "when": {
+     "state": [
+      "Lean",
+      "Starving"
+     ],
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Half rations for the road, then."
+     },
+     {
+      "speaker": "B",
+      "text": "Half of half. {steward} won't sell more to travellers."
+     }
+    ]
+   },
+   {
+    "id": "buy_provisions_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": "ambush",
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Buy extra. If the road shuts, we wait it out."
+     },
+     {
+      "speaker": "B",
+      "text": "Wait where? Under a cart, with the outlaws for company?"
+     }
+    ]
+   },
+   {
+    "id": "buy_provisions_04",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "road",
+     "news": null,
+     "standing": null,
+     "hold": "Sunward Exchange"
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Water first. Food second. Everything else after."
+     },
+     {
+      "speaker": "B",
+      "text": "Water first in the desert. So you've learned something."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "Marketing",
+  "kind": "activity",
+  "who": "two household servants doing the day's marketing",
+  "exchanges": [
+   {
+    "id": "marketing_01",
+    "when": {
+     "state": null,
+     "time": "dawn",
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "The lady's list is longer than my arm."
+     },
+     {
+      "speaker": "B",
+      "text": "Her list, her coin. Your feet, though."
+     }
+    ]
+   },
+   {
+    "id": "marketing_02",
+    "when": {
+     "state": [
+      "Starving"
+     ],
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Cook says come back with meat or don't come back."
+     },
+     {
+      "speaker": "B",
+      "text": "Then we're not going back. There's no meat."
+     }
+    ]
+   },
+   {
+    "id": "marketing_03",
+    "when": {
+     "state": [
+      "Thriving"
+     ],
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Saffron, figs and a capon. Who's she feeding?"
+     },
+     {
+      "speaker": "B",
+      "text": "Someone she wants to impress. Ask no questions."
+     }
+    ]
+   },
+   {
+    "id": "marketing_04",
+    "when": {
+     "state": [
+      "Fed"
+     ],
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Turnips again."
+     },
+     {
+      "speaker": "B",
+      "text": "Turnips are honest. Nobody ever stabbed a man over a turnip."
+     }
+    ]
+   },
+   {
+    "id": "marketing_05",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": "shortage",
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Steward wants salt. There's none to be had."
+     },
+     {
+      "speaker": "B",
+      "text": "Then he gets a story about salt instead."
+     }
+    ]
+   },
+   {
+    "id": "marketing_06",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Did you get the eggs?"
+     },
+     {
+      "speaker": "B",
+      "text": "Two broke on the way."
+     },
+     {
+      "speaker": "A",
+      "text": "So we tell Cook the hen was lazy."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "Trade",
+  "kind": "activity",
+  "who": "two merchants striking a bargain",
+  "exchanges": [
+   {
+    "id": "trade_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{good} for your cloth. Straight swap."
+     },
+     {
+      "speaker": "B",
+      "text": "Straight? Mine's dyed. Yours is dusty."
+     },
+     {
+      "speaker": "A",
+      "text": "Dust washes off, dye fades. We're even."
+     }
+    ]
+   },
+   {
+    "id": "trade_02",
+    "when": {
+     "state": [
+      "Starving"
+     ],
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "I'll trade you anything for grain."
+     },
+     {
+      "speaker": "B",
+      "text": "Anything is what everyone offers. Grain is what nobody has."
+     }
+    ]
+   },
+   {
+    "id": "trade_03",
+    "when": {
+     "state": [
+      "Lean"
+     ],
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Grain's dear, so wool's cheap. Bad week to be a shepherd."
+     },
+     {
+      "speaker": "B",
+      "text": "Every week's a bad week to be a shepherd."
+     }
+    ]
+   },
+   {
+    "id": "trade_04",
+    "when": {
+     "state": [
+      "Thriving"
+     ],
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Granary's full. Grain's worth nothing here."
+     },
+     {
+      "speaker": "B",
+      "text": "Then cart it somewhere hungry. Somewhere always is."
+     }
+    ]
+   },
+   {
+    "id": "trade_05",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": "order",
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "The smiths posted a buy order for ore."
+     },
+     {
+      "speaker": "B",
+      "text": "Above base price? Then I buy ore today and sell tomorrow."
+     }
+    ]
+   },
+   {
+    "id": "trade_06",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": "ambush",
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Carts lost. {good} will be dear within a fortnight."
+     },
+     {
+      "speaker": "B",
+      "text": "Then we hold ours and smile at the buyers."
+     }
+    ]
+   },
+   {
+    "id": "trade_07",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": "Sunward Exchange"
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Sir John the Coin taxes every bale twice."
+     },
+     {
+      "speaker": "B",
+      "text": "Once for the road, once for breathing near him."
+     }
+    ]
+   },
+   {
+    "id": "trade_08",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": "Stonepass Refuge"
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Ingots for salt fish. Clan rate."
+     },
+     {
+      "speaker": "B",
+      "text": "I'm not clan."
+     },
+     {
+      "speaker": "A",
+      "text": "Then the rate is: you pay more."
+     }
+    ]
+   },
+   {
+    "id": "trade_09",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": "filled",
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Order's filled. {good} will drop now."
+     },
+     {
+      "speaker": "B",
+      "text": "Sell before the carriers get back and tell everyone."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "SellBread",
+  "kind": "activity",
+  "who": "a baker and a helper at the bread stall",
+  "exchanges": [
+   {
+    "id": "sell_bread_01",
+    "when": {
+     "state": [
+      "Starving"
+     ],
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Bread's half bran and half sawdust."
+     },
+     {
+      "speaker": "B",
+      "text": "And all of it gone by dawn. Nobody cares."
+     }
+    ]
+   },
+   {
+    "id": "sell_bread_02",
+    "when": {
+     "state": [
+      "Thriving"
+     ],
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Honey loaves today. Sold out by noon."
+     },
+     {
+      "speaker": "B",
+      "text": "Bake twice, then. While flour's cheap."
+     }
+    ]
+   },
+   {
+    "id": "sell_bread_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Warm bread! Fresh from the oven!"
+     },
+     {
+      "speaker": "B",
+      "text": "Yesterday's, sprinkled with water."
+     },
+     {
+      "speaker": "A",
+      "text": "Keep your voice down."
+     }
+    ]
+   },
+   {
+    "id": "sell_bread_04",
+    "when": {
+     "state": null,
+     "time": "dawn",
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Ovens hot since the middle of the night."
+     },
+     {
+      "speaker": "B",
+      "text": "And still the first in line complain."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "SellAle",
+  "kind": "activity",
+  "who": "an alewife and her daughter",
+  "exchanges": [
+   {
+    "id": "sell_ale_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Good brown ale, a penny a jug."
+     },
+     {
+      "speaker": "B",
+      "text": "Watered?"
+     },
+     {
+      "speaker": "A",
+      "text": "Rained in. That's a different thing."
+     }
+    ]
+   },
+   {
+    "id": "sell_ale_02",
+    "when": {
+     "state": [
+      "Starving"
+     ],
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "No barley, so no ale. It's well water and prayer."
+     },
+     {
+      "speaker": "B",
+      "text": "Sell the prayer. It's cheaper to make."
+     }
+    ]
+   },
+   {
+    "id": "sell_ale_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": "Canopy Rest"
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Brother says ale's a sin before Vespers."
+     },
+     {
+      "speaker": "B",
+      "text": "Brother drinks after Vespers. I keep his tab."
+     }
+    ]
+   },
+   {
+    "id": "sell_ale_04",
+    "when": {
+     "state": [
+      "Thriving"
+     ],
+     "time": "evening",
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Fill the guild lads' cups. They pay in silver."
+     },
+     {
+      "speaker": "B",
+      "text": "Silver tonight. Promises tomorrow."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "SellMeat",
+  "kind": "activity",
+  "who": "a butcher and a customer",
+  "exchanges": [
+   {
+    "id": "sell_meat_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Fresh mutton, killed this morning."
+     },
+     {
+      "speaker": "B",
+      "text": "Which morning?"
+     },
+     {
+      "speaker": "A",
+      "text": "A morning. Do you want it or not?"
+     }
+    ]
+   },
+   {
+    "id": "sell_meat_02",
+    "when": {
+     "state": [
+      "Starving"
+     ],
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "That's not mutton."
+     },
+     {
+      "speaker": "B",
+      "text": "It's meat. In a starving town, don't ask what kind."
+     }
+    ]
+   },
+   {
+    "id": "sell_meat_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": "fold",
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Wolves took a hamlet's flock. Mutton's dear now."
+     },
+     {
+      "speaker": "B",
+      "text": "Dear for us. Cheap for the wolves."
+     }
+    ]
+   },
+   {
+    "id": "sell_meat_04",
+    "when": {
+     "state": [
+      "Thriving"
+     ],
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Venison from the lord's hunt. The leavings."
+     },
+     {
+      "speaker": "B",
+      "text": "A lord's leavings feed a whole street."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "SellPies",
+  "kind": "activity",
+  "who": "a pie-seller and a hungry neighbour",
+  "exchanges": [
+   {
+    "id": "sell_pies_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Hot pies! Pork and onion!"
+     },
+     {
+      "speaker": "B",
+      "text": "Mostly onion."
+     },
+     {
+      "speaker": "A",
+      "text": "Onion's real. Pork's a rumour."
+     }
+    ]
+   },
+   {
+    "id": "sell_pies_02",
+    "when": {
+     "state": [
+      "Lean"
+     ],
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Smaller pies, same price."
+     },
+     {
+      "speaker": "B",
+      "text": "They'll notice."
+     },
+     {
+      "speaker": "A",
+      "text": "They'll notice hunger more."
+     }
+    ]
+   },
+   {
+    "id": "sell_pies_03",
+    "when": {
+     "state": null,
+     "time": "evening",
+     "place": "inn",
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Sell the last ones to the drunks."
+     },
+     {
+      "speaker": "B",
+      "text": "Drunks can't count. Charge them double."
+     }
+    ]
+   },
+   {
+    "id": "sell_pies_04",
+    "when": {
+     "state": [
+      "Thriving"
+     ],
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Eel pies sold out again."
+     },
+     {
+      "speaker": "B",
+      "text": "Full bellies make for more bellies. Bake more tomorrow."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "StockCheck",
+  "kind": "activity",
+  "who": "a shopkeeper and an apprentice counting stock",
+  "exchanges": [
+   {
+    "id": "stock_check_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Count the sacks again."
+     },
+     {
+      "speaker": "B",
+      "text": "Twelve. Same as before."
+     },
+     {
+      "speaker": "A",
+      "text": "Count again. Twelve is what the thief wants me to think."
+     }
+    ]
+   },
+   {
+    "id": "stock_check_02",
+    "when": {
+     "state": [
+      "Lean"
+     ],
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "We're three bolts of {good} short."
+     },
+     {
+      "speaker": "B",
+      "text": "Rats?"
+     },
+     {
+      "speaker": "A",
+      "text": "Rats with two legs and a key."
+     }
+    ]
+   },
+   {
+    "id": "stock_check_03",
+    "when": {
+     "state": [
+      "Thriving"
+     ],
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Stores are full to the rafters."
+     },
+     {
+      "speaker": "B",
+      "text": "Then stop buying. We can't sell it fast enough."
+     }
+    ]
+   },
+   {
+    "id": "stock_check_04",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": "shortage",
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Hide half the {good} in the cellar."
+     },
+     {
+      "speaker": "B",
+      "text": "Hoarding?"
+     },
+     {
+      "speaker": "A",
+      "text": "Waiting. Prices are about to climb."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "ServeCustomers",
+  "kind": "activity",
+  "who": "a shopkeeper and a customer",
+  "exchanges": [
+   {
+    "id": "serve_customers_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "What'll it be?"
+     },
+     {
+      "speaker": "B",
+      "text": "Same as always."
+     },
+     {
+      "speaker": "A",
+      "text": "Same as always costs more now."
+     },
+     {
+      "speaker": "B",
+      "text": "Since when? Since you saw me coming?"
+     }
+    ]
+   },
+   {
+    "id": "serve_customers_02",
+    "when": {
+     "state": [
+      "Starving"
+     ],
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "No credit. Not this week."
+     },
+     {
+      "speaker": "B",
+      "text": "I've bought here ten years!"
+     },
+     {
+      "speaker": "A",
+      "text": "And I've starved here one. No credit."
+     }
+    ]
+   },
+   {
+    "id": "serve_customers_03",
+    "when": {
+     "state": [
+      "Lean"
+     ],
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Pay half now, half after harvest."
+     },
+     {
+      "speaker": "B",
+      "text": "After harvest you'll forget me."
+     },
+     {
+      "speaker": "A",
+      "text": "I never forget a debt, {B}."
+     }
+    ]
+   },
+   {
+    "id": "serve_customers_04",
+    "when": {
+     "state": [
+      "Thriving"
+     ],
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Coin's flowing, friend. Something for your wife?"
+     },
+     {
+      "speaker": "B",
+      "text": "Something for me first. She can wait."
+     }
+    ]
+   },
+   {
+    "id": "serve_customers_05",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": "Friend",
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "That one's a friend of {player}. Give them the fair price."
+     },
+     {
+      "speaker": "B",
+      "text": "There's a fair price? Since when?"
+     }
+    ]
+   },
+   {
+    "id": "serve_customers_06",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": "Shunned",
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} was in here earlier."
+     },
+     {
+      "speaker": "B",
+      "text": "Did you serve them?"
+     },
+     {
+      "speaker": "A",
+      "text": "I served them the door."
+     }
+    ]
+   },
+   {
+    "id": "serve_customers_07",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": "First Hearth"
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "First Hearth bread, first quality. Fit for a king."
+     },
+     {
+      "speaker": "B",
+      "text": "There's no king."
+     },
+     {
+      "speaker": "A",
+      "text": "Then fit for whoever's next."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "SellProduce",
+  "kind": "activity",
+  "who": "a farmer and his wife at their cart",
+  "exchanges": [
+   {
+    "id": "sell_produce_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Cabbages, leeks, the last of the beans."
+     },
+     {
+      "speaker": "B",
+      "text": "Bring the beans forward. Beans sell."
+     }
+    ]
+   },
+   {
+    "id": "sell_produce_02",
+    "when": {
+     "state": [
+      "Starving"
+     ],
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Townsfolk followed the cart from the gate."
+     },
+     {
+      "speaker": "B",
+      "text": "Sell fast, and get home before they follow us there."
+     }
+    ]
+   },
+   {
+    "id": "sell_produce_03",
+    "when": {
+     "state": [
+      "Thriving"
+     ],
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Too many turnips. Can't give them away."
+     },
+     {
+      "speaker": "B",
+      "text": "Feed them to the pigs, then sell the pigs."
+     }
+    ]
+   },
+   {
+    "id": "sell_produce_04",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": "raid",
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Hamlet's burned. This is all we saved."
+     },
+     {
+      "speaker": "B",
+      "text": "Then ask double. The town needs it more than we do."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "BuyGoods",
+  "kind": "activity",
+  "who": "two traders buying stock",
+  "exchanges": [
+   {
+    "id": "buy_goods_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Buy the {good} cheap here, sell it dear in the next town."
+     },
+     {
+      "speaker": "B",
+      "text": "That's called trade. Most of us call it walking."
+     }
+    ]
+   },
+   {
+    "id": "buy_goods_02",
+    "when": {
+     "state": [
+      "Lean"
+     ],
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Nobody's selling. They're all waiting for a better price."
+     },
+     {
+      "speaker": "B",
+      "text": "Then we wait too. Or starve politely."
+     }
+    ]
+   },
+   {
+    "id": "buy_goods_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": "Sunward Exchange"
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Desert prices. Everything comes in on a mule's back."
+     },
+     {
+      "speaker": "B",
+      "text": "And the mule wants paying too."
+     }
+    ]
+   },
+   {
+    "id": "buy_goods_04",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": "ambush",
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Buy what you can before the next carts don't come."
+     },
+     {
+      "speaker": "B",
+      "text": "Grim way to go shopping."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "Hawk",
+  "kind": "activity",
+  "who": "two hawkers crying their wares",
+  "exchanges": [
+   {
+    "id": "hawk_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Laces! Pins! Needles!"
+     },
+     {
+      "speaker": "B",
+      "text": "You've shouted that since dawn."
+     },
+     {
+      "speaker": "A",
+      "text": "And I'll shout it till dusk. It's a living."
+     }
+    ]
+   },
+   {
+    "id": "hawk_02",
+    "when": {
+     "state": [
+      "Starving"
+     ],
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Nobody buys laces when there's no bread."
+     },
+     {
+      "speaker": "B",
+      "text": "Shout 'bread', then. See what happens."
+     }
+    ]
+   },
+   {
+    "id": "hawk_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": "Canopy Rest"
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Holy medals, blessed at the temple!"
+     },
+     {
+      "speaker": "B",
+      "text": "Blessed by whom?"
+     },
+     {
+      "speaker": "A",
+      "text": "By me. I'm very devout."
+     }
+    ]
+   },
+   {
+    "id": "hawk_04",
+    "when": {
+     "state": [
+      "Thriving"
+     ],
+     "time": null,
+     "place": "market",
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Ribbons from Sunward! Pins from Stonepass!"
+     },
+     {
+      "speaker": "B",
+      "text": "Pins from the smithy round the corner."
+     },
+     {
+      "speaker": "A",
+      "text": "Hush."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "MeetCaravan",
+  "kind": "activity",
+  "who": "townsfolk watching a caravan come in",
+  "exchanges": [
+   {
+    "id": "meet_caravan_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Caravan's in! Who's the master?"
+     },
+     {
+      "speaker": "B",
+      "text": "Thomas Gray, out of Sunward. Jewels and coin, they say."
+     },
+     {
+      "speaker": "A",
+      "text": "And dust. Always dust."
+     }
+    ]
+   },
+   {
+    "id": "meet_caravan_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": "ambush",
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Half the wagons. Where's the rest?"
+     },
+     {
+      "speaker": "B",
+      "text": "On the road somewhere, with new owners."
+     }
+    ]
+   },
+   {
+    "id": "meet_caravan_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": "Reedwatch"
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Agnes atte Brook's carts. Cloth and fish again."
+     },
+     {
+      "speaker": "B",
+      "text": "Honest woman. Losing money every week, I hear."
+     }
+    ]
+   },
+   {
+    "id": "meet_caravan_04",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": "Stonepass Refuge"
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "John atte Green's back with the ingots."
+     },
+     {
+      "speaker": "B",
+      "text": "Not a scratch on him. The Reavers like him, somehow."
+     },
+     {
+      "speaker": "A",
+      "text": "Or he pays them."
+     }
+    ]
+   },
+   {
+    "id": "meet_caravan_05",
+    "when": {
+     "state": [
+      "Starving"
+     ],
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Is there grain on those carts?"
+     },
+     {
+      "speaker": "B",
+      "text": "It's iron. You can't eat iron."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "Peddle",
+  "kind": "activity",
+  "who": "two pedlars on their rounds",
+  "exchanges": [
+   {
+    "id": "peddle_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Needles, salt, news from town!"
+     },
+     {
+      "speaker": "B",
+      "text": "How much for the news?"
+     },
+     {
+      "speaker": "A",
+      "text": "News is free. The salt isn't."
+     }
+    ]
+   },
+   {
+    "id": "peddle_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "road",
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Three hamlets today."
+     },
+     {
+      "speaker": "B",
+      "text": "And one pair of boots between us."
+     },
+     {
+      "speaker": "A",
+      "text": "Then you walk barefoot tomorrow."
+     }
+    ]
+   },
+   {
+    "id": "peddle_03",
+    "when": {
+     "state": [
+      "Starving"
+     ],
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "They'll trade eggs for needles."
+     },
+     {
+      "speaker": "B",
+      "text": "Take the eggs. Coin's thin in hungry country."
+     }
+    ]
+   },
+   {
+    "id": "peddle_04",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": "raid",
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Hamlet folk will want news of the raid."
+     },
+     {
+      "speaker": "B",
+      "text": "Tell it true?"
+     },
+     {
+      "speaker": "A",
+      "text": "Tell it worse. Fear sells salt."
+     }
+    ]
+   },
+   {
+    "id": "peddle_05",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": "slavers",
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Don't take the north road."
+     },
+     {
+      "speaker": "B",
+      "text": "Slavers?"
+     },
+     {
+      "speaker": "A",
+      "text": "Slavers. They'd sell us for less than our packs."
+     }
+    ]
+   },
+   {
+    "id": "peddle_06",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": "Reedwatch"
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Fen folk pay in eels."
+     },
+     {
+      "speaker": "B",
+      "text": "Eels don't fit in a purse."
+     },
+     {
+      "speaker": "A",
+      "text": "Then they go in the pack."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "SellFish",
+  "kind": "activity",
+  "who": "two fishwives at the fish stall",
+  "exchanges": [
+   {
+    "id": "sell_fish_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Fresh fish!"
+     },
+     {
+      "speaker": "B",
+      "text": "Sniff it first."
+     },
+     {
+      "speaker": "A",
+      "text": "Don't sniff it. Buy it."
+     }
+    ]
+   },
+   {
+    "id": "sell_fish_02",
+    "when": {
+     "state": null,
+     "time": "dawn",
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Catch was thin. Mostly bones."
+     },
+     {
+      "speaker": "B",
+      "text": "Sell the bones to the soup-wives."
+     }
+    ]
+   },
+   {
+    "id": "sell_fish_03",
+    "when": {
+     "state": [
+      "Starving"
+     ],
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Fish heads, a penny each."
+     },
+     {
+      "speaker": "B",
+      "text": "Heads only?"
+     },
+     {
+      "speaker": "A",
+      "text": "The tails went yesterday."
+     }
+    ]
+   },
+   {
+    "id": "sell_fish_04",
+    "when": {
+     "state": [
+      "Thriving"
+     ],
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Pike this long, and the lady's cook wants three."
+     },
+     {
+      "speaker": "B",
+      "text": "Then charge the lady's price."
+     }
+    ]
+   },
+   {
+    "id": "sell_fish_05",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": "Reedwatch"
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Reedwatch carp. Tastes of mud."
+     },
+     {
+      "speaker": "B",
+      "text": "Tastes of Reedwatch, then."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "SellFirewood",
+  "kind": "activity",
+  "who": "a woodcutter and his lad selling firewood",
+  "exchanges": [
+   {
+    "id": "sell_firewood_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Dry oak, split and stacked."
+     },
+     {
+      "speaker": "B",
+      "text": "Dry? It's hissing."
+     },
+     {
+      "speaker": "A",
+      "text": "It's sighing. Different thing."
+     }
+    ]
+   },
+   {
+    "id": "sell_firewood_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": "Canopy Rest"
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "The lord's foresters fined me for this load."
+     },
+     {
+      "speaker": "B",
+      "text": "Then put the fine on top of the price."
+     }
+    ]
+   },
+   {
+    "id": "sell_firewood_03",
+    "when": {
+     "state": [
+      "Lean"
+     ],
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Cold nights, thin purses. They burn their stools first."
+     },
+     {
+      "speaker": "B",
+      "text": "Then sell to the ones with stools left."
+     }
+    ]
+   },
+   {
+    "id": "sell_firewood_04",
+    "when": {
+     "state": [
+      "Thriving"
+     ],
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Half the town's buying for winter."
+     },
+     {
+      "speaker": "B",
+      "text": "Raise it a penny. Nobody freezes over a penny."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "SellEels",
+  "kind": "activity",
+  "who": "two eel-sellers at their tubs",
+  "exchanges": [
+   {
+    "id": "sell_eels_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Eels! Live eels!"
+     },
+     {
+      "speaker": "B",
+      "text": "That one's dead."
+     },
+     {
+      "speaker": "A",
+      "text": "It's resting."
+     }
+    ]
+   },
+   {
+    "id": "sell_eels_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": "Reedwatch"
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Eels are the only thing the fens give freely."
+     },
+     {
+      "speaker": "B",
+      "text": "And the Crows take the rest."
+     }
+    ]
+   },
+   {
+    "id": "sell_eels_03",
+    "when": {
+     "state": [
+      "Starving"
+     ],
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Nobody's turning eel down this week."
+     },
+     {
+      "speaker": "B",
+      "text": "They turned it down at harvest. Now they're grateful."
+     }
+    ]
+   },
+   {
+    "id": "sell_eels_04",
+    "when": {
+     "state": null,
+     "time": "evening",
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Jellied or smoked?"
+     },
+     {
+      "speaker": "B",
+      "text": "Whatever's left. And what's left is smoked."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "SellFowl",
+  "kind": "activity",
+  "who": "a poultry-wife and a buyer",
+  "exchanges": [
+   {
+    "id": "sell_fowl_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Fat geese! Laying hens!"
+     },
+     {
+      "speaker": "B",
+      "text": "That hen hasn't laid since spring."
+     },
+     {
+      "speaker": "A",
+      "text": "She's thinking about it."
+     }
+    ]
+   },
+   {
+    "id": "sell_fowl_02",
+    "when": {
+     "state": [
+      "Thriving"
+     ],
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Capons for the keep's feast."
+     },
+     {
+      "speaker": "B",
+      "text": "The steward pays slow, but he pays."
+     }
+    ]
+   },
+   {
+    "id": "sell_fowl_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": "fold",
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Fox got half the coop."
+     },
+     {
+      "speaker": "B",
+      "text": "Fox, or the lord's huntsmen?"
+     },
+     {
+      "speaker": "A",
+      "text": "Same thing, to a hen."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "SellLeeches",
+  "kind": "activity",
+  "who": "a leech-gatherer and an infirmary lay sister",
+  "exchanges": [
+   {
+    "id": "sell_leeches_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Leeches, freshly caught."
+     },
+     {
+      "speaker": "B",
+      "text": "Freshly? They caught you, by the look of your legs."
+     }
+    ]
+   },
+   {
+    "id": "sell_leeches_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": "Reedwatch"
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Sister buys a dozen a week for the infirmary."
+     },
+     {
+      "speaker": "B",
+      "text": "Bad blood in the town, then."
+     }
+    ]
+   },
+   {
+    "id": "sell_leeches_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": "deaths",
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Guild came back bloodied. Leeches will sell."
+     },
+     {
+      "speaker": "B",
+      "text": "Leeches won't fix a Blight wound."
+     },
+     {
+      "speaker": "A",
+      "text": "No. But a Blight wound will buy them."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "SellLoot",
+  "kind": "activity",
+  "who": "an outlaw and a fence haggling over plunder",
+  "exchanges": [
+   {
+    "id": "sell_loot_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Where'd you get this sword?"
+     },
+     {
+      "speaker": "B",
+      "text": "Found it."
+     },
+     {
+      "speaker": "A",
+      "text": "On a man?"
+     },
+     {
+      "speaker": "B",
+      "text": "He didn't need it any more."
+     }
+    ]
+   },
+   {
+    "id": "sell_loot_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": "party lost",
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Rift gear. There's grey on the blade."
+     },
+     {
+      "speaker": "B",
+      "text": "Don't buy it. The Blight sticks."
+     }
+    ]
+   },
+   {
+    "id": "sell_loot_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": "Reedwatch"
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Crows' knives, off the bodies."
+     },
+     {
+      "speaker": "B",
+      "text": "Fence them quiet. Their cousins buy them back."
+     }
+    ]
+   },
+   {
+    "id": "sell_loot_04",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "camp",
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Lord's seal on this cup."
+     },
+     {
+      "speaker": "B",
+      "text": "Melt the seal. Sell the silver."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "TakeTolls",
+  "kind": "activity",
+  "who": "two Low-Water bandits holding the ford",
+  "exchanges": [
+   {
+    "id": "take_tolls_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Pennies for the ford, friend."
+     },
+     {
+      "speaker": "B",
+      "text": "Since when is the ford yours?"
+     },
+     {
+      "speaker": "A",
+      "text": "Since we stood in it."
+     }
+    ]
+   },
+   {
+    "id": "take_tolls_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "road",
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Two pennies a head, one a goat."
+     },
+     {
+      "speaker": "B",
+      "text": "And the priest?"
+     },
+     {
+      "speaker": "A",
+      "text": "Priests pay triple. They've got God's purse."
+     }
+    ]
+   },
+   {
+    "id": "take_tolls_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": "hero",
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Lord's hero is coming, they say."
+     },
+     {
+      "speaker": "B",
+      "text": "Then raise the toll and spend it before he gets here."
+     }
+    ]
+   },
+   {
+    "id": "take_tolls_04",
+    "when": {
+     "state": [
+      "Starving"
+     ],
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Nobody's crossing. Too poor to pay."
+     },
+     {
+      "speaker": "B",
+      "text": "Then take their boots."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "TakeToll",
+  "kind": "activity",
+  "who": "two toll-keepers at the town gate",
+  "exchanges": [
+   {
+    "id": "take_toll_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Toll's a penny. Carts two."
+     },
+     {
+      "speaker": "B",
+      "text": "I've only a penny."
+     },
+     {
+      "speaker": "A",
+      "text": "Then the cart stays."
+     }
+    ]
+   },
+   {
+    "id": "take_toll_02",
+    "when": {
+     "state": [
+      "Starving"
+     ],
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Steward's doubled the gate toll."
+     },
+     {
+      "speaker": "B",
+      "text": "On a starving town? He'll get stones, not pennies."
+     }
+    ]
+   },
+   {
+    "id": "take_toll_03",
+    "when": {
+     "state": [
+      "Thriving"
+     ],
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Coin's pouring in at the gate."
+     },
+     {
+      "speaker": "B",
+      "text": "And half of it pouring into {steward}'s purse."
+     }
+    ]
+   },
+   {
+    "id": "take_toll_04",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": "ambush",
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Merchants won't pay toll for a road that loses carts."
+     },
+     {
+      "speaker": "B",
+      "text": "Tell them the toll pays for guards."
+     },
+     {
+      "speaker": "A",
+      "text": "What guards?"
+     }
+    ]
+   },
+   {
+    "id": "take_toll_05",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": "Sunward Exchange"
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Even the dust pays toll here."
+     },
+     {
+      "speaker": "B",
+      "text": "The Coin would toll the wind if it stopped long enough."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "HiredByLord",
+  "kind": "activity",
+  "who": "two sellswords newly in a lord's pay",
+  "exchanges": [
+   {
+    "id": "hired_by_lord_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{lord} has signed us."
+     },
+     {
+      "speaker": "B",
+      "text": "For how long?"
+     },
+     {
+      "speaker": "A",
+      "text": "Till the coin runs out, or we do."
+     }
+    ]
+   },
+   {
+    "id": "hired_by_lord_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": "Canopy Rest"
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Grey Company holds the ford now, on the lord's coin."
+     },
+     {
+      "speaker": "B",
+      "text": "And his own garrison sulks in the hall."
+     }
+    ]
+   },
+   {
+    "id": "hired_by_lord_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": "hired",
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Half up front. The rest after."
+     },
+     {
+      "speaker": "B",
+      "text": "After what?"
+     },
+     {
+      "speaker": "A",
+      "text": "After we're alive to collect it."
+     }
+    ]
+   },
+   {
+    "id": "hired_by_lord_04",
+    "when": {
+     "state": [
+      "Thriving"
+     ],
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Rich town, rich contract."
+     },
+     {
+      "speaker": "B",
+      "text": "Rich towns pay late. Poor ones pay never."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "ReceivePay",
+  "kind": "activity",
+  "who": "two hired hands on wage day",
+  "exchanges": [
+   {
+    "id": "receive_pay_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Count it."
+     },
+     {
+      "speaker": "B",
+      "text": "I counted. It's short."
+     },
+     {
+      "speaker": "A",
+      "text": "It's always short. Count it again."
+     }
+    ]
+   },
+   {
+    "id": "receive_pay_02",
+    "when": {
+     "state": [
+      "Lean"
+     ],
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Paid in grain, not coin."
+     },
+     {
+      "speaker": "B",
+      "text": "Can't drink grain at the inn."
+     },
+     {
+      "speaker": "A",
+      "text": "You can if you brew it."
+     }
+    ]
+   },
+   {
+    "id": "receive_pay_03",
+    "when": {
+     "state": [
+      "Thriving"
+     ],
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Silver! Real silver, with a face on it."
+     },
+     {
+      "speaker": "B",
+      "text": "Spend it fast. Faces change."
+     }
+    ]
+   },
+   {
+    "id": "receive_pay_04",
+    "when": {
+     "state": null,
+     "time": "evening",
+     "place": "inn",
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Wage day. First round's mine."
+     },
+     {
+      "speaker": "B",
+      "text": "And the last three are mine, as ever."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "Exiled",
+  "kind": "activity",
+  "who": "an exile and the one who walks them to the gate",
+  "exchanges": [
+   {
+    "id": "exiled_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Out by sundown, {lord} says."
+     },
+     {
+      "speaker": "B",
+      "text": "Where will you go?"
+     },
+     {
+      "speaker": "A",
+      "text": "Where nobody knows my face."
+     }
+    ]
+   },
+   {
+    "id": "exiled_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "road",
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "No town takes an exile."
+     },
+     {
+      "speaker": "B",
+      "text": "The bands will."
+     },
+     {
+      "speaker": "A",
+      "text": "That's what frightens me."
+     }
+    ]
+   },
+   {
+    "id": "exiled_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": "Sunward Exchange"
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Juliana's gone to the refuge by First Hearth."
+     },
+     {
+      "speaker": "B",
+      "text": "Exiled, and the water costs what it cost."
+     }
+    ]
+   },
+   {
+    "id": "exiled_04",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": "Stonepass Refuge"
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "The clan has struck your name."
+     },
+     {
+      "speaker": "B",
+      "text": "Then I've no name. Lighter to carry."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "TakeWaterToll",
+  "kind": "activity",
+  "who": "the warlock's apprentice and a water-carrier at the last spring",
+  "exchanges": [
+   {
+    "id": "take_water_toll_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Every load pays. The spring is warded."
+     },
+     {
+      "speaker": "B",
+      "text": "And if they won't?"
+     },
+     {
+      "speaker": "A",
+      "text": "Then the water turns to sand in their skins."
+     }
+    ]
+   },
+   {
+    "id": "take_water_toll_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": "Sunward Exchange"
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "The water-sellers are muttering."
+     },
+     {
+      "speaker": "B",
+      "text": "Let them. The spring answers to Juliana."
+     }
+    ]
+   },
+   {
+    "id": "take_water_toll_03",
+    "when": {
+     "state": null,
+     "time": "night",
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "John Robson keeps the wards up alone now."
+     },
+     {
+      "speaker": "B",
+      "text": "Does he know how?"
+     },
+     {
+      "speaker": "A",
+      "text": "He knows enough to frighten carriers."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "PayTheWarlock",
+  "kind": "activity",
+  "who": "two water-sellers paying Juliana's toll",
+  "exchanges": [
+   {
+    "id": "pay_the_warlock_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "A copper a skin to the warlock."
+     },
+     {
+      "speaker": "B",
+      "text": "And three from the buyer, to make it back."
+     }
+    ]
+   },
+   {
+    "id": "pay_the_warlock_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": "Sunward Exchange"
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "She looked at me and my mule went still."
+     },
+     {
+      "speaker": "B",
+      "text": "Pay and don't look. That's the trick."
+     }
+    ]
+   },
+   {
+    "id": "pay_the_warlock_03",
+    "when": {
+     "state": [
+      "Starving"
+     ],
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Oasis folk can't pay what we charge now."
+     },
+     {
+      "speaker": "B",
+      "text": "Then they thirst. Juliana won't lower her toll."
+     }
+    ]
+   },
+   {
+    "id": "pay_the_warlock_04",
+    "when": {
+     "state": null,
+     "time": "dawn",
+     "place": "road",
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Company of the Lantern's coming, I hear."
+     },
+     {
+      "speaker": "B",
+      "text": "If they win, we're rich."
+     },
+     {
+      "speaker": "A",
+      "text": "If they lose, we're cinders."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "SellWater",
+  "kind": "activity",
+  "who": "two water-sellers at the market",
+  "exchanges": [
+   {
+    "id": "sell_water_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Clean water! Spring water!"
+     },
+     {
+      "speaker": "B",
+      "text": "From the last spring?"
+     },
+     {
+      "speaker": "A",
+      "text": "From a spring. Don't ask which."
+     }
+    ]
+   },
+   {
+    "id": "sell_water_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": "Sunward Exchange"
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Water's dearer than ale this week."
+     },
+     {
+      "speaker": "B",
+      "text": "Then drink ale. The priests won't mind."
+     }
+    ]
+   },
+   {
+    "id": "sell_water_03",
+    "when": {
+     "state": [
+      "Starving"
+     ],
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Two pennies a cup."
+     },
+     {
+      "speaker": "B",
+      "text": "For water? Thieves."
+     },
+     {
+      "speaker": "A",
+      "text": "Thirsty thieves pay."
+     }
+    ]
+   },
+   {
+    "id": "sell_water_04",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": "apex",
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Folk say {calamity} sours the wells."
+     },
+     {
+      "speaker": "B",
+      "text": "Good for us. Bad for everyone else."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "SeekHire",
+  "kind": "activity",
+  "who": "two Red Lances at a lord's gate",
+  "exchanges": [
+   {
+    "id": "seek_hire_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Robert atte Lane, captain of the Red Lances. We seek a lord."
+     },
+     {
+      "speaker": "B",
+      "text": "Wait outside. {lord} is at the hunt."
+     }
+    ]
+   },
+   {
+    "id": "seek_hire_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "keep",
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Eight good lances, cheap."
+     },
+     {
+      "speaker": "B",
+      "text": "Cheap lances break."
+     },
+     {
+      "speaker": "A",
+      "text": "Ours break other men."
+     }
+    ]
+   },
+   {
+    "id": "seek_hire_03",
+    "when": {
+     "state": [
+      "Starving"
+     ],
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{lord} can't feed his own garrison."
+     },
+     {
+      "speaker": "B",
+      "text": "Then he needs us more, not less."
+     }
+    ]
+   },
+   {
+    "id": "seek_hire_04",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": "First Hearth"
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Sir Robert's steward kept us waiting all day."
+     },
+     {
+      "speaker": "B",
+      "text": "He keeps everyone waiting. It's how he counts them."
+     }
+    ]
+   },
+   {
+    "id": "seek_hire_05",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": "camp forms",
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Bands are swelling again. Lords need swords."
+     },
+     {
+      "speaker": "B",
+      "text": "Then why does every lord say no?"
+     }
+    ]
+   },
+   {
+    "id": "seek_hire_06",
+    "when": {
+     "state": null,
+     "time": "evening",
+     "place": "inn",
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Buy us a drink and hear our terms."
+     },
+     {
+      "speaker": "B",
+      "text": "I'm a cooper."
+     },
+     {
+      "speaker": "A",
+      "text": "Coopers can hire swords too."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "Refused",
+  "kind": "activity",
+  "who": "two Red Lances turned away from a keep",
+  "exchanges": [
+   {
+    "id": "refused_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Refused again."
+     },
+     {
+      "speaker": "B",
+      "text": "What did he say?"
+     },
+     {
+      "speaker": "A",
+      "text": "Nothing. The steward said it for him."
+     }
+    ]
+   },
+   {
+    "id": "refused_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "road",
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Five keeps. Five doors shut."
+     },
+     {
+      "speaker": "B",
+      "text": "Then we feed ourselves. The old way."
+     },
+     {
+      "speaker": "A",
+      "text": "Don't say that aloud."
+     }
+    ]
+   },
+   {
+    "id": "refused_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": "Sunward Exchange"
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "The Coin laughed at our price."
+     },
+     {
+      "speaker": "B",
+      "text": "He'll pay it to the Jackals and call it charity."
+     }
+    ]
+   },
+   {
+    "id": "refused_04",
+    "when": {
+     "state": [
+      "Starving"
+     ],
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "The Lances are hungry, captain."
+     },
+     {
+      "speaker": "B",
+      "text": "Then we squeeze the farmsteads. Gently. For now."
+     }
+    ]
+   },
+   {
+    "id": "refused_05",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": "Stonepass Refuge"
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Ironhand says clansmen don't hire southerners."
+     },
+     {
+      "speaker": "B",
+      "text": "Clansmen don't pay wages either. Ask the Reavers."
+     }
+    ]
+   },
+   {
+    "id": "refused_06",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": "Canopy Rest"
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Greybeard has the Grey Company. Why would he want us?"
+     },
+     {
+      "speaker": "B",
+      "text": "Because the Grey Company costs more."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "Escaped",
+  "kind": "activity",
+  "who": "two townsfolk talking of someone who got away",
+  "exchanges": [
+   {
+    "id": "escaped_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "He climbed the wall at night."
+     },
+     {
+      "speaker": "B",
+      "text": "With those legs?"
+     },
+     {
+      "speaker": "A",
+      "text": "Fear's good for the legs."
+     }
+    ]
+   },
+   {
+    "id": "escaped_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": "slavers",
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "A girl walked in from the north. Escaped the holds."
+     },
+     {
+      "speaker": "B",
+      "text": "Alone? Then the slavers will want her back."
+     }
+    ]
+   },
+   {
+    "id": "escaped_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "keep",
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "The prisoner's gone from the cells."
+     },
+     {
+      "speaker": "B",
+      "text": "Guard asleep again?"
+     },
+     {
+      "speaker": "A",
+      "text": "Guard paid, more like."
+     }
+    ]
+   },
+   {
+    "id": "escaped_04",
+    "when": {
+     "state": null,
+     "time": "night",
+     "place": "road",
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Keep running. Don't look at the lights."
+     },
+     {
+      "speaker": "B",
+      "text": "Those are the hamlet's lights."
+     },
+     {
+      "speaker": "A",
+      "text": "Then run toward them."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "Killed",
+  "kind": "activity",
+  "who": "two witnesses to a killing",
+  "exchanges": [
+   {
+    "id": "killed_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Did you see? Right there in the street."
+     },
+     {
+      "speaker": "B",
+      "text": "I saw nothing. You saw nothing."
+     },
+     {
+      "speaker": "A",
+      "text": "But..."
+     },
+     {
+      "speaker": "B",
+      "text": "Nothing, {A}."
+     }
+    ]
+   },
+   {
+    "id": "killed_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "market",
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Knifed over a sack of {good}."
+     },
+     {
+      "speaker": "B",
+      "text": "Over the price, you mean."
+     }
+    ]
+   },
+   {
+    "id": "killed_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": "Hunted",
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "That was {player}'s work."
+     },
+     {
+      "speaker": "B",
+      "text": "Shout it, then. Watch who comes for you."
+     }
+    ]
+   },
+   {
+    "id": "killed_04",
+    "when": {
+     "state": [
+      "Starving"
+     ],
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Killed for a loaf. A whole man, for one loaf."
+     },
+     {
+      "speaker": "B",
+      "text": "Hungry men count differently."
+     }
+    ]
+   },
+   {
+    "id": "killed_05",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "road",
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "They've killed {dead}. By the ford, purse cut."
+     },
+     {
+      "speaker": "B",
+      "text": "Crows, or the toll-takers?"
+     },
+     {
+      "speaker": "A",
+      "text": "Does it matter to {dead} now?"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "Gone",
+  "kind": "activity",
+  "who": "two neighbours noticing someone has left",
+  "exchanges": [
+   {
+    "id": "gone_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Where's the cooper?"
+     },
+     {
+      "speaker": "B",
+      "text": "Gone. Packed up in the night."
+     },
+     {
+      "speaker": "A",
+      "text": "Owed me two pennies, too."
+     }
+    ]
+   },
+   {
+    "id": "gone_02",
+    "when": {
+     "state": [
+      "Starving"
+     ],
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Three families gone this week."
+     },
+     {
+      "speaker": "B",
+      "text": "Gone where?"
+     },
+     {
+      "speaker": "A",
+      "text": "Anywhere with bread."
+     }
+    ]
+   },
+   {
+    "id": "gone_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": "refugees",
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Some went out to the camp by the walls."
+     },
+     {
+      "speaker": "B",
+      "text": "Some just walked. Can't blame them."
+     }
+    ]
+   },
+   {
+    "id": "gone_04",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": "Reedwatch"
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Joined the Crows, they say."
+     },
+     {
+      "speaker": "B",
+      "text": "Half the fens have a cousin in the Crows."
+     }
+    ]
+   },
+   {
+    "id": "gone_05",
+    "when": {
+     "state": [
+      "Thriving"
+     ],
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Hard to leave a thriving town."
+     },
+     {
+      "speaker": "B",
+      "text": "Love managed it. She went off with a carter."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "SummonedBySage",
+  "kind": "activity",
+  "who": "a townsperson summoned by Margaret the Sage and a friend",
+  "exchanges": [
+   {
+    "id": "summoned_by_sage_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Margaret the Sage sent for me."
+     },
+     {
+      "speaker": "B",
+      "text": "For you? What does a sage want with a dyer?"
+     },
+     {
+      "speaker": "A",
+      "text": "I don't know. That's the worst of it."
+     }
+    ]
+   },
+   {
+    "id": "summoned_by_sage_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": "First Hearth"
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Like the cobbler in the market. Remember?"
+     },
+     {
+      "speaker": "B",
+      "text": "I remember he couldn't stop weeping after."
+     }
+    ]
+   },
+   {
+    "id": "summoned_by_sage_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "temple",
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "The priest says don't go."
+     },
+     {
+      "speaker": "B",
+      "text": "The priest isn't the one she summoned."
+     }
+    ]
+   },
+   {
+    "id": "summoned_by_sage_04",
+    "when": {
+     "state": null,
+     "time": "night",
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "The leylines hum louder since she came."
+     },
+     {
+      "speaker": "B",
+      "text": "Hush. Not where people listen."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "Awakened",
+  "kind": "activity",
+  "who": "someone newly awakened and a worried friend",
+  "exchanges": [
+   {
+    "id": "awakened_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "My hands are warm all the time now."
+     },
+     {
+      "speaker": "B",
+      "text": "Fever?"
+     },
+     {
+      "speaker": "A",
+      "text": "No. Something woke."
+     }
+    ]
+   },
+   {
+    "id": "awakened_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "market",
+     "news": null,
+     "standing": null,
+     "hold": "First Hearth"
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "She touched him and his eyes caught fire."
+     },
+     {
+      "speaker": "B",
+      "text": "Robert Cordwainer? He's at the tower school now."
+     }
+    ]
+   },
+   {
+    "id": "awakened_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": "graduate",
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "The tower school will want you."
+     },
+     {
+      "speaker": "B",
+      "text": "And {lord} will want me sworn. I'd rather mend shoes."
+     }
+    ]
+   },
+   {
+    "id": "awakened_04",
+    "when": {
+     "state": [
+      "Lean"
+     ],
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "The lords fear what the sage wakes."
+     },
+     {
+      "speaker": "B",
+      "text": "Lords fear anything they can't tax."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "HandOverProvisions",
+  "kind": "activity",
+  "who": "a hamlet headman and a carter handing over stores",
+  "exchanges": [
+   {
+    "id": "hand_over_provisions_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Two sacks, a cheese, a cask."
+     },
+     {
+      "speaker": "B",
+      "text": "Sign for it."
+     },
+     {
+      "speaker": "A",
+      "text": "I can't write."
+     },
+     {
+      "speaker": "B",
+      "text": "Then make your mark and pray it's enough."
+     }
+    ]
+   },
+   {
+    "id": "hand_over_provisions_02",
+    "when": {
+     "state": [
+      "Starving"
+     ],
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{steward} takes the hamlet's stores for the garrison."
+     },
+     {
+      "speaker": "B",
+      "text": "And leaves us the sacks to chew."
+     }
+    ]
+   },
+   {
+    "id": "hand_over_provisions_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": "Reedwatch"
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Leave it at the woods' edge. The Crows collect."
+     },
+     {
+      "speaker": "B",
+      "text": "That's how a hamlet stays unburned."
+     }
+    ]
+   },
+   {
+    "id": "hand_over_provisions_04",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "camp",
+     "news": null,
+     "standing": null,
+     "hold": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Provisions for the escort, from {steward}."
+     },
+     {
+      "speaker": "B",
+      "text": "Short again."
+     },
+     {
+      "speaker": "A",
+      "text": "The escort's short again too."
+     }
+    ]
+   }
+  ]
+ }
+]
