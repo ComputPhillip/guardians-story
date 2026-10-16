@@ -1,0 +1,6270 @@
+[
+ {
+  "action": "recruited",
+  "kind": "squad",
+  "who": "two squad members sizing up a new recruit (a Duellist and a Brigand, or a Healer and a Guardsman)",
+  "exchanges": [
+   {
+    "id": "sqlife_recruited_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "So you're the new one. What can you do besides eat?"
+     },
+     {
+      "speaker": "B",
+      "text": "Hold a line, lift a cart and keep my mouth shut. Mostly."
+     },
+     {
+      "speaker": "A",
+      "text": "Two out of three will do."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_recruited_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} picked you up in {town}? Off the guild bench?"
+     },
+     {
+      "speaker": "B",
+      "text": "Off the guild bench, out of debt. Same thing, these days."
+     },
+     {
+      "speaker": "A",
+      "text": "Then you'll fit. Half of us owe someone."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_recruited_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "inn",
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "A Duellist, they tell me. Show me your guard. No, the high one."
+     },
+     {
+      "speaker": "B",
+      "text": "I'll show you in the yard, not over a cup."
+     },
+     {
+      "speaker": "A",
+      "text": "Good answer. Proud ones who boast die first."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_recruited_04",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": "grumbling",
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Another mouth, and the purse already thin. Lovely."
+     },
+     {
+      "speaker": "B",
+      "text": "I was promised wages. Was that a lie?"
+     },
+     {
+      "speaker": "A",
+      "text": "Not a lie. A hope. You'll learn the difference here."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_recruited_05",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": "loyal",
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Welcome. The captain's fair, pays on time, and doesn't waste us."
+     },
+     {
+      "speaker": "B",
+      "text": "That's more than my last master could say."
+     },
+     {
+      "speaker": "A",
+      "text": "Keep it that way and you'll sleep dry most nights."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_recruited_06",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": "Reedwatch",
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Fen-born? You've the boots for it."
+     },
+     {
+      "speaker": "B",
+      "text": "Born in the reeds, raised on eels and taxes nobody paid."
+     },
+     {
+      "speaker": "A",
+      "text": "Reedwatch. Then you know outlaws by their first names."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_recruited_07",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": "Stonepass Refuge",
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Stonepass lass. Which clan?"
+     },
+     {
+      "speaker": "B",
+      "text": "Mine. Ask again when we've bled together."
+     },
+     {
+      "speaker": "A",
+      "text": "Fair. Highlanders, eh? Warm as a smelter gone cold."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_recruited_08",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": "ruthless"
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "You know what this crew's known for? Hangings."
+     },
+     {
+      "speaker": "B",
+      "text": "I heard. I came anyway. Hanged men don't rob you twice."
+     },
+     {
+      "speaker": "A",
+      "text": "Then you're the right sort, or the worst."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "order_travel",
+  "kind": "squad",
+  "who": "squad members told to travel with the player (a Scout and a Guardsman)",
+  "exchanges": [
+   {
+    "id": "sqlife_order_travel_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "We're on the road with {player} again. Pack light."
+     },
+     {
+      "speaker": "B",
+      "text": "I always pack light. You're the one with three pots."
+     },
+     {
+      "speaker": "A",
+      "text": "Two pots. And you eat from both."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_order_travel_02",
+    "when": {
+     "state": null,
+     "time": "dawn",
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Boots on before the cock's done shouting. Captain's orders."
+     },
+     {
+      "speaker": "B",
+      "text": "The cock's got sense. He stays home."
+     },
+     {
+      "speaker": "A",
+      "text": "The cock gets eaten. Walk."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_order_travel_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": "grumbling",
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Marching again, and still no coin since {town}."
+     },
+     {
+      "speaker": "B",
+      "text": "Keep walking. Grumble where the captain can hear it, if you're brave."
+     },
+     {
+      "speaker": "A",
+      "text": "I'm not brave. I'm owed."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_order_travel_04",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": "loyal",
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Wherever {player} goes, I'd follow. Even into the March."
+     },
+     {
+      "speaker": "B",
+      "text": "You say that now. Wait till the Broken March smells you."
+     },
+     {
+      "speaker": "A",
+      "text": "I said follow. I didn't say gladly."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_order_travel_05",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": "raid",
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Word is {band} hit the road ahead. We go anyway?"
+     },
+     {
+      "speaker": "B",
+      "text": "We go anyway. That's what we're for."
+     },
+     {
+      "speaker": "A",
+      "text": "Then string the bows before the bend, not after."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_order_travel_06",
+    "when": {
+     "state": "Starving",
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Leaving {town} hungry. Glad to see the back of it."
+     },
+     {
+      "speaker": "B",
+      "text": "Hungry towns follow you. Every hamlet on the road will be begging."
+     },
+     {
+      "speaker": "A",
+      "text": "Then we keep our bread inside our coats."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_order_travel_07",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": "Titled",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Travelling with a lord now. Do we walk behind, or beside?"
+     },
+     {
+      "speaker": "B",
+      "text": "Behind. Ten paces. With a spear, in case someone wants the title."
+     },
+     {
+      "speaker": "A",
+      "text": "My lord {player} would laugh at that. Then do it."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "order_guard",
+  "kind": "squad",
+  "who": "squad members left to guard the player's hall (a Guardsman and a Brigand)",
+  "exchanges": [
+   {
+    "id": "sqlife_order_guard_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Guard {hall} while the captain's off having adventures."
+     },
+     {
+      "speaker": "B",
+      "text": "Somebody has to mind the storehouse. Better us than the rats."
+     },
+     {
+      "speaker": "A",
+      "text": "The rats don't get paid. Unlike us. In theory."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_order_guard_02",
+    "when": {
+     "state": null,
+     "time": "night",
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Your watch. Wake me if the dogs bark twice."
+     },
+     {
+      "speaker": "B",
+      "text": "And if they bark once?"
+     },
+     {
+      "speaker": "A",
+      "text": "Then it's a fox. Let me sleep."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_order_guard_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": "grumbling",
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Walls, walls, walls. I signed up to fight, not to count bricks."
+     },
+     {
+      "speaker": "B",
+      "text": "The last crew that got bored had their hall burned."
+     },
+     {
+      "speaker": "A",
+      "text": "Fine. I'll count bricks. Angrily."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_order_guard_04",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": "raid",
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{band} hit a farmstead two hills over. They'll come here next."
+     },
+     {
+      "speaker": "B",
+      "text": "Let them. Barracks is full and the gate's new."
+     },
+     {
+      "speaker": "A",
+      "text": "Double the watch anyway. New gates burn as well as old."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_order_guard_05",
+    "when": {
+     "state": null,
+     "time": "dawn",
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Night passed quiet. Nobody tried the wall."
+     },
+     {
+      "speaker": "B",
+      "text": "Quiet nights are the ones raiders spend scouting."
+     },
+     {
+      "speaker": "A",
+      "text": "You're a joy at breakfast, you know that?"
+     }
+    ]
+   },
+   {
+    "id": "sqlife_order_guard_06",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": "loyal",
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Captain trusts us with everything here. The stores, the lab, all of it."
+     },
+     {
+      "speaker": "B",
+      "text": "Then nobody touches a sack while I'm standing."
+     },
+     {
+      "speaker": "A",
+      "text": "Spoken like a Guardsman. Sit, though. You'll stand all night."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_order_guard_07",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "keep",
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Our own walls. Never thought I'd guard something that wasn't a lord's."
+     },
+     {
+      "speaker": "B",
+      "text": "It is a lord's. Ours. Near enough."
+     },
+     {
+      "speaker": "A",
+      "text": "Then guard it like you'd hang for losing it."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "order_work",
+  "kind": "squad",
+  "who": "squad members set to the hall's jobs at the forge, lab or stores (a Bladesmith and an Apothecary)",
+  "exchanges": [
+   {
+    "id": "sqlife_order_work_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Forge duty again. My arms are bigger than my brains now."
+     },
+     {
+      "speaker": "B",
+      "text": "That was true before the forge."
+     },
+     {
+      "speaker": "A",
+      "text": "Pass the tongs, before I test them on you."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_order_work_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "workshop",
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "This lab's no Little family stillroom, but the draughts come out clear."
+     },
+     {
+      "speaker": "B",
+      "text": "Keep it quiet. Stonepass doesn't like rivals brewing."
+     },
+     {
+      "speaker": "A",
+      "text": "Then Stonepass can buy from us, and sulk."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_order_work_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": "grumbling",
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Hauling sacks into the storehouse. A sellsword, carrying flour."
+     },
+     {
+      "speaker": "B",
+      "text": "A sellsword eating flour, too. Carry it."
+     },
+     {
+      "speaker": "A",
+      "text": "I'd rather carry a spear. At least it fights back."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_order_work_04",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": "content",
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Honest work. Warm forge, roof overhead. Could be worse."
+     },
+     {
+      "speaker": "B",
+      "text": "Could be a ditch on the Reedwatch road. I've slept in those."
+     },
+     {
+      "speaker": "A",
+      "text": "So have I. This is better. Don't tell the captain."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_order_work_05",
+    "when": {
+     "state": "Thriving",
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Stores are full to the rafters. When did that happen?"
+     },
+     {
+      "speaker": "B",
+      "text": "When the captain stopped giving it away. Count the {good}."
+     },
+     {
+      "speaker": "A",
+      "text": "I count it. It counts higher every week."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_order_work_06",
+    "when": {
+     "state": null,
+     "time": "evening",
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Bank the forge. That's enough blades for one day."
+     },
+     {
+      "speaker": "B",
+      "text": "Three good ones and one I'd sell to an enemy."
+     },
+     {
+      "speaker": "A",
+      "text": "Sell it to {band}, then. Let them break it."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_order_work_07",
+    "when": {
+     "state": "Lean",
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Stores are thin. If the captain doesn't trade soon, we'll eat the seed."
+     },
+     {
+      "speaker": "B",
+      "text": "Then work faster. Blades sell when bread doesn't."
+     },
+     {
+      "speaker": "A",
+      "text": "Lean times make good smiths rich and good cooks sad."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "order_mission",
+  "kind": "squad",
+  "who": "squad members ordered out on missions (a Ranger and a Scholar)",
+  "exchanges": [
+   {
+    "id": "sqlife_order_mission_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Missions now. The captain wants us earning, not lounging."
+     },
+     {
+      "speaker": "B",
+      "text": "Earning, or dying slower. Read the contract twice."
+     },
+     {
+      "speaker": "A",
+      "text": "You read it. I'll carry the spears."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_order_mission_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "inn",
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{guild} has a board full of jobs. Which one's ours?"
+     },
+     {
+      "speaker": "B",
+      "text": "The one with the most coin and the fewest teeth."
+     },
+     {
+      "speaker": "A",
+      "text": "Those don't exist. Pick the one with the fewest teeth."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_order_mission_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": "loyal",
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "First mission under {player}'s banner. Let's make them proud."
+     },
+     {
+      "speaker": "B",
+      "text": "Let's make them richer. Pride doesn't buy arrows."
+     },
+     {
+      "speaker": "A",
+      "text": "Both, then. I'm greedy."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_order_mission_04",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": "grumbling",
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Out on missions while the captain counts coin at home."
+     },
+     {
+      "speaker": "B",
+      "text": "The captain counts it because we bring it back."
+     },
+     {
+      "speaker": "A",
+      "text": "Then the captain can share it. Soon."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_order_mission_05",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": "leak",
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Word's out a Blighted lair's leaking. That's our mission, isn't it?"
+     },
+     {
+      "speaker": "B",
+      "text": "Someone has to go before the hamlets do the dying."
+     },
+     {
+      "speaker": "A",
+      "text": "Fine. But I'm not touching the salt."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_order_mission_06",
+    "when": {
+     "state": null,
+     "time": "dawn",
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Bags packed, maps rolled. Where's {site}, exactly?"
+     },
+     {
+      "speaker": "B",
+      "text": "Past the third beacon, then left where the grass goes grey."
+     },
+     {
+      "speaker": "A",
+      "text": "Left at the grey grass. Lovely directions."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_order_mission_07",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": "curious"
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Another ruin. The captain can't pass an old stone without poking it."
+     },
+     {
+      "speaker": "B",
+      "text": "Old stones pay. Libraries pay more. Hush and walk."
+     },
+     {
+      "speaker": "A",
+      "text": "I'd like a job that pays in bread, once."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "sent_to_lair",
+  "kind": "squad",
+  "who": "squad members sent to clear a lair under a named leader (a Guardsman leading, a Scout following)",
+  "exchanges": [
+   {
+    "id": "sqlife_sent_to_lair_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} says {B} leads this one. Don't look at me like that."
+     },
+     {
+      "speaker": "B",
+      "text": "Fine. I lead. Where's {site}, and what's in it?"
+     },
+     {
+      "speaker": "A",
+      "text": "Something the guild won't touch. So, us."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_sent_to_lair_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": "loyal",
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{player} put me in charge of this. I won't waste a one of you."
+     },
+     {
+      "speaker": "B",
+      "text": "Good. Waste the beasts instead."
+     },
+     {
+      "speaker": "A",
+      "text": "That's the plan. Shields first, bows behind."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_sent_to_lair_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": "grumbling",
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Why are you in charge, {B}? I've cleared more barrows than you've seen."
+     },
+     {
+      "speaker": "B",
+      "text": "Because I get paid the same and complain less."
+     },
+     {
+      "speaker": "A",
+      "text": "Fine. But when it goes wrong, I'm saying so."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_sent_to_lair_04",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": "blight",
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "It's a Blighted lair. Nobody breathes the grey dust. Masks on."
+     },
+     {
+      "speaker": "B",
+      "text": "These masks stink of vinegar."
+     },
+     {
+      "speaker": "A",
+      "text": "Better vinegar than grey lungs. On."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_sent_to_lair_05",
+    "when": {
+     "state": null,
+     "time": "night",
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "We hit {site} at first light. Sleep now, if you can."
+     },
+     {
+      "speaker": "B",
+      "text": "Nobody sleeps the night before a lair."
+     },
+     {
+      "speaker": "A",
+      "text": "Then lie still and pretend. It helps the others."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_sent_to_lair_06",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "wild",
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Tracks. Big ones. The den's close."
+     },
+     {
+      "speaker": "B",
+      "text": "Wolf, or worse?"
+     },
+     {
+      "speaker": "A",
+      "text": "Worse walks on two legs. These are four. We're lucky."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_sent_to_lair_07",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": "Stonepass Refuge",
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Broken fort on the March. Stonepass wants it emptied."
+     },
+     {
+      "speaker": "B",
+      "text": "Stonepass wants everything emptied except its own purse."
+     },
+     {
+      "speaker": "A",
+      "text": "Their coin spends. Keep your shield up near the walls."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "mission_return_win",
+  "kind": "squad",
+  "who": "squad members back from a mission with loot (a Brigand and a Healer)",
+  "exchanges": [
+   {
+    "id": "sqlife_mission_return_win_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Back alive, and with a sack that clinks. Best kind of day."
+     },
+     {
+      "speaker": "B",
+      "text": "Nobody limping. That's the part I'll remember."
+     },
+     {
+      "speaker": "A",
+      "text": "You remember the limping. I'll remember the clinking."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_mission_return_win_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "inn",
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Drinks on the loot! First round, at least."
+     },
+     {
+      "speaker": "B",
+      "text": "The loot is the captain's until it's split."
+     },
+     {
+      "speaker": "A",
+      "text": "Then the captain buys the first round. Fair's fair."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_mission_return_win_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": "grumbling",
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Good haul. Now watch it vanish into the hall's walls."
+     },
+     {
+      "speaker": "B",
+      "text": "Walls keep raiders off our throats."
+     },
+     {
+      "speaker": "A",
+      "text": "My throat would like a share first."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_mission_return_win_04",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": "loyal",
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{site} cleared. Tell {player} it was clean work."
+     },
+     {
+      "speaker": "B",
+      "text": "Tell them yourself. You did most of it."
+     },
+     {
+      "speaker": "A",
+      "text": "We did it. That's what I'll say."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_mission_return_win_05",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": "cleared",
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "People already know about {site}. We passed a pedlar spreading it."
+     },
+     {
+      "speaker": "B",
+      "text": "Spreading it how? Did we kill ten or a hundred?"
+     },
+     {
+      "speaker": "A",
+      "text": "A hundred, by the time it reaches {town}."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_mission_return_win_06",
+    "when": {
+     "state": null,
+     "time": "evening",
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Sun's going down and I'm still counting coin."
+     },
+     {
+      "speaker": "B",
+      "text": "Count it twice. The captain will."
+     },
+     {
+      "speaker": "A",
+      "text": "The captain counts it once and trusts us. That's worse."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_mission_return_win_07",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": "greedy"
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "The captain'll want every penny of this, you know."
+     },
+     {
+      "speaker": "B",
+      "text": "And will we see any of it? Last time we didn't."
+     },
+     {
+      "speaker": "A",
+      "text": "Keep a coin back in your boot. Nobody checks boots."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "mission_return_loss",
+  "kind": "squad",
+  "who": "squad members back from a mission without one of their own (a Guardsman and a Born survivor)",
+  "exchanges": [
+   {
+    "id": "sqlife_mission_return_loss_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "We came back short. {dead} didn't make it."
+     },
+     {
+      "speaker": "B",
+      "text": "I know. I was there. Don't say it again."
+     },
+     {
+      "speaker": "A",
+      "text": "Someone has to tell the captain."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_mission_return_loss_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": "grumbling",
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{dead} died for a sack of rust and a few coins."
+     },
+     {
+      "speaker": "B",
+      "text": "{dead} died for the wages we never got."
+     },
+     {
+      "speaker": "A",
+      "text": "The captain will hear that. Today."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_mission_return_loss_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": "loyal",
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "It wasn't the captain's fault. The lair was worse than the guild said."
+     },
+     {
+      "speaker": "B",
+      "text": "I know. I'm not blaming anyone. Just tired."
+     },
+     {
+      "speaker": "A",
+      "text": "Rest. I'll carry the bad news."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_mission_return_loss_04",
+    "when": {
+     "state": null,
+     "time": "night",
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Can't sleep. Keep seeing {dead} go under."
+     },
+     {
+      "speaker": "B",
+      "text": "You'll see it for a month. Then once a week. Then never."
+     },
+     {
+      "speaker": "A",
+      "text": "That's not comfort, you know."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_mission_return_loss_05",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "temple",
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Light a candle for {dead}. They'd laugh at it."
+     },
+     {
+      "speaker": "B",
+      "text": "They'd laugh, then light one for us."
+     },
+     {
+      "speaker": "A",
+      "text": "Light two, then."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_mission_return_loss_06",
+    "when": {
+     "state": "Starving",
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "We lost {dead} and came back to an empty granary."
+     },
+     {
+      "speaker": "B",
+      "text": "At least they don't have to go hungry now."
+     },
+     {
+      "speaker": "A",
+      "text": "That's a cruel thing to say. True, but cruel."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_mission_return_loss_07",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": "Canopy Rest",
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Brother at the chapel can say the words for {dead}."
+     },
+     {
+      "speaker": "B",
+      "text": "Not Brother William. Anyone else."
+     },
+     {
+      "speaker": "A",
+      "text": "Why not him?"
+     },
+     {
+      "speaker": "B",
+      "text": "Sister Margaret wouldn't. That's reason enough."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "wages_paid",
+  "kind": "squad",
+  "who": "squad members just paid on time (a Brigand and a Guardsman)",
+  "exchanges": [
+   {
+    "id": "sqlife_wages_paid_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Paid. On the day. I keep waiting for the trick."
+     },
+     {
+      "speaker": "B",
+      "text": "There's no trick. Some captains just pay."
+     },
+     {
+      "speaker": "A",
+      "text": "Then this one's rarer than an honest steward."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_wages_paid_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": "loyal",
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Coin in hand and a captain who earns it. Can't ask more."
+     },
+     {
+      "speaker": "B",
+      "text": "You could ask for more coin."
+     },
+     {
+      "speaker": "A",
+      "text": "I could. I won't. Not this week."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_wages_paid_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": "content",
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Wages in. Enough for boots and a drink."
+     },
+     {
+      "speaker": "B",
+      "text": "Boots first. You'll want feet more than a headache."
+     },
+     {
+      "speaker": "A",
+      "text": "Spoken like a mother."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_wages_paid_04",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": "grumbling",
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Paid at last. Took three weeks of grumbling."
+     },
+     {
+      "speaker": "B",
+      "text": "Then stop grumbling. It worked."
+     },
+     {
+      "speaker": "A",
+      "text": "It worked once. I'll keep my voice in practice."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_wages_paid_05",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "inn",
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Wages in the purse and {guild} round the corner."
+     },
+     {
+      "speaker": "B",
+      "text": "Spend half. Send half home."
+     },
+     {
+      "speaker": "A",
+      "text": "Half home, half here, and half for tomorrow."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_wages_paid_06",
+    "when": {
+     "state": "Starving",
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Paid, but bread's a fortune in {town}."
+     },
+     {
+      "speaker": "B",
+      "text": "Coin's no use if there's nothing to buy."
+     },
+     {
+      "speaker": "A",
+      "text": "Then I'll buy someone's bread before they eat it."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_wages_paid_07",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": "honourable"
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "The captain keeps every promise, even to us."
+     },
+     {
+      "speaker": "B",
+      "text": "That's why I stay. Not the coin. Well. Partly the coin."
+     },
+     {
+      "speaker": "A",
+      "text": "Mostly the coin, and a bit the honour."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "wages_late",
+  "kind": "squad",
+  "who": "squad members whose wages were missed once (a Duellist and a Healer)",
+  "exchanges": [
+   {
+    "id": "sqlife_wages_late_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "No coin this week. Did you get any?"
+     },
+     {
+      "speaker": "B",
+      "text": "Not a penny. The captain says next week."
+     },
+     {
+      "speaker": "A",
+      "text": "Next week. Every lord says next week."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_wages_late_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": "content",
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Wages late. Happens. Roads are bad."
+     },
+     {
+      "speaker": "B",
+      "text": "I'll wait once. Not twice."
+     },
+     {
+      "speaker": "A",
+      "text": "Once is fair. Twice is a habit."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_wages_late_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": "grumbling",
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Late again. My blade's worth more than promises."
+     },
+     {
+      "speaker": "B",
+      "text": "A proud Duellist with an empty purse. Poetic."
+     },
+     {
+      "speaker": "A",
+      "text": "Mock me, but you're hungry too."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_wages_late_04",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": "loyal",
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "The captain's short this week. We'll manage."
+     },
+     {
+      "speaker": "B",
+      "text": "I trust {player}. They'll make it right."
+     },
+     {
+      "speaker": "A",
+      "text": "They always have. Tighten the belt one notch."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_wages_late_05",
+    "when": {
+     "state": "Lean",
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "No wages and lean times. Bread's dearer every day."
+     },
+     {
+      "speaker": "B",
+      "text": "I can heal a wound, not a belly."
+     },
+     {
+      "speaker": "A",
+      "text": "Then pray the captain sells something soon."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_wages_late_06",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": "Titled",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "A lord with a hall, and we can't get paid."
+     },
+     {
+      "speaker": "B",
+      "text": "Halls cost more than sellswords. Ask any lord."
+     },
+     {
+      "speaker": "A",
+      "text": "I'd rather not ask a lord anything."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_wages_late_07",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": "shortage",
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Shortage in {town}, and our wages caught it too."
+     },
+     {
+      "speaker": "B",
+      "text": "Everyone's purse is light this season."
+     },
+     {
+      "speaker": "A",
+      "text": "The captain's isn't. I've seen the storehouse."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "warned",
+  "kind": "squad",
+  "who": "squad members warning that they'll leave if not paid (a Brigand and a Guardsman)",
+  "exchanges": [
+   {
+    "id": "sqlife_warned_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Tell the captain plain: pay us, or we walk."
+     },
+     {
+      "speaker": "B",
+      "text": "I'll tell them. They won't like it."
+     },
+     {
+      "speaker": "A",
+      "text": "I don't like empty bellies. We're even."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_warned_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": "leaving",
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "My pack's ready. One more week, then I'm gone."
+     },
+     {
+      "speaker": "B",
+      "text": "Give it a week. That's what we agreed."
+     },
+     {
+      "speaker": "A",
+      "text": "A week. Then the road."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_warned_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": "grumbling",
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Two weeks without pay. Next one, I'm off to the Grey Company."
+     },
+     {
+      "speaker": "B",
+      "text": "Margaret Young doesn't take deserters."
+     },
+     {
+      "speaker": "A",
+      "text": "She takes the hungry. I'm hungry."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_warned_04",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": "loyal",
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "I'd stay without pay, but my family can't eat loyalty."
+     },
+     {
+      "speaker": "B",
+      "text": "Then tell the captain that. They'll understand."
+     },
+     {
+      "speaker": "A",
+      "text": "Understanding won't feed them either."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_warned_05",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "camp",
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Half the camp's talking about leaving. You hear them?"
+     },
+     {
+      "speaker": "B",
+      "text": "I hear them. I'm one of them."
+     },
+     {
+      "speaker": "A",
+      "text": "Then the captain has a week, not a month."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_warned_06",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": "Stonepass Refuge",
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "John Brokenose deserted Stonepass over wages. Now he's a king."
+     },
+     {
+      "speaker": "B",
+      "text": "A king of a waste camp, waiting for a hero's blade."
+     },
+     {
+      "speaker": "A",
+      "text": "Better than unpaid. Tell the captain I said that."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_warned_07",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": "greedy"
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "The captain's rich and we're not. Funny how that works."
+     },
+     {
+      "speaker": "B",
+      "text": "Not funny. Tell them: pay or we go."
+     },
+     {
+      "speaker": "A",
+      "text": "Greedy captains learn fast when the barracks empty."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "leaving",
+  "kind": "squad",
+  "who": "a squad member quitting over pay or the player's deeds, and one who stays (a Healer and a Brigand)",
+  "exchanges": [
+   {
+    "id": "sqlife_leaving_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "I'm going. Don't try to change my mind."
+     },
+     {
+      "speaker": "B",
+      "text": "I wasn't going to. Take care on the roads."
+     },
+     {
+      "speaker": "A",
+      "text": "And you. Watch the captain's back, since I won't."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_leaving_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": "leaving",
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "No coin in a month. I'm done."
+     },
+     {
+      "speaker": "B",
+      "text": "Where will you go?"
+     },
+     {
+      "speaker": "A",
+      "text": "The guild. They pay in blood, but they pay."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_leaving_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": "ruthless"
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "I won't march with someone who hangs farmers for spite."
+     },
+     {
+      "speaker": "B",
+      "text": "They were helping outlaws."
+     },
+     {
+      "speaker": "A",
+      "text": "They were feeding their children. I'm leaving."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_leaving_04",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": "greedy"
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "The captain sold out those people for coin. I saw it."
+     },
+     {
+      "speaker": "B",
+      "text": "Coin keeps us fed."
+     },
+     {
+      "speaker": "A",
+      "text": "Then eat it. I'll find a captain with a conscience."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_leaving_05",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": "merciful"
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Sparing outlaws who'll cut our throats next week? I'm off."
+     },
+     {
+      "speaker": "B",
+      "text": "The captain thinks mercy wins more than steel."
+     },
+     {
+      "speaker": "A",
+      "text": "Mercy didn't save my brother. I'm gone."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_leaving_06",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": "pious"
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Too much praying, not enough fighting. I'm leaving."
+     },
+     {
+      "speaker": "B",
+      "text": "The temple feeds us, too."
+     },
+     {
+      "speaker": "A",
+      "text": "Then let the temple fight the Crows."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_leaving_07",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": "curious"
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Another ruin, another library. I signed on to fight, not read."
+     },
+     {
+      "speaker": "B",
+      "text": "The captain finds things nobody else does."
+     },
+     {
+      "speaker": "A",
+      "text": "Then let the captain find a new spearman."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_leaving_08",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": "honourable"
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "The captain kept an oath to an outlaw. Paid for it in our blood."
+     },
+     {
+      "speaker": "B",
+      "text": "A word's a word."
+     },
+     {
+      "speaker": "A",
+      "text": "A word won't bury me. Goodbye."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_leaving_09",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": "grumbling",
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Packing, are you? Just like that?"
+     },
+     {
+      "speaker": "B",
+      "text": "Just like that. I've waited long enough."
+     },
+     {
+      "speaker": "A",
+      "text": "Well. The road's long. Mind the Crows."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "wounded",
+  "kind": "squad",
+  "who": "a wounded squad member resting and one tending them (a Healer and a Duellist)",
+  "exchanges": [
+   {
+    "id": "sqlife_wounded_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Lie still. If you tear the stitches again I'll sew your mouth next."
+     },
+     {
+      "speaker": "B",
+      "text": "You're gentle as a bear, you know."
+     },
+     {
+      "speaker": "A",
+      "text": "Gentle bears lose patients. Lie still."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_wounded_02",
+    "when": {
+     "state": null,
+     "time": "night",
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Can't sleep. The wound's on fire."
+     },
+     {
+      "speaker": "B",
+      "text": "Drink this. It'll put you under till dawn."
+     },
+     {
+      "speaker": "A",
+      "text": "Tastes like ditchwater."
+     },
+     {
+      "speaker": "B",
+      "text": "Then it's working."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_wounded_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "temple",
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "The infirmarian says a week. I say three days."
+     },
+     {
+      "speaker": "B",
+      "text": "The infirmarian has buried more proud fools than you've met."
+     },
+     {
+      "speaker": "A",
+      "text": "Fine. Four days."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_wounded_04",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": "grumbling",
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Wounded and unpaid. The captain can't even afford my bandages."
+     },
+     {
+      "speaker": "B",
+      "text": "The bandages are free. I'm paying for them."
+     },
+     {
+      "speaker": "A",
+      "text": "Then you're the only one here worth anything."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_wounded_05",
+    "when": {
+     "state": "Thriving",
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Good bed, warm broth. If I'd known, I'd have got stabbed sooner."
+     },
+     {
+      "speaker": "B",
+      "text": "Don't joke. The next one might find your heart."
+     },
+     {
+      "speaker": "A",
+      "text": "Then it'll find it full of broth."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_wounded_06",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": "loyal",
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Tell the captain I'll be back on my feet before the next lair."
+     },
+     {
+      "speaker": "B",
+      "text": "You'll be back when I say so. Not before."
+     },
+     {
+      "speaker": "A",
+      "text": "Healers. Worse than sergeants."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_wounded_07",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": "raid",
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "There's a raid near {hamlet} and I'm flat on my back."
+     },
+     {
+      "speaker": "B",
+      "text": "Then let the others take it. You'll get your turn."
+     },
+     {
+      "speaker": "A",
+      "text": "I hate lying here while they fight."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "death_in_squad",
+  "kind": "squad",
+  "who": "squad members mourning one of their own (a Guardsman and a Brigand)",
+  "exchanges": [
+   {
+    "id": "sqlife_death_in_squad_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{dead} is gone. Just like that."
+     },
+     {
+      "speaker": "B",
+      "text": "That's how it always is. Just like that."
+     },
+     {
+      "speaker": "A",
+      "text": "I'll carve the name on the barracks post."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_death_in_squad_02",
+    "when": {
+     "state": null,
+     "time": "night",
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{dead}'s blanket is still on the floor."
+     },
+     {
+      "speaker": "B",
+      "text": "Leave it a night. Then give it to someone cold."
+     },
+     {
+      "speaker": "A",
+      "text": "They'd want that. They were always cold."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_death_in_squad_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": "leaving",
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{dead} gone, and for what? A captain who won't pay us."
+     },
+     {
+      "speaker": "B",
+      "text": "You're thinking of leaving."
+     },
+     {
+      "speaker": "A",
+      "text": "I'm thinking I don't want to be next."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_death_in_squad_04",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": "loyal",
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{dead} died with the captain's colours on. That's something."
+     },
+     {
+      "speaker": "B",
+      "text": "The captain will remember them. I'll make sure."
+     },
+     {
+      "speaker": "A",
+      "text": "So will I. Every lair we clear, for {dead}."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_death_in_squad_05",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "temple",
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "The priest says {dead} is with the saints now."
+     },
+     {
+      "speaker": "B",
+      "text": "The priest didn't know them. They'd be bored with saints."
+     },
+     {
+      "speaker": "A",
+      "text": "Then they'll teach the saints to play dice."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_death_in_squad_06",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "camp",
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "We bury {dead} here, under the oak?"
+     },
+     {
+      "speaker": "B",
+      "text": "Under the oak. Facing home."
+     },
+     {
+      "speaker": "A",
+      "text": "Which way is home? They never said."
+     },
+     {
+      "speaker": "B",
+      "text": "Then facing the road. They loved the road."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_death_in_squad_07",
+    "when": {
+     "state": null,
+     "time": "evening",
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Word of {dead}'s death reached {town} before we did."
+     },
+     {
+      "speaker": "B",
+      "text": "Pedlars. They carry grief faster than bread."
+     },
+     {
+      "speaker": "A",
+      "text": "Then their family already knows. Good. I couldn't tell them."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "level_up",
+  "kind": "squad",
+  "who": "squad members after one has grown stronger or reached a new rank (a Gifted Duellist and a Born survivor)",
+  "exchanges": [
+   {
+    "id": "sqlife_level_up_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Did you see that strike? I've never been that fast."
+     },
+     {
+      "speaker": "B",
+      "text": "I saw. You've got better."
+     },
+     {
+      "speaker": "A",
+      "text": "Better? I've become the best in this squad."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_level_up_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": "loyal",
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "The captain made me a sergeant. Me."
+     },
+     {
+      "speaker": "B",
+      "text": "You've earned it. Don't let it go to your head."
+     },
+     {
+      "speaker": "A",
+      "text": "Too late. It's already there, wearing a hat."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_level_up_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "inn",
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "A drink for the new rank! On me."
+     },
+     {
+      "speaker": "B",
+      "text": "You've never paid for a drink in your life."
+     },
+     {
+      "speaker": "A",
+      "text": "Then this is a day to remember."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_level_up_04",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": "grumbling",
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Stronger, faster, and still paid the same."
+     },
+     {
+      "speaker": "B",
+      "text": "Ask for more, then."
+     },
+     {
+      "speaker": "A",
+      "text": "I will. A sergeant's worth more than a spear."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_level_up_05",
+    "when": {
+     "state": null,
+     "time": "dawn",
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Practice. I want to keep this edge."
+     },
+     {
+      "speaker": "B",
+      "text": "Gifted ones always think they're done learning."
+     },
+     {
+      "speaker": "A",
+      "text": "I'm gifted, not stupid. Practice with me."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_level_up_06",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": "level",
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Word's going round {town} that you're one of the best blades now."
+     },
+     {
+      "speaker": "B",
+      "text": "Good. Let the Crows hear it."
+     },
+     {
+      "speaker": "A",
+      "text": "Let the heroes hear it too. They get jealous."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_level_up_07",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": "First Hearth",
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Thomas Fox had better watch his back. I'm coming for his name."
+     },
+     {
+      "speaker": "B",
+      "text": "You'd want his job? Killing for Sir Robert?"
+     },
+     {
+      "speaker": "A",
+      "text": "No. Just his name. And maybe his sword."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "equipped",
+  "kind": "squad",
+  "who": "squad members given better arms or armour (a Guardsman and a Ranger)",
+  "exchanges": [
+   {
+    "id": "sqlife_equipped_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "New mail! Look, no holes."
+     },
+     {
+      "speaker": "B",
+      "text": "No holes yet. Give it a week."
+     },
+     {
+      "speaker": "A",
+      "text": "You're just jealous of my shine."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_equipped_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": "loyal",
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "The captain spent their own coin on this bow."
+     },
+     {
+      "speaker": "B",
+      "text": "Then don't miss with it."
+     },
+     {
+      "speaker": "A",
+      "text": "I never miss. Well, rarely."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_equipped_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "workshop",
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Our own forge made this blade. Feel the balance."
+     },
+     {
+      "speaker": "B",
+      "text": "Better than anything the guild sells."
+     },
+     {
+      "speaker": "A",
+      "text": "Better than Sir Robert's heroes carry, I'd wager."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_equipped_04",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": "grumbling",
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "New armour, but no wages. Can I eat a breastplate?"
+     },
+     {
+      "speaker": "B",
+      "text": "You can wear it while you starve."
+     },
+     {
+      "speaker": "A",
+      "text": "Then I'll be the best-dressed corpse in {town}."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_equipped_05",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": "Stonepass Refuge",
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Stonepass steel. Sky iron in the edge, they say."
+     },
+     {
+      "speaker": "B",
+      "text": "They say that about every blade sold above the Wall."
+     },
+     {
+      "speaker": "A",
+      "text": "This one's true. It sings when you strike it."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_equipped_06",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": "order",
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Smiths are posting buy orders for ore. Steel's dear, and the captain still bought us swords."
+     },
+     {
+      "speaker": "B",
+      "text": "That's the captain, spending on us before themselves."
+     },
+     {
+      "speaker": "A",
+      "text": "Or spending so we don't leave. Either way, I'll take it."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "sent_to_school",
+  "kind": "squad",
+  "who": "a mage or healer squad member enrolled at the tower school by Mereworth, and a friend (a Scholar and a Brigand)",
+  "exchanges": [
+   {
+    "id": "sqlife_sent_to_school_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "The captain's sending me to the tower school."
+     },
+     {
+      "speaker": "B",
+      "text": "You'll come back with your nose in the air."
+     },
+     {
+      "speaker": "A",
+      "text": "I'll come back with fire in my hands. That's better."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_sent_to_school_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": "loyal",
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Paying my fees at Mereworth. The captain believes in me."
+     },
+     {
+      "speaker": "B",
+      "text": "Then don't fail. That's a lot of coin."
+     },
+     {
+      "speaker": "A",
+      "text": "I won't. I'll learn everything they teach."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_sent_to_school_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": "grumbling",
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Coin for the tower school, and none for our wages?"
+     },
+     {
+      "speaker": "B",
+      "text": "Not my choice. Talk to the captain."
+     },
+     {
+      "speaker": "A",
+      "text": "I'll talk. You go read your books."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_sent_to_school_04",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": "graduate",
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Another class graduated from the tower school. I'll be next."
+     },
+     {
+      "speaker": "B",
+      "text": "You'll be the one who sets their sleeves alight."
+     },
+     {
+      "speaker": "A",
+      "text": "Once. That was once."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_sent_to_school_05",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": "Canopy Rest",
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Joan Thomson studied there, they say. Fire in her fingers."
+     },
+     {
+      "speaker": "B",
+      "text": "And look where it got her: married off for a treaty."
+     },
+     {
+      "speaker": "A",
+      "text": "I'm not getting married. I'm getting a staff."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_sent_to_school_06",
+    "when": {
+     "state": null,
+     "time": "dawn",
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Leaving for Mereworth today. Will you miss me?"
+     },
+     {
+      "speaker": "B",
+      "text": "I'll miss you mending my cuts."
+     },
+     {
+      "speaker": "A",
+      "text": "Then try not to get cut till I'm back."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "hall_built",
+  "kind": "squad",
+  "who": "squad members looking at a newly finished part of the player's hall (a Mason and a Guardsman)",
+  "exchanges": [
+   {
+    "id": "sqlife_hall_built_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "The barracks is finished. A real bed, under a real roof."
+     },
+     {
+      "speaker": "B",
+      "text": "And a real wall around it. I'll sleep tonight."
+     },
+     {
+      "speaker": "A",
+      "text": "You sleep every night. You snore through raids."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_hall_built_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": "loyal",
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Look what {player} has built. This is ours now."
+     },
+     {
+      "speaker": "B",
+      "text": "Ours to guard. Ours to die for, if it comes to that."
+     },
+     {
+      "speaker": "A",
+      "text": "Let's hope it doesn't."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_hall_built_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "workshop",
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Alchemy lab's done. The Little family won't like it."
+     },
+     {
+      "speaker": "B",
+      "text": "Let them sulk in Stonepass. We'll brew our own."
+     },
+     {
+      "speaker": "A",
+      "text": "And sell it cheaper than theirs. That'll sting."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_hall_built_04",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": "grumbling",
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "A new storehouse. Built with our unpaid wages, I'd guess."
+     },
+     {
+      "speaker": "B",
+      "text": "Built with your sweat, too. You carried half the stones."
+     },
+     {
+      "speaker": "A",
+      "text": "I'll remind the captain of that."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_hall_built_05",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": "Titled",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "A hall worthy of a lord. My lord {player} has done well."
+     },
+     {
+      "speaker": "B",
+      "text": "Lords' halls get raided by lords' rivals."
+     },
+     {
+      "speaker": "A",
+      "text": "Then we'll need more walls."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_hall_built_06",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": "Reedwatch",
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "A hall in Reedwatch. The Crows will see it from their camps."
+     },
+     {
+      "speaker": "B",
+      "text": "Let them see. Let them count the spears."
+     },
+     {
+      "speaker": "A",
+      "text": "They count better than you think."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "hall_raided",
+  "kind": "squad",
+  "who": "squad members during and after a raid on the player's hall (a Guardsman and a Brigand)",
+  "exchanges": [
+   {
+    "id": "sqlife_hall_raided_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Raiders at the gate! Up, up!"
+     },
+     {
+      "speaker": "B",
+      "text": "How many?"
+     },
+     {
+      "speaker": "A",
+      "text": "Enough. Grab a spear and stop asking."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_hall_raided_02",
+    "when": {
+     "state": null,
+     "time": "night",
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "They came over the wall in the dark. Where was the watch?"
+     },
+     {
+      "speaker": "B",
+      "text": "Asleep. Like everyone. Until the dogs."
+     },
+     {
+      "speaker": "A",
+      "text": "Then from now on, two on the wall all night."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_hall_raided_03",
+    "when": {
+     "state": null,
+     "time": "dawn",
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "They took half the storehouse before we drove them off."
+     },
+     {
+      "speaker": "B",
+      "text": "Half. Could have been all."
+     },
+     {
+      "speaker": "A",
+      "text": "The captain won't see it that way."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_hall_raided_04",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": "grumbling",
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Raided again. And I'm the one who almost died, unpaid."
+     },
+     {
+      "speaker": "B",
+      "text": "You almost died for your bed. That's worth something."
+     },
+     {
+      "speaker": "A",
+      "text": "My bed doesn't pay me either."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_hall_raided_05",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": "raid",
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "It was {band}. I saw their colours on the wall."
+     },
+     {
+      "speaker": "B",
+      "text": "They'll come back. They always do."
+     },
+     {
+      "speaker": "A",
+      "text": "Then next time, we'll be waiting with pitch."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_hall_raided_06",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": "loyal",
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "They didn't get the barracks. We held."
+     },
+     {
+      "speaker": "B",
+      "text": "The captain will be proud. Or furious about the stores."
+     },
+     {
+      "speaker": "A",
+      "text": "Both. Captains always manage both."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "road_camp",
+  "kind": "squad",
+  "who": "squad members camping on the road at night (a Scout, a Brigand and a Healer)",
+  "exchanges": [
+   {
+    "id": "sqlife_road_camp_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Fire low. No sense telling the whole road where we sleep."
+     },
+     {
+      "speaker": "B",
+      "text": "The whole road knows. Smell the stew."
+     },
+     {
+      "speaker": "A",
+      "text": "Then eat it fast, before someone comes asking."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_road_camp_02",
+    "when": {
+     "state": null,
+     "time": "night",
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Your watch. Two hours, then wake {B}."
+     },
+     {
+      "speaker": "B",
+      "text": "Two hours of staring at dark trees."
+     },
+     {
+      "speaker": "A",
+      "text": "Stare harder. The trees around here have friends."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_road_camp_03",
+    "when": {
+     "state": null,
+     "time": "night",
+     "place": "wild",
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Hear that? Wolves, off past the ridge."
+     },
+     {
+      "speaker": "B",
+      "text": "Far off. They've a deer tonight, not us."
+     },
+     {
+      "speaker": "A",
+      "text": "Tonight. Keep the fire fed anyway."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_road_camp_04",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": "Reedwatch",
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Fen damp gets in your bones. Shift closer to the fire."
+     },
+     {
+      "speaker": "B",
+      "text": "Closer and I'll be in it."
+     },
+     {
+      "speaker": "A",
+      "text": "Then you'll be dry, at least."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_road_camp_05",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": "Sunward Exchange",
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Desert's freezing at night. Who knew sand could be this cold?"
+     },
+     {
+      "speaker": "B",
+      "text": "Every Sunward child knows. Burn the dung, not the blanket."
+     },
+     {
+      "speaker": "A",
+      "text": "I'm not touching camel dung."
+     },
+     {
+      "speaker": "B",
+      "text": "Then freeze, fen boy."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_road_camp_06",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": "Stonepass Refuge",
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Wind off the Wall would skin a goat."
+     },
+     {
+      "speaker": "B",
+      "text": "Highland wind. Builds character."
+     },
+     {
+      "speaker": "A",
+      "text": "I've enough character. I'd like a roof."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_road_camp_07",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": "apex",
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "You see that glow north? Like ash-light."
+     },
+     {
+      "speaker": "B",
+      "text": "{calamity}. Men at the last inn said it rose."
+     },
+     {
+      "speaker": "A",
+      "text": "Then we sleep in our boots tonight."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_road_camp_08",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": "grumbling",
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Cold ground, thin stew, no wages. Living the dream."
+     },
+     {
+      "speaker": "B",
+      "text": "You chose this. Nobody dragged you."
+     },
+     {
+      "speaker": "A",
+      "text": "The hunger dragged me. Same thing."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_road_camp_09",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": "loyal",
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Captain's asleep. Let's keep it quiet, they've earned it."
+     },
+     {
+      "speaker": "B",
+      "text": "Aye. Took the first watch two nights running."
+     },
+     {
+      "speaker": "A",
+      "text": "Then we take this one, and say nothing."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_road_camp_10",
+    "when": {
+     "state": null,
+     "time": "night",
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "The beacon on the ridge isn't lit."
+     },
+     {
+      "speaker": "B",
+      "text": "Wardens get lazy. Or worse."
+     },
+     {
+      "speaker": "A",
+      "text": "Worse, out here, usually means the Blight."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_road_camp_11",
+    "when": {
+     "state": "Starving",
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Hamlet kids hanging round the fire edge again."
+     },
+     {
+      "speaker": "B",
+      "text": "Give them the heel of the loaf."
+     },
+     {
+      "speaker": "A",
+      "text": "And tomorrow we'll have none."
+     },
+     {
+      "speaker": "B",
+      "text": "Tomorrow we'll have the road. They won't."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_road_camp_12",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": "pious"
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Captain's praying again, out there in the cold."
+     },
+     {
+      "speaker": "B",
+      "text": "Let them. Saints might be listening tonight."
+     },
+     {
+      "speaker": "A",
+      "text": "If they are, ask them for a dry blanket."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "road_robbed",
+  "kind": "squad",
+  "who": "squad members after outlaws took their cargo on the road (a Caravaneer and a Brigand)",
+  "exchanges": [
+   {
+    "id": "sqlife_road_robbed_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "They took the cart. The whole bloody cart."
+     },
+     {
+      "speaker": "B",
+      "text": "They left us our necks. Count that."
+     },
+     {
+      "speaker": "A",
+      "text": "My neck doesn't sell for coin in {town}."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_road_robbed_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": "ambush",
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "It was {band}. Saw their marks on the arrows."
+     },
+     {
+      "speaker": "B",
+      "text": "Then we know whose camp to visit."
+     },
+     {
+      "speaker": "A",
+      "text": "With more spears than we had today."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_road_robbed_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": "grumbling",
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Cargo gone, wages gone with it. Wonderful."
+     },
+     {
+      "speaker": "B",
+      "text": "The captain will make it right. Somehow."
+     },
+     {
+      "speaker": "A",
+      "text": "Somehow isn't coin."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_road_robbed_04",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": "Reedwatch",
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Crows. Had to be Crows, this side of the fen."
+     },
+     {
+      "speaker": "B",
+      "text": "Thornback only robs lords' seals. This was some other lot."
+     },
+     {
+      "speaker": "A",
+      "text": "A Crow's a Crow to me."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_road_robbed_05",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": "merciful"
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "They were starving, captain. Half of them were boys."
+     },
+     {
+      "speaker": "B",
+      "text": "Starving boys with sharp knives."
+     },
+     {
+      "speaker": "A",
+      "text": "Still. I'd rather lose {good} than kill children."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_road_robbed_06",
+    "when": {
+     "state": null,
+     "time": "evening",
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "We could catch them before dark. They're slow with the cart."
+     },
+     {
+      "speaker": "B",
+      "text": "Six of us, fifteen of them? We'd catch a grave."
+     },
+     {
+      "speaker": "A",
+      "text": "Then we follow and wait for night."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_road_robbed_07",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": "Sunward Exchange",
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Jackals. Desert-thin and quick. Gone into the mesa by now."
+     },
+     {
+      "speaker": "B",
+      "text": "Saltcrown Mesa. That's where they cache it, they say."
+     },
+     {
+      "speaker": "A",
+      "text": "Then someone should go look."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "town_arrival",
+  "kind": "squad",
+  "who": "squad members arriving in a town together (a Duellist and a Healer)",
+  "exchanges": [
+   {
+    "id": "sqlife_town_arrival_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{town} at last. Beds, beer, and someone else's cooking."
+     },
+     {
+      "speaker": "B",
+      "text": "Baths first. You smell like the road."
+     },
+     {
+      "speaker": "A",
+      "text": "The road smells like me. I'm older."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_town_arrival_02",
+    "when": {
+     "state": "Starving",
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Look at them. Ribs showing, all of them."
+     },
+     {
+      "speaker": "B",
+      "text": "Keep the bread out of sight. Hunger makes thieves."
+     },
+     {
+      "speaker": "A",
+      "text": "Hunger makes us all thieves, sooner or later."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_town_arrival_03",
+    "when": {
+     "state": "Thriving",
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{town}'s doing well. Market's full."
+     },
+     {
+      "speaker": "B",
+      "text": "Prices are full too. Watch the purse."
+     },
+     {
+      "speaker": "A",
+      "text": "My purse is too thin to steal from."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_town_arrival_04",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": "Hunted",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Hoods up. The gate guard's looking at us too long."
+     },
+     {
+      "speaker": "B",
+      "text": "The captain's face is on the notice board."
+     },
+     {
+      "speaker": "A",
+      "text": "Then walk faster, and smile less."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_town_arrival_05",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": "Champion",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "They're cheering. For us. For the captain, really."
+     },
+     {
+      "speaker": "B",
+      "text": "Enjoy it. Cheers turn quick in {town}."
+     },
+     {
+      "speaker": "A",
+      "text": "Not today. Today I'm a hero's friend."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_town_arrival_06",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": "First Hearth",
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "First Hearth. The old royal seat. Mind your manners."
+     },
+     {
+      "speaker": "B",
+      "text": "Proud town. Everyone thinks they're a claimant."
+     },
+     {
+      "speaker": "A",
+      "text": "Half of them are, somewhere back."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_town_arrival_07",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": "Sunward Exchange",
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Sunward. Count your coins now, they'll be gone by supper."
+     },
+     {
+      "speaker": "B",
+      "text": "Taxes, tolls, then water. Everything costs."
+     },
+     {
+      "speaker": "A",
+      "text": "Even the air, I'd wager, if the Coin could bottle it."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_town_arrival_08",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": "Canopy Rest",
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Canopy Rest. Smell the pine. And the incense."
+     },
+     {
+      "speaker": "B",
+      "text": "Quiet town. Too quiet, some say."
+     },
+     {
+      "speaker": "A",
+      "text": "Quiet's good. Quiet means nobody's screaming."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_town_arrival_09",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": "Stonepass Refuge",
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Stonepass. Keep your eyes down near the clansmen."
+     },
+     {
+      "speaker": "B",
+      "text": "They don't like lowlanders. Or anyone."
+     },
+     {
+      "speaker": "A",
+      "text": "They like steel. We've got some to sell."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_town_arrival_10",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": "Shunned",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "They're shutting doors as we pass."
+     },
+     {
+      "speaker": "B",
+      "text": "Word of the captain's deeds got here first."
+     },
+     {
+      "speaker": "A",
+      "text": "Then we buy what we need and leave by nightfall."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "meal_together",
+  "kind": "squad",
+  "who": "squad members eating together in camp or the hall (a Brigand, a Guardsman and a Cook)",
+  "exchanges": [
+   {
+    "id": "sqlife_meal_together_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Pass the bread. No, the whole loaf."
+     },
+     {
+      "speaker": "B",
+      "text": "You'll share like everyone else."
+     },
+     {
+      "speaker": "A",
+      "text": "I'm sharing it with my stomach."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_meal_together_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "camp",
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Rabbit again? Who caught this?"
+     },
+     {
+      "speaker": "B",
+      "text": "I did. Be grateful, it was slow."
+     },
+     {
+      "speaker": "A",
+      "text": "Slow rabbits are sick rabbits."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_meal_together_03",
+    "when": {
+     "state": "Thriving",
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Roast pork and real ale. The captain's in a good mood."
+     },
+     {
+      "speaker": "B",
+      "text": "Or the stores are full. Same thing."
+     },
+     {
+      "speaker": "A",
+      "text": "Eat before it changes."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_meal_together_04",
+    "when": {
+     "state": "Starving",
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Thin gruel, thinner every day."
+     },
+     {
+      "speaker": "B",
+      "text": "Thin's better than nothing. Ask the hamlets."
+     },
+     {
+      "speaker": "A",
+      "text": "I know. I'm still allowed to hate it."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_meal_together_05",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": "loyal",
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Here's to the captain. To {player}!"
+     },
+     {
+      "speaker": "B",
+      "text": "To {player}, and full bellies!"
+     },
+     {
+      "speaker": "A",
+      "text": "And to nobody dying this week."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_meal_together_06",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": "grumbling",
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Good stew. Shame we're paying for it ourselves."
+     },
+     {
+      "speaker": "B",
+      "text": "The captain bought the meat."
+     },
+     {
+      "speaker": "A",
+      "text": "With our wages, I'd wager."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_meal_together_07",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": "Reedwatch",
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Eels. Always eels in Reedwatch."
+     },
+     {
+      "speaker": "B",
+      "text": "Eels are good. Eat up."
+     },
+     {
+      "speaker": "A",
+      "text": "They wriggle in my dreams, {B}."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_meal_together_08",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": "Stonepass Refuge",
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Black bread and mutton. Stonepass food."
+     },
+     {
+      "speaker": "B",
+      "text": "Hard food for hard people."
+     },
+     {
+      "speaker": "A",
+      "text": "My teeth aren't that hard."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_meal_together_09",
+    "when": {
+     "state": null,
+     "time": "dawn",
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Porridge before the march. Eat it hot."
+     },
+     {
+      "speaker": "B",
+      "text": "It's grey. Like the Blight."
+     },
+     {
+      "speaker": "A",
+      "text": "Don't say that at breakfast."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_meal_together_10",
+    "when": {
+     "state": null,
+     "time": "evening",
+     "place": "keep",
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Supper in our own hall. Feels like being a lord."
+     },
+     {
+      "speaker": "B",
+      "text": "A lord doesn't wash his own bowls."
+     },
+     {
+      "speaker": "A",
+      "text": "Then I'm half a lord. The eating half."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_meal_together_11",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": "pious"
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Wait. The captain wants grace said."
+     },
+     {
+      "speaker": "B",
+      "text": "The stew's going cold while the saints listen."
+     },
+     {
+      "speaker": "A",
+      "text": "Saints like their stew hot too. Be quick."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_meal_together_12",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": "shortage",
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Heard {good}'s gone scarce in {town}."
+     },
+     {
+      "speaker": "B",
+      "text": "That's why the cook's watering the ale."
+     },
+     {
+      "speaker": "A",
+      "text": "I'm not watering it. It came that way."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "idle_banter",
+  "kind": "squad",
+  "who": "squad members on a long march or in idle hours (a Duellist, a Brigand, a Healer or a Born survivor)",
+  "exchanges": [
+   {
+    "id": "sqlife_idle_banter_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Where were you born, anyway? You never say."
+     },
+     {
+      "speaker": "B",
+      "text": "A hamlet with more goats than people."
+     },
+     {
+      "speaker": "A",
+      "text": "That's half the realm."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_idle_banter_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "road",
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "How far to the next town?"
+     },
+     {
+      "speaker": "B",
+      "text": "Same as when you asked an hour ago, less an hour."
+     },
+     {
+      "speaker": "A",
+      "text": "You're a comfort, {B}."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_idle_banter_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": "Reedwatch",
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "My grandfather fished these fens. Before the Crows."
+     },
+     {
+      "speaker": "B",
+      "text": "Before the Crows? There was a before?"
+     },
+     {
+      "speaker": "A",
+      "text": "Short one. Then the Steward Hall stopped judging, and the Crows came."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_idle_banter_04",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": "First Hearth",
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "My sister married a guard of Sir Robert's."
+     },
+     {
+      "speaker": "B",
+      "text": "Then she married the throne's dogs."
+     },
+     {
+      "speaker": "A",
+      "text": "Say that louder in First Hearth. I'll watch you hang."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_idle_banter_05",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": "content",
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Do you miss home?"
+     },
+     {
+      "speaker": "B",
+      "text": "Every day. But home doesn't pay."
+     },
+     {
+      "speaker": "A",
+      "text": "Neither does this. Often."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_idle_banter_06",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": "feud",
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "The Crows are feuding again. Brothers fighting brothers."
+     },
+     {
+      "speaker": "B",
+      "text": "The Leans and the Shortknives. Families never stop."
+     },
+     {
+      "speaker": "A",
+      "text": "Mine never did either. That's why I left."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_idle_banter_07",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": "hero",
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "A hero broke a camp east of {town}. Clean work, they say."
+     },
+     {
+      "speaker": "B",
+      "text": "Clean for the hero. Not for the camp."
+     },
+     {
+      "speaker": "A",
+      "text": "You were an outlaw. I forget."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_idle_banter_08",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": "apex",
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "{calamity}. The name keeps getting longer every time someone says it."
+     },
+     {
+      "speaker": "B",
+      "text": "Names grow. Like fear."
+     },
+     {
+      "speaker": "A",
+      "text": "Let's hope the beast doesn't."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_idle_banter_09",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": "curious"
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "The captain's wandering off again to read some carving."
+     },
+     {
+      "speaker": "B",
+      "text": "Old Steward marks. Everywhere, if you look."
+     },
+     {
+      "speaker": "A",
+      "text": "Who were the Stewards, really?"
+     },
+     {
+      "speaker": "B",
+      "text": "People who lit fires nobody remembers why."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_idle_banter_10",
+    "when": {
+     "state": null,
+     "time": "night",
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "You ever think about the empty throne?"
+     },
+     {
+      "speaker": "B",
+      "text": "Never. Thrones are for lords. I'm for supper."
+     },
+     {
+      "speaker": "A",
+      "text": "Someone's going to sit in it. Better a good one."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_idle_banter_11",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": "grumbling",
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "I used to be a guildsman. Riftgate. Good pay."
+     },
+     {
+      "speaker": "B",
+      "text": "Then why leave?"
+     },
+     {
+      "speaker": "A",
+      "text": "Half my party died in a rift. The guild sent flowers."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_idle_banter_12",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "wild",
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "You know the Forest Charter? Says poor folk can gather deadwood."
+     },
+     {
+      "speaker": "B",
+      "text": "And the lords' foresters hang them for it anyway."
+     },
+     {
+      "speaker": "A",
+      "text": "Half Law. Half for us, half for them."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_idle_banter_13",
+    "when": {
+     "state": "Lean",
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "When I was small, we ate nettles one winter."
+     },
+     {
+      "speaker": "B",
+      "text": "Nettles aren't bad with salt."
+     },
+     {
+      "speaker": "A",
+      "text": "We didn't have salt. That was the point."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_idle_banter_14",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": "Canopy Rest",
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Did you know Sister Margaret left Brother William's chapel?"
+     },
+     {
+      "speaker": "B",
+      "text": "Something about missing salt."
+     },
+     {
+      "speaker": "A",
+      "text": "Something smells wrong in that chapel."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "npc_addresses_squad",
+  "kind": "squad",
+  "who": "an outsider (a townsperson, guard, merchant or outlaw) and a squad member",
+  "exchanges": [
+   {
+    "id": "sqlife_npc_addresses_squad_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "You ride with {player}, don't you?"
+     },
+     {
+      "speaker": "B",
+      "text": "I do. What's it to you?"
+     },
+     {
+      "speaker": "A",
+      "text": "Just curious. People talk about them."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_npc_addresses_squad_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "market",
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "You're with {player}'s lot. Need any {good}? Fair price."
+     },
+     {
+      "speaker": "B",
+      "text": "Fair for you or fair for me?"
+     },
+     {
+      "speaker": "A",
+      "text": "Fair for the captain, who pays the bills."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_npc_addresses_squad_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": "Hunted",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Your captain's wanted. Tell me where they sleep, there's coin in it."
+     },
+     {
+      "speaker": "B",
+      "text": "There's a knife in it too, if you keep asking."
+     },
+     {
+      "speaker": "A",
+      "text": "No need to be like that. I'll go."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_npc_addresses_squad_04",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": "Champion",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "You march with {player}? Bless you all. My farm stands because of you."
+     },
+     {
+      "speaker": "B",
+      "text": "The captain did most of it. We just carried shields."
+     },
+     {
+      "speaker": "A",
+      "text": "Then bless your shields too."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_npc_addresses_squad_05",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": "Distrusted",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Your captain's not welcome here. Neither are you."
+     },
+     {
+      "speaker": "B",
+      "text": "We're only buying bread."
+     },
+     {
+      "speaker": "A",
+      "text": "Buy it quick, then. Sergeant's watching."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_npc_addresses_squad_06",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": "Titled",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Is it true? {player} sits a hall now, like a lord?"
+     },
+     {
+      "speaker": "B",
+      "text": "True. My lord {player}, now."
+     },
+     {
+      "speaker": "A",
+      "text": "Strange days, when guild boys become lords."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_npc_addresses_squad_07",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "inn",
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Buy you a drink, friend? I hear {player} pays well."
+     },
+     {
+      "speaker": "B",
+      "text": "You hear wrong. Buy the drink anyway."
+     },
+     {
+      "speaker": "A",
+      "text": "Ha. Fair enough. What's the captain really like?"
+     }
+    ]
+   },
+   {
+    "id": "sqlife_npc_addresses_squad_08",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "road",
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Stand where you are. Toll's a penny a head."
+     },
+     {
+      "speaker": "B",
+      "text": "Count the heads first. Then count our spears."
+     },
+     {
+      "speaker": "A",
+      "text": "On second thought, the road's free today."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_npc_addresses_squad_09",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": "ruthless"
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "You march for the butcher who hanged them at {hamlet}?"
+     },
+     {
+      "speaker": "B",
+      "text": "I march for coin. Not for hangings."
+     },
+     {
+      "speaker": "A",
+      "text": "Same coin, though. Remember that."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_npc_addresses_squad_10",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": "merciful"
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Your captain spared my boy. He was with the {band}, but he's young."
+     },
+     {
+      "speaker": "B",
+      "text": "The captain gives a second chance. Not a third."
+     },
+     {
+      "speaker": "A",
+      "text": "He'll not need a third. I'll see to it."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_npc_addresses_squad_11",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "keep",
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "You there. Does your captain answer to {lord}, or to no one?"
+     },
+     {
+      "speaker": "B",
+      "text": "To no one. Ask them yourself if you like."
+     },
+     {
+      "speaker": "A",
+      "text": "I'll tell {lord} what you said."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_npc_addresses_squad_12",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": "slavers",
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "You're {player}'s. Did they free the captives from the slavers' hold?"
+     },
+     {
+      "speaker": "B",
+      "text": "Some. Not all. We tried."
+     },
+     {
+      "speaker": "A",
+      "text": "My sister was there. Is she free?"
+     }
+    ]
+   },
+   {
+    "id": "sqlife_npc_addresses_squad_13",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": "Neutral",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Never heard of {player}. Should I have?"
+     },
+     {
+      "speaker": "B",
+      "text": "You will, soon enough."
+     },
+     {
+      "speaker": "A",
+      "text": "Everyone says that about their captain."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "kin_on_other_side",
+  "kind": "squad",
+  "who": "an outsider of the squad member's blood (outlaw, guildsman or rival hold) and the squad member",
+  "exchanges": [
+   {
+    "id": "sqlife_kin_on_other_side_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Well, look at you. My own cousin, in a captain's colours."
+     },
+     {
+      "speaker": "B",
+      "text": "And you in a band's rags. Mother would weep."
+     },
+     {
+      "speaker": "A",
+      "text": "Mother's dead. She can't weep about either of us."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_kin_on_other_side_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "camp",
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Thought I knew that face. You're a Shortknife, aren't you?"
+     },
+     {
+      "speaker": "B",
+      "text": "Was. Now I'm one of {player}'s."
+     },
+     {
+      "speaker": "A",
+      "text": "Blood doesn't change with a new captain."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_kin_on_other_side_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": "feud",
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Your brother rides with {band} now. He asked after you."
+     },
+     {
+      "speaker": "B",
+      "text": "Tell him I'm well, and to stay out of my road."
+     },
+     {
+      "speaker": "A",
+      "text": "He'll be on your road whether you like it or not."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_kin_on_other_side_04",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": "Reedwatch",
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Your uncle's a Lean. You know what that means in the Crows."
+     },
+     {
+      "speaker": "B",
+      "text": "It means trouble, everywhere I go."
+     },
+     {
+      "speaker": "A",
+      "text": "It means protection, if you come home."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_kin_on_other_side_05",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": "inn",
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Sister! You're in the guild's tavern, wearing a sellsword's kit?"
+     },
+     {
+      "speaker": "B",
+      "text": "And you're the guild's best thief. We both chose our road."
+     },
+     {
+      "speaker": "A",
+      "text": "Mine pays better."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_kin_on_other_side_06",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": "Stonepass Refuge",
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Clan cousin. The Reavers took our farm. Are you with them now?"
+     },
+     {
+      "speaker": "B",
+      "text": "No. With {player}. We'll get the farm back."
+     },
+     {
+      "speaker": "A",
+      "text": "Then I'll ride with you, if you'll have me."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_kin_on_other_side_07",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": "ruthless"
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Your captain hanged my brother. Your cousin, too."
+     },
+     {
+      "speaker": "B",
+      "text": "I didn't know he was there."
+     },
+     {
+      "speaker": "A",
+      "text": "You'd have let it happen even if you did."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_kin_on_other_side_08",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": "Hunted",
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "There's a price on your captain's head. I could collect it."
+     },
+     {
+      "speaker": "B",
+      "text": "You could. Then I'd collect yours. Family or not."
+     },
+     {
+      "speaker": "A",
+      "text": "Fair. I'll not tell anyone you're here."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "approve_deed",
+  "kind": "squad",
+  "who": "squad members approving something the player did (a Healer and a Guardsman)",
+  "exchanges": [
+   {
+    "id": "sqlife_approve_deed_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "That was well done. I'd not have thought of it."
+     },
+     {
+      "speaker": "B",
+      "text": "The captain thinks of things nobody else does."
+     },
+     {
+      "speaker": "A",
+      "text": "I'll follow that, gladly."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_approve_deed_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": "merciful"
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "The captain let them go. Gave them bread, too."
+     },
+     {
+      "speaker": "B",
+      "text": "Kind. Maybe foolish, but kind."
+     },
+     {
+      "speaker": "A",
+      "text": "Kind wins more friends than fear."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_approve_deed_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": "ruthless"
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Hanged the lot of them. No trial."
+     },
+     {
+      "speaker": "B",
+      "text": "The roads will be quiet a month."
+     },
+     {
+      "speaker": "A",
+      "text": "The captain does what lords won't. I'll follow that."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_approve_deed_04",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": "honourable"
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "The captain kept the contract, even when it hurt."
+     },
+     {
+      "speaker": "B",
+      "text": "A word's worth something with this one."
+     },
+     {
+      "speaker": "A",
+      "text": "Rare enough. I'll keep my word to them, too."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_approve_deed_05",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": "pious"
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Cleansed the barrow and said the words over every grave."
+     },
+     {
+      "speaker": "B",
+      "text": "The dead will rest now."
+     },
+     {
+      "speaker": "A",
+      "text": "So will I. Holy work's honest work."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_approve_deed_06",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": "greedy"
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Sold the {good} at twice the price. Clever."
+     },
+     {
+      "speaker": "B",
+      "text": "Clever, and we'll get our share."
+     },
+     {
+      "speaker": "A",
+      "text": "The captain always pays. Greedy captains do."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_approve_deed_07",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": "curious"
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "The captain found an old Steward inscription. Read it all."
+     },
+     {
+      "speaker": "B",
+      "text": "What did it say?"
+     },
+     {
+      "speaker": "A",
+      "text": "Something about fires. Light the fires."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_approve_deed_08",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": "cleared",
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "We cleared {site}. The hamlets are safe a while."
+     },
+     {
+      "speaker": "B",
+      "text": "The captain led from the front. Saw it."
+     },
+     {
+      "speaker": "A",
+      "text": "That's a captain worth following."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "action": "disapprove_deed",
+  "kind": "squad",
+  "who": "squad members disapproving of something the player did (a Healer and a Brigand)",
+  "exchanges": [
+   {
+    "id": "sqlife_disapprove_deed_01",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "I don't like what the captain did today."
+     },
+     {
+      "speaker": "B",
+      "text": "You don't have to like it. You have to follow it."
+     },
+     {
+      "speaker": "A",
+      "text": "I'll follow. But I won't forget."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_disapprove_deed_02",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": "ruthless"
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Burned their hamlet to the ground. Children inside."
+     },
+     {
+      "speaker": "B",
+      "text": "The captain says they fed the Crows."
+     },
+     {
+      "speaker": "A",
+      "text": "They fed their children. I'll not stay for the next one."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_disapprove_deed_03",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": "greedy"
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Sold the captives back to the slavers. For coin."
+     },
+     {
+      "speaker": "B",
+      "text": "It's good coin."
+     },
+     {
+      "speaker": "A",
+      "text": "Then I'll have none of it. That's blood coin."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_disapprove_deed_04",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": "merciful"
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Let the outlaws go. Again."
+     },
+     {
+      "speaker": "B",
+      "text": "They'll be back on the road by nightfall."
+     },
+     {
+      "speaker": "A",
+      "text": "And cutting the throats of the people we're paid to guard."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_disapprove_deed_05",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": "pious"
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Another prayer, another candle. When do we fight?"
+     },
+     {
+      "speaker": "B",
+      "text": "Prayer and fighting can both be done, {A}."
+     },
+     {
+      "speaker": "A",
+      "text": "Not when the captain kneels while the Crows burn hamlets."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_disapprove_deed_06",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": "curious"
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "We could have saved the hamlet. Instead we read old stones."
+     },
+     {
+      "speaker": "B",
+      "text": "The stones may matter more. They talk of the Rim."
+     },
+     {
+      "speaker": "A",
+      "text": "The hamlet mattered to the people in it."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_disapprove_deed_07",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": null,
+     "attitude": "honourable"
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "Kept faith with an outlaw contract over a lord's plea."
+     },
+     {
+      "speaker": "B",
+      "text": "A contract's a contract."
+     },
+     {
+      "speaker": "A",
+      "text": "And a hanged village is a hanged village."
+     }
+    ]
+   },
+   {
+    "id": "sqlife_disapprove_deed_08",
+    "when": {
+     "state": null,
+     "time": null,
+     "place": null,
+     "news": null,
+     "standing": null,
+     "hold": null,
+     "mood": "grumbling",
+     "attitude": null
+    },
+    "lines": [
+     {
+      "speaker": "A",
+      "text": "The captain spends our wages on lords and bribes."
+     },
+     {
+      "speaker": "B",
+      "text": "The bribes kept us out of the stocks."
+     },
+     {
+      "speaker": "A",
+      "text": "I'd rather sit in the stocks with coin in my boot."
+     }
+    ]
+   }
+  ]
+ }
+]
