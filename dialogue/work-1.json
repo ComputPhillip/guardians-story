@@ -2,7 +2,7 @@
  {
   "action": "Accounts",
   "kind": "activity",
-  "who": "the steward's clerk and a scribe",
+  "who": "the custodian's clerk and a scribe",
   "exchanges": [
    {
     "id": "accounts_01",
@@ -117,7 +117,7 @@
  {
   "action": "InspectDemesne",
   "kind": "activity",
-  "who": "the steward and the reeve walking the lord's demesne",
+  "who": "the custodian and the reeve walking the lord's demesne",
   "exchanges": [
    {
     "id": "inspect_demesne_01",
@@ -582,7 +582,7 @@
      "place": null,
      "news": "blight",
      "standing": null,
-     "hold": "First Hearth",
+     "hold": "First Monolith",
      "mood": null,
      "attitude": null
     },
@@ -740,7 +740,7 @@
      },
      {
       "speaker": "B",
-      "text": "It's a dull line. The Stewards wrote like wet sand."
+      "text": "It's a dull line. The Custodians wrote like wet sand."
      },
      {
       "speaker": "A",
@@ -756,7 +756,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Reedwatch",
+     "hold": "Aquifer Gate",
      "mood": null,
      "attitude": null
     },
@@ -1105,7 +1105,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Stonepass Refuge",
+     "hold": "Basalt Redoubt",
      "mood": null,
      "attitude": null
     },
@@ -1169,7 +1169,7 @@
     "lines": [
      {
       "speaker": "A",
-      "text": "Listen to this: 'A Steward does not leap. A Steward steps.'"
+      "text": "Listen to this: 'A Custodian does not leap. A Custodian steps.'"
      },
      {
       "speaker": "B",
@@ -1212,7 +1212,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Canopy Rest",
+     "hold": "Ribcage Vault",
      "mood": null,
      "attitude": null
     },
@@ -1488,7 +1488,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Reedwatch",
+     "hold": "Aquifer Gate",
      "mood": null,
      "attitude": null
     },
@@ -1626,7 +1626,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Stonepass Refuge",
+     "hold": "Basalt Redoubt",
      "mood": null,
      "attitude": null
     },
@@ -1928,7 +1928,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "First Hearth",
+     "hold": "First Monolith",
      "mood": null,
      "attitude": null
     },
@@ -2216,14 +2216,14 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Sunward Exchange",
+     "hold": "Sol-Spire Concourse",
      "mood": null,
      "attitude": null
     },
     "lines": [
      {
       "speaker": "A",
-      "text": "In Sunward, help costs coin."
+      "text": "In Sol-Spire, help costs coin."
      },
      {
       "speaker": "B",
@@ -2592,7 +2592,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Stonepass Refuge",
+     "hold": "Basalt Redoubt",
      "mood": null,
      "attitude": null
     },
@@ -2619,7 +2619,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Reedwatch",
+     "hold": "Aquifer Gate",
      "mood": null,
      "attitude": null
     },
@@ -2932,7 +2932,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Sunward Exchange",
+     "hold": "Sol-Spire Concourse",
      "mood": null,
      "attitude": null
     },
@@ -3123,7 +3123,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Canopy Rest",
+     "hold": "Ribcage Vault",
      "mood": null,
      "attitude": null
     },
@@ -3377,7 +3377,7 @@
     "lines": [
      {
       "speaker": "A",
-      "text": "Loaves out before the bell or the steward fines us."
+      "text": "Loaves out before the bell or the custodian fines us."
      },
      {
       "speaker": "B",
@@ -3710,7 +3710,7 @@
     "lines": [
      {
       "speaker": "A",
-      "text": "A new nest in the Blighted. It's pulsing."
+      "text": "A new nest in the Necro-Plinth. It's pulsing."
      },
      {
       "speaker": "B",
@@ -3726,7 +3726,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Sunward Exchange",
+     "hold": "Sol-Spire Concourse",
      "mood": null,
      "attitude": null
     },
@@ -3864,7 +3864,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Stonepass Refuge",
+     "hold": "Basalt Redoubt",
      "mood": null,
      "attitude": null
     },
@@ -4024,7 +4024,7 @@
      },
      {
       "speaker": "A",
-      "text": "To watch his steward."
+      "text": "To watch his custodian."
      }
     ]
    },
@@ -4097,7 +4097,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Stonepass Refuge",
+     "hold": "Basalt Redoubt",
      "mood": null,
      "attitude": null
     },
@@ -4131,7 +4131,7 @@
     "lines": [
      {
       "speaker": "A",
-      "text": "Elixirs are going cheap in Sunward. Grey salt, folk say."
+      "text": "Elixirs are going cheap in Sol-Spire. Grey salt, folk say."
      },
      {
       "speaker": "B",
@@ -4496,7 +4496,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Stonepass Refuge",
+     "hold": "Basalt Redoubt",
      "mood": null,
      "attitude": null
     },
@@ -4701,7 +4701,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Reedwatch",
+     "hold": "Aquifer Gate",
      "mood": null,
      "attitude": null
     },
@@ -4712,7 +4712,7 @@
      },
      {
       "speaker": "B",
-      "text": "Then sow it twice. Reedwatch luck."
+      "text": "Then sow it twice. Aquifer Gate luck."
      }
     ]
    },
@@ -4769,7 +4769,7 @@
  {
   "action": "InspectOutlyingFarm",
   "kind": "activity",
-  "who": "the steward and the reeve inspecting an outlying farm",
+  "who": "the custodian and the reeve inspecting an outlying farm",
   "exchanges": [
    {
     "id": "inspect_outlying_farm_01",
@@ -5015,7 +5015,7 @@
      },
      {
       "speaker": "B",
-      "text": "Thin ears, thin tithe, fat steward."
+      "text": "Thin ears, thin tithe, fat custodian."
      }
     ]
    }
@@ -5612,7 +5612,7 @@
     "lines": [
      {
       "speaker": "A",
-      "text": "Steward wants the demesne harrowed before ours."
+      "text": "Custodian wants the demesne harrowed before ours."
      },
      {
       "speaker": "B",
@@ -5682,7 +5682,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Sunward Exchange",
+     "hold": "Sol-Spire Concourse",
      "mood": null,
      "attitude": null
     },
@@ -6585,7 +6585,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Stonepass Refuge",
+     "hold": "Basalt Redoubt",
      "mood": null,
      "attitude": null
     },

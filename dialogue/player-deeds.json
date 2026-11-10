@@ -2,7 +2,7 @@
  {
   "action": "give",
   "kind": "deed",
-  "who": "townsfolk, stallholders and the steward's people, about goods the player brought to the town",
+  "who": "townsfolk, stallholders and the custodian's people, about goods the player brought to the town",
   "exchanges": [
    {
     "id": "deed_give_01",
@@ -234,7 +234,7 @@
  {
   "action": "coin",
   "kind": "deed",
-  "who": "townsfolk, the steward's clerks, outlaws and clergy, about coin the player gave to the town or stole from it",
+  "who": "townsfolk, the custodian's clerks, outlaws and clergy, about coin the player gave to the town or stole from it",
   "exchanges": [
    {
     "id": "deed_coin_01",
@@ -389,7 +389,7 @@
     "lines": [
      {
       "speaker": "A",
-      "text": "{player} lifted the town's coin right under the steward's nose."
+      "text": "{player} lifted the town's coin right under the custodian's nose."
      },
      {
       "speaker": "B",
@@ -1363,7 +1363,7 @@
      },
      {
       "speaker": "B",
-      "text": "The Broken March, I'd wager. Pray they come back."
+      "text": "The Fracture Verge, I'd wager. Pray they come back."
      }
     ]
    },
@@ -1573,7 +1573,7 @@
     "lines": [
      {
       "speaker": "A",
-      "text": "{player} sent my son to the Broken March. Didn't go themselves."
+      "text": "{player} sent my son to the Fracture Verge. Didn't go themselves."
      },
      {
       "speaker": "B",
@@ -1979,7 +1979,7 @@
      "place": "market",
      "news": null,
      "standing": null,
-     "hold": "Stonepass Refuge",
+     "hold": "Basalt Redoubt",
      "mood": null,
      "attitude": null
     },
@@ -1990,7 +1990,7 @@
      },
      {
       "speaker": "B",
-      "text": "The Littles will be livid. Forty years they've sold every draught in Stonepass."
+      "text": "The Littles will be livid. Forty years they've sold every draught in Basalt Redoubt."
      }
     ]
    },
@@ -2135,7 +2135,7 @@
     "lines": [
      {
       "speaker": "A",
-      "text": "{player} paid for an expedition to the March out of the town chest."
+      "text": "{player} paid for an expedition to the Verge out of the town chest."
      },
      {
       "speaker": "B",
@@ -2214,7 +2214,7 @@
      },
      {
       "speaker": "B",
-      "text": "The steward's book says every penny went into the stones."
+      "text": "The custodian's book says every penny went into the stones."
      },
      {
       "speaker": "A",
@@ -2317,7 +2317,7 @@
      },
      {
       "speaker": "B",
-      "text": "Stolen coin paying for stolen coin. The steward didn't ask."
+      "text": "Stolen coin paying for stolen coin. The custodian didn't ask."
      }
     ]
    },
@@ -2554,7 +2554,7 @@
     "lines": [
      {
       "speaker": "A",
-      "text": "Bounty gang's ahead of the steward's schedule. {player} drives them."
+      "text": "Bounty gang's ahead of the custodian's schedule. {player} drives them."
      },
      {
       "speaker": "B",
@@ -2838,7 +2838,7 @@
      "place": "temple",
      "news": null,
      "standing": null,
-     "hold": "Canopy Rest",
+     "hold": "Ribcage Vault",
      "mood": null,
      "attitude": null
     },
@@ -4084,7 +4084,7 @@
  {
   "action": "buy",
   "kind": "deed",
-  "who": "stallholders, shoppers and the steward's people, about the player buying in the market and moving prices",
+  "who": "stallholders, shoppers and the custodian's people, about the player buying in the market and moving prices",
   "exchanges": [
    {
     "id": "deed_buy_01",
@@ -4193,14 +4193,14 @@
      "place": "market",
      "news": null,
      "standing": null,
-     "hold": "Sunward Exchange",
+     "hold": "Sol-Spire Concourse",
      "mood": null,
      "attitude": null
     },
     "lines": [
      {
       "speaker": "A",
-      "text": "A stranger cornering {good} in Sunward. The Coin won't like it."
+      "text": "A stranger cornering {good} in Sol-Spire. The Coin won't like it."
      },
      {
       "speaker": "B",
@@ -4282,7 +4282,7 @@
  {
   "action": "sell",
   "kind": "deed",
-  "who": "stallholders, rivals and the steward's people, about the player selling goods in the market and moving prices",
+  "who": "stallholders, rivals and the custodian's people, about the player selling goods in the market and moving prices",
   "exchanges": [
    {
     "id": "deed_sell_01",
@@ -4462,18 +4462,18 @@
      "place": "market",
      "news": null,
      "standing": null,
-     "hold": "Reedwatch",
+     "hold": "Aquifer Gate",
      "mood": null,
      "attitude": null
     },
     "lines": [
      {
       "speaker": "A",
-      "text": "Stranger sold {good} cheap and Reedwatch cheered."
+      "text": "Stranger sold {good} cheap and Aquifer Gate cheered."
      },
      {
       "speaker": "B",
-      "text": "We cheer anything cheap. That's Reedwatch's whole charm."
+      "text": "We cheer anything cheap. That's Aquifer Gate's whole charm."
      }
     ]
    }
@@ -4568,7 +4568,7 @@
     "lines": [
      {
       "speaker": "A",
-      "text": "A ring from a March fort, sold in {town}'s own market."
+      "text": "A ring from a Verge fort, sold in {town}'s own market."
      },
      {
       "speaker": "B",
@@ -4637,11 +4637,11 @@
     "lines": [
      {
       "speaker": "A",
-      "text": "{player} sold the library a ledger from the March forts."
+      "text": "{player} sold the library a ledger from the Verge forts."
      },
      {
       "speaker": "B",
-      "text": "Stewards' hand. Before the Breaking. Did they know what they had?"
+      "text": "Custodians' hand. Before the Breaking. Did they know what they had?"
      }
     ]
    },
@@ -4859,7 +4859,7 @@
      },
      {
       "speaker": "B",
-      "text": "A champion with a sickcart. The old Stewards did that."
+      "text": "A champion with a sickcart. The old Custodians did that."
      }
     ]
    }
@@ -4974,7 +4974,7 @@
      "place": "inn",
      "news": null,
      "standing": null,
-     "hold": "Stonepass Refuge",
+     "hold": "Basalt Redoubt",
      "mood": null,
      "attitude": null
     },
@@ -5146,7 +5146,7 @@
      "place": "inn",
      "news": null,
      "standing": null,
-     "hold": "Reedwatch",
+     "hold": "Aquifer Gate",
      "mood": null,
      "attitude": null
     },
@@ -5789,7 +5789,7 @@
  {
   "action": "enrol",
   "kind": "deed",
-  "who": "families, clergy, scholars and the keep's household, about the player sending a mage or healer to the tower school by Mereworth",
+  "who": "families, clergy, scholars and the keep's household, about the player sending a mage or healer to the tower school by Silt-Worth",
   "exchanges": [
    {
     "id": "deed_enrol_01",
@@ -5806,7 +5806,7 @@
     "lines": [
      {
       "speaker": "A",
-      "text": "{player} sent someone to the tower school by Mereworth."
+      "text": "{player} sent someone to the tower school by Silt-Worth."
      },
      {
       "speaker": "B",
@@ -5975,7 +5975,7 @@
     "lines": [
      {
       "speaker": "A",
-      "text": "{player}'s coin sent the tanner's son to Mereworth."
+      "text": "{player}'s coin sent the tanner's son to Silt-Worth."
      },
      {
       "speaker": "B",
@@ -6159,7 +6159,7 @@
      "place": "inn",
      "news": null,
      "standing": null,
-     "hold": "First Hearth",
+     "hold": "First Monolith",
      "mood": null,
      "attitude": null
     },
@@ -6281,7 +6281,7 @@
      "place": "market",
      "news": null,
      "standing": null,
-     "hold": "Sunward Exchange",
+     "hold": "Sol-Spire Concourse",
      "mood": null,
      "attitude": null
     },
@@ -6594,14 +6594,14 @@
      "place": "inn",
      "news": null,
      "standing": null,
-     "hold": "Stonepass Refuge",
+     "hold": "Basalt Redoubt",
      "mood": null,
      "attitude": null
     },
     "lines": [
      {
       "speaker": "A",
-      "text": "The slaver camp west of Stonepass is burnt. {player}'s work."
+      "text": "The slaver camp west of Basalt Redoubt is burnt. {player}'s work."
      },
      {
       "speaker": "B",
@@ -7167,14 +7167,14 @@
      "place": "market",
      "news": null,
      "standing": null,
-     "hold": "Sunward Exchange",
+     "hold": "Sol-Spire Concourse",
      "mood": null,
      "attitude": null
     },
     "lines": [
      {
       "speaker": "A",
-      "text": "In Sunward money's money. Even slavers' money."
+      "text": "In Sol-Spire money's money. Even slavers' money."
      },
      {
       "speaker": "B",
@@ -7614,7 +7614,7 @@
      },
      {
       "speaker": "B",
-      "text": "Old Stewards climbed to the Rim lookouts too. Maybe that's the point."
+      "text": "Old Custodians climbed to the Rim lookouts too. Maybe that's the point."
      }
     ]
    }

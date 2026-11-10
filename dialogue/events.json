@@ -63,7 +63,7 @@
      "place": "market",
      "news": "shortage",
      "standing": null,
-     "hold": "Sunward Exchange",
+     "hold": "Sol-Spire Concourse",
      "mood": null,
      "attitude": null
     },
@@ -74,7 +74,7 @@
      },
      {
       "speaker": "B",
-      "text": "Spoken like a true son of Sunward."
+      "text": "Spoken like a true son of Sol-Spire."
      },
      {
       "speaker": "C",
@@ -90,7 +90,7 @@
      "place": "workshop",
      "news": "shortage",
      "standing": null,
-     "hold": "Stonepass Refuge",
+     "hold": "Basalt Redoubt",
      "mood": null,
      "attitude": null
     },
@@ -144,7 +144,7 @@
      "place": null,
      "news": "shortage",
      "standing": null,
-     "hold": "Reedwatch",
+     "hold": "Aquifer Gate",
      "mood": null,
      "attitude": null
     },
@@ -155,7 +155,7 @@
      },
      {
       "speaker": "B",
-      "text": "Reedwatch could go without for a living. We've the practice."
+      "text": "Aquifer Gate could go without for a living. We've the practice."
      }
     ]
    }
@@ -245,7 +245,7 @@
      "place": null,
      "news": "trade change",
      "standing": null,
-     "hold": "First Hearth",
+     "hold": "First Monolith",
      "mood": null,
      "attitude": null
     },
@@ -454,7 +454,7 @@
     "lines": [
      {
       "speaker": "A",
-      "text": "They say the old master retired rich, on a chest of Sunward gold."
+      "text": "They say the old master retired rich, on a chest of Sol-Spire gold."
      },
      {
       "speaker": "B",
@@ -523,7 +523,7 @@
      "place": "temple",
      "news": "promoted",
      "standing": null,
-     "hold": "Canopy Rest",
+     "hold": "Ribcage Vault",
      "mood": null,
      "attitude": null
     },
@@ -794,7 +794,7 @@
      "place": "inn",
      "news": "feud",
      "standing": null,
-     "hold": "Reedwatch",
+     "hold": "Aquifer Gate",
      "mood": null,
      "attitude": null
     },
@@ -1164,7 +1164,7 @@
      "place": null,
      "news": "deaths",
      "standing": null,
-     "hold": "Stonepass Refuge",
+     "hold": "Basalt Redoubt",
      "mood": null,
      "attitude": null
     },
@@ -1362,7 +1362,7 @@
      "place": null,
      "news": "fold",
      "standing": null,
-     "hold": "First Hearth",
+     "hold": "First Monolith",
      "mood": null,
      "attitude": null
     },
@@ -1731,7 +1731,7 @@
      "place": null,
      "news": "order",
      "standing": null,
-     "hold": "Stonepass Refuge",
+     "hold": "Basalt Redoubt",
      "mood": null,
      "attitude": null
     },
@@ -1742,7 +1742,7 @@
      },
      {
       "speaker": "B",
-      "text": "Good. Let Reedwatch pay highland prices for once."
+      "text": "Good. Let Aquifer Gate pay highland prices for once."
      }
     ]
    },
@@ -1975,7 +1975,7 @@
      "place": null,
      "news": "raid",
      "standing": null,
-     "hold": "Stonepass Refuge",
+     "hold": "Basalt Redoubt",
      "mood": null,
      "attitude": null
     },
@@ -1986,7 +1986,7 @@
      },
      {
       "speaker": "B",
-      "text": "Say First Hearth out loud and see who's listening."
+      "text": "Say First Monolith out loud and see who's listening."
      }
     ]
    }
@@ -2176,7 +2176,7 @@
      "place": null,
      "news": "filled",
      "standing": null,
-     "hold": "Stonepass Refuge",
+     "hold": "Basalt Redoubt",
      "mood": null,
      "attitude": null
     },
@@ -2302,7 +2302,7 @@
      "place": null,
      "news": "lodge",
      "standing": null,
-     "hold": "Sunward Exchange",
+     "hold": "Sol-Spire Concourse",
      "mood": null,
      "attitude": null
     },
@@ -2348,7 +2348,7 @@
      "place": null,
      "news": "lodge",
      "standing": null,
-     "hold": "Stonepass Refuge",
+     "hold": "Basalt Redoubt",
      "mood": null,
      "attitude": null
     },
@@ -2424,7 +2424,7 @@
      "place": null,
      "news": "slavers",
      "standing": null,
-     "hold": "Stonepass Refuge",
+     "hold": "Basalt Redoubt",
      "mood": null,
      "attitude": null
     },
@@ -2447,7 +2447,7 @@
      "place": null,
      "news": "slavers",
      "standing": null,
-     "hold": "Sunward Exchange",
+     "hold": "Sol-Spire Concourse",
      "mood": null,
      "attitude": null
     },
@@ -2958,7 +2958,7 @@
      "place": "inn",
      "news": "hero",
      "standing": null,
-     "hold": "First Hearth",
+     "hold": "First Monolith",
      "mood": null,
      "attitude": null
     },
@@ -3183,14 +3183,14 @@
      "place": null,
      "news": "state",
      "standing": null,
-     "hold": "Reedwatch",
+     "hold": "Aquifer Gate",
      "mood": null,
      "attitude": null
     },
     "lines": [
      {
       "speaker": "A",
-      "text": "Reedwatch thriving. Never thought I'd live to say it."
+      "text": "Aquifer Gate thriving. Never thought I'd live to say it."
      },
      {
       "speaker": "B",
@@ -3475,7 +3475,7 @@
      "place": "temple",
      "news": "moves",
      "standing": null,
-     "hold": "Canopy Rest",
+     "hold": "Ribcage Vault",
      "mood": null,
      "attitude": null
     },
@@ -3574,7 +3574,7 @@
      "place": "temple",
      "news": "leak",
      "standing": null,
-     "hold": "Canopy Rest",
+     "hold": "Ribcage Vault",
      "mood": null,
      "attitude": null
     },
@@ -3742,7 +3742,7 @@
      "place": null,
      "news": "overrun",
      "standing": null,
-     "hold": "Stonepass Refuge",
+     "hold": "Basalt Redoubt",
      "mood": null,
      "attitude": null
     },
@@ -4108,7 +4108,7 @@
      "place": null,
      "news": "occupied",
      "standing": null,
-     "hold": "Stonepass Refuge",
+     "hold": "Basalt Redoubt",
      "mood": null,
      "attitude": null
     },
@@ -4547,7 +4547,7 @@
      "place": "temple",
      "news": "cleared",
      "standing": null,
-     "hold": "Canopy Rest",
+     "hold": "Ribcage Vault",
      "mood": null,
      "attitude": null
     },
@@ -5016,14 +5016,14 @@
      "place": null,
      "news": "home",
      "standing": null,
-     "hold": "Stonepass Refuge",
+     "hold": "Basalt Redoubt",
      "mood": null,
      "attitude": null
     },
     "lines": [
      {
       "speaker": "A",
-      "text": "Stonepass paid the ransom again."
+      "text": "Basalt Redoubt paid the ransom again."
      },
      {
       "speaker": "B",
@@ -5191,7 +5191,7 @@
      "place": null,
      "news": "ambush",
      "standing": null,
-     "hold": "First Hearth",
+     "hold": "First Monolith",
      "mood": null,
      "attitude": null
     },
@@ -5202,7 +5202,7 @@
      },
      {
       "speaker": "B",
-      "text": "Somebody with Sunward silver, I'd wager."
+      "text": "Somebody with Sol-Spire silver, I'd wager."
      }
     ]
    }
@@ -5389,7 +5389,7 @@
      "place": "inn",
      "news": "abandoned",
      "standing": null,
-     "hold": "Sunward Exchange",
+     "hold": "Sol-Spire Concourse",
      "mood": null,
      "attitude": null
     },
@@ -5416,7 +5416,7 @@
      "place": null,
      "news": "abandoned",
      "standing": null,
-     "hold": "First Hearth",
+     "hold": "First Monolith",
      "mood": null,
      "attitude": null
     },
@@ -5515,7 +5515,7 @@
      "place": null,
      "news": "resettled",
      "standing": null,
-     "hold": "Sunward Exchange",
+     "hold": "Sol-Spire Concourse",
      "mood": null,
      "attitude": null
     },
@@ -5601,7 +5601,7 @@
     "lines": [
      {
       "speaker": "A",
-      "text": "A calamity's risen in the March. They're calling it {calamity}."
+      "text": "A calamity's risen in the Verge. They're calling it {calamity}."
      },
      {
       "speaker": "B",
@@ -5693,7 +5693,7 @@
     "lines": [
      {
       "speaker": "A",
-      "text": "Ash-light over the March last night. Now we know its name."
+      "text": "Ash-light over the Verge last night. Now we know its name."
      },
      {
       "speaker": "B",

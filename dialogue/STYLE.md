@@ -1,6 +1,6 @@
 # Dialogue: format and style guide
 
-Every NPC in Guardians can talk to every other NPC about whatever they are doing. Dialogue is **ambient**: two people who share a place and an activity exchange a few lines, and the player overhears them if they're in earshot. Think of Oblivion's townsfolk chatter and Kenshi's barks, with *Game of Thrones* grit.
+Every NPC in Argus can talk to every other NPC about whatever they are doing. Dialogue is **ambient**: two people who share a place and an activity exchange a few lines, and the player overhears them if they're in earshot. Think of Oblivion's townsfolk chatter and Kenshi's barks, with *Game of Thrones* grit.
 
 The action list is in [`src/actions.json`](src/actions.json): every activity on the Living World Map, every world event, and every player deed.
 
@@ -35,7 +35,7 @@ One JSON file per category in `dialogue/`. Each file is a list of **sets**:
   * `place`: `home`, `inn`, `market`, `temple`, `keep`, `field`, `wild`, `road`, `camp` or `workshop`.
   * `news`: an event kind from `actions.json` that the speakers have **heard**.
   * `standing`: the speakers' view of the player: `Hunted`, `Shunned`, `Distrusted`, `Neutral`, `Friend`, `Champion`, `Titled` or `Councillor`. Use this for deed reactions.
-  * `hold`: one of the five holds, by full name: `First Hearth`, `Canopy Rest`, `Reedwatch`, `Sunward Exchange` or `Stonepass Refuge`.
+  * `hold`: one of the five holds, by full name: `First Monolith`, `Ribcage Vault`, `Aquifer Gate`, `Sol-Spire Concourse` or `Basalt Redoubt`.
   * `mood` (squad only): the speaker's loyalty, from the map's pay and warnings: `loyal`, `content`, `grumbling` or `leaving`.
   * `attitude` (squad only): the player's tracked attitude (see `story/07-life-paths.md`): `merciful`, `ruthless`, `greedy`, `honourable`, `pious` or `curious`.
 * `speaker`: `A`, `B` or `C`. For creature activities, the speakers are people who **see** the creatures.
@@ -60,15 +60,15 @@ Only these. The game fills them from the simulation.
 | `{A}`, `{B}` | The speakers' first names |
 | `{town}` | The speakers' town |
 | `{lord}` | The town's lord, for example "Sir Robert" |
-| `{lady}`, `{steward}` | The lady and the steward |
+| `{lady}`, `{steward}` | The lady and the custodian |
 | `{hamlet}` | A hamlet of the town (from the event, if any) |
 | `{band}` | An outlaw band (from the event, if any) |
 | `{calamity}` | A calamity's generated name, for example "Zorulesh, Who Drinks the Wells" |
-| `{guild}` | The town's guild tavern, for example "Riftgate" |
+| `{guild}` | The town's guild tavern, for example "Fracture-Gate" |
 | `{good}` | A trade good |
 | `{player}` | What the speakers call the player: a name if they know it, otherwise "that stranger" |
 | `{dead}` | The name of someone who died (from the event, or the victim of a deed) |
-| `{hall}` | The player's hall, for example "the hall near Reedwatch" (squad only) |
+| `{hall}` | The player's hall, for example "the hall near Aquifer Gate" (squad only) |
 | `{site}` | A lair or mission site (squad only) |
 
 ## Ids
@@ -85,8 +85,8 @@ A deed supplies the placeholders that make sense for it: `camp` supplies `{band}
 * **Lines are short:** under 20 words each, so they read as barks.
 * **People only know what they've heard.** News lines need a `news` condition.
 * **Every class sounds different.** Lords are measured and threatening. Clergy are pious or tired. Outlaws are coarse and loyal. Farmers are practical. Scholars are pedantic.
-* **The world leaks through.** Mention the canon: the Blight, the Crows, the lords' hunts, the Half Law, the Forest Charter, the beacons, the Hearth-Moot, taxes, prices and the empty throne.
-* **Hold colour:** First Hearth is proud and royal, Canopy Rest pious and woody, Reedwatch poor and wry, Sunward rich and mercantile, Stonepass clannish and hard.
+* **The world leaks through.** Mention the canon: the Blight, the Crows, the lords' hunts, the Half Law, the Forest Charter, the beacons, the Monolith-Moot, taxes, prices and the empty throne.
+* **Hold colour:** First Monolith is proud and royal, Ribcage Vault pious and woody, Aquifer Gate poor and wry, Sol-Spire rich and mercantile, Basalt Redoubt clannish and hard.
 * No modern idiom, no profanity stronger than "bloody", "piss" or "arse", and no slurs.
 
 ## Canon to draw on

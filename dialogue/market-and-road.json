@@ -170,14 +170,14 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Sunward Exchange",
+     "hold": "Sol-Spire Concourse",
      "mood": null,
      "attitude": null
     },
     "lines": [
      {
       "speaker": "A",
-      "text": "Sunward prices. Even the flies pay a toll here."
+      "text": "Sol-Spire prices. Even the flies pay a toll here."
      },
      {
       "speaker": "B",
@@ -193,7 +193,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Stonepass Refuge",
+     "hold": "Basalt Redoubt",
      "mood": null,
      "attitude": null
     },
@@ -381,7 +381,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Reedwatch",
+     "hold": "Aquifer Gate",
      "mood": null,
      "attitude": null
     },
@@ -537,7 +537,7 @@
      "place": "road",
      "news": null,
      "standing": null,
-     "hold": "Sunward Exchange",
+     "hold": "Sol-Spire Concourse",
      "mood": null,
      "attitude": null
     },
@@ -672,7 +672,7 @@
     "lines": [
      {
       "speaker": "A",
-      "text": "Steward wants salt. There's none to be had."
+      "text": "Custodian wants salt. There's none to be had."
      },
      {
       "speaker": "B",
@@ -870,7 +870,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Sunward Exchange",
+     "hold": "Sol-Spire Concourse",
      "mood": null,
      "attitude": null
     },
@@ -893,7 +893,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Stonepass Refuge",
+     "hold": "Basalt Redoubt",
      "mood": null,
      "attitude": null
     },
@@ -1109,7 +1109,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Canopy Rest",
+     "hold": "Ribcage Vault",
      "mood": null,
      "attitude": null
     },
@@ -1661,14 +1661,14 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "First Hearth",
+     "hold": "First Monolith",
      "mood": null,
      "attitude": null
     },
     "lines": [
      {
       "speaker": "A",
-      "text": "First Hearth bread, first quality. Fit for a king."
+      "text": "First Monolith bread, first quality. Fit for a king."
      },
      {
       "speaker": "B",
@@ -1846,7 +1846,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Sunward Exchange",
+     "hold": "Sol-Spire Concourse",
      "mood": null,
      "attitude": null
     },
@@ -1951,7 +1951,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Canopy Rest",
+     "hold": "Ribcage Vault",
      "mood": null,
      "attitude": null
     },
@@ -1987,7 +1987,7 @@
     "lines": [
      {
       "speaker": "A",
-      "text": "Ribbons from Sunward! Pins from Stonepass!"
+      "text": "Ribbons from Sol-Spire! Pins from Basalt Redoubt!"
      },
      {
       "speaker": "B",
@@ -2025,7 +2025,7 @@
      },
      {
       "speaker": "B",
-      "text": "Thomas Gray, out of Sunward. Jewels and coin, they say."
+      "text": "Thomas Gray, out of Sol-Spire. Jewels and coin, they say."
      },
      {
       "speaker": "A",
@@ -2064,7 +2064,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Reedwatch",
+     "hold": "Aquifer Gate",
      "mood": null,
      "attitude": null
     },
@@ -2087,7 +2087,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Stonepass Refuge",
+     "hold": "Basalt Redoubt",
      "mood": null,
      "attitude": null
     },
@@ -2279,7 +2279,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Reedwatch",
+     "hold": "Aquifer Gate",
      "mood": null,
      "attitude": null
     },
@@ -2417,18 +2417,18 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Reedwatch",
+     "hold": "Aquifer Gate",
      "mood": null,
      "attitude": null
     },
     "lines": [
      {
       "speaker": "A",
-      "text": "Reedwatch carp. Tastes of mud."
+      "text": "Aquifer Gate carp. Tastes of mud."
      },
      {
       "speaker": "B",
-      "text": "Tastes of Reedwatch, then."
+      "text": "Tastes of Aquifer Gate, then."
      }
     ]
    }
@@ -2474,7 +2474,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Canopy Rest",
+     "hold": "Ribcage Vault",
      "mood": null,
      "attitude": null
     },
@@ -2581,7 +2581,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Reedwatch",
+     "hold": "Aquifer Gate",
      "mood": null,
      "attitude": null
     },
@@ -2699,7 +2699,7 @@
      },
      {
       "speaker": "B",
-      "text": "The steward pays slow, but he pays."
+      "text": "The custodian pays slow, but he pays."
      }
     ]
    },
@@ -2768,7 +2768,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Reedwatch",
+     "hold": "Aquifer Gate",
      "mood": null,
      "attitude": null
     },
@@ -2879,7 +2879,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Reedwatch",
+     "hold": "Aquifer Gate",
      "mood": null,
      "attitude": null
     },
@@ -3077,7 +3077,7 @@
     "lines": [
      {
       "speaker": "A",
-      "text": "Steward's doubled the gate toll."
+      "text": "Custodian's doubled the gate toll."
      },
      {
       "speaker": "B",
@@ -3145,7 +3145,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Sunward Exchange",
+     "hold": "Sol-Spire Concourse",
      "mood": null,
      "attitude": null
     },
@@ -3202,7 +3202,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Canopy Rest",
+     "hold": "Ribcage Vault",
      "mood": null,
      "attitude": null
     },
@@ -3449,14 +3449,14 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Sunward Exchange",
+     "hold": "Sol-Spire Concourse",
      "mood": null,
      "attitude": null
     },
     "lines": [
      {
       "speaker": "A",
-      "text": "Juliana's gone to the refuge by First Hearth."
+      "text": "Juliana's gone to the refuge by First Monolith."
      },
      {
       "speaker": "B",
@@ -3472,7 +3472,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Stonepass Refuge",
+     "hold": "Basalt Redoubt",
      "mood": null,
      "attitude": null
     },
@@ -3529,7 +3529,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Sunward Exchange",
+     "hold": "Sol-Spire Concourse",
      "mood": null,
      "attitude": null
     },
@@ -3609,7 +3609,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Sunward Exchange",
+     "hold": "Sol-Spire Concourse",
      "mood": null,
      "attitude": null
     },
@@ -3718,7 +3718,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Sunward Exchange",
+     "hold": "Sol-Spire Concourse",
      "mood": null,
      "attitude": null
     },
@@ -3875,14 +3875,14 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "First Hearth",
+     "hold": "First Monolith",
      "mood": null,
      "attitude": null
     },
     "lines": [
      {
       "speaker": "A",
-      "text": "Sir Robert's steward kept us waiting all day."
+      "text": "Sir Robert's custodian kept us waiting all day."
      },
      {
       "speaker": "B",
@@ -3970,7 +3970,7 @@
      },
      {
       "speaker": "A",
-      "text": "Nothing. The steward said it for him."
+      "text": "Nothing. The custodian said it for him."
      }
     ]
    },
@@ -4009,7 +4009,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Sunward Exchange",
+     "hold": "Sol-Spire Concourse",
      "mood": null,
      "attitude": null
     },
@@ -4057,7 +4057,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Stonepass Refuge",
+     "hold": "Basalt Redoubt",
      "mood": null,
      "attitude": null
     },
@@ -4080,7 +4080,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Canopy Rest",
+     "hold": "Ribcage Vault",
      "mood": null,
      "attitude": null
     },
@@ -4436,7 +4436,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Reedwatch",
+     "hold": "Aquifer Gate",
      "mood": null,
      "attitude": null
     },
@@ -4518,7 +4518,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "First Hearth",
+     "hold": "First Monolith",
      "mood": null,
      "attitude": null
     },
@@ -4621,7 +4621,7 @@
      "place": "market",
      "news": null,
      "standing": null,
-     "hold": "First Hearth",
+     "hold": "First Monolith",
      "mood": null,
      "attitude": null
     },
@@ -4755,7 +4755,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Reedwatch",
+     "hold": "Aquifer Gate",
      "mood": null,
      "attitude": null
     },

@@ -1619,19 +1619,19 @@
  "events": [
   {
    "event": "shortage",
-   "example": "A quarry face falls at Canopy Rest: its stone runs short for some weeks and prices there climb."
+   "example": "A quarry face falls at Ribcage Vault: its stone runs short for some weeks and prices there climb."
   },
   {
    "event": "trade change",
-   "example": "A huntsmen crew of First Hearth turns to herb gatherers work: it pays better this season."
+   "example": "A huntsmen crew of First Monolith turns to herb gatherers work: it pays better this season."
   },
   {
    "event": "retires",
-   "example": "John atte Gate of Sunward Exchange, journeyman in Martial at level 40, retires from the bench and lives on in the town; John Little takes the bench as an apprentice."
+   "example": "John atte Gate of Sol-Spire Concourse, journeyman in Martial at level 40, retires from the bench and lives on in the town; John Little takes the bench as an apprentice."
   },
   {
    "event": "promoted",
-   "example": "Adam Thomson of First Hearth becomes a journeyman in Weaving at level 16."
+   "example": "Adam Thomson of First Monolith becomes a journeyman in Weaving at level 16."
   },
   {
    "event": "hunt",
@@ -1643,55 +1643,55 @@
   },
   {
    "event": "adventurers",
-   "example": "Word of the danger draws adventurers to the Sunward Exchange guild: 53 members now, 13 of them camped around Blightwatch because the guild tavern is full."
+   "example": "Word of the danger draws adventurers to the Sol-Spire Concourse guild: 53 members now, 13 of them camped around Necro-Needle because the guild tavern is full."
   },
   {
    "event": "deaths",
-   "example": "Beatrice Thatcher (level 42) of the First Hearth guild dies at the rift in the Blighted; 4 come back to Riftgate."
+   "example": "Beatrice Thatcher (level 42) of the First Monolith guild dies at the rift in the Necro-Plinth; 4 come back to Fracture-Gate."
   },
   {
    "event": "level",
-   "example": "Matilda Swift of the First Hearth guild comes back from the rift at level 50 (from 44)."
+   "example": "Matilda Swift of the First Monolith guild comes back from the rift at level 50 (from 44)."
   },
   {
    "event": "fold",
-   "example": "6 men of the Red Crows camp take 3 head from a fold of Whitden in the night; the hamlet is too well watched for more."
+   "example": "6 men of the Red Crows camp take 3 head from a fold of Weth-Plex in the night; the hamlet is too well watched for more."
   },
   {
    "event": "escort",
-   "example": "Outlaws of the Thornback Brothers camp shadow the carts from Radham, but the escort of 6 guards is too many for them."
+   "example": "Outlaws of the Thornback Brothers camp shadow the carts from Weth-Plex, but the escort of 6 guards is too many for them."
   },
   {
    "event": "rotate",
-   "example": "Deer ground north of Sunward Exchange is hunted out; Sunward Exchange's huntsmen (3 crews) move to Deer ground north-east of Sunward Exchange."
+   "example": "Deer ground north of Sol-Spire Concourse is hunted out; Sol-Spire Concourse's huntsmen (3 crews) move to Deer ground north-east of Sol-Spire Concourse."
   },
   {
    "event": "order",
-   "example": "Reedwatch: the smiths post a buy order at the trading post for 246 ore at 1.12 times the base price."
+   "example": "Aquifer Gate: the smiths post a buy order at the trading post for 246 ore at 1.12 times the base price."
   },
   {
    "event": "raid",
-   "example": "18 men of the Iron Reavers camp raid Tunden, against 2 watchmen and its farmers: 3,072 grain and 198 meat carried off, 14 people killed or fled, the fields burned. Stonepass Refuge will get nothing from it this round."
+   "example": "18 men of the Iron Reavers camp raid Tunden, against 2 watchmen and its farmers: 3,072 grain and 198 meat carried off, 14 people killed or fled, the fields burned. Basalt Redoubt will get nothing from it this round."
   },
   {
    "event": "missed",
-   "example": "Sunward Exchange has no guards to spare from the walls: the round to Elywick, Ketwick is missed and their food waits in the barns."
+   "example": "Sol-Spire Concourse has no guards to spare from the walls: the round to Elywick, Ketwick is missed and their food waits in the barns."
   },
   {
    "event": "filled",
-   "example": "Carriers from Stonepass Refuge bring the last of 246 ore into Reedwatch; the order from the smiths is filled."
+   "example": "Carriers from Basalt Redoubt bring the last of 246 ore into Aquifer Gate; the order from the smiths is filled."
   },
   {
    "event": "lodge",
-   "example": "Alice Good of the Sunward Exchange hunting lodge does not come back from the week's hunting."
+   "example": "Alice Good of the Sol-Spire Concourse hunting lodge does not come back from the week's hunting."
   },
   {
    "event": "slavers",
-   "example": "Slavers from the north try Cranham, but guards out of Stonepass Refuge answer the alarm and, with its watch and able folk, drive them off."
+   "example": "Slavers from the north try Cranham, but guards out of Basalt Redoubt answer the alarm and, with its watch and able folk, drive them off."
   },
   {
    "event": "signed",
-   "example": "To replace its dead, the First Hearth guild signs Richard Watson (Marksmanship, aptitude 100) for 46 coin and 8 a week."
+   "example": "To replace its dead, the First Monolith guild signs Richard Watson (Marksmanship, aptitude 100) for 46 coin and 8 a week."
   },
   {
    "event": "blight",
@@ -1699,15 +1699,15 @@
   },
   {
    "event": "return",
-   "example": "Deer ground south-east of First Hearth has grown back; First Hearth's huntsmen (2 crews) return to it."
+   "example": "Deer ground south-east of First Monolith has grown back; First Monolith's huntsmen (2 crews) return to it."
   },
   {
    "event": "hero",
-   "example": "The lord of First Hearth sends a hero against the Iron Reavers camp, grown to 29 men: the camp is broken and its men scatter; 6 are left."
+   "example": "The lord of First Monolith sends a hero against the Iron Reavers camp, grown to 29 men: the camp is broken and its men scatter; 6 are left."
   },
   {
    "event": "state",
-   "example": "Canopy Rest is Thriving again: 31 days of grain in the granary, and wood and meat to spare: the inn fills and the patrols go out to the far road watch."
+   "example": "Ribcage Vault is Thriving again: 31 days of grain in the granary, and wood and meat to spare: the inn fills and the patrols go out to the far road watch."
   },
   {
    "event": "pack",
@@ -1715,7 +1715,7 @@
   },
   {
    "event": "moves",
-   "example": "The wolf den in the Frontier has gone hungry ten days; its creatures now range to the folds of Holton every night."
+   "example": "The wolf den in the Spore Verge has gone hungry ten days; its creatures now range to the folds of Holton every night."
   },
   {
    "event": "leak",
@@ -1723,7 +1723,7 @@
   },
   {
    "event": "overrun",
-   "example": "A pack of 7 Blight-born out of the rift overruns Kirkden: its 8 people flee to Sunward Exchange. The town has lost a hamlet's food until its guild clears it."
+   "example": "A pack of 7 Blight-born out of the rift overruns Crypt-Den: its 8 people flee to Sol-Spire Concourse. The town has lost a hamlet's food until its guild clears it."
   },
   {
    "event": "camp breaks",
@@ -1731,15 +1731,15 @@
   },
   {
    "event": "hunted",
-   "example": "6 members of the Sunward Exchange guild ride out of Blightwatch and destroy a pack of 4 Blight-born out of the blight nest before it reaches the hamlets (240 coin from the town)."
+   "example": "6 members of the Sol-Spire Concourse guild ride out of Necro-Needle and destroy a pack of 4 Blight-born out of the blight nest before it reaches the hamlets (240 coin from the town)."
   },
   {
    "event": "occupied",
-   "example": "22 men of the Iron Reavers camp take Malstead and stay: its 133 people flee to Stonepass Refuge. The hamlet's fields now feed the band, and Stonepass Refuge posts a contract to retake it."
+   "example": "22 men of the Iron Reavers camp take Malstead and stay: its 133 people flee to Basalt Redoubt. The hamlet's fields now feed the band, and Basalt Redoubt posts a contract to retake it."
   },
   {
    "event": "refugees",
-   "example": "Stonepass Refuge's beds are full: 161 refugees and newcomers sleep in a camp by the walls, and eat from the town's granary."
+   "example": "Basalt Redoubt's beds are full: 161 refugees and newcomers sleep in a camp by the walls, and eat from the town's granary."
   },
   {
    "event": "camp moves",
@@ -1747,43 +1747,43 @@
   },
   {
    "event": "cleared",
-   "example": "9 members of the Sunward Exchange guild clear the Blight-born out of Ulfham (360 coin from the town). Settlers follow."
+   "example": "9 members of the Sol-Spire Concourse guild clear the Blight-born out of Ulfham (360 coin from the town). Settlers follow."
   },
   {
    "event": "retaken",
-   "example": "8 adventurers out of Stonepass Refuge retake Malstead from 22 men of the Iron Reavers camp (320 coin from the town). Its people begin to come home."
+   "example": "8 adventurers out of Basalt Redoubt retake Malstead from 22 men of the Iron Reavers camp (320 coin from the town). Its people begin to come home."
   },
   {
    "event": "notice",
-   "example": "Reedwatch has lost its weaponsmithing and posts a notice: a journeyman is wanted."
+   "example": "Aquifer Gate has lost its weaponsmithing and posts a notice: a journeyman is wanted."
   },
   {
    "event": "hired",
-   "example": "Reedwatch hires Margaret Smith, a weaponsmithing journeyman, away from First Hearth for 150 coin."
+   "example": "Aquifer Gate hires Margaret Smith, a weaponsmithing journeyman, away from First Monolith for 150 coin."
   },
   {
    "event": "home",
-   "example": "7 people of Hurstead, ransomed by Stonepass Refuge, come home from the slavers' holds."
+   "example": "7 people of Hurstead, ransomed by Basalt Redoubt, come home from the slavers' holds."
   },
   {
    "event": "ambush",
-   "example": "14 men of the Thornback Brothers camp fall on the carts from Radham; the escort of 6 cannot hold them and the grain is lost."
+   "example": "14 men of the Thornback Brothers camp fall on the carts from Weth-Plex; the escort of 6 cannot hold them and the grain is lost."
   },
   {
    "event": "graduate",
-   "example": "John Dickson comes home to First Hearth from the tower school by Mereworth, a trained hand at magic (level 43 to 61), and goes back to their trade; the guild or the player character may recruit them."
+   "example": "John Dickson comes home to First Monolith from the tower school by Silt-Worth, a trained hand at magic (level 43 to 61), and goes back to their trade; the guild or the player character may recruit them."
   },
   {
    "event": "abandoned",
-   "example": "Struck 3 times in three weeks, Malton is abandoned: 7 people walk to Sunward Exchange."
+   "example": "Struck 3 times in three weeks, Malton is abandoned: 7 people walk to Sol-Spire Concourse."
   },
   {
    "event": "resettled",
-   "example": "6 townsfolk of Sunward Exchange go out to resettle Malton, safe now for a fortnight. It will be a season before it feeds the town as it did."
+   "example": "6 townsfolk of Sol-Spire Concourse go out to resettle Malton, safe now for a fortnight. It will be a season before it feeds the town as it did."
   },
   {
    "event": "apex",
-   "example": "A new calamity has risen in the broken fort in the The Broken March: Zorulesh, Who Drinks the Wells. The old one does not return."
+   "example": "A new calamity has risen in the broken fort in the The Fracture Verge: Zorulesh, Who Drinks the Wells. The old one does not return."
   },
   {
    "event": "season",
@@ -1799,7 +1799,7 @@
   },
   {
    "event": "party lost",
-   "example": "A level 34 party of the Reedwatch guild goes into the rift in the Blighted and none come back: Avice Black (level 37), Emma Webster (level 36), Walter Dickson (level 32), John Long (level 32), Hugh Black (level 32)."
+   "example": "A level 34 party of the Aquifer Gate guild goes into the rift in the Necro-Plinth and none come back: Avice Black (level 37), Emma Webster (level 36), Walter Dickson (level 32), John Long (level 32), Hugh Black (level 32)."
   },
   {
    "event": "expedition",
@@ -1807,7 +1807,7 @@
   },
   {
    "event": "slain",
-   "example": "The cataclysm of the rift in the Blighted is slain. Nothing of its tier will rise there again."
+   "example": "The cataclysm of the rift in the Necro-Plinth is slain. Nothing of its tier will rise there again."
   }
  ],
  "player_deeds": [

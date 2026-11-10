@@ -6,7 +6,7 @@
 
 | Source | Who uses it | In the world |
 |---|---|---|
-| **Steel** (Martial) | Guardsmen, Duellists, Sellswords, Brigands | Most of the realm's power. Sword-forms were codified by the Stewards and passed down in the guilds. |
+| **Steel** (Martial) | Guardsmen, Duellists, Sellswords, Brigands | Most of the realm's power. Sword-forms were codified by the Custodians and passed down in the guilds. |
 | **The Bow** (Marksmanship) | Wardens, Scouts, Hunters, Rangers | Commoners' power. Wardens once manned the Rim lookouts. |
 | **Arcane** (Magic) | Scholars, Wanderers, Hermits, Court Mages | Learned, rare and slightly feared. Drawn from **leylines**, faint currents in the ground. This is why a mage's power peaks in the *Leyline Band* (6–9.5 m) and is strongest inside ground sigils. |
 | **Faith** (Magic) | Clerics, Healers, Pilgrims, Anchorites | Prayer made real. All healing is Faith. Faith is weaker in raw damage (0.6x AP) but protects the whole party. |
@@ -15,13 +15,13 @@
 
 ### The mages of the realm (from the map)
 
-The map's rosters hold about **90 sorcerers**, **10 mages**, cunning folk in every hold, and an alchemist family in Stonepass. Magic is rare among the people the player meets, but not unknown:
+The map's rosters hold about **90 sorcerers**, **10 mages**, cunning folk in every hold, and an alchemist family in Basalt Redoubt. Magic is rare among the people the player meets, but not unknown:
 
 * **Sorcerers** are commoners with a gift who keep it quiet. They gather nine at a time in **conclave at the five stone circles**, which sit on leylines.
-* **Mages** are trained, mostly at **the Arcane Academy** and the town libraries. Court mages (Dame Matilda of Sunward, the steward John Dickson) serve lords.
-* **Cunning folk** know hedge-magic: charms, herb-lore and the odd ward. Some are heroes, like Nicholas Swift of Stonepass.
-* **Margaret the Sage** wanders the realm holding audiences with lords. She can **awaken** a sleeping gift, as she does for Robert Cordwainer in First Hearth's market. In game terms, awakening is how an NPC gains a Magic major, and the player can ask her to do it for a companion.
-* **Warlocks** are mages who sell their power or take what they want. **Juliana the Warlock** holds the last spring in the Sunward desert and tolls its water. When she is beaten she is **exiled** to the warlock's refuge outside First Hearth.
+* **Mages** are trained, mostly at **the Arcane Academy** and the town libraries. Court mages (Dame Matilda of Sol-Spire, the custodian John Dickson) serve lords.
+* **Cunning folk** know hedge-magic: charms, herb-lore and the odd ward. Some are heroes, like Nicholas Swift of Basalt Redoubt.
+* **Margaret the Sage** wanders the realm holding audiences with lords. She can **awaken** a sleeping gift, as she does for Robert Cordwainer in First Monolith's market. In game terms, awakening is how an NPC gains a Magic major, and the player can ask her to do it for a companion.
+* **Warlocks** are mages who sell their power or take what they want. **Juliana the Warlock** holds the last spring in the Sol-Spire desert and tolls its water. When she is beaten she is **exiled** to the warlock's refuge outside First Monolith.
 * **The Company of the Lantern** are free mages who answer to no lord.
 
 **Why magic is rare:** an Arcane aptitude good enough for Journeyman is held by about 35% of those trained, and only the top 3% reach Master. Most mages are scholars who can throw one good firebolt. A true Arcane Master is a political asset that houses fight over, which is part of why Joan Thomson matters.
@@ -61,7 +61,7 @@ These are the names players hear in dialogue and see in the UI. Each maps to an 
 | **Slash** | *Quick Slash* (Sword L1) | A fast one-handed cut |
 | **Hamstring** | *Tendon Cut* (Sword L5) | A low cut to the leg that makes the target bleed and slows it |
 | **Flurry** | *Flurry of Steel* (Sword L30) | A quick double strike |
-| **Steward's Riposte** | Same (Sword L50) | The old Steward counter: parry, then an unblockable cut. The player learns it at Master. |
+| **Custodian's Riposte** | Same (Sword L50) | The old Custodian counter: parry, then an unblockable cut. The player learns it at Master. |
 | **Cleave** | *Reaping Arc* (Axe L15) | A wide swing through a group |
 | **Execute** | *Executioner's Guillotine* (Axe L50) | An overhead chop that finishes a wounded enemy |
 | **Skewer** | *Impaling Lunge* (Spear L5) | A spear thrust that pierces a line of enemies |
@@ -80,11 +80,11 @@ These are the names players hear in dialogue and see in the UI. Each maps to an 
 
 ## How the systems become story
 
-* **No dodge roll.** Stewards' training says *"A Steward does not leap. A Steward steps."* Footwork, flanking and spacing are taught as the old Steward discipline, and John Thomson teaches them as tutorials in Act I.
+* **No dodge roll.** Custodians' training says *"A Custodian does not leap. A Custodian steps."* Footwork, flanking and spacing are taught as the old Custodian discipline, and John Thomson teaches them as tutorials in Act I.
 * **Auto-triggered abilities.** In-world, these are *drilled forms*: trained fighters act on instinct. The player commands where to stand; the body knows what to do.
 * **Sweet-spot rings.** Every weapon school teaches its "measure", the distance at which the weapon sings.
 * **Flank arcs.** The duellist's proverb: *"A shield only guards one way."*
-* **Wall-pins.** These are Stonepass hammer-lore, "Give them to the stone."
+* **Wall-pins.** These are Basalt Redoubt hammer-lore, "Give them to the stone."
 * **Permadeath and wounds.** Death is permanent, but a beaten survivor is wounded and must rest. The healers' trade (and Sister Margaret's arc) revolve around this.
 * **Master true damage (15%).** Folk say that a master's blade "cuts what armour can't keep out". In the story, this is the visible proof of mastery.
 * **Talents.** The realm's word for them is "birth-gifts". *Arcane spark* children are sought by houses, *Blight-hardened* people are rumoured to have Blight in their blood, and *Born survivors* are said to be "refused by the grave".
@@ -93,7 +93,7 @@ These are the names players hear in dialogue and see in the UI. Each maps to an 
 
 * Horrors and calamities telegraph their attacks with **red ground shapes** that warn where they'll hit. In the fiction, the Blight is *visible*: grey-red cracks spread across the ground before it erupts.
 * *Blight-hardened* fighters and Faith wards resist it.
-* The Hermit's **Blight-Eater Rune** is "old Steward craft". It works because it starves the Blight of leyline power.
+* The Hermit's **Blight-Eater Rune** is "old Custodian craft". It works because it starves the Blight of leyline power.
 
 ## Every technique, by who teaches it
 
@@ -103,14 +103,14 @@ Every auto-triggered ability in `stewards_combat_system.md` has a teacher and a 
 
 | Ability | Story name | Who teaches it, and its reputation |
 |---|---|---|
-| Heavy Hack | **Woodsman's Cut** | Every axe-fighter's first lesson. Canopy Rest fellers swear it's how they learned. |
-| Sundering Chop | **Mail-Breaker** | Stonepass axemen. It splits mail rings, and smiths hate it. |
+| Heavy Hack | **Woodsman's Cut** | Every axe-fighter's first lesson. Ribcage Vault fellers swear it's how they learned. |
+| Sundering Chop | **Mail-Breaker** | Basalt Redoubt axemen. It splits mail rings, and smiths hate it. |
 | Bearded Hook | **The Hook** | A Reaver trick: drag a fleeing man back by the shoulder. John Brokenose is the master of it. |
-| Long Thrust | **The Long Reach** | Reedwatch spearmen, who learned it holding the fords. John Little is said to reach "a man and a half". |
+| Long Thrust | **The Long Reach** | Aquifer Gate spearmen, who learned it holding the fords. John Little is said to reach "a man and a half". |
 | Brace for Charge | **Set the Spear** | Garrison drill against boar and horse alike. |
 | Shaft Sweep | **Clear the Shaft** | The spearman's answer to a man who gets too close. |
 | Heart-Skewer | **The Heart-Thrust** | Master spear-work. Folk say only three living people can do it cleanly. |
-| Crushing Swing | **The Maul** | Stonepass hammer drill. Sir John Ironhand earned his name with it. |
+| Crushing Swing | **The Maul** | Basalt Redoubt hammer drill. Sir John Ironhand earned his name with it. |
 | Bell-Ringer | **Ring the Bell** | "Give them to the stone": the hammer blow that slams a man into a wall. |
 | Plate-Cracker | **Cracking the Shell** | What a hammer does to a knight. Lords dislike how cheap it makes their armour. |
 | Cataclysmic Anvil | **The Anvil** | Named for the butte. The finishing blow of a hammer master. |
@@ -127,8 +127,8 @@ Every auto-triggered ability in `stewards_combat_system.md` has a teacher and a 
 | Jaw Snare | **The Jaw Trap** | Poachers like John Shortknife and the hunting lodges. Lords' hunts outlaw it. |
 | Trophy Popper | **Taking the Trophy** | Hunters' Lodge custom: the killing shot on a snared beast |
 | Heartseeker Snipe | **The Heartseeker** | Legendary long shot. Agnes atte Green claims it; nobody has seen it. |
-| Bramble Shot | **Bramble Arrows** | Canopy Rest rangers, who shoot thorn-coated shafts into the road |
-| Houndmaster's Whistle | **The Whistle** | Westwatch's hound-masters, whose dogs come running out of nowhere |
+| Bramble Shot | **Bramble Arrows** | Ribcage Vault rangers, who shoot thorn-coated shafts into the road |
+| Houndmaster's Whistle | **The Whistle** | Occident-Needle's hound-masters, whose dogs come running out of nowhere |
 | Watchman's Flare | **Beacon Arrow** | Tower wardens: a burning arrow that lights the field. It's what Walter Underhill fired the night he died. |
 | Point-Blank Repel | **Push-Off** | Wardens' close-quarters shot |
 | Iron Rain Barrage | **Iron Rain** | Garrison volleys from the walls during a siege |
@@ -152,12 +152,12 @@ Every auto-triggered ability in `stewards_combat_system.md` has a teacher and a 
 | Ability | Story name | Who teaches it |
 |---|---|---|
 | Sacred Blessing | **The Blessing of the Blade** | Temple priests who bless weapons before a fight |
-| Triage Surge | **The Quick Mercy** | Infirmarians like Sister Agnes of Reedwatch, who heal in the time it takes to kneel |
+| Triage Surge | **The Quick Mercy** | Infirmarians like Sister Agnes of Aquifer Gate, who heal in the time it takes to kneel |
 | Sanctuary of Renewal | **Sanctuary** | The hospitallers of the wayside hospices |
 | Wayfarer's Second Wind | **Second Wind** | Pilgrims' prayer for the road |
 | Warding Vigil | **The Vigil** | Anchorites. Mother Alice has kept one vigil for twenty years. |
 | Chains of Penance | **Penance Chains** | Flagellant-trained anchorites, who bind a charging enemy |
-| Keep's Unbroken Dome | **The Keep's Dome** | The old Steward ward that held the Rim. Now known only to the shrine. |
+| Keep's Unbroken Dome | **The Keep's Dome** | The old Custodian ward that held the Rim. Now known only to the shrine. |
 
 ### Class and minor techniques
 
@@ -175,7 +175,7 @@ Every auto-triggered ability in `stewards_combat_system.md` has a teacher and a 
 | Hamstring Ambush | **The Hamstring** | Highwaymen's trick, the Halfpenny family's speciality |
 | Dirty Sand / Caltrops | **Sand and Spikes** | Highwaymen and toll bandits at the ford |
 | Cutthroat Execute | **The Cutthroat** | Hollow Knives, the assassins |
-| Fen-Strider's Grace | **The Fen-Walk** | Fen Walkers of Reedwatch |
+| Fen-Strider's Grace | **The Fen-Walk** | Fen Walkers of Aquifer Gate |
 
 ## Ported techniques
 
