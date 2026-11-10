@@ -143,7 +143,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Reedwatch",
+     "hold": "Aquifer Gate",
      "mood": null,
      "attitude": null
     },
@@ -154,7 +154,7 @@
      },
      {
       "speaker": "B",
-      "text": "In Reedwatch? Watch pay's a rumour."
+      "text": "In Aquifer Gate? Watch pay's a rumour."
      },
      {
       "speaker": "A",
@@ -174,7 +174,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Stonepass Refuge",
+     "hold": "Basalt Redoubt",
      "mood": null,
      "attitude": null
     },
@@ -256,7 +256,7 @@
     "lines": [
      {
       "speaker": "A",
-      "text": "A new one's risen in the March. {calamity}."
+      "text": "A new one's risen in the Verge. {calamity}."
      },
      {
       "speaker": "B",
@@ -389,7 +389,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Canopy Rest",
+     "hold": "Ribcage Vault",
      "mood": null,
      "attitude": null
     },
@@ -526,7 +526,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "First Hearth",
+     "hold": "First Monolith",
      "mood": null,
      "attitude": null
     },
@@ -784,7 +784,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Sunward Exchange",
+     "hold": "Sol-Spire Concourse",
      "mood": null,
      "attitude": null
     },
@@ -821,7 +821,7 @@
     "lines": [
      {
       "speaker": "A",
-      "text": "Who has the Riftlands roll?"
+      "text": "Who has the Fracture Shelf roll?"
      },
      {
       "speaker": "B",
@@ -864,7 +864,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Reedwatch",
+     "hold": "Aquifer Gate",
      "mood": null,
      "attitude": null
     },
@@ -887,7 +887,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "First Hearth",
+     "hold": "First Monolith",
      "mood": null,
      "attitude": null
     },
@@ -1636,7 +1636,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Sunward Exchange",
+     "hold": "Sol-Spire Concourse",
      "mood": null,
      "attitude": null
     },
@@ -2200,7 +2200,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Sunward Exchange",
+     "hold": "Sol-Spire Concourse",
      "mood": null,
      "attitude": null
     },
@@ -2310,7 +2310,7 @@
     "lines": [
      {
       "speaker": "A",
-      "text": "I see the March. Fires."
+      "text": "I see the Verge. Fires."
      },
      {
       "speaker": "B",
@@ -2433,7 +2433,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Sunward Exchange",
+     "hold": "Sol-Spire Concourse",
      "mood": null,
      "attitude": null
     },
@@ -2635,7 +2635,7 @@
      },
      {
       "speaker": "A",
-      "text": "Sunward will drink cheap tonight."
+      "text": "Sol-Spire will drink cheap tonight."
      }
     ]
    }
@@ -2669,7 +2669,7 @@
      },
      {
       "speaker": "A",
-      "text": "Steward, not stewart. History lives in letters."
+      "text": "Custodian, not stewart. History lives in letters."
      }
     ]
    },
@@ -2688,7 +2688,7 @@
     "lines": [
      {
       "speaker": "A",
-      "text": "What were the Stewards, sir?"
+      "text": "What were the Custodians, sir?"
      },
      {
       "speaker": "B",
@@ -3302,7 +3302,7 @@
     "lines": [
      {
       "speaker": "A",
-      "text": "Back to Blightwatch. Now."
+      "text": "Back to Necro-Needle. Now."
      },
      {
       "speaker": "B",
@@ -3319,7 +3319,7 @@
  {
   "action": "Probe",
   "kind": "activity",
-  "who": "two outlaws in a camp near the March who see Blight-born testing the edge",
+  "who": "two outlaws in a camp near the Verge who see Blight-born testing the edge",
   "exchanges": [
    {
     "id": "probe_01",
@@ -3447,7 +3447,7 @@
     "lines": [
      {
       "speaker": "A",
-      "text": "Every beast in the March turned to face east."
+      "text": "Every beast in the Verge turned to face east."
      },
      {
       "speaker": "B",
@@ -3864,7 +3864,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Canopy Rest",
+     "hold": "Ribcage Vault",
      "mood": null,
      "attitude": null
     },
@@ -3997,7 +3997,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Stonepass Refuge",
+     "hold": "Basalt Redoubt",
      "mood": null,
      "attitude": null
     },
@@ -4020,7 +4020,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Sunward Exchange",
+     "hold": "Sol-Spire Concourse",
      "mood": null,
      "attitude": null
     },
@@ -4189,7 +4189,7 @@
      },
      {
       "speaker": "A",
-      "text": "Steward counts them."
+      "text": "Custodian counts them."
      }
     ]
    }
@@ -4312,7 +4312,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Reedwatch",
+     "hold": "Aquifer Gate",
      "mood": null,
      "attitude": null
     },
@@ -4503,7 +4503,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Canopy Rest",
+     "hold": "Ribcage Vault",
      "mood": null,
      "attitude": null
     },
@@ -5093,7 +5093,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Sunward Exchange",
+     "hold": "Sol-Spire Concourse",
      "mood": null,
      "attitude": null
     },
@@ -5345,7 +5345,7 @@
  {
   "action": "DeliverVenison",
   "kind": "activity",
-  "who": "a huntsman and a cook or steward receiving venison",
+  "who": "a huntsman and a cook or custodian receiving venison",
   "exchanges": [
    {
     "id": "deliver_venison_01",
@@ -5903,7 +5903,7 @@
     "lines": [
      {
       "speaker": "A",
-      "text": "The March beacons are dark!"
+      "text": "The Verge beacons are dark!"
      },
      {
       "speaker": "B",

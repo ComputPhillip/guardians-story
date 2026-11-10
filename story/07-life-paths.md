@@ -7,7 +7,7 @@ The player's story is made up of **what they do, who they are known as, and how 
 ## Standing and reputation
 
 * **Standing, per hold and per faction.** Standing is earned and lost through deeds. **Titled (standing 100)** with a hold grants land and a **Hall**.
-* **Reputation spreads by word of mouth.** A deed is known only where someone has carried the news. A player can be a hero in Reedwatch and unknown, or wanted, in Sunward.
+* **Reputation spreads by word of mouth.** A deed is known only where someone has carried the news. A player can be a hero in Aquifer Gate and unknown, or wanted, in Sol-Spire.
 * **Attitude** is tracked from the player's choices, not picked from a menu:
 
 | Attitude | Built by | How the world reacts |
@@ -15,7 +15,7 @@ The player's story is made up of **what they do, who they are known as, and how 
 | **Merciful** | Sparing the beaten, paying ransoms, healing | Outlaws surrender more often, and peasants trust you |
 | **Ruthless** | Executions, burning, extortion | Lords hire you for dirty work, and hamlets bar their doors |
 | **Greedy** | Price-gouging, selling out allies | Merchants and Sir John the Coin court you, and companions drift away |
-| **Honourable** | Keeping contracts and oaths | Unlocks the Steward path, and Sir Thomas and Isabella Robson respect you |
+| **Honourable** | Keeping contracts and oaths | Unlocks the Custodian path, and Sir Thomas and Isabella Robson respect you |
 | **Pious** | Temple service, cleansing barrows | Faith companions join, and Brother William tries to recruit you |
 | **Curious** | Ruins, libraries, stone circles | Margaret the Sage notices you, and the hidden library opens up |
 
@@ -26,7 +26,7 @@ The paths are not classes; a player can walk several at once or switch between t
 ### The Trader
 *Haul goods, play the markets, build a company of carts.*
 * Uses the economy, routes, buy orders and caravans.
-* **Threads:** notice cheap Blight-salt (the Salt Road), get squeezed by Sunward tolls, run grain to a Starving town during a war and decide your price.
+* **Threads:** notice cheap Blight-salt (the Salt Road), get squeezed by Sol-Spire tolls, run grain to a Starving town during a war and decide your price.
 * **Peak:** a trading house with a stall in every market, and coin enough to buy a lord's loyalty.
 
 ### The Adventurer
@@ -38,7 +38,7 @@ The paths are not classes; a player can walk several at once or switch between t
 ### The Hero
 *Serve a lord as one of their three champions.*
 * Get there by standing with a hold and a reputation for breaking camps. A hero's place opens when one dies.
-* **Threads:** break the Grey Crows, guard the Hearth-Moot, duel Thomas Fox, choose a side in the Siege of the Stonepass Wall.
+* **Threads:** break the Grey Crows, guard the Monolith-Moot, duel Thomas Fox, choose a side in the Siege of the Basalt Redoubt Wall.
 * **Peak:** Titled, with a Hall and a seat at the lords' table.
 
 ### The Sellsword
@@ -50,7 +50,7 @@ The paths are not classes; a player can walk several at once or switch between t
 ### The Outlaw
 *Take what the roads carry.*
 * Join a band, or found one. Feuds absorb rivals; camps move after defeats.
-* **Threads:** John Blackbeard's bid for Reedwatch, the Salt Jackals' caches, Hollow Knives contracts (including the murder at the Moot).
+* **Threads:** John Blackbeard's bid for Aquifer Gate, the Salt Jackals' caches, Hollow Knives contracts (including the murder at the Moot).
 * **Peak:** hold a hamlet, then a town, and become **an outlaw lord** that the other lords must recognise or crush.
 
 ### The Mage
@@ -64,11 +64,11 @@ The paths are not classes; a player can walk several at once or switch between t
 * Wounded fighters rest rather than die, and healers decide how fast they recover.
 * **Threads:** Sister Margaret and the missing salt (exposing Brother William), the Heart-Born child, cleansing barrows.
 
-### The Steward
+### The Custodian
 *Refound the old order.*
-* This opens only through the Stewards' Oath thread: honourable standing, the hidden library, three sworn Stewards.
-* The Stewards answer to no lord, so every lord treats them as a threat or a tool.
-* **Peak:** **Lord-Steward**, keeper of the Rim Fires, with the throne left empty by choice.
+* This opens only through the Custodians' Oath thread: honourable standing, the hidden library, three sworn Custodians.
+* The Custodians answer to no lord, so every lord treats them as a threat or a tool.
+* **Peak:** **Lord-Custodian**, keeper of the Rim Fires, with the throne left empty by choice.
 
 ### The Lord
 *Rule.*
@@ -79,7 +79,7 @@ The paths are not classes; a player can walk several at once or switch between t
 ### The Slaver (the dark path)
 *Sell people to the holds of the north.*
 * The map supports it with slaver trade and selling captives. Towns **shun** a slaver: caravans keep away for weeks.
-* **Peak:** rich, feared and alone. Every Steward and hero is a threat.
+* **Peak:** rich, feared and alone. Every Custodian and hero is a threat.
 
 ## Tested balance notes
 

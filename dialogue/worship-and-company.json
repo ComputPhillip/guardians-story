@@ -53,7 +53,7 @@
      },
      {
       "speaker": "A",
-      "text": "Hush. The steward's in the front pew."
+      "text": "Hush. The custodian's in the front pew."
      }
     ]
    },
@@ -79,7 +79,7 @@
      },
      {
       "speaker": "B",
-      "text": "Then the granary's full, or someone wants votes at the Hearth-Moot."
+      "text": "Then the granary's full, or someone wants votes at the Monolith-Moot."
      }
     ]
    },
@@ -172,7 +172,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "First Hearth",
+     "hold": "First Monolith",
      "mood": null,
      "attitude": null
     },
@@ -199,7 +199,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "First Hearth",
+     "hold": "First Monolith",
      "mood": null,
      "attitude": null
     },
@@ -222,7 +222,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Canopy Rest",
+     "hold": "Ribcage Vault",
      "mood": null,
      "attitude": null
     },
@@ -248,7 +248,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Reedwatch",
+     "hold": "Aquifer Gate",
      "mood": null,
      "attitude": null
     },
@@ -271,7 +271,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Sunward Exchange",
+     "hold": "Sol-Spire Concourse",
      "mood": null,
      "attitude": null
     },
@@ -294,7 +294,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Stonepass Refuge",
+     "hold": "Basalt Redoubt",
      "mood": null,
      "attitude": null
     },
@@ -462,7 +462,7 @@
      },
      {
       "speaker": "B",
-      "text": "Don't say it aloud. The steward'll find you work."
+      "text": "Don't say it aloud. The custodian'll find you work."
      }
     ]
    },
@@ -569,7 +569,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Reedwatch",
+     "hold": "Aquifer Gate",
      "mood": null,
      "attitude": null
     },
@@ -619,7 +619,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Canopy Rest",
+     "hold": "Ribcage Vault",
      "mood": null,
      "attitude": null
     },
@@ -646,7 +646,7 @@
      "place": "market",
      "news": null,
      "standing": null,
-     "hold": "Sunward Exchange",
+     "hold": "Sol-Spire Concourse",
      "mood": null,
      "attitude": null
     },
@@ -740,7 +740,7 @@
     "lines": [
      {
       "speaker": "A",
-      "text": "The steward wants our tithe doubled."
+      "text": "The custodian wants our tithe doubled."
      },
      {
       "speaker": "B",
@@ -783,7 +783,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "First Hearth",
+     "hold": "First Monolith",
      "mood": null,
      "attitude": null
     },
@@ -896,7 +896,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "First Hearth",
+     "hold": "First Monolith",
      "mood": null,
      "attitude": null
     },
@@ -1048,7 +1048,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "First Hearth",
+     "hold": "First Monolith",
      "mood": null,
      "attitude": null
     },
@@ -1217,7 +1217,7 @@
     "lines": [
      {
       "speaker": "A",
-      "text": "The Blight's walked out of the March again."
+      "text": "The Blight's walked out of the Verge again."
      },
      {
       "speaker": "B",
@@ -1345,14 +1345,14 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "First Hearth",
+     "hold": "First Monolith",
      "mood": null,
      "attitude": null
     },
     "lines": [
      {
       "speaker": "A",
-      "text": "Riftgate's best ale is still worse than my wife's."
+      "text": "Fracture-Gate's best ale is still worse than my wife's."
      },
      {
       "speaker": "B",
@@ -1368,7 +1368,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Sunward Exchange",
+     "hold": "Sol-Spire Concourse",
      "mood": null,
      "attitude": null
     },
@@ -1391,7 +1391,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Stonepass Refuge",
+     "hold": "Basalt Redoubt",
      "mood": null,
      "attitude": null
     },
@@ -1501,7 +1501,7 @@
      },
      {
       "speaker": "B",
-      "text": "Then sing the last hymn. Old Brother Thomas says it was a Steward hymn once."
+      "text": "Then sing the last hymn. Old Brother Thomas says it was a Custodian hymn once."
      }
     ]
    }
@@ -1570,7 +1570,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Sunward Exchange",
+     "hold": "Sol-Spire Concourse",
      "mood": null,
      "attitude": null
     },
@@ -1717,7 +1717,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Reedwatch",
+     "hold": "Aquifer Gate",
      "mood": null,
      "attitude": null
     },
@@ -1842,7 +1842,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Sunward Exchange",
+     "hold": "Sol-Spire Concourse",
      "mood": null,
      "attitude": null
     },
@@ -1853,7 +1853,7 @@
      },
      {
       "speaker": "B",
-      "text": "Sunward does holiness like a market day."
+      "text": "Sol-Spire does holiness like a market day."
      }
     ]
    }
@@ -2050,7 +2050,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "First Hearth",
+     "hold": "First Monolith",
      "mood": null,
      "attitude": null
     },
@@ -2073,14 +2073,14 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Canopy Rest",
+     "hold": "Ribcage Vault",
      "mood": null,
      "attitude": null
     },
     "lines": [
      {
       "speaker": "A",
-      "text": "Dame Agnes wore the old Steward brooch."
+      "text": "Dame Agnes wore the old Custodian brooch."
      },
      {
       "speaker": "B",
@@ -2162,7 +2162,7 @@
      },
      {
       "speaker": "B",
-      "text": "Tell the steward. He'll say next quarter. Always next quarter."
+      "text": "Tell the custodian. He'll say next quarter. Always next quarter."
      }
     ]
    },
@@ -2250,7 +2250,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Canopy Rest",
+     "hold": "Ribcage Vault",
      "mood": null,
      "attitude": null
     },
@@ -2300,7 +2300,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Canopy Rest",
+     "hold": "Ribcage Vault",
      "mood": null,
      "attitude": null
     },
@@ -2323,7 +2323,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Sunward Exchange",
+     "hold": "Sol-Spire Concourse",
      "mood": null,
      "attitude": null
     },
@@ -2452,14 +2452,14 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "First Hearth",
+     "hold": "First Monolith",
      "mood": null,
      "attitude": null
     },
     "lines": [
      {
       "speaker": "A",
-      "text": "Yarden's bell won't ring for anyone but a king."
+      "text": "Yttr-Den's bell won't ring for anyone but a king."
      },
      {
       "speaker": "B",
@@ -2608,7 +2608,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "First Hearth",
+     "hold": "First Monolith",
      "mood": null,
      "attitude": null
     },
@@ -2661,7 +2661,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Reedwatch",
+     "hold": "Aquifer Gate",
      "mood": null,
      "attitude": null
     },
@@ -2714,7 +2714,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Reedwatch",
+     "hold": "Aquifer Gate",
      "mood": null,
      "attitude": null
     },
@@ -2760,7 +2760,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Canopy Rest",
+     "hold": "Ribcage Vault",
      "mood": null,
      "attitude": null
     },
@@ -2815,7 +2815,7 @@
     "lines": [
      {
       "speaker": "A",
-      "text": "Something's risen in the March. {calamity}, they call it."
+      "text": "Something's risen in the Verge. {calamity}, they call it."
      },
      {
       "speaker": "B",
@@ -2879,11 +2879,11 @@
      },
      {
       "speaker": "B",
-      "text": "The steward says roads."
+      "text": "The custodian says roads."
      },
      {
       "speaker": "A",
-      "text": "The steward says a lot of things."
+      "text": "The custodian says a lot of things."
      }
     ]
    },
@@ -3012,7 +3012,7 @@
     "lines": [
      {
       "speaker": "A",
-      "text": "There's a new name in the March. {calamity}."
+      "text": "There's a new name in the Verge. {calamity}."
      },
      {
       "speaker": "B",
@@ -3028,7 +3028,7 @@
      "place": null,
      "news": "apex",
      "standing": null,
-     "hold": "Sunward Exchange",
+     "hold": "Sol-Spire Concourse",
      "mood": null,
      "attitude": null
     },
@@ -3078,7 +3078,7 @@
      "place": null,
      "news": "hero",
      "standing": null,
-     "hold": "Reedwatch",
+     "hold": "Aquifer Gate",
      "mood": null,
      "attitude": null
     },
@@ -3155,7 +3155,7 @@
      "place": null,
      "news": "slavers",
      "standing": null,
-     "hold": "Stonepass Refuge",
+     "hold": "Basalt Redoubt",
      "mood": null,
      "attitude": null
     },
@@ -3228,7 +3228,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "First Hearth",
+     "hold": "First Monolith",
      "mood": null,
      "attitude": null
     },
@@ -3255,7 +3255,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Sunward Exchange",
+     "hold": "Sol-Spire Concourse",
      "mood": null,
      "attitude": null
     },
@@ -3282,7 +3282,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Canopy Rest",
+     "hold": "Ribcage Vault",
      "mood": null,
      "attitude": null
     },
@@ -3309,14 +3309,14 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Reedwatch",
+     "hold": "Aquifer Gate",
      "mood": null,
      "attitude": null
     },
     "lines": [
      {
       "speaker": "A",
-      "text": "John Blackbeard calls himself king of the Marches now."
+      "text": "John Blackbeard calls himself king of the Verges now."
      },
      {
       "speaker": "B",
@@ -3385,7 +3385,7 @@
     "lines": [
      {
       "speaker": "A",
-      "text": "Hush. The steward's man is listening."
+      "text": "Hush. The custodian's man is listening."
      },
      {
       "speaker": "B",
@@ -3450,7 +3450,7 @@
     "lines": [
      {
       "speaker": "A",
-      "text": "The Stewards kept the Rim. The lords forgot."
+      "text": "The Custodians kept the Rim. The lords forgot."
      },
      {
       "speaker": "B",
@@ -3466,7 +3466,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "First Hearth",
+     "hold": "First Monolith",
      "mood": null,
      "attitude": null
     },
@@ -3701,7 +3701,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "First Hearth",
+     "hold": "First Monolith",
      "mood": null,
      "attitude": null
     },
@@ -3808,7 +3808,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Reedwatch",
+     "hold": "Aquifer Gate",
      "mood": null,
      "attitude": null
     },
@@ -3911,7 +3911,7 @@
      "place": null,
      "news": "party lost",
      "standing": null,
-     "hold": "First Hearth",
+     "hold": "First Monolith",
      "mood": null,
      "attitude": null
     },
@@ -3922,7 +3922,7 @@
      },
      {
       "speaker": "B",
-      "text": "Riftgate lost another five, they say."
+      "text": "Fracture-Gate lost another five, they say."
      }
     ]
    },
@@ -4061,7 +4061,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "First Hearth",
+     "hold": "First Monolith",
      "mood": null,
      "attitude": null
     },
@@ -4084,7 +4084,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Sunward Exchange",
+     "hold": "Sol-Spire Concourse",
      "mood": null,
      "attitude": null
     },
@@ -4520,7 +4520,7 @@
      "place": null,
      "news": "deaths",
      "standing": null,
-     "hold": "Reedwatch",
+     "hold": "Aquifer Gate",
      "mood": null,
      "attitude": null
     },
@@ -4543,14 +4543,14 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "First Hearth",
+     "hold": "First Monolith",
      "mood": null,
      "attitude": null
     },
     "lines": [
      {
       "speaker": "A",
-      "text": "Herald says the Hearth-Moot's set. All five lords."
+      "text": "Herald says the Monolith-Moot's set. All five lords."
      },
      {
       "speaker": "B",
@@ -4775,7 +4775,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Stonepass Refuge",
+     "hold": "Basalt Redoubt",
      "mood": null,
      "attitude": null
     },
@@ -4912,7 +4912,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "First Hearth",
+     "hold": "First Monolith",
      "mood": null,
      "attitude": null
     },
@@ -4982,7 +4982,7 @@
  {
   "action": "HearPetitioners",
   "kind": "activity",
-  "who": "the lord's steward and a clerk hearing petitioners",
+  "who": "the lord's custodian and a clerk hearing petitioners",
   "exchanges": [
    {
     "id": "hear_petitioners_01",
@@ -5003,7 +5003,7 @@
      },
      {
       "speaker": "B",
-      "text": "A boundary stone, my lord's steward. Moved."
+      "text": "A boundary stone, my lord's custodian. Moved."
      },
      {
       "speaker": "A",
@@ -5102,14 +5102,14 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Canopy Rest",
+     "hold": "Ribcage Vault",
      "mood": null,
      "attitude": null
     },
     "lines": [
      {
       "speaker": "A",
-      "text": "Petitioners in the Stewards Hall still ask for judgement."
+      "text": "Petitioners in the Custodians Hall still ask for judgement."
      },
      {
       "speaker": "B",
@@ -5203,7 +5203,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Stonepass Refuge",
+     "hold": "Basalt Redoubt",
      "mood": null,
      "attitude": null
     },
@@ -5456,7 +5456,7 @@
      },
      {
       "speaker": "B",
-      "text": "Amen. And for the steward's mercy at tithe time."
+      "text": "Amen. And for the custodian's mercy at tithe time."
      }
     ]
    },
@@ -5516,7 +5516,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Sunward Exchange",
+     "hold": "Sol-Spire Concourse",
      "mood": null,
      "attitude": null
     },
@@ -5580,7 +5580,7 @@
     "lines": [
      {
       "speaker": "A",
-      "text": "Wounded guildsmen again. Three from Riftgate."
+      "text": "Wounded guildsmen again. Three from Fracture-Gate."
      },
      {
       "speaker": "B",
@@ -5619,7 +5619,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Sunward Exchange",
+     "hold": "Sol-Spire Concourse",
      "mood": null,
      "attitude": null
     },
@@ -5630,7 +5630,7 @@
      },
      {
       "speaker": "B",
-      "text": "The steward 'borrowed' it. Same as last month."
+      "text": "The custodian 'borrowed' it. Same as last month."
      }
     ]
    }
@@ -5720,7 +5720,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "First Hearth",
+     "hold": "First Monolith",
      "mood": null,
      "attitude": null
     },
@@ -5743,7 +5743,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Reedwatch",
+     "hold": "Aquifer Gate",
      "mood": null,
      "attitude": null
     },
@@ -5859,7 +5859,7 @@
      },
      {
       "speaker": "B",
-      "text": "And from the steward's tally."
+      "text": "And from the custodian's tally."
      }
     ]
    },
@@ -5947,7 +5947,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "First Hearth",
+     "hold": "First Monolith",
      "mood": null,
      "attitude": null
     },
@@ -6046,14 +6046,14 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Reedwatch",
+     "hold": "Aquifer Gate",
      "mood": null,
      "attitude": null
     },
     "lines": [
      {
       "speaker": "A",
-      "text": "That one's come from Reedwatch. Walked barefoot."
+      "text": "That one's come from Aquifer Gate. Walked barefoot."
      },
      {
       "speaker": "B",
@@ -6248,7 +6248,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "First Hearth",
+     "hold": "First Monolith",
      "mood": null,
      "attitude": null
     },
@@ -6401,14 +6401,14 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "First Hearth",
+     "hold": "First Monolith",
      "mood": null,
      "attitude": null
     },
     "lines": [
      {
       "speaker": "A",
-      "text": "The Hearth-Moot is summoned!"
+      "text": "The Monolith-Moot is summoned!"
      },
      {
       "speaker": "B",
@@ -6524,7 +6524,7 @@
      },
      {
       "speaker": "B",
-      "text": "I pray for the steward to choke."
+      "text": "I pray for the custodian to choke."
      },
      {
       "speaker": "A",
@@ -6563,7 +6563,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Stonepass Refuge",
+     "hold": "Basalt Redoubt",
      "mood": null,
      "attitude": null
     },
@@ -6620,7 +6620,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "First Hearth",
+     "hold": "First Monolith",
      "mood": null,
      "attitude": null
     },
@@ -6650,7 +6650,7 @@
     "lines": [
      {
       "speaker": "A",
-      "text": "Steward's Riposte. You know it?"
+      "text": "Custodian's Riposte. You know it?"
      },
      {
       "speaker": "B",
@@ -6832,7 +6832,7 @@
      },
      {
       "speaker": "B",
-      "text": "Then raise a cup and keep one eye on the March."
+      "text": "Then raise a cup and keep one eye on the Verge."
      }
     ]
    }
@@ -6878,7 +6878,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Stonepass Refuge",
+     "hold": "Basalt Redoubt",
      "mood": null,
      "attitude": null
     },
@@ -7036,7 +7036,7 @@
  {
   "action": "HoldCourt",
   "kind": "activity",
-  "who": "the lord and the steward holding court",
+  "who": "the lord and the custodian holding court",
   "exchanges": [
    {
     "id": "hold_court_01",
@@ -7129,14 +7129,14 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Reedwatch",
+     "hold": "Aquifer Gate",
      "mood": null,
      "attitude": null
     },
     "lines": [
      {
       "speaker": "A",
-      "text": "Sir Thomas judges under the old Steward beams."
+      "text": "Sir Thomas judges under the old Custodian beams."
      },
      {
       "speaker": "B",
@@ -7408,7 +7408,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "First Hearth",
+     "hold": "First Monolith",
      "mood": null,
      "attitude": null
     },
@@ -7461,7 +7461,7 @@
      "place": "wild",
      "news": null,
      "standing": null,
-     "hold": "First Hearth",
+     "hold": "First Monolith",
      "mood": null,
      "attitude": null
     },
@@ -7643,7 +7643,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Sunward Exchange",
+     "hold": "Sol-Spire Concourse",
      "mood": null,
      "attitude": null
     },
@@ -7654,7 +7654,7 @@
      },
      {
       "speaker": "B",
-      "text": "And the steward took the rest. Hounds got luckier."
+      "text": "And the custodian took the rest. Hounds got luckier."
      }
     ]
    }
@@ -7696,7 +7696,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "First Hearth",
+     "hold": "First Monolith",
      "mood": null,
      "attitude": null
     },
@@ -7730,7 +7730,7 @@
      },
      {
       "speaker": "B",
-      "text": "My daughter's not going to Mereworth. Not alone."
+      "text": "My daughter's not going to Silt-Worth. Not alone."
      }
     ]
    },
@@ -7891,14 +7891,14 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "First Hearth",
+     "hold": "First Monolith",
      "mood": null,
      "attitude": null
     },
     "lines": [
      {
       "speaker": "A",
-      "text": "A cobbler in First Hearth woke."
+      "text": "A cobbler in First Monolith woke."
      },
      {
       "speaker": "B",

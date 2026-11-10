@@ -1,6 +1,8 @@
-# Guardians: Story Bible
+# Argus: Story Bible
 
-The story, lore and narrative design for **Guardians**. The game's design files and code use the working title *Stewards*.
+The story, lore and narrative design for **Argus**. The game's design files and code used the working title *Stewards*; the title *Guardians* is retired.
+
+**Names follow the Argus world file.** On 10 November 2026 this bible took the names of the living world map (`Argus.html`): First Hearth is First Monolith, Canopy Rest is Ribcage Vault, Reedwatch is Aquifer Gate, Sunward Exchange is Sol-Spire Concourse, Stonepass Refuge is Basalt Redoubt, a steward is a custodian, the Broken March is the Fracture Verge and the Blighted is the Necro-Plinth. The full list is `names/story_to_argus.csv` in the world file's folder. Still in the old form: the 73 hamlet names of `story/10-book-of-the-realm.md` (the map now has 42 villages and no one-to-one list), the people and numbers taken from the 29 km map, and the fixtures in `tests/map-sim/`.
 
 The story is built on the world defined in `tradable_economy_v69.xlsx`, `stewards_combat_system.md` and `Stewards_Living_World_Map.html`. Every town, faction, region, landmark, rank and ability named here comes from those files, so the story and the systems describe the same world.
 
@@ -21,7 +23,7 @@ The story is built on the world defined in `tradable_economy_v69.xlsx`, `steward
 | [story/09-unused-references.md](story/09-unused-references.md) | Check that every design-file name has a place (none unused) |
 | [story/10-book-of-the-realm.md](story/10-book-of-the-realm.md) | The gazetteer: every outlaw, warden, priest, sorcerer, caravan and hamlet, with their story |
 | [story/11-hunting-lodges.md](story/11-hunting-lodges.md) | The hunting lodges: their history, the Half Law, the Forest Charter, all five lodges and their people |
-| [story/13-crimson-desert-port.md](story/13-crimson-desert-port.md) | Every Crimson Desert skill, power and system translated into Guardians with a grounded name, teacher and source |
+| [story/13-crimson-desert-port.md](story/13-crimson-desert-port.md) | Every Crimson Desert skill, power and system translated into Argus with a grounded name, teacher and source |
 | [story/12-dialogue.md](story/12-dialogue.md) | How NPCs talk to each other about every activity, event and player deed (data in `dialogue/`) |
 | [story/07-life-paths.md](story/07-life-paths.md) | Who the player becomes: standing, reputation, attitude and life paths (trader, outlaw, hero, mage, lord and more) |
 

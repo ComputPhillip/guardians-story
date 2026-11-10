@@ -95,14 +95,14 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Reedwatch",
+     "hold": "Aquifer Gate",
      "mood": null,
      "attitude": null
     },
     "lines": [
      {
       "speaker": "A",
-      "text": "Dew never lifts in Reedwatch. The whole fen's a dew."
+      "text": "Dew never lifts in Aquifer Gate. The whole fen's a dew."
      },
      {
       "speaker": "B",
@@ -163,7 +163,7 @@
     "lines": [
      {
       "speaker": "A",
-      "text": "Heard the wolves had Dunworth's folds again last night."
+      "text": "Heard the wolves had Dun-Plex's folds again last night."
      },
      {
       "speaker": "B",
@@ -183,14 +183,14 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Canopy Rest",
+     "hold": "Ribcage Vault",
      "mood": null,
      "attitude": null
     },
     "lines": [
      {
       "speaker": "A",
-      "text": "Wynstead lost another ram. Greybeard won't break his own charter."
+      "text": "Ingot-Stead lost another ram. Greybeard won't break his own charter."
      },
      {
       "speaker": "B",
@@ -210,14 +210,14 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "First Hearth",
+     "hold": "First Monolith",
      "mood": null,
      "attitude": null
     },
     "lines": [
      {
       "speaker": "A",
-      "text": "Whitden pays the Thornbacks and the Red Crows both for its sheep."
+      "text": "Weth-Plex pays the Thornbacks and the Red Crows both for its sheep."
      },
      {
       "speaker": "B",
@@ -332,7 +332,7 @@
     "lines": [
      {
       "speaker": "A",
-      "text": "They say Kirkden's goats give grey milk since the Blight came through."
+      "text": "They say Crypt-Den's goats give grey milk since the Blight came through."
      },
      {
       "speaker": "B",
@@ -340,7 +340,7 @@
      },
      {
       "speaker": "A",
-      "text": "The Sunward folk would bottle it and sell it as a wonder."
+      "text": "The Sol-Spire folk would bottle it and sell it as a wonder."
      }
     ]
    },
@@ -490,7 +490,7 @@
      },
      {
       "speaker": "B",
-      "text": "Salt, from Sunward. Mind it doesn't split."
+      "text": "Salt, from Sol-Spire. Mind it doesn't split."
      },
      {
       "speaker": "A",
@@ -650,7 +650,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Stonepass Refuge",
+     "hold": "Basalt Redoubt",
      "mood": null,
      "attitude": null
     },
@@ -713,7 +713,7 @@
     "lines": [
      {
       "speaker": "A",
-      "text": "Ludham rebuilt in stone after the raid. Paid Sunward lenders for it."
+      "text": "Lud-Plex rebuilt in stone after the raid. Paid Sol-Spire lenders for it."
      },
      {
       "speaker": "B",
@@ -1111,14 +1111,14 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Sunward Exchange",
+     "hold": "Sol-Spire Concourse",
      "mood": null,
      "attitude": null
     },
     "lines": [
      {
       "speaker": "A",
-      "text": "Sunward shops have locks on locks."
+      "text": "Sol-Spire shops have locks on locks."
      },
      {
       "speaker": "B",
@@ -1126,7 +1126,7 @@
      },
      {
       "speaker": "A",
-      "text": "Let's go back to Reedwatch. They don't even bolt doors."
+      "text": "Let's go back to Aquifer Gate. They don't even bolt doors."
      }
     ]
    },
@@ -1151,7 +1151,7 @@
      },
      {
       "speaker": "B",
-      "text": "Not today. Fat markets have the steward's men walking."
+      "text": "Not today. Fat markets have the custodian's men walking."
      },
      {
       "speaker": "A",
@@ -1201,7 +1201,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Sunward Exchange",
+     "hold": "Sol-Spire Concourse",
      "mood": null,
      "attitude": null
     },
@@ -1316,7 +1316,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Sunward Exchange",
+     "hold": "Sol-Spire Concourse",
      "mood": null,
      "attitude": null
     },
@@ -1475,7 +1475,7 @@
      },
      {
       "speaker": "A",
-      "text": "Give it time. It's a Sunward mule."
+      "text": "Give it time. It's a Sol-Spire mule."
      }
     ]
    },
@@ -1514,7 +1514,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Stonepass Refuge",
+     "hold": "Basalt Redoubt",
      "mood": null,
      "attitude": null
     },
@@ -1568,7 +1568,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Sunward Exchange",
+     "hold": "Sol-Spire Concourse",
      "mood": null,
      "attitude": null
     },
@@ -1644,7 +1644,7 @@
      },
      {
       "speaker": "A",
-      "text": "He'll pay for the lost load instead. Steward's sums."
+      "text": "He'll pay for the lost load instead. Custodian's sums."
      }
     ]
    },
@@ -1663,7 +1663,7 @@
     "lines": [
      {
       "speaker": "A",
-      "text": "Radham lost a whole cart last week. Thornbacks took it."
+      "text": "Weth-Plex lost a whole cart last week. Thornbacks took it."
      },
      {
       "speaker": "B",
@@ -1756,7 +1756,7 @@
      },
      {
       "speaker": "A",
-      "text": "The steward will. He'll call it rebellion."
+      "text": "The custodian will. He'll call it rebellion."
      }
     ]
    },
@@ -1939,7 +1939,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Reedwatch",
+     "hold": "Aquifer Gate",
      "mood": null,
      "attitude": null
     },
@@ -2027,7 +2027,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Canopy Rest",
+     "hold": "Ribcage Vault",
      "mood": null,
      "attitude": null
     },
@@ -2098,7 +2098,7 @@
      },
      {
       "speaker": "A",
-      "text": "The steward counts bark. He counts everything."
+      "text": "The custodian counts bark. He counts everything."
      }
     ]
    },
@@ -2351,7 +2351,7 @@
     "lines": [
      {
       "speaker": "A",
-      "text": "Blight-born came out of the dark at Dunworth. Walls didn't stop them."
+      "text": "Blight-born came out of the dark at Dun-Plex. Walls didn't stop them."
      },
      {
       "speaker": "B",
@@ -2428,7 +2428,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Stonepass Refuge",
+     "hold": "Basalt Redoubt",
      "mood": null,
      "attitude": null
     },
@@ -2439,7 +2439,7 @@
      },
      {
       "speaker": "B",
-      "text": "Stewards built it. Knew a thing or two."
+      "text": "Custodians built it. Knew a thing or two."
      },
      {
       "speaker": "A",
@@ -2489,7 +2489,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Reedwatch",
+     "hold": "Aquifer Gate",
      "mood": null,
      "attitude": null
     },
@@ -3492,7 +3492,7 @@
      },
      {
       "speaker": "A",
-      "text": "My gums bleed from biting the steward's bread."
+      "text": "My gums bleed from biting the custodian's bread."
      }
     ]
    },
@@ -3622,7 +3622,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Reedwatch",
+     "hold": "Aquifer Gate",
      "mood": null,
      "attitude": null
     },
@@ -3637,7 +3637,7 @@
      },
      {
       "speaker": "A",
-      "text": "This is Reedwatch. Everything's the poor man's something."
+      "text": "This is Aquifer Gate. Everything's the poor man's something."
      }
     ]
    }
@@ -4123,14 +4123,14 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Reedwatch",
+     "hold": "Aquifer Gate",
      "mood": null,
      "attitude": null
     },
     "lines": [
      {
       "speaker": "A",
-      "text": "Reedwatch cloth goes out with the caravan Tuesday."
+      "text": "Aquifer Gate cloth goes out with the caravan Tuesday."
      },
      {
       "speaker": "B",
@@ -4303,7 +4303,7 @@
     "lines": [
      {
       "speaker": "A",
-      "text": "Lady wants scarlet. Real scarlet, kermes, from Sunward."
+      "text": "Lady wants scarlet. Real scarlet, kermes, from Sol-Spire."
      },
      {
       "speaker": "B",
@@ -4384,7 +4384,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Reedwatch",
+     "hold": "Aquifer Gate",
      "mood": null,
      "attitude": null
     },
@@ -4528,7 +4528,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Reedwatch",
+     "hold": "Aquifer Gate",
      "mood": null,
      "attitude": null
     },
@@ -4708,7 +4708,7 @@
     "lines": [
      {
       "speaker": "A",
-      "text": "Heard a pack came out of the March. Don't go far."
+      "text": "Heard a pack came out of the Verge. Don't go far."
      },
      {
       "speaker": "B",
@@ -4728,7 +4728,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Canopy Rest",
+     "hold": "Ribcage Vault",
      "mood": null,
      "attitude": null
     },
@@ -4789,7 +4789,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Stonepass Refuge",
+     "hold": "Basalt Redoubt",
      "mood": null,
      "attitude": null
     },
@@ -4850,7 +4850,7 @@
     "lines": [
      {
       "speaker": "A",
-      "text": "Blight-born came out of the dark at Dunworth. Out of a mine."
+      "text": "Blight-born came out of the dark at Dun-Plex. Out of a mine."
      },
      {
       "speaker": "B",
@@ -4909,7 +4909,7 @@
     "lines": [
      {
       "speaker": "A",
-      "text": "Stonepass has the steel and no grain to eat."
+      "text": "Basalt Redoubt has the steel and no grain to eat."
      },
      {
       "speaker": "B",
@@ -4917,7 +4917,7 @@
      },
      {
       "speaker": "A",
-      "text": "First Hearth swaps slow when its lord wants the crown."
+      "text": "First Monolith swaps slow when its lord wants the crown."
      }
     ]
    },
@@ -4990,7 +4990,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Stonepass Refuge",
+     "hold": "Basalt Redoubt",
      "mood": null,
      "attitude": null
     },
@@ -5078,14 +5078,14 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Reedwatch",
+     "hold": "Aquifer Gate",
      "mood": null,
      "attitude": null
     },
     "lines": [
      {
       "speaker": "A",
-      "text": "Reedwatch armour's as good as Stonepass. Better rivets."
+      "text": "Aquifer Gate armour's as good as Basalt Redoubt. Better rivets."
      },
      {
       "speaker": "B",
@@ -5168,7 +5168,7 @@
     "lines": [
      {
       "speaker": "A",
-      "text": "Margaret Smith went to Reedwatch for a hundred and fifty coin."
+      "text": "Margaret Smith went to Aquifer Gate for a hundred and fifty coin."
      },
      {
       "speaker": "B",
@@ -5222,7 +5222,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Stonepass Refuge",
+     "hold": "Basalt Redoubt",
      "mood": null,
      "attitude": null
     },
@@ -5479,14 +5479,14 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Reedwatch",
+     "hold": "Aquifer Gate",
      "mood": null,
      "attitude": null
     },
     "lines": [
      {
       "speaker": "A",
-      "text": "Steward takes rent in eels. Hundreds a year."
+      "text": "Custodian takes rent in eels. Hundreds a year."
      },
      {
       "speaker": "B",
@@ -5596,7 +5596,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Reedwatch",
+     "hold": "Aquifer Gate",
      "mood": null,
      "attitude": null
     },
@@ -5745,7 +5745,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Reedwatch",
+     "hold": "Aquifer Gate",
      "mood": null,
      "attitude": null
     },
@@ -6329,7 +6329,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Canopy Rest",
+     "hold": "Ribcage Vault",
      "mood": null,
      "attitude": null
     },
@@ -6478,7 +6478,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Reedwatch",
+     "hold": "Aquifer Gate",
      "mood": null,
      "attitude": null
     },
@@ -6593,14 +6593,14 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Canopy Rest",
+     "hold": "Ribcage Vault",
      "mood": null,
      "attitude": null
     },
     "lines": [
      {
       "speaker": "A",
-      "text": "Smelters in Stonepass want ten loads."
+      "text": "Smelters in Basalt Redoubt want ten loads."
      },
      {
       "speaker": "B",
@@ -6661,7 +6661,7 @@
     "lines": [
      {
       "speaker": "A",
-      "text": "Sour as a steward's smile."
+      "text": "Sour as a custodian's smile."
      },
      {
       "speaker": "B",
@@ -6814,7 +6814,7 @@
      },
      {
       "speaker": "A",
-      "text": "Sunward cooks. They'll buy anything strange."
+      "text": "Sol-Spire cooks. They'll buy anything strange."
      }
     ]
    }
@@ -7146,7 +7146,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Reedwatch",
+     "hold": "Aquifer Gate",
      "mood": null,
      "attitude": null
     },

@@ -1,13 +1,13 @@
 # 13. The Crimson Desert Port
 
-*Every skill, power and system in Crimson Desert (Pearl Abyss, 2026, including the 2.0 Enhanced Edition), carried into Guardians with a grounded name.*
+*Every skill, power and system in Crimson Desert (Pearl Abyss, 2026, including the 2.0 Enhanced Edition), carried into Argus with a grounded name.*
 
-Crimson Desert is a single-hero action game with a fantasy bracelet that grants flight, time-slowing and elemental powers. Guardians is a squad simulation with no dodge roll, auto-triggered techniques, point-and-click footwork, and low magic that always has a source (steel, faith, arcane study, alchemy or the Blight). So this is a **translation**, not a copy. Every Crimson Desert skill gets one of four verdicts:
+Crimson Desert is a single-hero action game with a fantasy bracelet that grants flight, time-slowing and elemental powers. Argus is a squad simulation with no dodge roll, auto-triggered techniques, point-and-click footwork, and low magic that always has a source (steel, faith, arcane study, alchemy or the Blight). So this is a **translation**, not a copy. Every Crimson Desert skill gets one of four verdicts:
 
 | Verdict | Meaning |
 |---|---|
-| **Existing** | Guardians already has it, under the name in [05-magic-and-combat-lore.md](05-magic-and-combat-lore.md) |
-| **New** | Added to Guardians as written, with a grounded name, a teacher and a source |
+| **Existing** | Argus already has it, under the name in [05-magic-and-combat-lore.md](05-magic-and-combat-lore.md) |
+| **New** | Added to Argus as written, with a grounded name, a teacher and a source |
 | **Grounded** | The effect is kept but the fiction is changed to fit the world (a glider becomes a rope and grapnel; a time-slow becomes a stance) |
 | **Replaced** | The effect breaks canon (gunpowder, true flight, illusions) and is swapped for the nearest thing the world allows |
 
@@ -19,25 +19,25 @@ All new techniques follow the combat system's rules: they **auto-trigger** on sp
 
 ### The three dials
 
-| Crimson Desert | Guardians | Notes |
+| Crimson Desert | Argus | Notes |
 |---|---|---|
 | **Health** | **Blood** | Hit points. Raised at the infirmary and by hard living; the dial the healers care about. |
 | **Stamina** | **Wind** | Spent on sprinting, climbing, techniques and holding a stance. "Out of wind" is a medieval phrase. Draughts (`POT-STAM`) restore it. |
 | **Spirit** | **Resolve** | Spent on Faith and Arcane casting and on the Measure stance (below). Regained by standing in the Measure, by prayer, and by elixirs. |
 
-Crimson Desert shares Kliff's dial upgrades with Damiane and Oongka. Guardians shares them across the player's **squad**: the hall's barracks, forge and lab raise the whole company's Blood, Wind and Resolve.
+Crimson Desert shares Kliff's dial upgrades with Damiane and Oongka. Argus shares them across the player's **squad**: the hall's barracks, forge and lab raise the whole company's Blood, Wind and Resolve.
 
 ### Skill points: Abyss Artifacts become Cores
 
 Crimson Desert pays for every skill with Abyss Artifacts, earned from a kill gauge, bosses, puzzles and vendors. The workbook already gives every Blight creature a **core** drop ("loot value and cores per kill" on the Enemy Types sheet). So:
 
-* **Cores** are the skill currency. They are the hard, grey stones found inside Blight-born, and the realm's trainers want them because the tower school by Mereworth pays for them.
+* **Cores** are the skill currency. They are the hard, grey stones found inside Blight-born, and the realm's trainers want them because the tower school by Silt-Worth pays for them.
 * A technique is **bought from a teacher** for cores: a guild veteran, a lodge hunter, a sergeant, an outlaw captain, a monk. Nobody learns from a menu; they learn from a person, and the person remembers who they taught.
-* Cores also come from **calamity kills** (a great many), from the **lords' expedition**, and, for the wealthy, from Sunward's **Blight-salt dealers**, which is how Dame Matilda's trade touches the player.
+* Cores also come from **calamity kills** (a great many), from the **lords' expedition**, and, for the wealthy, from Sol-Spire's **Blight-salt dealers**, which is how Dame Matilda's trade touches the player.
 
 ### Respec: Faded Artifacts become Unlearning
 
-A Faded Abyss Artifact resets the tree. In Guardians the player can **unlearn** a technique by a season at the tower school or a penance at the temple, getting the cores back less a tithe. The dialogue system treats it as news: *"Heard the captain's gone back to school."*
+A Faded Abyss Artifact resets the tree. In Argus the player can **unlearn** a technique by a season at the tower school or a penance at the temple, getting the cores back less a tithe. The dialogue system treats it as news: *"Heard the captain's gone back to school."*
 
 ### Watch and Learn becomes Learning by Eye
 
@@ -49,7 +49,7 @@ Crimson Desert lets you learn a skill by watching an enemy or NPC perform it a f
 
 ### No passive healing
 
-Crimson Desert has no passive health regeneration; you eat. Guardians already works this way: wounds rest at hospices and infirmaries, draughts heal in the fight, and the lodges and kitchens feed the squad. Cooking and alchemy are the healing systems.
+Crimson Desert has no passive health regeneration; you eat. Argus already works this way: wounds rest at hospices and infirmaries, draughts heal in the fight, and the lodges and kitchens feed the squad. Cooking and alchemy are the healing systems.
 
 ### The camp becomes the Hall
 
@@ -59,9 +59,9 @@ Greymane Camp, Crimson Desert's crafting and upgrade hub, is the player's **Hall
 
 ## Part II: Stances and the Measure
 
-Crimson Desert's **Focus** slows time, restores Spirit, and powers Focused Insight (auto-parry), Focused Repulsion (shove), Focused Shot (mark and volley) and Focused Palm. Time does not slow in Guardians. Instead Focus becomes a fifth stance beside Hold, Protect, Skirmish and Passive:
+Crimson Desert's **Focus** slows time, restores Spirit, and powers Focused Insight (auto-parry), Focused Repulsion (shove), Focused Shot (mark and volley) and Focused Palm. Time does not slow in Argus. Instead Focus becomes a fifth stance beside Hold, Protect, Skirmish and Passive:
 
-| Crimson Desert | Guardians | What it does |
+| Crimson Desert | Argus | What it does |
 |---|---|---|
 | **Focus** | **Measure** (`M`) | The fighter stops attacking and takes the measure of the foe. Parry and block windows double, Resolve regenerates, and the next technique is empowered. Taught by every duellist: *"Take their measure before you take their head."* |
 | **Focused Insight** | **Reading the Swing** | In Measure, the fighter turns to face each incoming attack and counters it automatically. |
@@ -78,7 +78,7 @@ Crimson Desert's **Focus** slows time, restores Spirit, and powers Focused Insig
 
 Kliff's sword is a one-handed arming sword with a shield, which is the Guardsman's kit. Teachers: sergeants at drill, the lord's heroes, Thomas Fox.
 
-| Crimson Desert | Guardians | Verdict | How it works here |
+| Crimson Desert | Argus | Verdict | How it works here |
 |---|---|---|---|
 | Armed Combat (base) | **Steel** (the Martial major) | Existing | Levels 1–100 |
 | Forward Slash | **Slash** (*Quick Slash*) | Existing | |
@@ -92,9 +92,9 @@ Kliff's sword is a one-handed arming sword with a shield, which is the Guardsman
 | Shield Bash | **Shield Bash** | Existing | |
 | Blinding Flash | **Sun on Steel** | Grounded | Tilt a polished blade or shield into the sun to blind foes in a cone. Day only. The map knows the time of day, so this is a real condition. |
 | Blinding Flash Finisher | **Blind Rush** | New | A flurry on a blinded foe |
-| Counter | **The Riposte** (*Steward's Riposte*) | Existing | Attack as the foe swings to interrupt |
+| Counter | **The Riposte** (*Custodian's Riposte*) | Existing | Attack as the foe swings to interrupt |
 | Parry | **The Parry** | Existing | Melee parry chance, frontal arc only |
-| Dodge / Evasive Roll | **The Steward's Step** | Grounded | No roll. A sidestep that triggers when a telegraph lands, Light and Medium armour only (*Evasive Sidestep* / *Scout's Step*). *"A Steward does not leap. A Steward steps."* |
+| Dodge / Evasive Roll | **The Custodian's Step** | Grounded | No roll. A sidestep that triggers when a telegraph lands, Light and Medium armour only (*Evasive Sidestep* / *Scout's Step*). *"A Custodian does not leap. A Custodian steps."* |
 | Backstep | **Giving Ground** | New | A measured step back out of a dead-zone |
 | Keen Senses | **Quick Eye** | New | The passive that unlocks the Step, the Parry and the Riposte at levels 2, 3 and 4 |
 | Enraged Parry (2.0) | **Spiteful Parry** | New | A parry at Quick Eye 4 that returns the blow's stagger to the attacker |
@@ -104,7 +104,7 @@ Kliff's sword is a one-handed arming sword with a shield, which is the Guardsman
 
 Teachers: tower wardens, lodge hunters, the archer at the Lioncrest contest in Crimson Desert becomes the **archery butts** behind every guild tavern.
 
-| Crimson Desert | Guardians | Verdict | How it works here |
+| Crimson Desert | Argus | Verdict | How it works here |
 |---|---|---|---|
 | Marksmanship (base) | **The Bow** (the Marksmanship major) | Existing | |
 | Charged Shot | **Full Draw** | New | Hold for a heavier arrow: +50% damage, +15% armour pen |
@@ -119,7 +119,7 @@ Teachers: tower wardens, lodge hunters, the archer at the Lioncrest contest in C
 
 Fists are the brawler's art: inns, fairs, lodges and outlaw camps. Teachers: **Robert Thornback**, lodge hunters, the Red Lances.
 
-| Crimson Desert | Guardians | Verdict | How it works here |
+| Crimson Desert | Argus | Verdict | How it works here |
 |---|---|---|---|
 | Unarmed Combat (base) | **Fists** | New | A Martial sub-skill; cadence 1.6/s, 60% AD, usable when disarmed or in a tavern brawl (no permadeath in a fist-fight) |
 | Pump Kick | **The Boot** | New | Front kick, heavy stagger, breaks guard |
@@ -133,9 +133,9 @@ Fists are the brawler's art: inns, fairs, lodges and outlaw camps. Teachers: **R
 
 ### Wrestling (grappling)
 
-Medieval wrestling was a real sport, and the map already has arm-wrestling at the inn. Teachers: **John Little** of Reedwatch, the Iron Reavers, the Stonepass clans.
+Medieval wrestling was a real sport, and the map already has arm-wrestling at the inn. Teachers: **John Little** of Aquifer Gate, the Iron Reavers, the Basalt Redoubt clans.
 
-| Crimson Desert | Guardians | Verdict | How it works here |
+| Crimson Desert | Argus | Verdict | How it works here |
 |---|---|---|---|
 | Grappling (base) | **Wrestling** | New | Throws ignore armour and open a follow-up window; a throw into a wall is a Wall-Pin |
 | Throw | **The Throw** | New | Hip throw; default |
@@ -149,9 +149,9 @@ Medieval wrestling was a real sport, and the map already has arm-wrestling at th
 
 ### The Leyline Palm (Force Palm)
 
-Force Palm is Kliff's one true "power": energy gathered in the palm and released as a strike that lowers defence. In Guardians the **tower school by Mereworth** teaches battle mages a palm strike that carries a charge drawn from the leylines. Low magic, visible as a brief glow, never a beam. Teachers: the school's masters, the Company of the Lantern, Margaret the Sage.
+Force Palm is Kliff's one true "power": energy gathered in the palm and released as a strike that lowers defence. In Argus the **tower school by Silt-Worth** teaches battle mages a palm strike that carries a charge drawn from the leylines. Low magic, visible as a brief glow, never a beam. Teachers: the school's masters, the Company of the Lantern, Margaret the Sage.
 
-| Crimson Desert | Guardians | Verdict | How it works here |
+| Crimson Desert | Argus | Verdict | How it works here |
 |---|---|---|---|
 | Force Palm | **Leyline Palm** | Grounded | Unarmed strike, 100% AP magic damage, –15% target defence for 4 s. Needs an Arcane aptitude or an awakening. |
 | Force Palm Pulse | **Quick Palm** | Grounded | A faster palm between weapon hits; 20 Resolve |
@@ -165,13 +165,13 @@ Force Palm is Kliff's one true "power": energy gathered in the palm and released
 
 ### Nature's skills
 
-| Crimson Desert | Guardians | Verdict | How it works here |
+| Crimson Desert | Argus | Verdict | How it works here |
 |---|---|---|---|
 | Nature's Snare (wind wall vs projectiles) | **Wind-Wall** | Grounded | Wanderer: a gust that turns arrows aside for 2 s; or, for the faithful, **Ward** |
 | Nature's Grasp (lift objects) | **Heave** | Grounded | Lift and throw crates, barrels, stones and carts; a strength feat, no magic; a thrown barrel Wall-Pins |
 | Nature's Echo (phantom copy of your strikes) | **The Feint** | Replaced | No illusions. A Duellist's feint that makes the foe strike where you were, opening the flank. |
 | Double Jump | **Vault** | Grounded | See above; an extra leap off a wall or a foe |
-| Water Stride (2.0) | **Fen-Walk** (*Fen-Strider's Grace*) | Existing | Running the drowned Steward causeways under the reeds |
+| Water Stride (2.0) | **Fen-Walk** (*Fen-Strider's Grace*) | Existing | Running the drowned Custodian causeways under the reeds |
 
 ---
 
@@ -181,7 +181,7 @@ Kliff's bracelet grants a spectral claw, a glider, four elements and the power t
 
 ### Axiom Force becomes the Grapnel
 
-| Crimson Desert | Guardians | Verdict | How it works here |
+| Crimson Desert | Argus | Verdict | How it works here |
 |---|---|---|---|
 | Axiom Force (spectral claw) | **The Grapnel** | Grounded | An iron hook on a line, a smith's item (`TOOL-GRAPNEL-T1..T5`). Hook objects, levers, gates and foes. The Reavers use them on carts. |
 | Axiom Force: Winch | **Haul In** | Grounded | Yank a hooked foe to you and slam them (the axe's *Bearded Hook* is the one-handed cousin) |
@@ -190,15 +190,15 @@ Kliff's bracelet grants a spectral claw, a glider, four elements and the power t
 
 ### Flight becomes the Warden's Line
 
-| Crimson Desert | Guardians | Verdict | How it works here |
+| Crimson Desert | Argus | Verdict | How it works here |
 |---|---|---|---|
-| Flight (glider) | **The Warden's Line** | Grounded | Rope and grapnel descent of any cliff face, the way the tower wardens come down from the beacons. The map's cliffs, mesas and buttes (the Stonepass Wall, Grey Butte, Saltcrown Mesa) become climbable and descendable, costing Wind. Caches and herb patches on the tops are the reward, as on the map. |
+| Flight (glider) | **The Warden's Line** | Grounded | Rope and grapnel descent of any cliff face, the way the tower wardens come down from the beacons. The map's cliffs, mesas and buttes (the Basalt Redoubt Wall, Grey Butte, Saltcrown Mesa) become climbable and descendable, costing Wind. Caches and herb patches on the tops are the reward, as on the map. |
 | Swift Flight / Enhanced Flight (2.0) | **Fast Rope** | Grounded | Faster descent, less Wind |
 | Aerial Roll | **Breakfall** | Grounded | Land from a drop without a wound |
 
 ### The four elements
 
-| Crimson Desert | Guardians | Verdict | Source |
+| Crimson Desert | Argus | Verdict | Source |
 |---|---|---|---|
 | Flame Strike (fire in a radius around you) | **Hearth-Ring** | New | Arcane, Scholar. A ring of fire at the caster's feet; burns for 3 s. |
 | Frost Mantle (immune while draining Spirit) | **Rime Mantle** | New | Arcane, Hermit. A rime shell that absorbs all damage while it drains Resolve fast. Learned at the stone circle in winter. |
@@ -207,12 +207,12 @@ Kliff's bracelet grants a spectral claw, a glider, four elements and the power t
 
 ### Imbue Element becomes Edge-Oils
 
-Crimson Desert lets you imbue Turning Slash, Charged Shot, Force Palm and Meteor Kick with an element. In Guardians elements on a blade come from **alchemy**, which the workbook already has, and which the Little family of Stonepass dominates.
+Crimson Desert lets you imbue Turning Slash, Charged Shot, Force Palm and Meteor Kick with an element. In Argus elements on a blade come from **alchemy**, which the workbook already has, and which the Little family of Basalt Redoubt dominates.
 
 | Oil | Effect | Brewer | Note |
 |---|---|---|---|
 | **Fire-oil** | Burning, 3 s | Any alchemist | Coats Wheel Cut, Full Draw, Leyline Palm, Dropping Kick |
-| **Rime-salt** | Slow, then a brief freeze on the third hit | Stonepass alchemists | Needs sky-iron filings |
+| **Rime-salt** | Slow, then a brief freeze on the third hit | Basalt Redoubt alchemists | Needs sky-iron filings |
 | **Storm-salt** | A shock that stops the foe for 2 s | The tower school | Rare |
 | **Grey Salt** | Blight rot: damage over time that spreads to nearby foes, and taints the user's Blood | Brother William's suppliers | **Forbidden.** Using it is a `ruthless` deed, and the Salt Road thread notices. |
 
@@ -222,7 +222,7 @@ A coating lasts one fight. **Imbue Element levels 1–4** become the four oils, 
 
 ## Part V: Traversal
 
-| Crimson Desert | Guardians | Verdict | Notes |
+| Crimson Desert | Argus | Verdict | Notes |
 |---|---|---|---|
 | Climbing (any cliff, stamina-limited) | **Climbing** | Grounded | Any cliff face, costing Wind; the map's switchbacks are the free route |
 | Sprinting | **Sprint** | Existing | Wind |
@@ -234,25 +234,25 @@ A coating lasts one fight. **Imbue Element levels 1–4** become the four oils, 
 
 ## Part VI: Damiane's kit (rapier and pistol)
 
-Damiane fights with a rapier and a flintlock. Guardians has no gunpowder, so her kit becomes the **Duellist with a bow at the hip**, or a Scout. Her pistol skills go to the Bow.
+Damiane fights with a rapier and a flintlock. Argus has no gunpowder, so her kit becomes the **Duellist with a bow at the hip**, or a Scout. Her pistol skills go to the Bow.
 
-| Crimson Desert | Guardians | Verdict | How it works here |
+| Crimson Desert | Argus | Verdict | How it works here |
 |---|---|---|---|
 | Rapier (Armed Combat) | **The Duellist's sword** | Existing | |
 | Piercing Light (charged gap-closer) | **The Lunge** | New | Close 3 m and thrust |
 | Piercing Light: Uppercut | **Rising Cut** | New | Lunge into a lifting cut |
 | Piercing Light: Skewer | **Deep Thrust** | New | Charged thrust, heavy single-target damage (the spear's *Skewer* is the reach version) |
 | Piercing Light: Rend Armor | **Rending Cut** | New | Shared with Kliff's |
-| Sword Flurry (dodge and strike) | **Step-and-Cut** | New | A Steward's Step that ends in a cut |
+| Sword Flurry (dodge and strike) | **Step-and-Cut** | New | A Custodian's Step that ends in a cut |
 | Shield Toss | **Javelin Cast** | Replaced | Shields are not thrown. Spearmen carry two javelins (`SPEAR` sub-item) to cast at 8 m. |
 | Spinning Scissors Throw | **Scissor Throw** | New | Wrestling: a leg-scissor trip from a run |
 | Scissor Kick | **Scissor Kick** | New | Fists |
-| Tornado Kick | **Whirling Kick** | New | Fists; learned by eye from a martial artist in Crimson Desert, here from the **Dervishes** of Sunward |
+| Tornado Kick | **Whirling Kick** | New | Fists; learned by eye from a martial artist in Crimson Desert, here from the **Dervishes** of Sol-Spire |
 | Quick Swap | **Second Weapon** | New | Switch sword and bow mid-fight without losing cadence; a Scout's trick |
 | Evasive Shot (pistol) | **Running Shot** | Existing | Bow |
 | Focused Shot (pistol) | **Marking Shots** | Grounded | Bow, in the Measure |
 | Blinding Flash | **Sun on Steel** | Grounded | |
-| Evasive Roll | **The Steward's Step** | Grounded | |
+| Evasive Roll | **The Custodian's Step** | Grounded | |
 | Fists tree (patch 1.07) | **Fists** | New | Shared |
 
 ---
@@ -261,7 +261,7 @@ Damiane fights with a rapier and a flintlock. Guardians has no gunpowder, so her
 
 Oongka is the tank: a great axe, sometimes a shield, and in some builds an arm cannon. The axe is the Sellsword's and the Hammer Breaker's ground; the cannon is replaced.
 
-| Crimson Desert | Guardians | Verdict | How it works here |
+| Crimson Desert | Argus | Verdict | How it works here |
 |---|---|---|---|
 | Leaping Smash | **Ground Slam** (*Earthshaker Slam*) and **The Anvil** | Existing | Hammer |
 | Charge (shield rush while guarding) | **Shield Rush** | New | Shield: run 5 m behind the shield, knocking foes aside; Wall-Pins |
@@ -277,20 +277,20 @@ Oongka is the tank: a great axe, sometimes a shield, and in some builds an arm c
 
 Crimson Desert's horses level by trust and learn skills. The map's `mount` deed buys a horse or cart; this makes the horse a character.
 
-| Crimson Desert | Guardians | Verdict | Notes |
+| Crimson Desert | Argus | Verdict | Notes |
 |---|---|---|---|
-| Horse Taming | **Horse-Breaking** | New | A Hunter/Scout life skill; wild horses in the Heartlands deer parks |
+| Horse Taming | **Horse-Breaking** | New | A Hunter/Scout life skill; wild horses in the Prime Basin deer parks |
 | Trust levels | **Trust** | New | Raised by riding and feeding; a horse that trusts you comes when whistled (*The Whistle*) |
 | Dash (Lv 2) | **Burst** | New | Short speed burst |
 | Drift (Lv 3) | **Wheel About** | New | Racing turn at speed |
 | Back Kick (Lv 3) | **Kick Out** | New | The horse kicks a foe behind; knockdown |
 | Sprint (Lv 4) | **Full Gallop** | New | Top speed, drains the horse's Wind |
-| Lateral Movement | **Side-Pass** | New | Sidestep in the saddle (the horse's Steward's Step) |
+| Lateral Movement | **Side-Pass** | New | Sidestep in the saddle (the horse's Custodian's Step) |
 | Swimming I–III | **Ford I–III** | New | Rivers and coves |
 | Quick Start / Instant Acceleration | **Off the Mark** / **Spur** | New | |
 | Double Jump / High Jump | **Hedge-Leap** | New | Over hedges, walls and fallen trees |
 | Mounted archery | **Horse-Bow** | New | Scout: Running Shot from the saddle |
-| Breeds (Brianto, Elantrima, Priden) | **Heartlands cob, Highland pony, Sunward courser** | New | One per region, from the map's herds |
+| Breeds (Brianto, Elantrima, Priden) | **Prime Basin cob, Highland pony, Sol-Spire courser** | New | One per region, from the map's herds |
 | Horse racing | **Market-day races** | New | On each town's market day |
 
 ---
@@ -299,7 +299,7 @@ Crimson Desert's horses level by trust and learn skills. The map's `mount` deed 
 
 Crimson Desert's eleven life skills map straight onto the workbook's professions, and its "learn by observing an NPC" rule is Learning by Eye.
 
-| Crimson Desert | Guardians (workbook skill) | Minor who teaches it |
+| Crimson Desert | Argus (workbook skill) | Minor who teaches it |
 |---|---|---|
 | Fishing | **Fishing** | Netter, Eeler, Boatman |
 | Hunting | **Skinning** and the **hunting lodges** | Huntsman, Trapper, Fowler |
@@ -325,7 +325,7 @@ Crimson Desert's side games become the map's own pastimes: card games and dice a
 | Time-slowing Focus | Breaks the real-time squad simulation | The Measure stance |
 | Phantom illusions (Nature's Echo) | No illusions in a low-magic world | The Feint |
 | Gunpowder (pistol, arm cannon) | The workbook's materials are medieval | Bow, javelins, fire-flasks |
-| Dodge roll | Design pillar: no roll, footwork only | The Steward's Step |
+| Dodge roll | Design pillar: no roll, footwork only | The Custodian's Step |
 | Spectral claw | | The Grapnel |
 | Elemental bracelet | Every power needs a source | Edge-oils from alchemy |
 

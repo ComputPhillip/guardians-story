@@ -147,7 +147,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Reedwatch",
+     "hold": "Aquifer Gate",
      "mood": null,
      "attitude": null
     },
@@ -162,7 +162,7 @@
      },
      {
       "speaker": "A",
-      "text": "Reedwatch. Then you know outlaws by their first names."
+      "text": "Aquifer Gate. Then you know outlaws by their first names."
      }
     ]
    },
@@ -174,14 +174,14 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Stonepass Refuge",
+     "hold": "Basalt Redoubt",
      "mood": null,
      "attitude": null
     },
     "lines": [
      {
       "speaker": "A",
-      "text": "Stonepass lass. Which clan?"
+      "text": "Basalt Redoubt lass. Which clan?"
      },
      {
       "speaker": "B",
@@ -323,11 +323,11 @@
     "lines": [
      {
       "speaker": "A",
-      "text": "Wherever {player} goes, I'd follow. Even into the March."
+      "text": "Wherever {player} goes, I'd follow. Even into the Verge."
      },
      {
       "speaker": "B",
-      "text": "You say that now. Wait till the Broken March smells you."
+      "text": "You say that now. Wait till the Fracture Verge smells you."
      },
      {
       "speaker": "A",
@@ -667,11 +667,11 @@
      },
      {
       "speaker": "B",
-      "text": "Keep it quiet. Stonepass doesn't like rivals brewing."
+      "text": "Keep it quiet. Basalt Redoubt doesn't like rivals brewing."
      },
      {
       "speaker": "A",
-      "text": "Then Stonepass can buy from us, and sulk."
+      "text": "Then Basalt Redoubt can buy from us, and sulk."
      }
     ]
    },
@@ -721,7 +721,7 @@
      },
      {
       "speaker": "B",
-      "text": "Could be a ditch on the Reedwatch road. I've slept in those."
+      "text": "Could be a ditch on the Aquifer Gate road. I've slept in those."
      },
      {
       "speaker": "A",
@@ -944,7 +944,7 @@
     "lines": [
      {
       "speaker": "A",
-      "text": "Word's out a Blighted lair's leaking. That's our mission, isn't it?"
+      "text": "Word's out a Necro-Plinth lair's leaking. That's our mission, isn't it?"
      },
      {
       "speaker": "B",
@@ -1113,7 +1113,7 @@
     "lines": [
      {
       "speaker": "A",
-      "text": "It's a Blighted lair. Nobody breathes the grey dust. Masks on."
+      "text": "It's a Necro-Plinth lair. Nobody breathes the grey dust. Masks on."
      },
      {
       "speaker": "B",
@@ -1187,18 +1187,18 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Stonepass Refuge",
+     "hold": "Basalt Redoubt",
      "mood": null,
      "attitude": null
     },
     "lines": [
      {
       "speaker": "A",
-      "text": "Broken fort on the March. Stonepass wants it emptied."
+      "text": "Broken fort on the Verge. Basalt Redoubt wants it emptied."
      },
      {
       "speaker": "B",
-      "text": "Stonepass wants everything emptied except its own purse."
+      "text": "Basalt Redoubt wants everything emptied except its own purse."
      },
      {
       "speaker": "A",
@@ -1581,7 +1581,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Canopy Rest",
+     "hold": "Ribcage Vault",
      "mood": null,
      "attitude": null
     },
@@ -1634,7 +1634,7 @@
      },
      {
       "speaker": "A",
-      "text": "Then this one's rarer than an honest steward."
+      "text": "Then this one's rarer than an honest custodian."
      }
     ]
    },
@@ -2150,14 +2150,14 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Stonepass Refuge",
+     "hold": "Basalt Redoubt",
      "mood": null,
      "attitude": null
     },
     "lines": [
      {
       "speaker": "A",
-      "text": "John Brokenose deserted Stonepass over wages. Now he's a king."
+      "text": "John Brokenose deserted Basalt Redoubt over wages. Now he's a king."
      },
      {
       "speaker": "B",
@@ -3025,7 +3025,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "First Hearth",
+     "hold": "First Monolith",
      "mood": null,
      "attitude": null
     },
@@ -3167,14 +3167,14 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Stonepass Refuge",
+     "hold": "Basalt Redoubt",
      "mood": null,
      "attitude": null
     },
     "lines": [
      {
       "speaker": "A",
-      "text": "Stonepass steel. Sky iron in the edge, they say."
+      "text": "Basalt Redoubt steel. Sky iron in the edge, they say."
      },
      {
       "speaker": "B",
@@ -3218,7 +3218,7 @@
  {
   "action": "sent_to_school",
   "kind": "squad",
-  "who": "a mage or healer squad member enrolled at the tower school by Mereworth, and a friend (a Scholar and a Brigand)",
+  "who": "a mage or healer squad member enrolled at the tower school by Silt-Worth, and a friend (a Scholar and a Brigand)",
   "exchanges": [
    {
     "id": "sqlife_sent_to_school_01",
@@ -3262,7 +3262,7 @@
     "lines": [
      {
       "speaker": "A",
-      "text": "Paying my fees at Mereworth. The captain believes in me."
+      "text": "Paying my fees at Silt-Worth. The captain believes in me."
      },
      {
       "speaker": "B",
@@ -3336,7 +3336,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Canopy Rest",
+     "hold": "Ribcage Vault",
      "mood": null,
      "attitude": null
     },
@@ -3370,7 +3370,7 @@
     "lines": [
      {
       "speaker": "A",
-      "text": "Leaving for Mereworth today. Will you miss me?"
+      "text": "Leaving for Silt-Worth today. Will you miss me?"
      },
      {
       "speaker": "B",
@@ -3462,7 +3462,7 @@
      },
      {
       "speaker": "B",
-      "text": "Let them sulk in Stonepass. We'll brew our own."
+      "text": "Let them sulk in Basalt Redoubt. We'll brew our own."
      },
      {
       "speaker": "A",
@@ -3532,14 +3532,14 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Reedwatch",
+     "hold": "Aquifer Gate",
      "mood": null,
      "attitude": null
     },
     "lines": [
      {
       "speaker": "A",
-      "text": "A hall in Reedwatch. The Crows will see it from their camps."
+      "text": "A hall in Aquifer Gate. The Crows will see it from their camps."
      },
      {
       "speaker": "B",
@@ -3816,7 +3816,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Reedwatch",
+     "hold": "Aquifer Gate",
      "mood": null,
      "attitude": null
     },
@@ -3843,7 +3843,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Sunward Exchange",
+     "hold": "Sol-Spire Concourse",
      "mood": null,
      "attitude": null
     },
@@ -3854,7 +3854,7 @@
      },
      {
       "speaker": "B",
-      "text": "Every Sunward child knows. Burn the dung, not the blanket."
+      "text": "Every Sol-Spire child knows. Burn the dung, not the blanket."
      },
      {
       "speaker": "A",
@@ -3874,7 +3874,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Stonepass Refuge",
+     "hold": "Basalt Redoubt",
      "mood": null,
      "attitude": null
     },
@@ -4157,7 +4157,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Reedwatch",
+     "hold": "Aquifer Gate",
      "mood": null,
      "attitude": null
     },
@@ -4238,7 +4238,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Sunward Exchange",
+     "hold": "Sol-Spire Concourse",
      "mood": null,
      "attitude": null
     },
@@ -4411,14 +4411,14 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "First Hearth",
+     "hold": "First Monolith",
      "mood": null,
      "attitude": null
     },
     "lines": [
      {
       "speaker": "A",
-      "text": "First Hearth. The old royal seat. Mind your manners."
+      "text": "First Monolith. The old royal seat. Mind your manners."
      },
      {
       "speaker": "B",
@@ -4438,14 +4438,14 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Sunward Exchange",
+     "hold": "Sol-Spire Concourse",
      "mood": null,
      "attitude": null
     },
     "lines": [
      {
       "speaker": "A",
-      "text": "Sunward. Count your coins now, they'll be gone by supper."
+      "text": "Sol-Spire. Count your coins now, they'll be gone by supper."
      },
      {
       "speaker": "B",
@@ -4465,14 +4465,14 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Canopy Rest",
+     "hold": "Ribcage Vault",
      "mood": null,
      "attitude": null
     },
     "lines": [
      {
       "speaker": "A",
-      "text": "Canopy Rest. Smell the pine. And the incense."
+      "text": "Ribcage Vault. Smell the pine. And the incense."
      },
      {
       "speaker": "B",
@@ -4492,14 +4492,14 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Stonepass Refuge",
+     "hold": "Basalt Redoubt",
      "mood": null,
      "attitude": null
     },
     "lines": [
      {
       "speaker": "A",
-      "text": "Stonepass. Keep your eyes down near the clansmen."
+      "text": "Basalt Redoubt. Keep your eyes down near the clansmen."
      },
      {
       "speaker": "B",
@@ -4719,14 +4719,14 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Reedwatch",
+     "hold": "Aquifer Gate",
      "mood": null,
      "attitude": null
     },
     "lines": [
      {
       "speaker": "A",
-      "text": "Eels. Always eels in Reedwatch."
+      "text": "Eels. Always eels in Aquifer Gate."
      },
      {
       "speaker": "B",
@@ -4746,14 +4746,14 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Stonepass Refuge",
+     "hold": "Basalt Redoubt",
      "mood": null,
      "attitude": null
     },
     "lines": [
      {
       "speaker": "A",
-      "text": "Black bread and mutton. Stonepass food."
+      "text": "Black bread and mutton. Basalt Redoubt food."
      },
      {
       "speaker": "B",
@@ -4942,7 +4942,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Reedwatch",
+     "hold": "Aquifer Gate",
      "mood": null,
      "attitude": null
     },
@@ -4957,7 +4957,7 @@
      },
      {
       "speaker": "A",
-      "text": "Short one. Then the Steward Hall stopped judging, and the Crows came."
+      "text": "Short one. Then the Custodian Hall stopped judging, and the Crows came."
      }
     ]
    },
@@ -4969,7 +4969,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "First Hearth",
+     "hold": "First Monolith",
      "mood": null,
      "attitude": null
     },
@@ -4984,7 +4984,7 @@
      },
      {
       "speaker": "A",
-      "text": "Say that louder in First Hearth. I'll watch you hang."
+      "text": "Say that louder in First Monolith. I'll watch you hang."
      }
     ]
    },
@@ -5115,11 +5115,11 @@
      },
      {
       "speaker": "B",
-      "text": "Old Steward marks. Everywhere, if you look."
+      "text": "Old Custodian marks. Everywhere, if you look."
      },
      {
       "speaker": "A",
-      "text": "Who were the Stewards, really?"
+      "text": "Who were the Custodians, really?"
      },
      {
       "speaker": "B",
@@ -5169,7 +5169,7 @@
     "lines": [
      {
       "speaker": "A",
-      "text": "I used to be a guildsman. Riftgate. Good pay."
+      "text": "I used to be a guildsman. Fracture-Gate. Good pay."
      },
      {
       "speaker": "B",
@@ -5245,7 +5245,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Canopy Rest",
+     "hold": "Ribcage Vault",
      "mood": null,
      "attitude": null
     },
@@ -5718,7 +5718,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Reedwatch",
+     "hold": "Aquifer Gate",
      "mood": null,
      "attitude": null
     },
@@ -5772,7 +5772,7 @@
      "place": null,
      "news": null,
      "standing": null,
-     "hold": "Stonepass Refuge",
+     "hold": "Basalt Redoubt",
      "mood": null,
      "attitude": null
     },
@@ -6029,7 +6029,7 @@
     "lines": [
      {
       "speaker": "A",
-      "text": "The captain found an old Steward inscription. Read it all."
+      "text": "The captain found an old Custodian inscription. Read it all."
      },
      {
       "speaker": "B",
